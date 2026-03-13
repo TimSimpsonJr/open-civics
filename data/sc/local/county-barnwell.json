@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:barnwell",
+    "label": "Barnwell County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Sr., Freddie L. Houston",
+      "title": "Chairman",
+      "email": "fhouston62@gmail.com",
+      "phone": "(803) 266-7961",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "David Kenner",
+      "title": "Vice Chairman",
+      "email": "bccd2kenner@gmail.com",
+      "phone": "(803) 284-4621",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Andy Hogg",
+      "title": "District Number 3 - Councilman",
+      "email": "hoggandy45@gmail.com",
+      "phone": "(803) 671-4159",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Daniel Alexander",
+      "title": "District Number 4 - Councilman",
+      "email": "barnwelldistrict4@danielralexander.com",
+      "phone": "(803) 300-4705",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Harold Buckmon",
+      "title": "District Number 6  - Councilman",
+      "email": "buckmonharold@gmail.com",
+      "phone": "(803) 450-6390",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "JJ Cruz",
+      "title": "District Number 5 - Councilman",
+      "email": "trpjjcruz@msn.com",
+      "phone": "(803) 383-4004",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Travis Hooper",
+      "title": "District Number 7 - Councilman",
+      "email": "hooper_travis02@yahoo.com",
+      "phone": "(803) 671-2414",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

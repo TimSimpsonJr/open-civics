@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:union",
+    "label": "Union City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": []
+}

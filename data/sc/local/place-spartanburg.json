@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:spartanburg",
+    "label": "Spartanburg City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Jerome Rice",
+      "title": "Mayor",
+      "email": "Jerome.Rice@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    },
+    {
+      "name": "Meghan Smith",
+      "title": "Council Member, District 1",
+      "email": "mesmith@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    },
+    {
+      "name": "Leslie Rodgers",
+      "title": "Council Member, District 2",
+      "email": "lrodgers@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    },
+    {
+      "name": "Ruth Littlejohn",
+      "title": "Council Member, District 3",
+      "email": "rlittlejohn@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    },
+    {
+      "name": "Jamie Fulmer",
+      "title": "Council Member, District 4",
+      "email": "jfulmer@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    },
+    {
+      "name": "Janie Salley",
+      "title": "Council Member, District 5",
+      "email": "jsalley@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    },
+    {
+      "name": "Erica Brown",
+      "title": "Council Member, District 6",
+      "email": "ebrown@cityofspartanburg.org",
+      "phone": "(864) 596-2796"
+    }
+  ]
+}

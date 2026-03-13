@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:charleston",
+    "label": "Charleston City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Donna Constance",
+      "title": "Administrative Assistant IV",
+      "email": "constanced@charleston-sc.gov",
+      "phone": "(843) 724-3725",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jasmine O'Neal",
+      "title": "Administrative Assistant IV",
+      "email": "onealj@charleston-sc.gov",
+      "phone": "(843) 724-3726",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Mae-Lee Colwell",
+      "title": "Administrative Assistant II",
+      "email": "colwellml@charleston-sc.gov",
+      "phone": "(843) 724-3728",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Marcia Grant",
+      "title": "Administrative Assistant II",
+      "email": "grantm@charleston-sc.gov",
+      "phone": "(843) 579-6443",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Patrick Carlson",
+      "title": "Administrative Assistant II",
+      "email": "carlsonp@charleston-sc.gov",
+      "phone": "(843) 724-3738",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Sheila Smith",
+      "title": "Administrative Assistant IV",
+      "email": "SMITHS@charleston-sc.gov",
+      "phone": "(843) 724-3799",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Wanda Stepp",
+      "title": "Administrative Assistant IV",
+      "email": "steppw@charleston-sc.gov",
+      "phone": "(843) 724-3727",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

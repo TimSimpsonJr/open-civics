@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:lancaster",
+    "label": "Lancaster County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Stuart Graham",
+      "title": "Council Member, District 1",
+      "email": "smgraham@lancastercountysc.gov",
+      "phone": "(803) 319-5602",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Charlene McGriff",
+      "title": "Council Member, District 2",
+      "email": "cmcgriff@comporium.net",
+      "phone": "(803) 448-1021",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Billy Mosteller",
+      "title": "Council Member, District 3",
+      "email": "bmosteller@lancastercountysc.gov",
+      "phone": "(803) 416-2560",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jose Luis",
+      "title": "Council Member, District 4",
+      "email": "jluis@lancastercountysc.gov",
+      "phone": "(803) 412-1611",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Steve Harper",
+      "title": "Council Member, District 5",
+      "email": "steveharper@lancastercountysc.gov",
+      "phone": "(803) 804-5325",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bryant Neal",
+      "title": "Council Member, District 6",
+      "email": "bneal@lancastercountysc.gov",
+      "phone": "(803) 414-5820",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Brian Carnes",
+      "title": "Council Member, District 7",
+      "email": "briancarnes@lancastercountysc.gov",
+      "phone": "(803) 320-9107",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

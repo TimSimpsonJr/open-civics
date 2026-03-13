@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:greenville",
+    "label": "Greenville County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "greenville_county"
+  },
+  "members": [
+    {
+      "name": "Joey Russo",
+      "title": "Council Member, District 17",
+      "email": "JRusso@greenvillecounty.org",
+      "phone": "(864) 483-0689",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kelly Long",
+      "title": "Council Member, District 18",
+      "email": "KeLong@greenvillecounty.org",
+      "phone": "(864) 410-6172",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Benton Blount",
+      "title": "Chairman, District 19",
+      "email": "BBlount@greenvillecounty.org",
+      "phone": "(864) 483-2474",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Steve Shaw",
+      "title": "Council Member, District 20",
+      "email": "SShaw@greenvillecounty.org",
+      "phone": "(864) 553-9713",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Curt McGahhey",
+      "title": "Council Member, District 21",
+      "email": "CMcGahhey@greenvillecounty.org",
+      "phone": "(864) 398-0721",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Frank Farmer",
+      "title": "Council Member, District 22",
+      "email": "FFarmer@greenvillecounty.org",
+      "phone": "(864) 398-0880",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Alan Mitchell",
+      "title": "Council Member, District 23",
+      "email": "AMitchell@greenvillecounty.org",
+      "phone": "(864) 483-6952",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Liz Seman",
+      "title": "Council Member, District 24",
+      "email": "LSeman@greenvillecounty.org",
+      "phone": "(864) 501-4126",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ennis Fant, Sr.",
+      "title": "Council Member, District 25",
+      "email": "efant@greenvillecounty.org",
+      "phone": "(864) 483-2433",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Rick Bradley",
+      "title": "Vice Chair, District 26",
+      "email": "RBradley@greenvillecounty.org",
+      "phone": "(864) 483-3090",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Garey Collins",
+      "title": "Council Member, District 27",
+      "email": "GCollins@greenvillecounty.org",
+      "phone": "(864) 398-2709",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Dan Tripp",
+      "title": "Council Member, District 28",
+      "email": "DTripp@greenvillecounty.org",
+      "phone": "(864) 915-9212",
+      "source": "greenvillecounty",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:moncks-corner",
+    "label": "Moncks Corner Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Thomas J. Hamilton, Jr.",
+      "title": "Mayor",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "David Dennis",
+      "title": "Mayor Pro Tem, At Large",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:richland",
+    "label": "Richland County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Jason Branham",
+      "title": "Council Member, District 1",
+      "email": "branham.jason@richlandcountysc.gov",
+      "phone": "(803) 542-0002",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Derrek Pugh",
+      "title": "Vice Chairman, District 2",
+      "email": "pugh.derrek@richlandcountysc.gov",
+      "phone": "(803) 977-4339",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tyra Little",
+      "title": "Council Member, District 3",
+      "email": "little.tyra@richlandcountysc.gov",
+      "phone": "(803) 422-0203",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Paul Livingston",
+      "title": "Council Member, District 4",
+      "email": "livingston.paul@richlandcountysc.gov",
+      "phone": "(803) 518-8160",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Allison Terracio",
+      "title": "Council Member, District 5",
+      "email": "terracio.allison@richlandcountysc.gov",
+      "phone": "(803) 622-6029",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Don Weaver",
+      "title": "Council Member, District 6",
+      "email": "weaver.don@richlandcountysc.gov",
+      "phone": "(803) 995-3703",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Gretchen D. Cooper",
+      "title": "Council Member, District 7",
+      "email": "cooper.gretchen@richlandcountysc.gov",
+      "phone": "(803) 977-4337",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tish Dozier Alleyne",
+      "title": "Council Member, District 8",
+      "email": "alleyne.tish@richlandcountysc.gov",
+      "phone": "(803) 457-2597",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jesica Mackey",
+      "title": "Chairman, District 9",
+      "email": "mackey.jesica@richlandcountysc.gov",
+      "phone": "(803) 977-4338",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Cheryl English",
+      "title": "Council Member, District 10",
+      "email": "english.cheryl@richlandcountysc.gov",
+      "phone": "(803) 949-0770",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Chakisse Newton",
+      "title": "Council Member, District 11",
+      "email": "newton.chakisse@richlandcountysc.gov",
+      "phone": "(803) 973-9652",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

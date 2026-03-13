@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:camden",
+    "label": "Camden City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Vincent Sheheen",
+      "title": "Mayor",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Phil Elliott",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "William Wilkes",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Hamilton Boykin",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Delia Davis",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:bennettsville",
+    "label": "Bennettsville City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Tyron Abraham",
+      "title": "Mayor",
+      "email": "tyron.abraham@bennettsvillesc.com",
+      "phone": "(843) 479-9001",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Wanda Weaver",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "(843) 479-9001",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tyrone R. Davis",
+      "title": "Council Member, District 2",
+      "email": "",
+      "phone": "(843) 479-9001",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Allen Taylor",
+      "title": "Council Member, District 3",
+      "email": "",
+      "phone": "(843) 439-0700",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "William Jennings, Jr.",
+      "title": "Council Member, District 4",
+      "email": "william.jennings@bennettsvillesc.com",
+      "phone": "(843) 479-9001",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Cy'Heim McRae",
+      "title": "Council Member, District 5",
+      "email": "cyheim.mcrae@bennettsvillesc.com",
+      "phone": "(843) 479-9001",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Gregory Scott, Sr.",
+      "title": "Council Member, District 6",
+      "email": "",
+      "phone": "(843) 479-0416",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

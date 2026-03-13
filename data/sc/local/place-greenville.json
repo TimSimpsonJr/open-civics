@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:greenville",
+    "label": "Greenville City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "greenville_city"
+  },
+  "members": [
+    {
+      "name": "Knox White",
+      "title": "Mayor",
+      "email": "kwhite@greenvillesc.gov",
+      "phone": "(864) 467-4590",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "John DeWorken",
+      "title": "Council Member, District 1",
+      "email": "jdeworken@greenvillesc.gov",
+      "phone": "(864) 905-5529",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Lillian Brock Flemming",
+      "title": "Council Member, District 2",
+      "email": "lflemming@greenvillesc.gov",
+      "phone": "(864) 241-8677",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ken Gibson",
+      "title": "Council Member, District 3",
+      "email": "kgibson@greenvillesc.gov",
+      "phone": "(864) 982-4298",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Wil Brasington",
+      "title": "Council Member, District 4",
+      "email": "wbrasington@greenvillesc.gov",
+      "phone": "(864) 421-3047",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Dorothy Dowe",
+      "title": "Council Member, At Large",
+      "email": "ddowe@greenvillesc.gov",
+      "phone": "(864) 884-4444",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tina Belge",
+      "title": "Council Member, At Large",
+      "email": "tbelge@greenvillesc.gov",
+      "phone": "(864) 270-9962",
+      "source": "greenvillecity",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

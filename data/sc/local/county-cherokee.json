@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:cherokee",
+    "label": "Cherokee County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Teresa Bonner",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "(864) 902-2252",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bill Blanton",
+      "title": "Council Member, District 2",
+      "email": "",
+      "phone": "(864) 491-6008",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Donnie Hardin",
+      "title": "Council Member, District 3",
+      "email": "",
+      "phone": "(864) 902-2252",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tim Spencer",
+      "title": "Chairman, District 4",
+      "email": "",
+      "phone": "(864) 902-2055",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Elliott Hughes",
+      "title": "Council Member, District 5",
+      "email": "",
+      "phone": "(864) 490-6165",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "R. David Smith",
+      "title": "Vice Chairman, District 6",
+      "email": "",
+      "phone": "(864) 490-7522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Vacant",
+      "title": "Council Member, District 7",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

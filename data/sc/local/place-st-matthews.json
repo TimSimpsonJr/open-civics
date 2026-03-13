@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:st-matthews",
+    "label": "St. Matthews Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Helen Carson-Peterson",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Eloise Shuler-Guinyard",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Virgil Jacobs",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Marla Riley",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Deidre Prickett",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "William 'Webb' Carroll",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Sharon Bennett",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 874-2405",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

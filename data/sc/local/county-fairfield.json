@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:fairfield",
+    "label": "Fairfield County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Dan Ruff",
+      "title": "Council Member, District 1",
+      "email": "dan.ruff@fairfield.sc.gov",
+      "phone": "(803) 801-3874",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Donald C. Goldbach Jr.",
+      "title": "Council Member, District 2",
+      "email": "don.goldbach@fairfield.sc.gov",
+      "phone": "(803) 801-3367",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Peggy Swearingen",
+      "title": "Council Member, District 3",
+      "email": "peggy.swearingen@fairfield.sc.gov",
+      "phone": "(803) 801-3879",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Carl Bell",
+      "title": "Vice Chairman, District 4",
+      "email": "carl.bell@fairfield.sc.gov",
+      "phone": "(803) 801-3320",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Douglas Pauley",
+      "title": "Council Member, District 5",
+      "email": "douglas.pauley@fairfield.sc.gov",
+      "phone": "(803) 801-3407",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Oren Gadson",
+      "title": "Council Member, District 6",
+      "email": "oren.gadson@fairfield.sc.gov",
+      "phone": "(803) 801-9559",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Clarence Gilbert",
+      "title": "Chairman, District 7",
+      "email": "clarence.gilbert@fairfield.sc.gov",
+      "phone": "(803) 801-3764",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

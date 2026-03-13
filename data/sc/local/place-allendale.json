@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:allendale",
+    "label": "Allendale Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Tom Carter",
+      "title": "Mayor",
+      "email": "tcarter@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Amanda Pressie-Gill",
+      "title": "Council Member, At Large",
+      "email": "agill@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Lee E. Harley-Fitts",
+      "title": "Council Member, At Large",
+      "email": "lhfitts@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Hattie Jackson",
+      "title": "Council Member, At Large",
+      "email": "cm.jackson@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Marlon Creech",
+      "title": "Council Member, At Large",
+      "email": "mcreech@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Randy Creech",
+      "title": "Council Member, At Large",
+      "email": "rcreech@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kathy Tharin",
+      "title": "Council Member, At Large",
+      "email": "ktharin@townofallendalesc.us",
+      "phone": "(803) 584-4619",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

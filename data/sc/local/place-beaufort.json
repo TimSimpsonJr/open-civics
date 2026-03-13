@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:beaufort",
+    "label": "Beaufort City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Josh Scallate",
+      "title": "Councilman",
+      "email": "pscallate@cityofbeaufort.org",
+      "phone": "(843) 525-7070",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Mike McFee",
+      "title": "Mayor Pro Tem",
+      "email": "mmcfee@cityofbeaufort.org",
+      "phone": "(843) 525-7070",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Mitch Mitchell",
+      "title": "Councilman",
+      "email": "mmitchell@cityofbeaufort.org",
+      "phone": "(843) 525-7070",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Neil Lipsitz",
+      "title": "Councilman",
+      "email": "nlipsitz@cityofbeaufort.org",
+      "phone": "(843) 525-7070",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Phil Cromer",
+      "title": "Mayor",
+      "email": "pcromer@cityofbeaufort.org",
+      "phone": "(843) 525-7070",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

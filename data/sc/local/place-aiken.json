@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:aiken",
+    "label": "Aiken City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Teddy Milner",
+      "title": "Mayor",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Gail Diggs",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Lessie Price",
+      "title": "Council Member, District 2",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kay Brohl",
+      "title": "Council Member, District 3",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Pete Messina",
+      "title": "Council Member, District 4",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Braylen Waldo",
+      "title": "Council Member, District 5",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Barbara Morgan",
+      "title": "Council Member, District 6",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

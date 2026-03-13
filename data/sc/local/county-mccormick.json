@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:mccormick",
+    "label": "McCormick County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Bernard Hamby",
+      "title": "Chairman",
+      "email": "",
+      "phone": "(864) 333-5713",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Charles Jennings",
+      "title": "Vice Chairman",
+      "email": "",
+      "phone": "(864) 443-2353",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jacqueline Brown",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(864) 443-3227",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Charles Cook",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(864) 391-5838",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "David Morrah",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(864) 602-0483",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

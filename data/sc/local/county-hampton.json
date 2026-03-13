@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:hampton",
+    "label": "Hampton County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Dr. Roy Hollingsworth",
+      "title": "Chairman",
+      "email": "rhllngs@yahoo.com",
+      "phone": "(803) 943-2860",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Darin Williams",
+      "title": "Council Vice Chair",
+      "email": "dwilliams@hamptoncountysc.org",
+      "phone": "(803) 346-9561",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Dennis Thompson Jr.",
+      "title": "Council Member",
+      "email": "dthompson@hamptoncountysc.org",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jordan “J.J.” Jinks",
+      "title": "Council Member",
+      "email": "jjjinks@hamptoncountysc.org",
+      "phone": "(803) 346-2615",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Marvin J. Love",
+      "title": "Council Member",
+      "email": "mlove@hamptoncountysc.org",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

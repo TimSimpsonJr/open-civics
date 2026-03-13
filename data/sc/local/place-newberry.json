@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:newberry",
+    "label": "Newberry City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Foster Senn",
+      "title": "Mayor",
+      "email": "FSenn@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Lemont Glasgow",
+      "title": "Council Member, District 1",
+      "email": "LGlasgow@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Clay Smith",
+      "title": "Council Member, District 2",
+      "email": "RCSmith@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Carlton Kinard",
+      "title": "Council Member, District 3",
+      "email": "CKinard@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "David Force",
+      "title": "Council Member, District 4",
+      "email": "DForce@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jackie Holmes",
+      "title": "Council Member, District 5",
+      "email": "JHolmes@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "David DuBose",
+      "title": "Council Member, District 6",
+      "email": "DDubose@CityofNewberry.com",
+      "phone": "(803) 321-1000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

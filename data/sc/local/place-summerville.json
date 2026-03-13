@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:summerville",
+    "label": "Summerville Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Dexcter Mack",
+      "title": "Council Member, District 1",
+      "email": "Dmack@summervillesc.gov",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tiffany Johnson",
+      "title": "Council Member, District 2",
+      "email": "tjohnson@summervillesc.gov",
+      "phone": "(843) 735-8377",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Matt Halter",
+      "title": "Council Member, District 3",
+      "email": "mhalter@summervillesc.gov",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Richard Waring",
+      "title": "Council Member, District 4",
+      "email": "rwaring@summervillesc.gov",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kima Garten",
+      "title": "Council Member, District 5",
+      "email": "KGarten@SummervilleSC.gov",
+      "phone": "(843) 821-9337",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bob Jackson",
+      "title": "Council Member, District 6",
+      "email": "BJackson@SummervilleSC.gov",
+      "phone": "(843) 810-0449",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Russ Touchberry",
+      "title": "Mayor",
+      "email": "rtouchberry@SummervilleSC.gov",
+      "phone": "(843) 693-8707",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

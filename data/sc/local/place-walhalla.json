@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:walhalla",
+    "label": "Walhalla City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Tim Hall",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Josh Holliday",
+      "title": "Mayor Pro Tem, At Large",
+      "email": "jholliday@cityofwalhalla.com",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Lynn McClain",
+      "title": "Council Member, At Large",
+      "email": "lmcclain@cityofwalhalla.com",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jessie Bunning",
+      "title": "Council Member, At Large",
+      "email": "jbunning@cityofwalhalla.com",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Sarai Melendez",
+      "title": "Council Member, At Large",
+      "email": "saraimelendez@cityofwalhalla.com",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Chris Grant",
+      "title": "Council Member, At Large",
+      "email": "cgrant@cityofwalhalla.com",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "David Underwood",
+      "title": "Council Member, At Large",
+      "email": "dunderwood@cityofwalhalla.com",
+      "phone": "(864) 638-4343",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

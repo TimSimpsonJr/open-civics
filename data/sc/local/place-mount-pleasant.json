@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:mount-pleasant",
+    "label": "Mount Pleasant Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Alex Crosby",
+      "title": "Town Council Member",
+      "email": "",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Daniel Brownstein",
+      "title": "Town Council Member",
+      "email": "councilclk@tompsc.com",
+      "phone": "(843) 209-5607",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jake Rambo",
+      "title": "Town Council Member",
+      "email": "councilclk@tompsc.com",
+      "phone": "(843) 494-8261",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "John Iacofano",
+      "title": "Town Council Member",
+      "email": "councilclk@tompsc.com",
+      "phone": "(843) 806-6564",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kathryn Whitaker",
+      "title": "Town Council Member",
+      "email": "",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Laura Hyatt",
+      "title": "Town Council Member",
+      "email": "councilclk@tompsc.com",
+      "phone": "(843) 315-4294",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Mike Tinkey",
+      "title": "Town Council Member",
+      "email": "councilclk@tompsc.com",
+      "phone": "(843) 884-8517",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "P.E., Howard R. Chapman",
+      "title": "Town Council Member",
+      "email": "councilclk@tompsc.com",
+      "phone": "(843) 209-0399",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

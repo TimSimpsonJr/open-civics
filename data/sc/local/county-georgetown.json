@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:georgetown",
+    "label": "Georgetown County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Clint Elliott",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "(843) 545-3058",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bob Anderson",
+      "title": "Council Member, District 2",
+      "email": "",
+      "phone": "(843) 543-2503",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Rev. Ernie Cooper",
+      "title": "Council Member, District 3",
+      "email": "",
+      "phone": "(843) 545-3058",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ron Charlton",
+      "title": "Council Member, District 4",
+      "email": "",
+      "phone": "(843) 630-5092",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Raymond L. Newton",
+      "title": "Council Member, District 5",
+      "email": "",
+      "phone": "(843) 344-1527",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Stella Mercado",
+      "title": "Council Member, District 6",
+      "email": "",
+      "phone": "(843) 545-3058",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Louis R. Morant",
+      "title": "Council Member, District 7",
+      "email": "",
+      "phone": "(843) 527-2448",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

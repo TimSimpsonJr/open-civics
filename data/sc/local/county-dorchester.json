@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:dorchester",
+    "label": "Dorchester County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Peter S. Smith Jr.",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "(843) 853-1174",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "C. David Chinnis",
+      "title": "Chairman, District 2",
+      "email": "",
+      "phone": "(843) 801-2326",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Rita May Ranck",
+      "title": "Vice Chairman, District 3",
+      "email": "",
+      "phone": "(843) 955-9708",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "S. Todd Friddle",
+      "title": "Council Member, District 4",
+      "email": "",
+      "phone": "(843) 805-2258",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Eddie Crosby",
+      "title": "Council Member, District 5",
+      "email": "",
+      "phone": "(843) 832-0196",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bill Hearn",
+      "title": "Council Member, District 6",
+      "email": "",
+      "phone": "(843) 832-0196",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jay Byars",
+      "title": "Council Member, District 7",
+      "email": "",
+      "phone": "(843) 832-0196",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

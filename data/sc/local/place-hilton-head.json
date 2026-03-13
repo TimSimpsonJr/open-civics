@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:hilton-head",
+    "label": "Hilton Head Island Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Alan Perry",
+      "title": "Mayor",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Alex Brown",
+      "title": "Mayor Pro Tem, Ward 1",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Patsy Brison",
+      "title": "Council Member, Ward 2",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Steve DeSimone",
+      "title": "Council Member, Ward 3",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tamara Davis-Becker",
+      "title": "Council Member, Ward 4",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Steve Alfred",
+      "title": "Council Member, Ward 5",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Melinda Tunner",
+      "title": "Council Member, Ward 6",
+      "email": "",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

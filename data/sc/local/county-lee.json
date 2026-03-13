@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:lee",
+    "label": "Lee County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Travis Windham",
+      "title": "Chairman",
+      "email": "",
+      "phone": "(803) 484-6725",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Gordon Eckley",
+      "title": "Vice Chairman",
+      "email": "",
+      "phone": "(803) 428-4210",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Keel Addison",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 393-5106",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Charles Beasley",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 428-3480",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Johnette Caughman",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 432-0037",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ronald Fountain",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 428-4440",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jackie Josey",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 437-2393",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

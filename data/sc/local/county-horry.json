@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:horry",
+    "label": "Horry County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Jenna L. Dukes",
+      "title": "Council Member, District 1",
+      "email": "Dukes.Jenna@horrycountysc.gov",
+      "phone": "(843) 855-6962",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bill Howard",
+      "title": "Council Member, District 2",
+      "email": "howardb@horrycountysc.gov",
+      "phone": "(843) 421-2035",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Dennis DiSabato",
+      "title": "Council Member, District 3",
+      "email": "disabatod@horrycountysc.gov",
+      "phone": "(843) 421-8522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Gary Loftus",
+      "title": "Council Member, District 4",
+      "email": "loftusg@horrycountysc.gov",
+      "phone": "(843) 855-4735",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tyler Servant",
+      "title": "Council Member, District 5",
+      "email": "servantt@horrycountysc.gov",
+      "phone": "(843) 421-7250",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Cam Crawford",
+      "title": "Council Member, District 6",
+      "email": "crawfordc@horrycountysc.gov",
+      "phone": "(843) 504-0905",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tom Anderson",
+      "title": "Vice Chairman, District 7",
+      "email": "Anderson.Tom@horrycountysc.gov",
+      "phone": "(843) 855-6129",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Michael Masciarelli",
+      "title": "Council Member, District 8",
+      "email": "Masciarelli.Mike@horrycountysc.gov",
+      "phone": "(843) 855-6569",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "R. Mark Causey",
+      "title": "Council Member, District 9",
+      "email": "Causey.mark@horrycountysc.gov",
+      "phone": "(843) 421-0570",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Danny Hardee",
+      "title": "Council Member, District 10",
+      "email": "hardeedan@horrycountysc.gov",
+      "phone": "(843) 340-4426",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Al Allen",
+      "title": "Council Member, District 11",
+      "email": "allena@horrycountysc.gov",
+      "phone": "(843) 602-9243",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Johnny Gardner",
+      "title": "Chairman, At Large",
+      "email": "gardner.johnny@horrycountysc.gov",
+      "phone": "(843) 855-0848",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:bamberg",
+    "label": "Bamberg City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Corey Ramsey",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(803) 245-5128",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Bobbi Bunch",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 245-5128",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Joyce Searson",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 245-5128",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Carey Bunch",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 245-5128",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:walterboro",
+    "label": "Walterboro City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "James Broderick",
+      "title": "Mayor",
+      "email": "jbroderick@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Judy Bridge",
+      "title": "Council Member, At Large",
+      "email": "jbridge@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jimmy Syfrett",
+      "title": "Council Member, At Large",
+      "email": "jsyfrett@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ladson Fishburne",
+      "title": "Council Member, At Large",
+      "email": "lfishburne@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Paul Siegel",
+      "title": "Council Member, At Large",
+      "email": "psiegel@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Spencer Witkin",
+      "title": "Council Member, At Large",
+      "email": "switkin@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Carl Brown",
+      "title": "Council Member, At Large",
+      "email": "cbrown@walterborosc.org",
+      "phone": "",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

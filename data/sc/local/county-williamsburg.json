@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:williamsburg",
+    "label": "Williamsburg County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Joseph Lee",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "(843) 933-0342",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Torrance T. Wilson",
+      "title": "Council Member, District 2",
+      "email": "",
+      "phone": "(843) 325-0971",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Randall Nesmith",
+      "title": "Council Member, District 3",
+      "email": "",
+      "phone": "(843) 240-6505",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Glenn A. Keels",
+      "title": "Council Member, District 4",
+      "email": "",
+      "phone": "(843) 426-4447",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Paul E. McKnight",
+      "title": "Council Member, District 5",
+      "email": "",
+      "phone": "(843) 401-8347",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Samuel L. Floyd",
+      "title": "Vice Chairman, District 6",
+      "email": "",
+      "phone": "(843) 355-9000",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jackie Hailes",
+      "title": "Council Member, District 7",
+      "email": "",
+      "phone": "(843) 401-8407",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

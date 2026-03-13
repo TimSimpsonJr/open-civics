@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:saluda",
+    "label": "Saluda Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Miliken Matthews",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(864) 445-3522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Myranda Butler",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(864) 445-3522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Obie Combs",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(864) 445-3522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Lauren Yonce",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(864) 445-3522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "John Mark Griffith",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(864) 445-3522",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

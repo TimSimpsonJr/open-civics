@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:newberry",
+    "label": "Newberry County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Todd Johnson",
+      "title": "Council Member, District 1",
+      "email": "toddjohnson@newberrycounty.gov",
+      "phone": "(803) 940-1384",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Leon Fulmer Jr.",
+      "title": "Council Member, District 2",
+      "email": "lfulmer@newberrycounty.gov",
+      "phone": "(803) 924-0493",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Karl Sease",
+      "title": "Vice Chairman, District 3",
+      "email": "ksease@newberrycounty.gov",
+      "phone": "(803) 944-5544",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Nick Shealy",
+      "title": "Chairman, District 4",
+      "email": "nickshealy@newberrycounty.gov",
+      "phone": "(803) 924-2616",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Stuart Smith",
+      "title": "Council Member, District 5",
+      "email": "ssmith@newberrycounty.gov",
+      "phone": "(803) 944-5988",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Johnny Mack Scurry",
+      "title": "Council Member, District 6",
+      "email": "jscurry@newberrycounty.gov",
+      "phone": "(803) 276-7118",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Travis Reeder",
+      "title": "Council Member, District 7",
+      "email": "treeder@newberrycounty.gov",
+      "phone": "(803) 276-9433",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

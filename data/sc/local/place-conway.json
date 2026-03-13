@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:conway",
+    "label": "Conway City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Barbara Jo Blain-Bellamy",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Beth Helms",
+      "title": "Mayor Pro Tem, At Large",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Amanda Butler",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "William Goldfinch IV",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Julie Hardwick",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Justin Jordan",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Larry White",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 248-1760",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

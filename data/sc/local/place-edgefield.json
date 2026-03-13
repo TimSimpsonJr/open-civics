@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:edgefield",
+    "label": "Edgefield Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "W. Ken Durham",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Robert M. Rodgers",
+      "title": "Mayor Pro Tem",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kelvin Thomas",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Scott Mims",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Sherry White Holmes",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Herbert Yarborough",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Andy Whitfield",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 637-4014",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

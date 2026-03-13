@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "county:pickens",
+    "label": "Pickens County Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "C. Claiborne Linvill",
+      "title": "Council Member, District 1",
+      "email": "clinvill@pickenscountysc.gov",
+      "phone": "(864) 765-1496"
+    },
+    {
+      "name": "Chris Lollis",
+      "title": "Vice Chairman, District 2",
+      "email": "clollis@pickenscountysc.gov",
+      "phone": "(864) 549-6503"
+    },
+    {
+      "name": "Alex Saitta",
+      "title": "Chairman, District 3",
+      "email": "asaitta@pickenscountysc.gov",
+      "phone": "(864) 997-4265"
+    },
+    {
+      "name": "Scott Lang",
+      "title": "Council Member, District 4",
+      "email": "slang@pickenscountysc.gov",
+      "phone": "(864) 997-8900"
+    },
+    {
+      "name": "Chris Bowers",
+      "title": "Council Member, District 5",
+      "email": "cbowers@pickenscountysc.gov",
+      "phone": "(864) 293-0700"
+    },
+    {
+      "name": "Dr. A.D. Holloway",
+      "title": "Council Member, District 6",
+      "email": "dholloway@pickenscountysc.gov",
+      "phone": "(864) 997-8665"
+    }
+  ]
+}

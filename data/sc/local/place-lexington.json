@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:lexington",
+    "label": "Lexington Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Gavin Smith",
+      "title": "Council Member",
+      "email": "gsmith@lexsc.gov",
+      "phone": "(803) 828-8170",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Hazel Livingston",
+      "title": "Mayor",
+      "email": "hlivingston@lexsc.gov",
+      "phone": "(803) 463-6575",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jeannie Michaels",
+      "title": "Council Member",
+      "email": "jmichaels@lexsc.gov",
+      "phone": "(803) 206-8570",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ron Williams",
+      "title": "Council Member",
+      "email": "rwilliams@lexsc.gov",
+      "phone": "(803) 730-6395",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Todd Carnes",
+      "title": "Mayor Pro-Tem",
+      "email": "tcarnes@lexsc.gov",
+      "phone": "(803) 960-4318",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Todd Lyle",
+      "title": "Council Member",
+      "email": "tlyle@lexsc.gov",
+      "phone": "(803) 960-8361",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Will Allen",
+      "title": "Council Member",
+      "email": "wallen@lexsc.gov",
+      "phone": "(803) 239-6369",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

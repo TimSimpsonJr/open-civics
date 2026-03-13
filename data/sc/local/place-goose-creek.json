@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:goose-creek",
+    "label": "Goose Creek City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Gregory Habib",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jerry Tekac",
+      "title": "Mayor Pro Tem, At Large",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Melissa Enos-Sims",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Debra Green-Fletcher",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Christopher Harmon",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Corey McClary",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Gayla McSwain",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(843) 797-6220",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

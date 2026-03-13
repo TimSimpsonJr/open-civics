@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:lancaster",
+    "label": "Lancaster City Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "civicplus"
+  },
+  "members": [
+    {
+      "name": "Kenny Hood",
+      "title": "Council Member, District 1",
+      "email": "colwebuser6363@lancastercitysc.com",
+      "phone": "(803) 626-6641",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Tomonica Marsh",
+      "title": "Council Member, District 2",
+      "email": "colwebuser5683@lancastercitysc.com",
+      "phone": "(803) 322-4243",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Jackie Harris",
+      "title": "Council Member, District 3",
+      "email": "colwebuser5275@lancastercitysc.com",
+      "phone": "(843) 337-5984",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ashante Miller",
+      "title": "Council Member, District 4",
+      "email": "amiller@lancastercitysc.com",
+      "phone": "(839) 291-7240",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Vacant District 5",
+      "title": "Council Member, District 5",
+      "email": "",
+      "phone": "",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Ronnie Sowell",
+      "title": "Council Member, District 6",
+      "email": "colwebuser6481@lancastercitysc.com",
+      "phone": "(843) 337-5950",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "T. Alston DeVenny",
+      "title": "Mayor",
+      "email": "colwebuser2238@lancastercitysc.com",
+      "phone": "(803) 320-1512",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}

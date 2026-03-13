@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "local",
+    "jurisdiction": "place:hampton",
+    "label": "Hampton Town Council",
+    "lastUpdated": "2026-03-13",
+    "adapter": "manual"
+  },
+  "members": [
+    {
+      "name": "Robert Brown",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(803) 943-2951",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Beth Chafin",
+      "title": "Mayor Pro Tem",
+      "email": "",
+      "phone": "(803) 943-2951",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Pete Mixson",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 943-2951",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Liz Hager",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 943-2951",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    },
+    {
+      "name": "Kevin Brown",
+      "title": "Council Member, At Large",
+      "email": "",
+      "phone": "(803) 943-2951",
+      "source": "manual",
+      "lastUpdated": "2026-03-04"
+    }
+  ]
+}
