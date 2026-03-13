@@ -1,0 +1,18 @@
+{
+  "name": "call-your-rep",
+  "version": "0.1.0",
+  "description": "US legislator contact data — names, emails, phones, districts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimSimpsonJr/call-your-rep"
+  },
+  "files": [
+    "data/**/state.json",
+    "data/**/local/"
+  ],
+  "exports": {
+    "./*": "./data/*"
+  },
+  "keywords": ["legislators", "representatives", "congress", "contact", "civic", "government"]
+}

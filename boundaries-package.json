@@ -1,0 +1,17 @@
+{
+  "name": "call-your-rep-boundaries",
+  "version": "0.1.0",
+  "description": "US legislative district boundary GeoJSON for client-side matching",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimSimpsonJr/call-your-rep"
+  },
+  "files": [
+    "data/**/boundaries/"
+  ],
+  "exports": {
+    "./*": "./data/*"
+  },
+  "keywords": ["districts", "boundaries", "geojson", "legislators", "civic"]
+}
