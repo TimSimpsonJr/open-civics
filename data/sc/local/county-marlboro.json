@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:marlboro",
     "label": "Marlboro County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "marlboro_county"
   },
   "members": [
     {
@@ -13,64 +13,64 @@
       "title": "Council Member, District 1",
       "email": "",
       "phone": "(843) 454-2317",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Dr. Damien Johnson",
-      "title": "Council Member, District 2",
+      "name": "Damien Johnson",
+      "title": "Chairman, District 2",
       "email": "",
       "phone": "(843) 535-7254",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Charles P. Midgley, Jr.",
-      "title": "Vice Chairman, District 3",
+      "title": "Council Member, District 3",
       "email": "",
       "phone": "(843) 479-6821",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Pearly Lawson",
-      "title": "Council Member, District 4",
+      "title": "Vice Chairwoman, District 4",
       "email": "",
       "phone": "(843) 862-4744",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Lafayette Jackson",
+      "name": "Lafeyette Jackson",
       "title": "Council Member, District 5",
       "email": "",
       "phone": "(843) 862-2199",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Verd Odom",
       "title": "Council Member, District 6",
       "email": "",
       "phone": "(843) 523-6447",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Steve Blackmon",
       "title": "Council Member, District 7",
       "email": "",
       "phone": "(843) 528-3573",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Anthony Woods",
-      "title": "Chairman, District 8",
+      "title": "Council Member, District 8",
       "email": "",
       "phone": "(843) 586-9571",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "marlborocounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

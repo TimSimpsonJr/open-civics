@@ -4,65 +4,57 @@
     "level": "local",
     "jurisdiction": "county:abbeville",
     "label": "Abbeville County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "abbeville_county"
   },
   "members": [
     {
-      "name": "Brandon Johnson",
-      "title": "Vice Chairman, District 1",
-      "email": "",
-      "phone": "(864) 548-2902",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Bryan McClain",
+      "title": "Chairman, District 7",
+      "email": "info@abbevillecountysc.com",
+      "phone": "(864) 548-2893",
+      "source": "abbevillecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Christine Long",
-      "title": "Council Member, District 2",
-      "email": "",
-      "phone": "(864) 548-2110",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Brandon Johnson",
+      "title": "Vice Chairman, District 1",
+      "email": "info@abbevillecountysc.com",
+      "phone": "(864) 548-2902",
+      "source": "abbevillecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Charles H. Goodwin",
       "title": "Council Member, District 3",
-      "email": "",
+      "email": "info@abbevillecountysc.com",
       "phone": "(864) 378-0072",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbevillecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "William C. Norris",
+      "name": "William C. “Billy” Norris",
       "title": "Council Member, District 4",
-      "email": "",
+      "email": "info@abbevillecountysc.com",
       "phone": "(864) 378-7208",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbevillecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "James P. McCord",
       "title": "Council Member, District 5",
-      "email": "",
+      "email": "info@abbevillecountysc.com",
       "phone": "(864) 828-2359",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbevillecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Trent Taylor",
       "title": "Council Member, District 6",
-      "email": "",
+      "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-0794",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Bryan McClain",
-      "title": "Chairman, District 7",
-      "email": "",
-      "phone": "(864) 548-2893",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbevillecounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

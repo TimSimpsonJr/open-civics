@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:oconee",
     "label": "Oconee County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "oconee_county"
   },
   "members": [
     {
@@ -13,40 +13,40 @@
       "title": "Council Member, District 1",
       "email": "district1@oconeesc.com",
       "phone": "(864) 718-1023",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "oconeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Matthew Durham",
       "title": "Chairman, District 2",
       "email": "district2@oconeesc.com",
       "phone": "(864) 718-1023",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "oconeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Don Mize",
       "title": "Vice Chairman, District 3",
       "email": "district3@oconeesc.com",
       "phone": "(864) 718-1023",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "oconeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Thomas James",
-      "title": "Council Member, District 4",
+      "title": "Chairman Pro Tem, District 4",
       "email": "district4@oconeesc.com",
       "phone": "(864) 718-1023",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "oconeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "James Glenn Hart",
       "title": "Council Member, District 5",
       "email": "district5@oconeesc.com",
       "phone": "(864) 718-1023",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "oconeecounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

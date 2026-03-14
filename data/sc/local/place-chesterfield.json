@@ -4,8 +4,65 @@
     "level": "local",
     "jurisdiction": "place:chesterfield",
     "label": "Chesterfield Town Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "chesterfield_town"
   },
-  "members": []
+  "members": [
+    {
+      "name": "John H. Bittle, III",
+      "title": "Mayor",
+      "email": "cfmayorjb@shtc.net",
+      "phone": "(843) 623-9114",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Latonya Myers",
+      "title": "Council Member, District 1",
+      "email": "lrmyers2001@yahoo.com",
+      "phone": "(843) 287-1950",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Lyndy Hudson",
+      "title": "Council Member, District 2",
+      "email": "lhudson29709@yahoo.com",
+      "phone": "(843) 680-0591",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Derek Watson",
+      "title": "Council Member, District 3",
+      "email": "derekwatson2005@yahoo.com",
+      "phone": "(843) 623-4446",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Nikki Cassidy",
+      "title": "Council Member, District 4",
+      "email": "ncassidy0308@gmail.com",
+      "phone": "(843) 337-6081",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Fred D. Rivers",
+      "title": "Council Member, District 5",
+      "email": "frddrivers@gmail.com",
+      "phone": "(843) 680-1585",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Shannon A. Justice",
+      "title": "Council Member, District 6",
+      "email": "justice.district6@yahoo.com",
+      "phone": "(843) 910-3334",
+      "source": "chesterfieldtown",
+      "lastUpdated": "2026-03-14"
+    }
+  ]
 }

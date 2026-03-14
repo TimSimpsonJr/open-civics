@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:lexington",
     "label": "Lexington County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "lexington_county"
   },
   "members": [
     {
@@ -13,72 +13,72 @@
       "title": "Council Member, District 1",
       "email": "mbishop@lexingtoncounty.sc.gov",
       "phone": "(803) 849-4275",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Larry Brigham, Jr.",
+      "name": "Paul Lawrence \"Larry\" Brigham, Jr.",
       "title": "Council Member, District 2",
       "email": "lbrigham@lexingtoncounty.sc.gov",
       "phone": "(803) 465-6263",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Darrell Hudson",
       "title": "Chairman, District 3",
       "email": "dhudson@lexingtoncounty.sc.gov",
       "phone": "(803) 240-6077",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Todd Cockrell",
       "title": "Vice Chairman, District 4",
       "email": "toddcockrell@lexingtoncounty.sc.gov",
       "phone": "(803) 849-0295",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Clifford P. Fisher, III",
       "title": "Council Member, District 5",
       "email": "cfisher@lexingtoncounty.sc.gov",
       "phone": "(803) 849-4465",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Charlene Wessinger",
+      "name": "Charlene \"Charli\" Wessinger",
       "title": "Council Member, District 6",
       "email": "cwessinger@lexingtoncounty.sc.gov",
       "phone": "(803) 730-7254",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Beth A. Carrigg",
       "title": "Council Member, District 7",
       "email": "bcarrigg@lexingtoncounty.sc.gov",
       "phone": "(803) 518-8077",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Glen M. Conwell",
       "title": "Council Member, District 8",
       "email": "gconwell@lexingtoncounty.sc.gov",
       "phone": "(803) 351-7435",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "M. Todd Cullum",
       "title": "Council Member, District 9",
       "email": "tcullum@lexingtoncounty.sc.gov",
-      "phone": "(803) 518-6412",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 794-6930",
+      "source": "lexingtoncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }
