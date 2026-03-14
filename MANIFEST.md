@@ -48,12 +48,16 @@ call-your-rep/
 │           ├── county-*.json      # County council districts (46 counties)
 │           └── place-*.json       # City council districts (2 cities)
 │
+├── scripts/                       # CI/CD helper scripts
+│   ├── diff_summary.py            # Git diff → human-readable PR body summary
+│   └── stale_check.py             # Detect jurisdictions with unchanged data >90 days
+│
 ├── .github/workflows/
-│   ├── scrape.yml                 # Weekly/monthly scraper run → data-update/* PR
+│   ├── scrape.yml                 # Weekly/monthly scraper run → data-update/* PR + reporting
 │   ├── validate.yml               # PR check on data/** changes + auto-merge for data-update/* PRs
 │   └── publish.yml                # Weekly npm publish (both packages) if data changed since last tag
 │
-└── docs/                          # Documentation and audits
+└── docs/                          # Documentation, audits, and plans
 ```
 
 ## Key Relationships
@@ -63,9 +67,11 @@ call-your-rep/
 - Adapter hierarchy: `BaseAdapter` → `RevizeAdapter` → `GenericMailtoAdapter` (marker-based parsing chain)
 - `DrupalViewsAdapter` handles two Drupal patterns: `views-row` divs and `person-item` articles
 - `TableAdapter` auto-detects column roles from header text (name, title, email, phone, district, department)
-- `scrape.yml` runs scrapers, then `validate.py`, then opens PR to `data-update/*` branch
+- `scrape.yml` runs scrapers with `--report`, then `diff_summary.py` and `stale_check.py` enrich the PR body
 - `validate.yml` auto-merges `data-update/*` PRs after validation passes
 - `publish.yml` publishes both npm packages from the same repo using `package.json` and `boundaries-package.json`
+- `dataHash` and `dataLastChanged` in local JSON meta blocks track actual data changes vs re-scrapes
+- All three workflows create GitHub Issues on failure (label: `ci-failure`)
 - `state.py` uses `state_email_rules.py` to fill missing emails from name-based conventions
 - `boundaries.py` reads boundary source configs from `registry.json` (both `stateBoundaries` and per-jurisdiction `boundary` blocks)
 - `base.py` provides `deobfuscate_cf_email()` and `normalize_phone()` utilities used across adapters
