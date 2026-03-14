@@ -22,6 +22,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(SCRIPT_DIR, "..")
 REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 
+from .adapters.aiken_city import AikenCityAdapter
 from .adapters.abbeville import AbbevilleAdapter
 from .adapters.abbeville_county import AbbevilleCountyAdapter
 from .adapters.allendale_county import AllendaleCountyAdapter
@@ -93,6 +94,7 @@ from .adapters.york_county import YorkCountyAdapter
 
 ADAPTERS = {
     "abbeville_city": AbbevilleAdapter,
+    "aiken_city": AikenCityAdapter,
     "abbeville_county": AbbevilleCountyAdapter,
     "allendale_county": AllendaleCountyAdapter,
     "allendale_town": AllendaleTownAdapter,

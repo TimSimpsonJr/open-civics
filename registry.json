@@ -460,11 +460,11 @@
           "name": "Aiken City Council",
           "type": "place",
           "county": "Aiken",
-          "adapter": "masc",
+          "adapter": "aiken_city",
           "url": "https://www.cityofaikensc.gov/government/city-council/",
-          "districts": 4,
-          "atLarge": true,
-          "notes": "District count unverified."
+          "districts": 6,
+          "atLarge": false,
+          "notes": "6-1 plan: Mayor at-large + 6 single-member districts. Cloudflare-protected site."
         },
         {
           "id": "county:allendale",
