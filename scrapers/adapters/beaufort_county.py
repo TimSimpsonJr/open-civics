@@ -112,9 +112,8 @@ class BeaufortCountyAdapter(BaseAdapter):
         if tel:
             phone = tel.get_text(strip=True)
         else:
-            import re as _re
             text = soup.get_text()
-            match = _re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+            match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
             if match:
                 phone = match.group(0)
 

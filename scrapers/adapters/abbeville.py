@@ -17,7 +17,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseAdapter
+from .base import BaseAdapter, normalize_phone
 
 USER_AGENT = "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"
 PAGE_URL = "https://www.abbevillecitysc.com/189/City-Council"
@@ -70,7 +70,7 @@ class AbbevilleAdapter(BaseAdapter):
                 "name": name,
                 "title": f"Council Member, District {district}",
                 "email": email,
-                "phone": phone,
+                "phone": normalize_phone(phone) if phone else "",
             })
 
         # Fetch mayor from separate page
@@ -147,7 +147,7 @@ class AbbevilleAdapter(BaseAdapter):
             "name": name,
             "title": "Mayor",
             "email": email,
-            "phone": phone,
+            "phone": normalize_phone(phone) if phone else "",
         }
 
     @staticmethod

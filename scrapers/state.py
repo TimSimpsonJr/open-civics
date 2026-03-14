@@ -162,7 +162,7 @@ def _scrape_sc_governor() -> dict | None:
                     if match:
                         name = match.group(1).strip()
                         break
-        return {
+        record = {
             "name": name or "Henry McMaster",
             "title": "Governor",
             "email": "governor@gov.sc.gov",
@@ -171,8 +171,12 @@ def _scrape_sc_governor() -> dict | None:
             "source": "governor.sc.gov",
             "lastUpdated": date.today().isoformat(),
         }
+        if not name:
+            print("  WARNING: Could not extract governor name from site. Using hardcoded fallback.")
+            record["fallback"] = True
+        return record
     except Exception as e:
-        print(f"  WARNING: Failed to scrape governor: {e}")
+        print(f"  WARNING: Failed to scrape governor: {e}. Using hardcoded fallback.")
         return {
             "name": "Henry McMaster",
             "title": "Governor",
@@ -180,6 +184,7 @@ def _scrape_sc_governor() -> dict | None:
             "phone": normalize_phone("803-734-2100"),
             "website": "https://governor.sc.gov/",
             "source": "governor.sc.gov",
+            "fallback": True,
             "lastUpdated": date.today().isoformat(),
         }
 
@@ -197,7 +202,7 @@ def _scrape_sc_lt_governor() -> dict | None:
             match = re.search(r"(?:Lt\.?\s*Governor|Lieutenant\s+Governor)\s+(.+?)(?:\s*[|\-])", text)
             if match:
                 name = match.group(1).strip()
-        return {
+        record = {
             "name": name or "Pamela Evette",
             "title": "Lieutenant Governor",
             "email": "ltgovernor@ltgov.sc.gov",
@@ -206,8 +211,12 @@ def _scrape_sc_lt_governor() -> dict | None:
             "source": "ltgov.sc.gov",
             "lastUpdated": date.today().isoformat(),
         }
+        if not name:
+            print("  WARNING: Could not extract lt. governor name from site. Using hardcoded fallback.")
+            record["fallback"] = True
+        return record
     except Exception as e:
-        print(f"  WARNING: Failed to scrape lt. governor: {e}")
+        print(f"  WARNING: Failed to scrape lt. governor: {e}. Using hardcoded fallback.")
         return {
             "name": "Pamela Evette",
             "title": "Lieutenant Governor",
@@ -215,6 +224,7 @@ def _scrape_sc_lt_governor() -> dict | None:
             "phone": normalize_phone("803-734-2080"),
             "website": "https://ltgov.sc.gov/",
             "source": "ltgov.sc.gov",
+            "fallback": True,
             "lastUpdated": date.today().isoformat(),
         }
 

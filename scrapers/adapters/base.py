@@ -47,6 +47,7 @@ class BaseAdapter(abc.ABC):
         self.url = entry.get("url", "")
         self.config = entry.get("adapterConfig", {})
         self.warnings = []
+        self._html: str | None = None  # Set by scrape() for get_contact() use
 
     @abc.abstractmethod
     def fetch(self) -> str:
@@ -106,9 +107,12 @@ class BaseAdapter(abc.ABC):
 
     def get_contact(self) -> dict | None:
         """Return general contact info for the jurisdiction, if available.
+
         Override in subclasses for jurisdictions where individual member
-        contact info is not published.
-        Returns None if not applicable.
+        contact info is not published. Implementations can use self._html
+        (set by scrape()) to extract city hall phone numbers, etc.
+
+        Must be called after scrape(). Returns None if not applicable.
         """
         return None
 
