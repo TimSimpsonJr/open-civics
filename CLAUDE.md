@@ -13,6 +13,9 @@ Shared repo for US legislator contact data. Python scrapers produce JSON data pu
 - `python -m scrapers --state SC --skip-boundaries` — state + local, skip boundaries
 - `python -m scrapers --dry-run` — preview without scraping
 - `python validate.py` — validate all data files
+- `pytest tests/unit/ -v` — run unit tests (fast)
+- `pytest -v` — run all tests including integration
+- `python scripts/refresh_snapshots.py` — refresh integration test HTML snapshots
 
 ## Architecture
 

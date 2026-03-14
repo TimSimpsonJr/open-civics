@@ -54,7 +54,19 @@ call-your-rep/
 ├── scripts/                       # CI/CD helper scripts
 │   ├── diff_summary.py            # Git diff → human-readable PR body summary
 │   ├── stale_check.py             # Detect jurisdictions with unchanged data >90 days
-│   └── quality_report.py          # Data coverage dashboard: email/phone/executive/contact per jurisdiction
+│   ├── quality_report.py          # Data coverage dashboard: email/phone/executive/contact per jurisdiction
+│   └── refresh_snapshots.py       # Re-download real site HTML for integration test snapshots
+│
+├── tests/                         # Test suite (pytest)
+│   ├── conftest.py                # Shared helpers: load_fixture, make_adapter
+│   ├── unit/                      # Unit tests for utilities, adapters, scripts, validation
+│   ├── integration/               # Integration smoke tests with real HTML snapshots
+│   └── fixtures/
+│       ├── html/                  # Hand-crafted HTML test fixtures
+│       └── snapshots/             # Saved real site HTML for integration tests
+│
+├── requirements-dev.txt           # Dev/test dependencies (pytest, responses, etc.)
+├── pytest.ini                     # Pytest configuration
 │
 ├── .github/workflows/
 │   ├── scrape.yml                 # Weekly/monthly scraper run → data-update/* PR + reporting
@@ -76,6 +88,8 @@ call-your-rep/
 - `publish.yml` publishes both npm packages from the same repo using `package.json` and `boundaries-package.json`
 - `dataHash` and `dataLastChanged` in local JSON meta blocks track actual data changes vs re-scrapes
 - All three workflows create GitHub Issues on failure (label: `ci-failure`)
+- `tests/unit/` tests mirror `scrapers/adapters/` structure (e.g., `test_revize_parse.py` tests `revize.py`)
+- `tests/integration/` uses snapshots from `scripts/refresh_snapshots.py` to smoke-test adapters against real HTML
 - `state.py` uses `state_email_rules.py` to fill missing emails from name-based conventions
 - `boundaries.py` reads boundary source configs from `registry.json` (both `stateBoundaries` and per-jurisdiction `boundary` blocks)
 - `base.py` provides `deobfuscate_cf_email()` and `normalize_phone()` utilities used across adapters
