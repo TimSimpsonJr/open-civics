@@ -24,11 +24,13 @@ REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 from .adapters.civicplus import CivicPlusAdapter
 from .adapters.greenville_city import GreenvilleCityAdapter
 from .adapters.greenville_county import GreenvilleCountyAdapter
+from .adapters.revize import RevizeAdapter
 
 ADAPTERS = {
     "civicplus": CivicPlusAdapter,
     "greenville_city": GreenvilleCityAdapter,
     "greenville_county": GreenvilleCountyAdapter,
+    "revize": RevizeAdapter,
 }
 
 

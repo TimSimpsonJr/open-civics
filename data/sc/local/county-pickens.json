@@ -5,44 +5,64 @@
     "jurisdiction": "county:pickens",
     "label": "Pickens County Council",
     "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "adapter": "revize"
   },
   "members": [
     {
-      "name": "C. Claiborne Linvill",
-      "title": "Council Member, District 1",
-      "email": "clinvill@pickenscountysc.gov",
-      "phone": "(864) 765-1496"
+      "name": "Alex Saitta",
+      "title": "Chairman",
+      "email": "asaitta@pickenscountysc.gov",
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Chris Lollis",
-      "title": "Vice Chairman, District 2",
+      "title": "Vice Chairman",
       "email": "clollis@pickenscountysc.gov",
-      "phone": "(864) 549-6503"
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
-      "name": "Alex Saitta",
-      "title": "Chairman, District 3",
-      "email": "asaitta@pickenscountysc.gov",
-      "phone": "(864) 997-4265"
+      "name": "C. Claiborne Linvill",
+      "title": "Council Member, District 2",
+      "email": "clinvill@pickenscountysc.gov",
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Scott Lang",
-      "title": "Council Member, District 4",
+      "title": "Council Member, District 5",
       "email": "slang@pickenscountysc.gov",
-      "phone": "(864) 997-8900"
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Chris Bowers",
-      "title": "Council Member, District 5",
+      "title": "Council Member, District 6",
       "email": "cbowers@pickenscountysc.gov",
-      "phone": "(864) 293-0700"
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Dr. A.D. Holloway",
-      "title": "Council Member, District 6",
+      "title": "Council Member",
       "email": "dholloway@pickenscountysc.gov",
-      "phone": "(864) 997-8665"
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Meagan Nations",
+      "title": "Council Member",
+      "email": "meaganb@pickenscountysc.gov",
+      "phone": "(864) 898-5856",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     }
   ]
 }

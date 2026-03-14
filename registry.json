@@ -83,11 +83,16 @@
           "name": "Spartanburg City Council",
           "type": "place",
           "county": "Spartanburg",
-          "adapter": "manual",
-          "url": "https://www.cityofspartanburg.org/city-council",
+          "adapter": "civicplus",
+          "url": "https://www.cityofspartanburg.org/316/City-Council",
           "districts": 6,
           "atLarge": false,
-          "notes": "6 district seats + mayor"
+          "notes": "6 district seats + mayor",
+          "adapterConfig": {
+            "baseUrl": "https://www.cityofspartanburg.org",
+            "councilPageId": "316",
+            "directoryDeptId": "55"
+          }
         },
         {
           "id": "county:anderson",
@@ -133,7 +138,7 @@
           "name": "Pickens County Council",
           "type": "county",
           "county": "Pickens",
-          "adapter": "manual",
+          "adapter": "revize",
           "url": "https://www.co.pickens.sc.us/county_council/index.php",
           "districts": 6,
           "atLarge": false,
@@ -154,7 +159,7 @@
           "type": "county",
           "county": "Laurens",
           "adapter": "manual",
-          "url": "https://www.laurenscountysc.gov/government/county-council",
+          "url": "https://www.laurenscountysc.gov/departments/county_council/index.php",
           "districts": 7,
           "atLarge": false,
           "boundary": {
@@ -194,10 +199,6 @@
           "url": "https://www.charleston-sc.gov/180/Members-Districts",
           "districts": 12,
           "atLarge": false,
-          "adapterConfig": {
-            "baseUrl": "https://www.charleston-sc.gov",
-            "councilPageId": "180"
-          },
           "boundary": {
             "source": "arcgis",
             "url": "https://gis.charleston-sc.gov/arcgis2/rest/services/External/VotingDistricts/MapServer/5",
@@ -306,7 +307,7 @@
           "name": "Myrtle Beach City Council",
           "type": "place",
           "county": "Horry",
-          "adapter": "manual",
+          "adapter": "revize",
           "url": "https://www.cityofmyrtlebeach.com/government/mayor___city_council/index.php",
           "districts": 6,
           "atLarge": true,
@@ -1023,7 +1024,7 @@
           "name": "Georgetown City Council",
           "type": "place",
           "county": "Georgetown",
-          "adapter": "manual",
+          "adapter": "revize",
           "url": "https://www.georgetownsc.gov/governmental_services/city_council.php",
           "districts": 4,
           "atLarge": true,
@@ -1205,7 +1206,7 @@
           "type": "county",
           "county": "Lee",
           "adapter": "manual",
-          "url": "https://www.leecountysc.org/council/members/",
+          "url": "https://www.leecountysc.org/county_council/council_members.php",
           "districts": 7,
           "atLarge": false,
           "boundary": {
@@ -1519,8 +1520,8 @@
           "name": "Williamsburg County Council",
           "type": "county",
           "county": "Williamsburg",
-          "adapter": "manual",
-          "url": "",
+          "adapter": "civicplus",
+          "url": "https://www.williamsburgcounty.sc.gov/184/County-Council",
           "districts": 9,
           "atLarge": false,
           "boundary": {
@@ -1532,7 +1533,17 @@
               "countyName": "Williamsburg"
             }
           },
-          "notes": "District count unverified. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile."
+          "notes": "District count unverified. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile.",
+          "adapterConfig": {
+            "baseUrl": "https://www.williamsburgcounty.sc.gov",
+            "councilPageId": "184",
+            "directoryDeptId": "12",
+            "memberFilter": [
+              "clerk",
+              "attorney",
+              "supervisor"
+            ]
+          }
         },
         {
           "id": "place:kingstree",

@@ -5,64 +5,64 @@
     "jurisdiction": "county:williamsburg",
     "label": "Williamsburg County Council",
     "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "adapter": "civicplus"
   },
   "members": [
     {
-      "name": "Joseph Lee",
+      "name": "Joseph \"Joe\" Lee",
       "title": "Council Member, District 1",
-      "email": "",
-      "phone": "(843) 933-0342",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "joseph.lee@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Torrance T. Wilson",
       "title": "Council Member, District 2",
-      "email": "",
-      "phone": "(843) 325-0971",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "torrance.wilson@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Randall Nesmith",
       "title": "Council Member, District 3",
-      "email": "",
-      "phone": "(843) 240-6505",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "Randall.Nesmith@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Glenn A. Keels",
       "title": "Council Member, District 4",
-      "email": "",
-      "phone": "(843) 426-4447",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "gakeels@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     },
     {
-      "name": "Paul E. McKnight",
+      "name": "Paul McKnight",
       "title": "Council Member, District 5",
-      "email": "",
-      "phone": "(843) 401-8347",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "paul.mcknight@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Samuel L. Floyd",
-      "title": "Vice Chairman, District 6",
-      "email": "",
-      "phone": "(843) 355-9000",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Council Member, District 6",
+      "email": "sam.floyd@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Jackie Hailes",
       "title": "Council Member, District 7",
-      "email": "",
-      "phone": "(843) 401-8407",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "jhailes@wc.sc.gov",
+      "phone": "(843) 355-9321",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-13"
     }
   ]
 }

@@ -5,64 +5,64 @@
     "jurisdiction": "place:georgetown",
     "label": "Georgetown City Council",
     "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "adapter": "revize"
   },
   "members": [
     {
       "name": "Jay Doyle",
       "title": "Mayor",
       "email": "jdoyle@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Jessie M. Walker",
-      "title": "Mayor Pro Tem, At Large",
-      "email": "jwalker@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Hobson Henry Milton",
-      "title": "Council Member, At Large",
-      "email": "hmilton@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Sharon Melton",
-      "title": "Council Member, At Large",
-      "email": "smelton@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Tamika Williams-Obeng",
-      "title": "Council Member, At Large",
-      "email": "tobeng@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Erin Ethridge",
-      "title": "Council Member, At Large",
-      "email": "eethridge@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Bruce Carl",
-      "title": "Council Member, At Large",
+      "title": "Council Member",
       "email": "bcarl@georgetownsc.gov",
-      "phone": "(843) 545-4001",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Erin Ethridge",
+      "title": "Council Member",
+      "email": "eethridge@georgetownsc.gov",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Hobson Henry Milton",
+      "title": "Council Member",
+      "email": "hmilton@georgetownsc.gov",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Jessie M. Walker",
+      "title": "Council Member",
+      "email": "jwalker@georgetownsc.gov",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Sharon Melton",
+      "title": "Council Member",
+      "email": "smelton@georgetownsc.gov",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Tamika Williams-Obeng",
+      "title": "Council Member",
+      "email": "tobeng@georgetownsc.gov",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     }
   ]
 }

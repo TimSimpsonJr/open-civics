@@ -5,64 +5,64 @@
     "jurisdiction": "place:myrtle-beach",
     "label": "Myrtle Beach City Council",
     "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "adapter": "revize"
   },
   "members": [
     {
-      "name": "Mark Kruea",
-      "title": "Mayor",
-      "email": "",
+      "name": "Bill McClure",
+      "title": "Council Member",
+      "email": "bmcclure@cityofmyrtlebeach.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
-      "name": "Deborah K. Conner",
-      "title": "Mayor Pro Tem",
-      "email": "dconner@cityofmyrtlebeach.com",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Mike Lowder",
-      "title": "Council Member, At Large",
+      "name": "C. H. Mike Lowder Jr.",
+      "title": "Council Member",
       "email": "mlowder@cityofmyrtlebeach.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
-      "name": "Mike Chestnut",
-      "title": "Council Member, At Large",
-      "email": "mchestnut@cityofmyrtlebeach.com",
+      "name": "Deborah “Debbie” K. Conner, Ph.D.",
+      "title": "Council Member",
+      "email": "dconner@cityofmyrtlebeach.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
-      "name": "Phil Render",
-      "title": "Council Member, At Large",
-      "email": "",
+      "name": "Dr. Philip N. Render, DMD",
+      "title": "Council Member",
+      "email": "prender@cityofmyrtlebeach.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
       "name": "Jackie Hatley",
-      "title": "Council Member, At Large",
-      "email": "jhatley@cityofmyrtlebeach.com",
+      "title": "Council Member",
+      "email": "jvereen@cityofmyrtlebeach.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     },
     {
-      "name": "Bill McClure",
-      "title": "Council Member, At Large",
-      "email": "bmcclure@cityofmyrtlebeach.com",
+      "name": "Mark Kruea",
+      "title": "Council Member",
+      "email": "mkruea@cityofmyrtlebeach.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "name": "Michael \"Mike\" Chestnut",
+      "title": "Council Member",
+      "email": "mchestnut@cityofmyrtlebeach.com",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-13"
     }
   ]
 }
