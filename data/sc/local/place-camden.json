@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "place:camden",
     "label": "Camden City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "generic_mailto"
   },
   "members": [
     {
-      "name": "Vincent Sheheen",
-      "title": "Mayor",
-      "email": "",
+      "name": "Delia Davis",
+      "title": "Council Member",
+      "email": "ddavis@camdensc.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Phil Elliott",
-      "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "William Wilkes",
-      "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Hamilton Boykin",
-      "title": "Council Member, At Large",
-      "email": "",
+      "title": "Council Member",
+      "email": "hboykin@camdensc.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Delia Davis",
-      "title": "Council Member, At Large",
-      "email": "",
+      "name": "Phil Elliott",
+      "title": "Council Member",
+      "email": "pelliott@camdensc.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Vincent Sheheen",
+      "title": "Council Member",
+      "email": "vincentformayor@gmail.com",
+      "phone": "",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "William Wilkes",
+      "title": "Council Member",
+      "email": "wwilkes@camdensc.org",
+      "phone": "",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

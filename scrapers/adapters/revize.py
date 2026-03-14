@@ -77,15 +77,29 @@ class RevizeAdapter(BaseAdapter):
                     email = el["href"][7:].strip().rstrip("?")
                     if email and not self._is_generic_email(email):
                         markers.append(("email", email, el))
+                        # If link text is a name (not an email), also add as name
+                        link_text = el.get_text(strip=True)
+                        if link_text and "@" not in link_text and self._looks_like_name(link_text):
+                            if link_text not in seen_texts:
+                                seen_texts.add(link_text)
+                                markers.append(("name", link_text, el))
                 elif el.name == "a" and el.get("href", "").lower().startswith("tel:"):
                     phone_text = el.get_text(strip=True)
                     if phone_text:
                         markers.append(("phone", phone_text, el))
-                elif el.name in ("strong", "b", "h3", "h4", "h5"):
+                elif el.name in ("strong", "b", "h2", "h3", "h4", "h5", "dt"):
                     text = el.get_text(strip=True)
                     if text and text not in seen_texts and self._looks_like_name(text):
                         seen_texts.add(text)
                         markers.append(("name", text, el))
+                elif el.name == "a" and el.get("href", ""):
+                    # Profile links: <a href="/member/...">Name</a>
+                    href = el.get("href", "")
+                    if not href.startswith(("mailto:", "tel:", "#", "javascript:")):
+                        text = el.get_text(strip=True)
+                        if text and text not in seen_texts and self._looks_like_name(text):
+                            seen_texts.add(text)
+                            markers.append(("name", text, el))
             elif isinstance(el, NavigableString):
                 text = str(el).strip()
                 if text:
@@ -185,6 +199,18 @@ class RevizeAdapter(BaseAdapter):
             "office:", "contact us", "appearances",
             "quorum", "voting", "rules of order",
             "regular meeting", "special meeting",
+            "mailing", "navigation", "accessibility",
+            "search", "menu", "login", "sign in",
+            "home", "about", "news", "events",
+            "boards and commissions", "commission",
+            "website", "privacy", "copyright",
+            "powered by", "all rights", "site map",
+            "subscribe", "follow us", "connect with",
+            "departments", "services", "resources",
+            "dark mode", "font size", "high contrast",
+            "directory", "elected officials",
+            "storm", "weather", "alert", "notice",
+            "growth in", "moves to",
         ]):
             return False
         if not text[0].isupper():

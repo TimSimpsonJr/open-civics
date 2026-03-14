@@ -472,7 +472,7 @@
           "type": "county",
           "county": "Allendale",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.allendalecounty.com/government/elected_officials/city_council_members.php",
           "districts": 5,
           "atLarge": false,
           "boundary": {
@@ -492,7 +492,7 @@
           "type": "place",
           "county": "Allendale",
           "adapter": "manual",
-          "url": "",
+          "url": "https://townofallendale.sc.gov/community/allendale-town-council",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -590,7 +590,7 @@
           "type": "place",
           "county": "Berkeley",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.monckscornersc.gov/government/elected-officials",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -632,7 +632,7 @@
           "type": "place",
           "county": "Calhoun",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.stmatthews.sc.gov/town-leaders",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -756,7 +756,7 @@
           "type": "place",
           "county": "Clarendon",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.cityofmanning.org/city-council",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -786,7 +786,7 @@
           "name": "Walterboro City Council",
           "type": "place",
           "county": "Colleton",
-          "adapter": "manual",
+          "adapter": "generic_mailto",
           "url": "https://www.walterborosc.org/city-council",
           "districts": 4,
           "atLarge": true,
@@ -880,7 +880,7 @@
           "type": "place",
           "county": "Dorchester",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.saintgeorgesc.org/administration",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -927,7 +927,7 @@
           "type": "place",
           "county": "Edgefield",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.exploreedgefield.com/community-resources.html",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -937,7 +937,7 @@
           "name": "Fairfield County Council",
           "type": "county",
           "county": "Fairfield",
-          "adapter": "manual",
+          "adapter": "generic_mailto",
           "url": "https://www.fairfieldsc.com/departments/county-council",
           "districts": 7,
           "atLarge": false,
@@ -958,7 +958,7 @@
           "type": "place",
           "county": "Fairfield",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.townofwinnsboro.com/town-council",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -1122,8 +1122,8 @@
           "name": "Ridgeland Town Council",
           "type": "place",
           "county": "Jasper",
-          "adapter": "manual",
-          "url": "",
+          "adapter": "generic_mailto",
+          "url": "https://www.ridgelandsc.gov/town-council",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -1153,8 +1153,8 @@
           "name": "Camden City Council",
           "type": "place",
           "county": "Kershaw",
-          "adapter": "manual",
-          "url": "",
+          "adapter": "generic_mailto",
+          "url": "https://www.experiencecamdensc.com/government/mayor-and-city-council/",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -1288,7 +1288,7 @@
           "type": "place",
           "county": "Marlboro",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.bennettsvillesc.com/city-council",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -1349,7 +1349,7 @@
           "name": "Newberry City Council",
           "type": "place",
           "county": "Newberry",
-          "adapter": "manual",
+          "adapter": "generic_mailto",
           "url": "https://www.cityofnewberry.com/government/city_council.php",
           "districts": 4,
           "atLarge": true,
@@ -1381,7 +1381,7 @@
           "type": "place",
           "county": "Oconee",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.cityofwalhalla.com/government/mayor/",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -1490,7 +1490,7 @@
           "type": "county",
           "county": "Union",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.gearupunionsc.com/government/departments/union-county-council/",
           "districts": 7,
           "atLarge": false,
           "boundary": {
@@ -1510,7 +1510,7 @@
           "type": "place",
           "county": "Union",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.cityofunion.net/o/Union-City-Council",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."
@@ -1551,7 +1551,7 @@
           "type": "place",
           "county": "Williamsburg",
           "adapter": "manual",
-          "url": "",
+          "url": "https://www.kingstree.org/government/mayor-town-council/",
           "districts": 4,
           "atLarge": true,
           "notes": "District count unverified."

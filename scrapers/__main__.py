@@ -23,6 +23,7 @@ REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 
 from .adapters.civicplus import CivicPlusAdapter
 from .adapters.dorchester_county import DorchesterCountyAdapter
+from .adapters.generic_mailto import GenericMailtoAdapter
 from .adapters.greenville_city import GreenvilleCityAdapter
 from .adapters.greenville_county import GreenvilleCountyAdapter
 from .adapters.horry_county import HorryCountyAdapter
@@ -33,6 +34,7 @@ from .adapters.richland_county import RichlandCountyAdapter
 ADAPTERS = {
     "civicplus": CivicPlusAdapter,
     "dorchester_county": DorchesterCountyAdapter,
+    "generic_mailto": GenericMailtoAdapter,
     "greenville_city": GreenvilleCityAdapter,
     "greenville_county": GreenvilleCountyAdapter,
     "horry_county": HorryCountyAdapter,
