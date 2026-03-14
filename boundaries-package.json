@@ -8,7 +8,7 @@
     "url": "https://github.com/TimSimpsonJr/open-civics"
   },
   "files": [
-    "data/**/boundaries/"
+    "data/*/boundaries/**"
   ],
   "exports": {
     "./*": "./data/*"
