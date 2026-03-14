@@ -12,6 +12,7 @@ Usage:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -272,6 +273,28 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
                 },
                 "members": members,
             }
+
+            # Compute hash of members content
+            members_json = json.dumps(members, sort_keys=True, ensure_ascii=False)
+            data_hash = hashlib.sha256(members_json.encode()).hexdigest()[:16]
+
+            # Check previous file for existing hash
+            data_last_changed = date.today().isoformat()
+            if os.path.exists(output_path):
+                try:
+                    with open(output_path, "r", encoding="utf-8") as prev:
+                        prev_data = json.load(prev)
+                    prev_hash = prev_data.get("meta", {}).get("dataHash", "")
+                    if prev_hash == data_hash:
+                        # Data unchanged — preserve the previous dataLastChanged
+                        data_last_changed = prev_data.get("meta", {}).get(
+                            "dataLastChanged", date.today().isoformat()
+                        )
+                except (json.JSONDecodeError, IOError):
+                    pass
+
+            data["meta"]["dataHash"] = data_hash
+            data["meta"]["dataLastChanged"] = data_last_changed
 
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
