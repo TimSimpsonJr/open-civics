@@ -8,11 +8,18 @@
     "url": "https://github.com/TimSimpsonJr/open-civics"
   },
   "files": [
-    "data/**/state.json",
-    "data/**/local/"
+    "data/*/state.json",
+    "data/*/local/**"
   ],
   "exports": {
     "./*": "./data/*"
   },
-  "keywords": ["legislators", "representatives", "congress", "contact", "civic", "government"]
+  "keywords": [
+    "legislators",
+    "representatives",
+    "congress",
+    "contact",
+    "civic",
+    "government"
+  ]
 }
