@@ -10,6 +10,7 @@ Shared repo for US legislator contact data. Python scrapers produce JSON data pu
 - `python -m scrapers --state SC --state-only` — state legislators only
 - `python -m scrapers --state SC --local-only` — local councils only
 - `python -m scrapers --state SC --boundaries-only` — boundaries only
+- `python -m scrapers --state SC --skip-boundaries` — state + local, skip boundaries
 - `python -m scrapers --dry-run` — preview without scraping
 - `python validate.py` — validate all data files
 

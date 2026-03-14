@@ -2,9 +2,9 @@ name: Scrape Rep Data
 
 on:
   schedule:
-    # Weekly Monday 10am ET (15:00 UTC)
+    # Weekly Monday 10am ET (15:00 UTC) — state + local councils
     - cron: '0 15 * * 1'
-    # Monthly 1st at 10am ET
+    # Monthly 1st at 10am ET — full scrape including boundaries
     - cron: '0 15 1 * *'
   workflow_dispatch:
     inputs:
@@ -30,6 +30,9 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,10 +44,12 @@ jobs:
         id: scope
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            if [ "${{ github.event.schedule }}" = "0 15 * * 1" ]; then
-              echo "args=--state-only" >> $GITHUB_OUTPUT
-            elif [ "${{ github.event.schedule }}" = "0 15 1 * *" ]; then
+            if [ "${{ github.event.schedule }}" = "0 15 1 * *" ]; then
+              # Monthly: full scrape (state + local + boundaries)
               echo "args=" >> $GITHUB_OUTPUT
+            else
+              # Weekly: state + local councils (skip slow boundary rebuild)
+              echo "args=--skip-boundaries" >> $GITHUB_OUTPUT
             fi
           else
             # Manual dispatch
@@ -88,15 +93,19 @@ jobs:
       - name: Run quality report
         id: quality
         run: |
-          QUALITY=$(python scripts/quality_report.py --summary-only)
-          echo "output=$QUALITY" >> $GITHUB_OUTPUT
+          python scripts/quality_report.py > quality-report.md
+          python scripts/quality_report.py --json > quality-report.json
+          SUMMARY=$(python scripts/quality_report.py --summary-only)
+          echo "output=$SUMMARY" >> $GITHUB_OUTPUT
 
       - name: Upload quality report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: quality-report
-          path: scripts/quality_report.py
+          path: |
+            quality-report.md
+            quality-report.json
           retention-days: 30
 
       - name: Create PR if data changed

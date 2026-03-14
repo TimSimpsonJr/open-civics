@@ -373,6 +373,11 @@ def main():
         help="Only build boundary files (skip state and local scraping)",
     )
     parser.add_argument(
+        "--skip-boundaries",
+        action="store_true",
+        help="Scrape state and local but skip boundary files",
+    )
+    parser.add_argument(
         "--jurisdiction",
         help="Scrape a single jurisdiction by ID (e.g., county:greenville)",
     )
@@ -435,6 +440,9 @@ def main():
             run_state = False
             run_local = False
             run_boundaries = True
+
+        if args.skip_boundaries:
+            run_boundaries = False
 
         if run_state:
             scrape_state(state_code, state_config, dry_run=args.dry_run)
