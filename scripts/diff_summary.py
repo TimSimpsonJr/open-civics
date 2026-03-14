@@ -1,10 +1,11 @@
 """
 Generate a human-readable summary of data changes for PR bodies.
 
-Reads git diff on data/ and summarizes member changes per jurisdiction.
+Compares HEAD against a base ref (default: origin/master) and summarizes
+member changes per jurisdiction.
 
 Usage:
-    python scripts/diff_summary.py [--report scrape-report.json]
+    python scripts/diff_summary.py [--base origin/master] [--report scrape-report.json]
 
 Prints markdown summary to stdout.
 """
@@ -18,14 +19,14 @@ import sys
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def get_changed_files():
-    """Get list of changed files in data/ from git."""
+def get_changed_files(base_ref):
+    """Get list of changed files in data/ compared to base ref."""
     result = subprocess.run(
-        ["git", "diff", "--name-only", "--cached", "data/"],
+        ["git", "diff", "--name-only", base_ref, "--", "data/"],
         capture_output=True, text=True, cwd=ROOT_DIR,
     )
     if result.returncode != 0:
-        # Fall back to unstaged diff
+        # Fall back to working tree diff
         result = subprocess.run(
             ["git", "diff", "--name-only", "data/"],
             capture_output=True, text=True, cwd=ROOT_DIR,
@@ -33,10 +34,10 @@ def get_changed_files():
     return [f for f in result.stdout.strip().split("\n") if f]
 
 
-def get_file_diff_stats(filepath):
-    """Get insertions/deletions for a specific file."""
+def get_file_diff_stats(filepath, base_ref):
+    """Get insertions/deletions for a specific file compared to base ref."""
     result = subprocess.run(
-        ["git", "diff", "--numstat", "--cached", filepath],
+        ["git", "diff", "--numstat", base_ref, "--", filepath],
         capture_output=True, text=True, cwd=ROOT_DIR,
     )
     if result.returncode != 0 or not result.stdout.strip():
@@ -51,13 +52,26 @@ def get_file_diff_stats(filepath):
     return 0, 0
 
 
+def count_local_files():
+    """Count total local jurisdiction files from data directory."""
+    total = 0
+    data_dir = os.path.join(ROOT_DIR, "data")
+    for state_code in os.listdir(data_dir):
+        local_dir = os.path.join(data_dir, state_code, "local")
+        if os.path.isdir(local_dir):
+            total += sum(1 for f in os.listdir(local_dir) if f.endswith(".json"))
+    return total
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Summarize data changes")
     parser.add_argument("--report", help="Path to scrape report JSON")
+    parser.add_argument("--base", default="origin/master",
+                        help="Base ref to diff against (default: origin/master)")
     args = parser.parse_args()
 
-    changed_files = get_changed_files()
+    changed_files = get_changed_files(args.base)
     if not changed_files:
         print("No data changes detected.")
         return
@@ -82,7 +96,7 @@ def main():
         lines.append(f"**Local councils:** {len(local_changes)} jurisdiction(s) changed")
         for f in local_changes[:10]:
             name = os.path.basename(f).replace(".json", "").replace("-", " ").title()
-            added, removed = get_file_diff_stats(f)
+            added, removed = get_file_diff_stats(f, args.base)
             lines.append(f"  - {name} (+{added}/-{removed} lines)")
         if len(local_changes) > 10:
             lines.append(f"  - ... and {len(local_changes) - 10} more")
@@ -90,7 +104,8 @@ def main():
         names = [os.path.basename(f).replace(".json", "") for f in boundary_changes]
         lines.append(f"**Boundaries:** {len(boundary_changes)} file(s) changed ({', '.join(names[:5])})")
 
-    unchanged = 96 - len(local_changes)  # TODO: derive from registry
+    total_local = count_local_files()
+    unchanged = total_local - len(local_changes)
     if unchanged > 0:
         lines.append(f"\n**Unchanged:** {unchanged} jurisdiction(s)")
 

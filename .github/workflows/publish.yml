@@ -20,8 +20,10 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Verify NPM_TOKEN is configured
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          if [ -z "${{ secrets.NPM_TOKEN }}" ]; then
+          if [ -z "$NPM_TOKEN" ]; then
             echo "::error::NPM_TOKEN secret is not configured. See CLAUDE.md for setup instructions."
             exit 1
           fi
