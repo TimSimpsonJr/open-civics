@@ -220,6 +220,7 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
     JSON files to data/{state}/local/{jid}.json.
     """
     jurisdictions = state_config.get("jurisdictions", [])
+    results = {}
 
     output_dir = os.path.join(PROJECT_ROOT, "data", state_code.lower(), "local")
     os.makedirs(output_dir, exist_ok=True)
@@ -277,9 +278,13 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
                 f.write("\n")
 
             print(f"  Wrote {output_path}")
+            results[jid] = {"status": "ok", "members": len(members), "warnings": []}
 
         except Exception as e:
             print(f"  ERROR scraping {jid}: {e}")
+            results[jid] = {"status": "error", "error": str(e)}
+
+    return results
 
 
 def scrape_boundaries(state_code, state_config, dry_run=False):
@@ -379,7 +384,7 @@ def main():
             scrape_state(state_code, state_config, dry_run=args.dry_run)
 
         if run_local:
-            scrape_local(
+            local_results = scrape_local(
                 state_code,
                 state_config,
                 jurisdiction_filter=args.jurisdiction,
