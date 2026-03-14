@@ -5,7 +5,9 @@
     "jurisdiction": "place:bamberg",
     "label": "Bamberg City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "bamberg_city"
+    "adapter": "bamberg_city",
+    "dataHash": "8d92382d5bc78be4",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

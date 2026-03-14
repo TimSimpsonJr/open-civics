@@ -5,9 +5,19 @@
     "jurisdiction": "place:north-charleston",
     "label": "North Charleston City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "008932ba877758f5",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Reginald L. \"Reggie\" Burgess",
+      "title": "Mayor",
+      "email": "",
+      "phone": "(843) 740-2504",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Brandon Hudson",
       "title": "Council Member",

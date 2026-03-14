@@ -5,7 +5,9 @@
     "jurisdiction": "place:gaffney",
     "label": "Gaffney City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "gaffney_city"
+    "adapter": "gaffney_city",
+    "dataHash": "72ef517bf03b49d0",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

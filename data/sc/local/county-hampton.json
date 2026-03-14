@@ -5,7 +5,9 @@
     "jurisdiction": "county:hampton",
     "label": "Hampton County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "0aab0c0c8962938b",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

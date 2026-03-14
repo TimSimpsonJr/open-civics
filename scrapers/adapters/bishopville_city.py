@@ -69,6 +69,21 @@ class BishopvilleCityAdapter(BaseAdapter):
 
         return members
 
+    def get_contact(self) -> dict | None:
+        import re
+        from .base import normalize_phone
+        if not hasattr(self, "_html"):
+            return None
+        soup = BeautifulSoup(self._html, "html.parser")
+        text = soup.get_text()
+        match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+        phone = normalize_phone(match.group(0)) if match else ""
+        return {
+            "phone": phone,
+            "email": "",
+            "note": "City Hall - no individual council member contact info published",
+        }
+
     @staticmethod
     def _extract_title(parent_text: str) -> str:
         """Extract the title from the parent container text."""

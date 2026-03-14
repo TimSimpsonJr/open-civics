@@ -105,3 +105,42 @@ class EdgefieldTownAdapter(BaseAdapter):
                 })
 
         return members
+
+    def get_contact(self) -> dict | None:
+        from .base import normalize_phone
+        if not hasattr(self, "_html"):
+            return None
+        soup = BeautifulSoup(self._html, "html.parser")
+        text = soup.get_text()
+        # Look for phone near "Town Hall" or "Town of Edgefield" context
+        phone = ""
+        # Try tel: links first
+        tel_link = soup.find("a", href=re.compile(r"^tel:"))
+        if tel_link:
+            raw = re.sub(r"^tel:\+?1?", "", tel_link["href"])
+            phone = normalize_phone(raw)
+        if not phone:
+            # Search near "Town Hall" text
+            town_hall_match = re.search(
+                r"Town\s+(?:Hall|of\s+Edgefield)[^0-9]*?"
+                r"(\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4})",
+                text,
+            )
+            if town_hall_match:
+                phone = normalize_phone(town_hall_match.group(1))
+            else:
+                # Fall back to first phone on page
+                match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+                phone = normalize_phone(match.group(0)) if match else ""
+        # Look for email address on the page
+        email = ""
+        email_match = re.search(r"townofedgefield@[\w.-]+\.\w+", text, re.IGNORECASE)
+        if not email_match:
+            email_match = re.search(r"[\w.+-]+@[\w.-]+\.\w+", text)
+        if email_match:
+            email = email_match.group(0)
+        return {
+            "phone": phone,
+            "email": email,
+            "note": "Town Hall - no individual council member contact info published",
+        }

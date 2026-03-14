@@ -93,6 +93,37 @@ class MascAdapter(BaseAdapter):
             return "Council Member"
         return raw or "Council Member"
 
+    def get_contact(self) -> dict | None:
+        """Fetch the primary site URL and scrape a phone number from it.
+
+        MASC pages don't have local phone numbers, so we try the
+        jurisdiction's own website (self.url from registry) instead.
+        Returns None if the primary site is unreachable.
+        """
+        from .base import normalize_phone
+        if not self.url:
+            return None
+        try:
+            resp = requests.get(
+                self.url,
+                headers={"User-Agent": USER_AGENT},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            text = soup.get_text()
+            match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+            phone = normalize_phone(match.group(0)) if match else ""
+            if not phone:
+                return None
+            return {
+                "phone": phone,
+                "email": "",
+                "note": "City/Town Hall - no individual council member contact info published",
+            }
+        except Exception:
+            return None
+
     @staticmethod
     def _sort_key(member: dict) -> tuple:
         title = member.get("title", "")

@@ -5,9 +5,27 @@
     "jurisdiction": "place:myrtle-beach",
     "label": "Myrtle Beach City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "revize"
+    "adapter": "revize",
+    "dataHash": "343375b8c857d1d4",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Mark Kruea",
+      "title": "Mayor",
+      "email": "mkruea@cityofmyrtlebeach.com",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Deborah “Debbie” K. Conner, Ph.D.",
+      "title": "Mayor Pro Tem",
+      "email": "dconner@cityofmyrtlebeach.com",
+      "phone": "",
+      "source": "revize",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Bill McClure",
       "title": "Council Member",
@@ -25,14 +43,6 @@
       "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Deborah “Debbie” K. Conner, Ph.D.",
-      "title": "Council Member",
-      "email": "dconner@cityofmyrtlebeach.com",
-      "phone": "",
-      "source": "revize",
-      "lastUpdated": "2026-03-14"
-    },
-    {
       "name": "Dr. Philip N. Render, DMD",
       "title": "Council Member",
       "email": "prender@cityofmyrtlebeach.com",
@@ -44,14 +54,6 @@
       "name": "Jackie Hatley",
       "title": "Council Member",
       "email": "jvereen@cityofmyrtlebeach.com",
-      "phone": "",
-      "source": "revize",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "Mark Kruea",
-      "title": "Council Member",
-      "email": "mkruea@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
       "lastUpdated": "2026-03-14"

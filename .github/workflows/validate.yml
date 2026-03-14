@@ -34,3 +34,33 @@ jobs:
             --squash \
             --auto \
             --delete-branch
+
+  notify-failure:
+    needs: validate
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create or update failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="[CI] Validation failed — $(date +%Y-%m-%d)"
+          BODY="Validation workflow failed on PR #${{ github.event.pull_request.number }}.
+
+          **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          **PR:** ${{ github.event.pull_request.html_url }}
+          **Date:** $(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          Check the workflow logs for validation errors."
+
+          EXISTING=$(gh issue list --label ci-failure --state open --search "Validation failed" --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh label create ci-failure --color d73a4a --description "Automated CI failure notification" --force
+            gh issue create --title "$TITLE" --body "$BODY" --label ci-failure
+          fi

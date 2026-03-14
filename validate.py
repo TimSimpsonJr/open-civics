@@ -118,6 +118,25 @@ def validate_state_json(data, state_code, filepath):
             if party and party not in ("R", "D", "I"):
                 warn(label, f"{prefix}: unexpected party '{party}'")
 
+    # Validate executive (optional)
+    executive = data.get("executive")
+    if executive is not None:
+        if not isinstance(executive, list):
+            error(label, "'executive' must be a list")
+        else:
+            for i, member in enumerate(executive):
+                prefix = f"executive[{i}]"
+                if not member.get("name"):
+                    error(label, f"{prefix}: missing 'name'")
+                if not member.get("title"):
+                    error(label, f"{prefix}: missing 'title'")
+                email = member.get("email", "")
+                if email and not EMAIL_RE.match(email):
+                    warn(label, f"{prefix}: invalid email format '{email}'")
+                phone = member.get("phone", "")
+                if phone and not PHONE_RE.match(phone):
+                    warn(label, f"{prefix}: unexpected phone format '{phone}'")
+
 
 def validate_local_file(data, filepath):
     """Validate a single local council JSON file with meta + members."""
@@ -139,6 +158,18 @@ def validate_local_file(data, filepath):
         jurisdiction = meta.get("jurisdiction", "")
         if jurisdiction and not re.match(r"^(county|place):.+$", jurisdiction):
             warn(label, f"Unexpected jurisdiction format: '{jurisdiction}'")
+
+        contact = meta.get("contact")
+        if contact is not None:
+            if not isinstance(contact, dict):
+                error(label, "meta.contact must be an object")
+            else:
+                phone = contact.get("phone", "")
+                if phone and not PHONE_RE.match(phone):
+                    warn(label, f"meta.contact.phone: unexpected format '{phone}'")
+                email = contact.get("email", "")
+                if email and not EMAIL_RE.match(email):
+                    warn(label, f"meta.contact.email: invalid format '{email}'")
 
     # Validate members
     members = data.get("members")

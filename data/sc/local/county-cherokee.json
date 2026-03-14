@@ -5,7 +5,9 @@
     "jurisdiction": "county:cherokee",
     "label": "Cherokee County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "cherokee_county"
+    "adapter": "cherokee_county",
+    "dataHash": "24a56d01590b2331",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

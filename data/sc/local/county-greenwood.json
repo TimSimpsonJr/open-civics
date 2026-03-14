@@ -5,7 +5,9 @@
     "jurisdiction": "county:greenwood",
     "label": "Greenwood County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "greenwood_county"
+    "adapter": "greenwood_county",
+    "dataHash": "88d7527ee75b616c",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

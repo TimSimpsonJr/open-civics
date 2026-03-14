@@ -5,7 +5,9 @@
     "jurisdiction": "county:calhoun",
     "label": "Calhoun County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "table"
+    "adapter": "table",
+    "dataHash": "b46eb5641e98bba3",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

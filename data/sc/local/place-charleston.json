@@ -5,9 +5,19 @@
     "jurisdiction": "place:charleston",
     "label": "Charleston City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "charleston_city"
+    "adapter": "charleston_city",
+    "dataHash": "4a99bd907b790235",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "William Cogswell",
+      "title": "Mayor",
+      "email": "Cogswellw@charleston-sc.gov",
+      "phone": "(843) 724-3737",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Boyd Gregg",
       "title": "Council Member, District 1",

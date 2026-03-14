@@ -161,13 +161,17 @@ class RevizeAdapter(BaseAdapter):
                         break
 
             # Strip trailing title suffixes like ", Councilmember"
-            name = self._strip_title_suffix(name)
+            name, suffix_title = self._strip_title_suffix(name)
 
             # Extract title from the name text or nearby context
             title = self._extract_title_from_name(name)
             if title:
                 # Remove title prefix from name
                 name = self._strip_title_from_name(name, title)
+
+            # Use suffix-extracted title if no prefix title was found
+            if not title and suffix_title:
+                title = suffix_title
 
             if not title:
                 # Check nearby text for title keywords
@@ -233,21 +237,24 @@ class RevizeAdapter(BaseAdapter):
         return True
 
     @staticmethod
-    def _strip_title_suffix(name: str) -> str:
-        """Remove trailing title like ', Councilmember' or ', Mayor Pro Tem'."""
-        suffixes = [
-            r",\s*Mayor\s+Pro\s+Tem\b",
-            r",\s*Mayor\b",
-            r",\s*Council\s*(?:man|woman|member|person)\b",
-            r",\s*Vice\s+Chair(?:man|person|woman)?\b",
-            r",\s*Chair(?:man|person|woman)?\b",
+    def _strip_title_suffix(name: str) -> tuple[str, str]:
+        """Remove trailing title like ', Councilmember' or ', Mayor Pro Tem'.
+
+        Returns (cleaned_name, extracted_title). The title is "" if none found.
+        """
+        suffix_to_title = [
+            (r",\s*Mayor\s+Pro\s+Tem\b", "Mayor Pro Tem"),
+            (r",\s*Mayor\b", "Mayor"),
+            (r",\s*Council\s*(?:man|woman|member|person)\b", ""),
+            (r",\s*Vice\s+Chair(?:man|person|woman)?\b", ""),
+            (r",\s*Chair(?:man|person|woman)?\b", ""),
         ]
-        for pat in suffixes:
+        for pat, title in suffix_to_title:
             match = re.search(pat, name, re.I)
             if match:
-                return name[:match.start()].strip()
+                return name[:match.start()].strip(), title
         # Also strip trailing comma
-        return name.rstrip(", ").strip()
+        return name.rstrip(", ").strip(), ""
 
     @staticmethod
     def _extract_title_from_name(text: str) -> str:
@@ -288,6 +295,29 @@ class RevizeAdapter(BaseAdapter):
                 district_match = re.search(r"District\s+(\d+)", mval, re.I)
                 if district_match:
                     return f"Council Member, District {district_match.group(1)}"
+
+        # Also scan elements between name and email for standalone title text
+        # (e.g., <strong>Mayor</strong> on its own line)
+        if name_idx >= 0 and name_idx < len(markers):
+            name_el = markers[name_idx][2]
+            email_el = markers[email_idx][2]
+            # Walk siblings between name and email elements
+            from bs4 import Tag
+            current = name_el
+            for _ in range(20):  # limit traversal
+                current = current.next_element
+                if current is None or current is email_el:
+                    break
+                if isinstance(current, Tag) and current.name in (
+                    "strong", "b", "h2", "h3", "h4", "h5", "em", "span", "div",
+                ):
+                    text = current.get_text(strip=True)
+                    text_lower = text.lower().strip()
+                    if text_lower == "mayor pro tem":
+                        return "Mayor Pro Tem"
+                    if text_lower == "mayor":
+                        return "Mayor"
+
         return ""
 
     @staticmethod

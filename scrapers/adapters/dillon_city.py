@@ -98,6 +98,36 @@ class DillonCityAdapter(BaseAdapter):
 
         return "Council Member"
 
+    def get_contact(self) -> dict | None:
+        from .base import normalize_phone
+        # The API response has no phone; fetch the actual city page instead
+        try:
+            from bs4 import BeautifulSoup
+            resp = requests.get(
+                self.url or "https://cityofdillonsc.gov/citycouncil",
+                headers={"User-Agent": USER_AGENT},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            # Prefer tel: links for reliable phone extraction
+            phone = ""
+            tel_link = soup.find("a", href=re.compile(r"^tel:"))
+            if tel_link:
+                raw = re.sub(r"^tel:\+?1?", "", tel_link["href"])
+                phone = normalize_phone(raw)
+            else:
+                text = soup.get_text()
+                match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+                phone = normalize_phone(match.group(0)) if match else ""
+            return {
+                "phone": phone,
+                "email": "",
+                "note": "City Hall - no individual council member contact info published",
+            }
+        except Exception:
+            return None
+
     @staticmethod
     def _sort_key(member: dict) -> tuple:
         title = member["title"]

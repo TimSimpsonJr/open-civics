@@ -12,6 +12,7 @@ Usage:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -21,6 +22,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(SCRIPT_DIR, "..")
 REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 
+from .adapters.aiken_city import AikenCityAdapter
 from .adapters.abbeville import AbbevilleAdapter
 from .adapters.abbeville_county import AbbevilleCountyAdapter
 from .adapters.allendale_county import AllendaleCountyAdapter
@@ -62,6 +64,7 @@ from .adapters.greenwood_county import GreenwoodCountyAdapter
 from .adapters.hampton_town import HamptonTownAdapter
 from .adapters.hilton_head import HiltonHeadAdapter
 from .adapters.horry_county import HorryCountyAdapter
+from .adapters.kershaw_county import KershawCountyAdapter
 from .adapters.kingstree import KingstreeAdapter
 from .adapters.laurens_county import LaurensCountyAdapter
 from .adapters.lee_county import LeeCountyAdapter
@@ -77,6 +80,7 @@ from .adapters.oconee_county import OconeeCountyAdapter
 from .adapters.orangeburg_city import OrangeburgCityAdapter
 from .adapters.revize import RevizeAdapter
 from .adapters.richland_county import RichlandCountyAdapter
+from .adapters.rock_hill import RockHillAdapter
 from .adapters.saluda_county import SaludaCountyAdapter
 from .adapters.scac import ScacAdapter
 from .adapters.st_george import StGeorgeAdapter
@@ -91,6 +95,7 @@ from .adapters.york_county import YorkCountyAdapter
 
 ADAPTERS = {
     "abbeville_city": AbbevilleAdapter,
+    "aiken_city": AikenCityAdapter,
     "abbeville_county": AbbevilleCountyAdapter,
     "allendale_county": AllendaleCountyAdapter,
     "allendale_town": AllendaleTownAdapter,
@@ -131,6 +136,7 @@ ADAPTERS = {
     "hampton_town": HamptonTownAdapter,
     "hilton_head": HiltonHeadAdapter,
     "horry_county": HorryCountyAdapter,
+    "kershaw_county": KershawCountyAdapter,
     "kingstree": KingstreeAdapter,
     "laurens_county": LaurensCountyAdapter,
     "lee_county": LeeCountyAdapter,
@@ -146,6 +152,7 @@ ADAPTERS = {
     "orangeburg_city": OrangeburgCityAdapter,
     "revize": RevizeAdapter,
     "richland_county": RichlandCountyAdapter,
+    "rock_hill": RockHillAdapter,
     "saluda_county": SaludaCountyAdapter,
     "scac": ScacAdapter,
     "st_george": StGeorgeAdapter,
@@ -190,7 +197,7 @@ def scrape_state(state_code, state_config, dry_run=False):
     Downloads the OpenStates CSV and writes a state.json file with
     senate and house members keyed by district number.
     """
-    from .state import update_state_legislators
+    from .state import update_state_legislators, scrape_executive
 
     source_url = state_config.get("openStatesUrl")
     if not source_url:
@@ -212,6 +219,17 @@ def scrape_state(state_code, state_config, dry_run=False):
 
     update_state_legislators(source_url, output_path, state_code=state_code)
 
+    # Add executive officials
+    executives = scrape_executive(state_code)
+    if executives:
+        with open(output_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        data["executive"] = executives
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"  Added {len(executives)} executive officials")
+
 
 def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=False):
     """Scrape local council members using jurisdiction adapters.
@@ -220,6 +238,7 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
     JSON files to data/{state}/local/{jid}.json.
     """
     jurisdictions = state_config.get("jurisdictions", [])
+    results = {}
 
     output_dir = os.path.join(PROJECT_ROOT, "data", state_code.lower(), "local")
     os.makedirs(output_dir, exist_ok=True)
@@ -272,14 +291,49 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
                 "members": members,
             }
 
+            # Compute hash of members content
+            members_json = json.dumps(members, sort_keys=True, ensure_ascii=False)
+            data_hash = hashlib.sha256(members_json.encode()).hexdigest()[:16]
+
+            # Check previous file for existing hash
+            data_last_changed = date.today().isoformat()
+            if os.path.exists(output_path):
+                try:
+                    with open(output_path, "r", encoding="utf-8") as prev:
+                        prev_data = json.load(prev)
+                    prev_hash = prev_data.get("meta", {}).get("dataHash", "")
+                    if prev_hash == data_hash:
+                        # Data unchanged — preserve the previous dataLastChanged
+                        data_last_changed = prev_data.get("meta", {}).get(
+                            "dataLastChanged", date.today().isoformat()
+                        )
+                except (json.JSONDecodeError, IOError):
+                    pass
+
+            data["meta"]["dataHash"] = data_hash
+            data["meta"]["dataLastChanged"] = data_last_changed
+
+            # Add general contact info if adapter provides it
+            contact = adapter.get_contact()
+            if contact:
+                data["meta"]["contact"] = contact
+
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
                 f.write("\n")
 
             print(f"  Wrote {output_path}")
+            results[jid] = {
+                "status": "warned" if adapter.warnings else "ok",
+                "members": len(members),
+                "warnings": adapter.warnings,
+            }
 
         except Exception as e:
             print(f"  ERROR scraping {jid}: {e}")
+            results[jid] = {"status": "error", "error": str(e), "members": 0, "warnings": []}
+
+    return results
 
 
 def scrape_boundaries(state_code, state_config, dry_run=False):
@@ -319,6 +373,11 @@ def main():
         help="Only build boundary files (skip state and local scraping)",
     )
     parser.add_argument(
+        "--skip-boundaries",
+        action="store_true",
+        help="Scrape state and local but skip boundary files",
+    )
+    parser.add_argument(
         "--jurisdiction",
         help="Scrape a single jurisdiction by ID (e.g., county:greenville)",
     )
@@ -326,6 +385,11 @@ def main():
         "--dry-run",
         action="store_true",
         help="Print what would be done without actually scraping or writing files",
+    )
+    parser.add_argument(
+        "--report",
+        metavar="PATH",
+        help="Write a JSON report of scrape results to the given path",
     )
 
     args = parser.parse_args()
@@ -352,6 +416,8 @@ def main():
     if args.jurisdiction:
         args.local_only = True
 
+    all_results = {}
+
     for state_code, state_config in target_states.items():
         print(f"\n{'#' * 60}")
         print(f"# {state_code}")
@@ -375,19 +441,45 @@ def main():
             run_local = False
             run_boundaries = True
 
+        if args.skip_boundaries:
+            run_boundaries = False
+
         if run_state:
             scrape_state(state_code, state_config, dry_run=args.dry_run)
 
         if run_local:
-            scrape_local(
+            local_results = scrape_local(
                 state_code,
                 state_config,
                 jurisdiction_filter=args.jurisdiction,
                 dry_run=args.dry_run,
             )
+            for jid, result in local_results.items():
+                all_results[f"{state_code.lower()}:{jid}"] = result
 
         if run_boundaries:
             scrape_boundaries(state_code, state_config, dry_run=args.dry_run)
+
+    # Build summary from collected results
+    total = len(all_results)
+    ok = sum(1 for r in all_results.values() if r["status"] == "ok")
+    warned = sum(1 for r in all_results.values() if r["status"] == "warned")
+    failed = sum(1 for r in all_results.values() if r["status"] == "error")
+    summary = {"total": total, "ok": ok, "warned": warned, "failed": failed}
+
+    if all_results:
+        print(f"\nSummary: {total} adapters — {ok} ok, {warned} warned, {failed} failed")
+
+    if args.report:
+        report = {
+            "run_date": date.today().isoformat(),
+            "adapters": all_results,
+            "summary": summary,
+        }
+        with open(args.report, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"Report written to {args.report}")
 
     print(f"\n{'=' * 60}")
     print("Done!")

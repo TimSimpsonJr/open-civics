@@ -5,7 +5,9 @@
     "jurisdiction": "county:lexington",
     "label": "Lexington County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "lexington_county"
+    "adapter": "lexington_county",
+    "dataHash": "435a5c5b5b657df4",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

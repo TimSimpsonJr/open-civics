@@ -5,22 +5,24 @@
     "jurisdiction": "place:lexington",
     "label": "Lexington Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "df709d05e6d514b7",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
-    {
-      "name": "Gavin Smith",
-      "title": "Council Member",
-      "email": "gsmith@lexsc.gov",
-      "phone": "(803) 828-8170",
-      "source": "civicplus",
-      "lastUpdated": "2026-03-14"
-    },
     {
       "name": "Hazel Livingston",
       "title": "Mayor",
       "email": "hlivingston@lexsc.gov",
       "phone": "(803) 463-6575",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Gavin Smith",
+      "title": "Council Member",
+      "email": "gsmith@lexsc.gov",
+      "phone": "(803) 828-8170",
       "source": "civicplus",
       "lastUpdated": "2026-03-14"
     },

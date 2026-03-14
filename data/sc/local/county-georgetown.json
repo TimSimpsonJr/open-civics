@@ -5,7 +5,9 @@
     "jurisdiction": "county:georgetown",
     "label": "Georgetown County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "618a55214247970c",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

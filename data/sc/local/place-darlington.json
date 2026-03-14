@@ -5,7 +5,9 @@
     "jurisdiction": "place:darlington",
     "label": "Darlington City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "darlington_city"
+    "adapter": "darlington_city",
+    "dataHash": "b960968eb0e5d36a",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

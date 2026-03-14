@@ -5,7 +5,9 @@
     "jurisdiction": "place:florence",
     "label": "Florence City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "florence_city"
+    "adapter": "florence_city",
+    "dataHash": "a0d2ec355319232e",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

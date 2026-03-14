@@ -5,7 +5,9 @@
     "jurisdiction": "county:laurens",
     "label": "Laurens County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "laurens_county"
+    "adapter": "laurens_county",
+    "dataHash": "ec15c382ea7dee74",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

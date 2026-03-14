@@ -46,6 +46,8 @@ class BaseAdapter(abc.ABC):
         self.id = entry["id"]
         self.url = entry.get("url", "")
         self.config = entry.get("adapterConfig", {})
+        self.warnings = []
+        self._html: str | None = None  # Set by scrape() for get_contact() use
 
     @abc.abstractmethod
     def fetch(self) -> str:
@@ -81,20 +83,38 @@ class BaseAdapter(abc.ABC):
 
         for i, record in enumerate(records):
             if not record.get("name"):
-                print(f"  WARNING: {self.id} record[{i}] has no name")
+                msg = f"{self.id} record[{i}] has no name"
+                print(f"  WARNING: {msg}")
+                self.warnings.append(msg)
             if not record.get("title"):
-                print(f"  WARNING: {self.id} record[{i}] ({record.get('name', '?')}) has no title")
+                msg = f"{self.id} record[{i}] ({record.get('name', '?')}) has no title"
+                print(f"  WARNING: {msg}")
+                self.warnings.append(msg)
             if not record.get("email") and not record.get("phone"):
-                print(f"  WARNING: {self.id} record[{i}] ({record.get('name', '?')}) has no email or phone")
+                msg = f"{self.id} record[{i}] ({record.get('name', '?')}) has no email or phone"
+                print(f"  WARNING: {msg}")
+                self.warnings.append(msg)
 
         return records
 
     def scrape(self) -> list[dict]:
         """Full pipeline: fetch -> parse -> normalize -> validate."""
         html = self.fetch()
+        self._html = html  # Cache for get_contact()
         raw = self.parse(html)
         normalized = self.normalize(raw)
         return self.validate(normalized)
+
+    def get_contact(self) -> dict | None:
+        """Return general contact info for the jurisdiction, if available.
+
+        Override in subclasses for jurisdictions where individual member
+        contact info is not published. Implementations can use self._html
+        (set by scrape()) to extract city hall phone numbers, etc.
+
+        Must be called after scrape(). Returns None if not applicable.
+        """
+        return None
 
     def adapter_name(self) -> str:
         """Return the adapter name for the source field."""

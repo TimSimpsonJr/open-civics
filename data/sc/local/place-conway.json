@@ -5,7 +5,9 @@
     "jurisdiction": "place:conway",
     "label": "Conway City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "conway_city"
+    "adapter": "conway_city",
+    "dataHash": "eee38cbb868d8b37",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

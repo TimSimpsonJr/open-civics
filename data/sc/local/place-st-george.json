@@ -5,7 +5,14 @@
     "jurisdiction": "place:st-george",
     "label": "St. George Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "st_george"
+    "adapter": "st_george",
+    "dataHash": "63363ca3c74b7b8e",
+    "dataLastChanged": "2026-03-14",
+    "contact": {
+      "phone": "(843) 563-3032",
+      "email": "",
+      "note": "Town Hall - no individual council member contact info published"
+    }
   },
   "members": [
     {

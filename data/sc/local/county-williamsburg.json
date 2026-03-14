@@ -5,7 +5,9 @@
     "jurisdiction": "county:williamsburg",
     "label": "Williamsburg County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "641415d5bec3cf3d",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -99,6 +99,22 @@ class ChesterfieldCountyAdapter(BaseAdapter):
         # Check for "Bishop, Dr. Johnnie McLendon" - name with prefix
         return name_line.strip(), f"Council Member, District {district}"
 
+    def get_contact(self) -> dict | None:
+        from .base import normalize_phone
+        if not hasattr(self, "_html"):
+            return None
+        soup = BeautifulSoup(self._html, "html.parser")
+        text = soup.get_text()
+        match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+        phone = normalize_phone(match.group(0)) if match else ""
+        if not phone:
+            return None
+        return {
+            "phone": phone,
+            "email": "",
+            "note": "County offices - no individual council member contact info published",
+        }
+
     @staticmethod
     def _district_sort_key(title: str) -> int:
         match = re.search(r"District\s+(\d+)", title)

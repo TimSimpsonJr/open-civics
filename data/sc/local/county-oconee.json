@@ -5,7 +5,9 @@
     "jurisdiction": "county:oconee",
     "label": "Oconee County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "oconee_county"
+    "adapter": "oconee_county",
+    "dataHash": "21a0ef8e31860085",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

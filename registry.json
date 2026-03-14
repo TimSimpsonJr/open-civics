@@ -216,6 +216,9 @@
           "url": "https://www.northcharleston.org/government/city_council/city_council_members_and_districts.php",
           "districts": 10,
           "atLarge": false,
+          "adapterConfig": {
+            "mayorUrl": "https://www.northcharleston.org/government/office_of_the_mayor/index.php"
+          },
           "notes": "10 single-member districts + mayor elected at-large"
         },
         {
@@ -349,7 +352,7 @@
           "name": "Rock Hill City Council",
           "type": "place",
           "county": "York",
-          "adapter": "masc",
+          "adapter": "rock_hill",
           "url": "https://www.cityofrockhill.com/government/city-council",
           "districts": 6,
           "atLarge": false,
@@ -460,11 +463,11 @@
           "name": "Aiken City Council",
           "type": "place",
           "county": "Aiken",
-          "adapter": "masc",
+          "adapter": "aiken_city",
           "url": "https://www.cityofaikensc.gov/government/city-council/",
-          "districts": 4,
-          "atLarge": true,
-          "notes": "District count unverified."
+          "districts": 6,
+          "atLarge": false,
+          "notes": "6-1 plan: Mayor at-large + 6 single-member districts. Cloudflare-protected site."
         },
         {
           "id": "county:allendale",
@@ -1129,6 +1132,9 @@
           "url": "https://www.ridgelandsc.gov/town-council",
           "districts": 4,
           "atLarge": true,
+          "adapterConfig": {
+            "mayorUrl": "https://www.ridgelandsc.gov/mayor"
+          },
           "notes": "District count unverified."
         },
         {
@@ -1136,7 +1142,7 @@
           "name": "Kershaw County Council",
           "type": "county",
           "county": "Kershaw",
-          "adapter": "scac",
+          "adapter": "kershaw_county",
           "url": "https://www.kershaw.sc.gov/county-council/council-members",
           "districts": 6,
           "atLarge": false,
@@ -1571,7 +1577,8 @@
           "adapterConfig": {
             "baseUrl": "https://www.tompsc.com",
             "councilPageId": "91",
-            "directoryDeptId": "23"
+            "directoryDeptId": "23",
+            "mayorUrl": "https://www.tompsc.com/89/Mayor-Will-Haynie"
           },
           "notes": "8 council members + mayor, all elected at-large. CivicPlus website. Pop. ~91k."
         }

@@ -2,9 +2,9 @@ name: Scrape Rep Data
 
 on:
   schedule:
-    # Weekly Monday 10am ET (15:00 UTC)
+    # Weekly Monday 10am ET (15:00 UTC) — state + local councils
     - cron: '0 15 * * 1'
-    # Monthly 1st at 10am ET
+    # Monthly 1st at 10am ET — full scrape including boundaries
     - cron: '0 15 1 * *'
   workflow_dispatch:
     inputs:
@@ -23,9 +23,16 @@ on:
           - local-only
           - boundaries-only
 
+concurrency:
+  group: scrape
+  cancel-in-progress: true
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,10 +44,12 @@ jobs:
         id: scope
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            if [ "${{ github.event.schedule }}" = "0 15 * * 1" ]; then
-              echo "args=--state-only" >> $GITHUB_OUTPUT
-            elif [ "${{ github.event.schedule }}" = "0 15 1 * *" ]; then
+            if [ "${{ github.event.schedule }}" = "0 15 1 * *" ]; then
+              # Monthly: full scrape (state + local + boundaries)
               echo "args=" >> $GITHUB_OUTPUT
+            else
+              # Weekly: state + local councils (skip slow boundary rebuild)
+              echo "args=--skip-boundaries" >> $GITHUB_OUTPUT
             fi
           else
             # Manual dispatch
@@ -60,10 +69,44 @@ jobs:
           fi
 
       - name: Run scrapers
-        run: python -m scrapers ${{ steps.scope.outputs.args }}
+        run: python -m scrapers ${{ steps.scope.outputs.args }} --report scrape-report.json
+
+      - name: Upload scrape report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-report
+          path: scrape-report.json
+          retention-days: 30
 
       - name: Validate data
         run: python validate.py
+
+      - name: Check for stale data
+        id: stale
+        run: |
+          STALE=$(python scripts/stale_check.py --threshold 90)
+          echo "output<<EOF" >> $GITHUB_OUTPUT
+          echo "$STALE" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Run quality report
+        id: quality
+        run: |
+          python scripts/quality_report.py > quality-report.md
+          python scripts/quality_report.py --json > quality-report.json
+          SUMMARY=$(python scripts/quality_report.py --summary-only)
+          echo "output=$SUMMARY" >> $GITHUB_OUTPUT
+
+      - name: Upload quality report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quality-report
+          path: |
+            quality-report.md
+            quality-report.json
+          retention-days: 30
 
       - name: Create PR if data changed
         env:
@@ -74,14 +117,71 @@ jobs:
             exit 0
           fi
 
+          # Build PR body before committing (diff against current HEAD)
+          git add data/
+          BODY=$(python scripts/diff_summary.py --base HEAD --report scrape-report.json)
+
           BRANCH="data-update/$(date +%Y-%m-%d-%H%M)"
           git checkout -b "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
           git commit -m "chore: update rep data $(date +%Y-%m-%d)"
           git push -u origin "$BRANCH"
+          STALE="${{ steps.stale.outputs.output }}"
+          if [ -n "$STALE" ] && echo "$STALE" | grep -q "stale"; then
+            BODY="$BODY
+
+          ### Stale Data Warnings
+
+          $STALE"
+          fi
+
+          QUALITY="${{ steps.quality.outputs.output }}"
+          if [ -n "$QUALITY" ]; then
+            BODY="$BODY
+
+          ### Data Quality
+
+          $QUALITY"
+          fi
+
+          BODY="$BODY
+
+          ---
+          Validation passed. Auto-merge enabled for data-update branches."
+
           gh pr create \
             --title "chore: update rep data $(date +%Y-%m-%d)" \
-            --body "Automated data update from scraper run. Validation passed." \
-            --base main
+            --body "$BODY" \
+            --base master
+
+  notify-failure:
+    needs: scrape
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create or update failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="[CI] Scrape failed — $(date +%Y-%m-%d)"
+          BODY="Scrape workflow failed.
+
+          **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          **Trigger:** ${{ github.event_name }}
+          **Date:** $(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          Check the workflow logs and scrape report artifact for details."
+
+          # Check for existing open issue
+          EXISTING=$(gh issue list --label ci-failure --state open --search "Scrape failed" --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh label create ci-failure --color d73a4a --description "Automated CI failure notification" --force
+            gh issue create --title "$TITLE" --body "$BODY" --label ci-failure
+          fi

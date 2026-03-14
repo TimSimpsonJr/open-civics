@@ -19,6 +19,15 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Verify NPM_TOKEN is configured
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NPM_TOKEN" ]; then
+            echo "::error::NPM_TOKEN secret is not configured. See CLAUDE.md for setup instructions."
+            exit 1
+          fi
+
       - name: Check if data changed since last tag
         id: check
         run: |
@@ -39,6 +48,21 @@ jobs:
           # Sync boundaries version
           node -e "const p=require('./boundaries-package.json'); p.version='$VERSION'; require('fs').writeFileSync('boundaries-package.json', JSON.stringify(p, null, 2)+'\n')"
 
+      - name: Validate package contents (dry run)
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          echo "=== call-your-rep package contents ==="
+          npm publish --dry-run --access public 2>&1
+          echo ""
+          echo "=== call-your-rep-boundaries package contents ==="
+          TMPDIR=$(mktemp -d)
+          cp boundaries-package.json "$TMPDIR/package.json"
+          cp -r data "$TMPDIR/data"
+          cd "$TMPDIR"
+          npm publish --dry-run --access public 2>&1
+          cd -
+          rm -rf "$TMPDIR"
+
       - name: Publish call-your-rep
         if: steps.check.outputs.changed == 'true'
         env:
@@ -50,12 +74,13 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          # Temporarily swap package.json for boundaries publish
-          cp package.json package.json.bak
-          cp boundaries-package.json package.json
+          TMPDIR=$(mktemp -d)
+          cp boundaries-package.json "$TMPDIR/package.json"
+          cp -r data "$TMPDIR/data"
+          cd "$TMPDIR"
           npm publish --access public
-          # Restore
-          mv package.json.bak package.json
+          cd -
+          rm -rf "$TMPDIR"
 
       - name: Commit version bump and tag
         if: steps.check.outputs.changed == 'true'
@@ -67,3 +92,33 @@ jobs:
           git commit -m "chore: bump version to v$VERSION"
           git tag "v$VERSION"
           git push && git push --tags
+
+  notify-failure:
+    needs: publish
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create or update failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="[CI] Publish failed — $(date +%Y-%m-%d)"
+          BODY="npm publish workflow failed.
+
+          **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          **Trigger:** ${{ github.event_name }}
+          **Date:** $(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          Check the workflow logs to see which publish step failed (version bump, npm publish, or tagging)."
+
+          EXISTING=$(gh issue list --label ci-failure --state open --search "Publish failed" --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh label create ci-failure --color d73a4a --description "Automated CI failure notification" --force
+            gh issue create --title "$TITLE" --body "$BODY" --label ci-failure
+          fi

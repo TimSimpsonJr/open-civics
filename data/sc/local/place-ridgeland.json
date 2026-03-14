@@ -5,9 +5,19 @@
     "jurisdiction": "place:ridgeland",
     "label": "Ridgeland Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "3adfd5f0494a9e9f",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Town of Ridgeland",
+      "title": "Mayor",
+      "email": "jnmalphrus@ridgelandsc.gov",
+      "phone": "(843) 726-7500",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Bill Fishburne",
       "title": "Council Member",

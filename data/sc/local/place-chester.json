@@ -5,7 +5,9 @@
     "jurisdiction": "place:chester",
     "label": "Chester City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "chester_city"
+    "adapter": "chester_city",
+    "dataHash": "9ecec6f8b9107a6d",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

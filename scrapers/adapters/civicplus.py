@@ -145,9 +145,78 @@ class CivicPlusAdapter(BaseAdapter):
                 "phone": phone,
             })
 
+        # If a mayorUrl is configured and no Mayor was found, fetch it
+        mayor_url = self.config.get("mayorUrl")
+        if mayor_url and not any(
+            "Mayor" in m.get("title", "") for m in members
+        ):
+            mayor = self._fetch_mayor_page(mayor_url)
+            if mayor:
+                members.append(mayor)
+
         # Sort: chairman/chair first, then districts in order
         members.sort(key=self._sort_key)
         return members
+
+    # --- Mayor fetch ---
+
+    @staticmethod
+    def _fetch_mayor_page(url: str) -> dict | None:
+        """Fetch a separate mayor page and extract name, email, phone.
+
+        Works with CivicPlus pages that have the mayor's info in
+        fr-view content areas with mailto/tel links.
+        """
+        try:
+            resp = requests.get(
+                url, headers={"User-Agent": USER_AGENT}, timeout=30
+            )
+            resp.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Find the mayor's name from headings
+        name = ""
+        for tag in soup.find_all(["h1", "h2", "h3", "h4"]):
+            text = tag.get_text(strip=True)
+            if not text or len(text) < 3:
+                continue
+            match = re.match(r"^Mayor\s+(.+)", text, re.I)
+            if match:
+                name = match.group(1).strip()
+                break
+
+        if not name:
+            # Try bold text or the page title
+            for tag in soup.find_all(["strong", "b"]):
+                text = tag.get_text(strip=True)
+                if text and " " in text and len(text) < 60:
+                    name = text
+                    break
+
+        email = ""
+        for a in soup.find_all("a", href=re.compile(r"mailto:", re.I)):
+            addr = a["href"].replace("mailto:", "").strip()
+            if addr and "@" in addr:
+                email = addr
+                break
+
+        phone = ""
+        for a in soup.find_all("a", href=re.compile(r"^tel:", re.I)):
+            phone = a.get_text(strip=True)
+            break
+
+        if not name:
+            return None
+
+        return {
+            "name": name,
+            "title": "Mayor",
+            "email": email,
+            "phone": phone,
+        }
 
     # --- Helpers ---
 
@@ -278,13 +347,15 @@ class CivicPlusAdapter(BaseAdapter):
 
     @staticmethod
     def _sort_key(member: dict) -> tuple:
-        """Sort key: Chairman first, then districts in order, then others."""
+        """Sort key: Mayor first, Chairman, then districts, then others."""
         title = member["title"]
 
-        if title == "Chairman":
+        if title == "Mayor":
             return (0, 0, "")
-        if title == "Vice Chairman":
+        if title == "Chairman":
             return (0, 1, "")
+        if title == "Vice Chairman":
+            return (0, 2, "")
 
         district_match = re.search(r"District\s+(\d+)", title)
         if district_match:

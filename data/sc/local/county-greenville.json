@@ -5,7 +5,9 @@
     "jurisdiction": "county:greenville",
     "label": "Greenville County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "greenville_county"
+    "adapter": "greenville_county",
+    "dataHash": "9d0143869f87b2b3",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

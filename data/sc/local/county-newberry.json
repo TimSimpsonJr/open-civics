@@ -5,7 +5,9 @@
     "jurisdiction": "county:newberry",
     "label": "Newberry County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "newberry_county"
+    "adapter": "newberry_county",
+    "dataHash": "dc6949656ca39bd7",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

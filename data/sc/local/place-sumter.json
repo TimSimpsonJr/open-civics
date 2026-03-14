@@ -5,7 +5,9 @@
     "jurisdiction": "place:sumter",
     "label": "Sumter City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "sumter_city"
+    "adapter": "sumter_city",
+    "dataHash": "80844f30ac882f88",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

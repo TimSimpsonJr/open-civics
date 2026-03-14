@@ -125,6 +125,110 @@ def _backfill_phones(data: dict):
     print(f"  Backfilled {filled}/{len(members)} phone numbers")
 
 
+def scrape_executive(state_code: str) -> list[dict]:
+    """Scrape executive officials (Governor, Lt. Governor) for a state."""
+    if state_code != "SC":
+        print(f"  Executive scraping not implemented for {state_code}")
+        return []
+
+    executives = []
+    gov = _scrape_sc_governor()
+    if gov:
+        executives.append(gov)
+    lt_gov = _scrape_sc_lt_governor()
+    if lt_gov:
+        executives.append(lt_gov)
+    return executives
+
+
+def _scrape_sc_governor() -> dict | None:
+    """Scrape SC Governor info from governor.sc.gov."""
+    try:
+        resp = requests.get("https://governor.sc.gov/", headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        name = ""
+        title_tag = soup.find("title")
+        if title_tag:
+            text = title_tag.get_text(strip=True)
+            match = re.match(r"Governor\s+(.+?)(?:\s*[|\-])", text)
+            if match:
+                name = match.group(1).strip()
+        if not name:
+            for h in soup.find_all(["h1", "h2"]):
+                text = h.get_text(strip=True)
+                if "governor" in text.lower():
+                    match = re.search(r"Governor\s+(.+)", text)
+                    if match:
+                        name = match.group(1).strip()
+                        break
+        record = {
+            "name": name or "Henry McMaster",
+            "title": "Governor",
+            "email": "governor@gov.sc.gov",
+            "phone": normalize_phone("803-734-2100"),
+            "website": "https://governor.sc.gov/",
+            "source": "governor.sc.gov",
+            "lastUpdated": date.today().isoformat(),
+        }
+        if not name:
+            print("  WARNING: Could not extract governor name from site. Using hardcoded fallback.")
+            record["fallback"] = True
+        return record
+    except Exception as e:
+        print(f"  WARNING: Failed to scrape governor: {e}. Using hardcoded fallback.")
+        return {
+            "name": "Henry McMaster",
+            "title": "Governor",
+            "email": "governor@gov.sc.gov",
+            "phone": normalize_phone("803-734-2100"),
+            "website": "https://governor.sc.gov/",
+            "source": "governor.sc.gov",
+            "fallback": True,
+            "lastUpdated": date.today().isoformat(),
+        }
+
+
+def _scrape_sc_lt_governor() -> dict | None:
+    """Scrape SC Lt. Governor info from ltgov.sc.gov."""
+    try:
+        resp = requests.get("https://ltgov.sc.gov/", headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        name = ""
+        title_tag = soup.find("title")
+        if title_tag:
+            text = title_tag.get_text(strip=True)
+            match = re.search(r"(?:Lt\.?\s*Governor|Lieutenant\s+Governor)\s+(.+?)(?:\s*[|\-])", text)
+            if match:
+                name = match.group(1).strip()
+        record = {
+            "name": name or "Pamela Evette",
+            "title": "Lieutenant Governor",
+            "email": "ltgovernor@ltgov.sc.gov",
+            "phone": normalize_phone("803-734-2080"),
+            "website": "https://ltgov.sc.gov/",
+            "source": "ltgov.sc.gov",
+            "lastUpdated": date.today().isoformat(),
+        }
+        if not name:
+            print("  WARNING: Could not extract lt. governor name from site. Using hardcoded fallback.")
+            record["fallback"] = True
+        return record
+    except Exception as e:
+        print(f"  WARNING: Failed to scrape lt. governor: {e}. Using hardcoded fallback.")
+        return {
+            "name": "Pamela Evette",
+            "title": "Lieutenant Governor",
+            "email": "ltgovernor@ltgov.sc.gov",
+            "phone": normalize_phone("803-734-2080"),
+            "website": "https://ltgov.sc.gov/",
+            "source": "ltgov.sc.gov",
+            "fallback": True,
+            "lastUpdated": date.today().isoformat(),
+        }
+
+
 def update_state_legislators(
     source_url: str,
     output_path: str,

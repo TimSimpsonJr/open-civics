@@ -5,7 +5,9 @@
     "jurisdiction": "county:york",
     "label": "York County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "york_county"
+    "adapter": "york_county",
+    "dataHash": "239e22ea9983b4f7",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,7 +5,9 @@
     "jurisdiction": "county:abbeville",
     "label": "Abbeville County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "abbeville_county"
+    "adapter": "abbeville_county",
+    "dataHash": "37e9610b760250f3",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

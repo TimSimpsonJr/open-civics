@@ -5,7 +5,9 @@
     "jurisdiction": "place:winnsboro",
     "label": "Winnsboro Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "winnsboro"
+    "adapter": "winnsboro",
+    "dataHash": "f19695bc97528b91",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

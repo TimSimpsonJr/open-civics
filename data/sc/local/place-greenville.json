@@ -5,7 +5,9 @@
     "jurisdiction": "place:greenville",
     "label": "Greenville City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "greenville_city"
+    "adapter": "greenville_city",
+    "dataHash": "69b8e509da2f4054",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

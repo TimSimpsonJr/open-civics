@@ -5,7 +5,9 @@
     "jurisdiction": "county:spartanburg",
     "label": "Spartanburg County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "9683003342acd8cb",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

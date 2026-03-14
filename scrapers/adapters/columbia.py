@@ -7,9 +7,11 @@ or "Mayor Name" linking to individual profile pages.
 Each profile page contains:
   - District info (e.g., "District II") or "At-Large" in a heading
   - Email as a mailto: link
+  - Phone as a tel: link or in page text
 
 The adapter scrapes the main page for the member list, then fetches each
-profile page for district/email details.
+profile page for district/email/phone details. The mayor links to
+mayor.columbiasc.gov which is handled separately.
 """
 
 import re
@@ -17,7 +19,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseAdapter
+from .base import BaseAdapter, normalize_phone
 
 USER_AGENT = "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"
 PAGE_URL = "https://citycouncil.columbiasc.gov/"
@@ -47,41 +49,45 @@ class ColumbiaAdapter(BaseAdapter):
             raw_name = h4.get_text(strip=True)
             href = link.get("href", "")
 
-            # Skip mayor (different site)
-            if "mayor." in href:
-                continue
-
             # Deduplicate
             if href in seen:
                 continue
             seen.add(href)
 
-            # Parse "Councilman Edward H. McDowell, Jr." -> name + gender hint
+            # Detect mayor (links to mayor.columbiasc.gov)
+            is_mayor = "mayor." in href
+
+            # Parse "Councilman Edward H. McDowell, Jr." -> name
             name = raw_name
-            for prefix in ["Councilman ", "Councilwoman ", "Council Member "]:
+            for prefix in ["Councilman ", "Councilwoman ", "Council Member ",
+                           "Mayor "]:
                 if name.startswith(prefix):
                     name = name[len(prefix):]
                     break
 
-            # Fetch profile page for district and email
-            district, email = self._fetch_profile(href)
-
-            title = "Council Member"
-            if district:
-                title = f"Council Member, {district}"
+            if is_mayor:
+                # Fetch mayor page for email/phone
+                email, phone = self._fetch_mayor(href)
+                title = "Mayor"
+            else:
+                # Fetch profile page for district, email, and phone
+                district, email, phone = self._fetch_profile(href)
+                title = "Council Member"
+                if district:
+                    title = f"Council Member, {district}"
 
             members.append({
                 "name": name.strip(),
                 "title": title,
                 "email": email,
-                "phone": "",
+                "phone": normalize_phone(phone) if phone else "",
             })
 
         members.sort(key=self._sort_key)
         return members
 
-    def _fetch_profile(self, url: str) -> tuple[str, str]:
-        """Fetch a profile page and extract district and email."""
+    def _fetch_mayor(self, url: str) -> tuple[str, str]:
+        """Fetch the mayor's page and extract email and phone."""
         try:
             resp = requests.get(
                 url, headers={"User-Agent": USER_AGENT}, timeout=30
@@ -92,11 +98,46 @@ class ColumbiaAdapter(BaseAdapter):
 
         soup = BeautifulSoup(resp.text, "html.parser")
 
+        email = ""
+        mailto = soup.find("a", href=lambda h: h and h.startswith("mailto:"))
+        if mailto:
+            email = mailto["href"].replace("mailto:", "").strip()
+
+        phone = ""
+        tel = soup.find("a", href=lambda h: h and h.startswith("tel:"))
+        if tel:
+            phone = tel.get_text(strip=True)
+
+        return (email, phone)
+
+    def _fetch_profile(self, url: str) -> tuple[str, str, str]:
+        """Fetch a profile page and extract district, email, and phone."""
+        try:
+            resp = requests.get(
+                url, headers={"User-Agent": USER_AGENT}, timeout=30
+            )
+            resp.raise_for_status()
+        except requests.RequestException:
+            return ("", "", "")
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+
         # Find email from mailto link
         email = ""
         mailto = soup.find("a", href=lambda h: h and h.startswith("mailto:"))
         if mailto:
             email = mailto["href"].replace("mailto:", "").strip()
+
+        # Find phone from tel: link or text
+        phone = ""
+        tel = soup.find("a", href=lambda h: h and h.startswith("tel:"))
+        if tel:
+            phone = tel.get_text(strip=True)
+        else:
+            text = soup.get_text()
+            match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+            if match:
+                phone = match.group(0)
 
         # Find district from text like "District II" or "At-Large"
         district = ""
@@ -112,7 +153,7 @@ class ColumbiaAdapter(BaseAdapter):
                 district = "At-Large"
                 break
 
-        return (district, email)
+        return (district, email, phone)
 
     @staticmethod
     def _roman_to_arabic(roman: str) -> int:
@@ -132,9 +173,11 @@ class ColumbiaAdapter(BaseAdapter):
     @staticmethod
     def _sort_key(member: dict) -> tuple:
         title = member["title"]
-        if "At-Large" in title:
-            return (1, 0, member["name"])
+        if title == "Mayor":
+            return (0, 0, "")
         match = re.search(r"District\s+(\d+)", title)
         if match:
-            return (0, int(match.group(1)), "")
-        return (2, 0, member["name"])
+            return (1, int(match.group(1)), "")
+        if "At-Large" in title:
+            return (2, 0, member["name"])
+        return (3, 0, member["name"])

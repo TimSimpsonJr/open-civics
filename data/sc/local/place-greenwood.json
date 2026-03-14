@@ -5,7 +5,9 @@
     "jurisdiction": "place:greenwood",
     "label": "Greenwood City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "greenwood_city"
+    "adapter": "greenwood_city",
+    "dataHash": "e7c433270346bae9",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

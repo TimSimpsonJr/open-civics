@@ -5,7 +5,9 @@
     "jurisdiction": "county:mccormick",
     "label": "McCormick County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "mccormick_county"
+    "adapter": "mccormick_county",
+    "dataHash": "fe9684f736ae31fc",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

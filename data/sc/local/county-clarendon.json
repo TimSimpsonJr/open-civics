@@ -5,7 +5,9 @@
     "jurisdiction": "county:clarendon",
     "label": "Clarendon County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "clarendon_county"
+    "adapter": "clarendon_county",
+    "dataHash": "b27910025256ec44",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

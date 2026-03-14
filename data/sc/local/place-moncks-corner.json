@@ -5,7 +5,9 @@
     "jurisdiction": "place:moncks-corner",
     "label": "Moncks Corner Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "moncks_corner"
+    "adapter": "moncks_corner",
+    "dataHash": "b1a8bd6e581c6ae4",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

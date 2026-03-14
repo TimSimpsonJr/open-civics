@@ -5,7 +5,14 @@
     "jurisdiction": "place:edgefield",
     "label": "Edgefield Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "edgefield_town"
+    "adapter": "edgefield_town",
+    "dataHash": "33bd7050bd691b87",
+    "dataLastChanged": "2026-03-14",
+    "contact": {
+      "phone": "(803) 637-4014",
+      "email": "townofedgefield@exploreedgefield.com",
+      "note": "Town Hall - no individual council member contact info published"
+    }
   },
   "members": [
     {

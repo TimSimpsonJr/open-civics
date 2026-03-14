@@ -17,7 +17,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseAdapter
+from .base import BaseAdapter, normalize_phone
 
 USER_AGENT = "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"
 INDEX_URL = "https://www.beaufortcountysc.gov/council/council-members/howard-alice.html"
@@ -77,10 +77,11 @@ class BeaufortCountyAdapter(BaseAdapter):
                     "_url": full_url,
                 })
 
-        # Fetch each member page for email
+        # Fetch each member page for email and phone
         for member in members:
-            email = self._fetch_email(member.pop("_url"))
+            email, phone = self._fetch_contact(member.pop("_url"))
             member["email"] = email
+            member["phone"] = normalize_phone(phone) if phone else ""
 
         # Check for chair/vice-chair from the index page text
         text = soup.get_text(separator="\n", strip=True)
@@ -89,21 +90,34 @@ class BeaufortCountyAdapter(BaseAdapter):
         members.sort(key=self._sort_key)
         return members
 
-    def _fetch_email(self, url: str) -> str:
-        """Fetch a member page and extract email from mailto link."""
+    def _fetch_contact(self, url: str) -> tuple[str, str]:
+        """Fetch a member page and extract email and phone."""
         try:
             resp = requests.get(
                 url, headers={"User-Agent": USER_AGENT}, timeout=30
             )
             resp.raise_for_status()
         except requests.RequestException:
-            return ""
+            return "", ""
 
         soup = BeautifulSoup(resp.text, "html.parser")
+
+        email = ""
         mailto = soup.find("a", href=lambda h: h and h.startswith("mailto:"))
         if mailto:
-            return mailto["href"].replace("mailto:", "").strip()
-        return ""
+            email = mailto["href"].replace("mailto:", "").strip()
+
+        phone = ""
+        tel = soup.find("a", href=lambda h: h and h.startswith("tel:"))
+        if tel:
+            phone = tel.get_text(strip=True)
+        else:
+            text = soup.get_text()
+            match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", text)
+            if match:
+                phone = match.group(0)
+
+        return email, phone
 
     @staticmethod
     def _detect_roles(text: str, members: list[dict]):

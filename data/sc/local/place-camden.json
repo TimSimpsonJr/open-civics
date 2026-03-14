@@ -5,9 +5,19 @@
     "jurisdiction": "place:camden",
     "label": "Camden City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "088cd79b116544b5",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Vincent Sheheen",
+      "title": "Mayor",
+      "email": "vincentformayor@gmail.com",
+      "phone": "",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Delia Davis",
       "title": "Council Member",
@@ -28,14 +38,6 @@
       "name": "Phil Elliott",
       "title": "Council Member",
       "email": "pelliott@camdensc.org",
-      "phone": "",
-      "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "Vincent Sheheen",
-      "title": "Council Member",
-      "email": "vincentformayor@gmail.com",
       "phone": "",
       "source": "genericmailto",
       "lastUpdated": "2026-03-14"

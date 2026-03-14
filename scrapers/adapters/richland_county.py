@@ -7,7 +7,7 @@ widget with semantic CSS classes like .contact-email and .contact-phone.
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseAdapter
+from .base import BaseAdapter, normalize_phone
 
 USER_AGENT = "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"
 
@@ -58,6 +58,9 @@ class RichlandCountyAdapter(BaseAdapter):
                 phone_link = phone_li.find("a", href=True)
                 if phone_link:
                     phone = phone_link.get_text(strip=True)
+                else:
+                    phone = phone_li.get_text(strip=True)
+            phone = normalize_phone(phone) if phone else ""
 
             members.append({
                 "name": name,

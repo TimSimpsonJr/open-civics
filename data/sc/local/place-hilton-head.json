@@ -5,7 +5,9 @@
     "jurisdiction": "place:hilton-head",
     "label": "Hilton Head Island Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "hilton_head"
+    "adapter": "hilton_head",
+    "dataHash": "c67eab39d8b9892e",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

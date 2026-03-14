@@ -10,6 +10,7 @@ Shared repo for US legislator contact data. Python scrapers produce JSON data pu
 - `python -m scrapers --state SC --state-only` — state legislators only
 - `python -m scrapers --state SC --local-only` — local councils only
 - `python -m scrapers --state SC --boundaries-only` — boundaries only
+- `python -m scrapers --state SC --skip-boundaries` — state + local, skip boundaries
 - `python -m scrapers --dry-run` — preview without scraping
 - `python validate.py` — validate all data files
 
@@ -40,6 +41,18 @@ Scrapers never commit directly to main. The workflow:
 2. Validation runs as PR check
 3. Auto-merge if validation passes
 4. npm publish runs weekly from main
+
+## npm Publishing Setup
+
+Two secrets must be configured in GitHub repo settings:
+
+1. **NPM_TOKEN** — npm automation token for publishing
+   - Go to https://www.npmjs.com → Access Tokens → Generate New Token → Automation
+   - Copy the token
+   - Go to GitHub repo → Settings → Secrets and variables → Actions → New repository secret
+   - Name: `NPM_TOKEN`, Value: the token
+
+The `GITHUB_TOKEN` is auto-provided by GitHub Actions (no setup needed).
 
 ## Adding a New State
 

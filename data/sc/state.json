@@ -1883,5 +1883,25 @@
       "source": "openstates",
       "lastUpdated": "2026-03-14"
     }
-  }
+  },
+  "executive": [
+    {
+      "name": "Henry McMaster",
+      "title": "Governor",
+      "email": "governor@gov.sc.gov",
+      "phone": "(803) 734-2100",
+      "website": "https://governor.sc.gov/",
+      "source": "governor.sc.gov",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Pamela Evette",
+      "title": "Lieutenant Governor",
+      "email": "ltgovernor@ltgov.sc.gov",
+      "phone": "(803) 734-2080",
+      "website": "https://ltgov.sc.gov/",
+      "source": "ltgov.sc.gov",
+      "lastUpdated": "2026-03-14"
+    }
+  ]
 }

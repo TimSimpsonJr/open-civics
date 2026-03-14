@@ -5,7 +5,9 @@
     "jurisdiction": "county:horry",
     "label": "Horry County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "horry_county"
+    "adapter": "horry_county",
+    "dataHash": "4e226c11b8d23cc3",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,12 +5,14 @@
     "jurisdiction": "place:newberry",
     "label": "Newberry City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "aa1c55b9d9af41a1",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {
       "name": "Foster Senn",
-      "title": "Council Member, District 1",
+      "title": "Mayor",
       "email": "FSenn@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",

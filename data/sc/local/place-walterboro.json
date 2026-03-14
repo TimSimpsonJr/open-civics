@@ -5,21 +5,23 @@
     "jurisdiction": "place:walterboro",
     "label": "Walterboro City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "b54644bba545c745",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {
-      "name": "Carl Brown",
-      "title": "Council Member",
-      "email": "cbrown@walterborosc.org",
+      "name": "James Broderick",
+      "title": "Mayor",
+      "email": "jbroderick@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
       "lastUpdated": "2026-03-14"
     },
     {
-      "name": "James Broderick",
+      "name": "Carl Brown",
       "title": "Council Member",
-      "email": "jbroderick@walterborosc.org",
+      "email": "cbrown@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
       "lastUpdated": "2026-03-14"

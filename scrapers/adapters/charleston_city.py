@@ -20,6 +20,7 @@ from .base import BaseAdapter
 
 USER_AGENT = "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"
 LISTING_URL = "https://www.charleston-sc.gov/180/Members-Districts"
+MAYOR_URL = "https://www.charleston-sc.gov/400/Mayor"
 BASE_URL = "https://www.charleston-sc.gov"
 
 
@@ -63,9 +64,74 @@ class CharlestonCityAdapter(BaseAdapter):
                 "phone": phone,
             })
 
-        # Sort by district number
+        # Fetch mayor from separate page
+        mayor = self._fetch_mayor_page()
+        if mayor:
+            members.insert(0, mayor)
+
+        # Sort by district number (mayor sorts first)
         members.sort(key=lambda m: self._district_sort_key(m["title"]))
         return members
+
+    @staticmethod
+    def _fetch_mayor_page() -> dict | None:
+        """Fetch the mayor's profile page and extract contact info."""
+        try:
+            resp = requests.get(
+                MAYOR_URL, headers={"User-Agent": USER_AGENT}, timeout=30
+            )
+            resp.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Find the mayor's name from the page headings.
+        # Strategy: look for "Mayor FirstName LastName" first, then fall
+        # back to the "Contact Us" section h4 which has just the name.
+        name = ""
+        for tag in soup.find_all(["h1", "h2", "h3", "h4"]):
+            text = tag.get_text(strip=True)
+            if not text:
+                continue
+            # "Mayor William Cogswell" -> extract name
+            match = re.match(r"^Mayor\s+(.+)", text, re.I)
+            if match:
+                name = match.group(1).strip()
+                break
+
+        if not name:
+            # Look for an h4 inside a "Contact Us" section (CivicPlus pattern)
+            contact = soup.find("h3", string=re.compile(r"Contact\s+Us", re.I))
+            if contact:
+                # The name is in the next h4 after "Contact Us"
+                h4 = contact.find_next("h4")
+                if h4:
+                    text = h4.get_text(strip=True)
+                    if text and " " in text and len(text) < 50:
+                        name = text
+
+        email = ""
+        for a in soup.find_all("a", href=re.compile(r"mailto:", re.IGNORECASE)):
+            addr = a["href"].replace("mailto:", "").strip()
+            if addr and "@" in addr:
+                email = addr
+                break
+
+        phone = ""
+        for a in soup.find_all("a", href=re.compile(r"^tel:", re.IGNORECASE)):
+            phone = a.get_text(strip=True)
+            break
+
+        if not name:
+            return None
+
+        return {
+            "name": name,
+            "title": "Mayor",
+            "email": email,
+            "phone": phone,
+        }
 
     @staticmethod
     def _extract_district(url: str) -> str:
@@ -111,7 +177,9 @@ class CharlestonCityAdapter(BaseAdapter):
 
     @staticmethod
     def _district_sort_key(title: str) -> tuple:
+        if title == "Mayor":
+            return (0, 0)
         match = re.search(r"District\s+(\d+)", title)
         if match:
             return (1, int(match.group(1)))
-        return (0, 0)
+        return (2, 0)

@@ -82,6 +82,31 @@ class McCormickTownAdapter(BaseAdapter):
         members.sort(key=self._sort_key)
         return members
 
+    def get_contact(self) -> dict | None:
+        from .base import normalize_phone
+        if not hasattr(self, "_html"):
+            return None
+        soup = BeautifulSoup(self._html, "html.parser")
+        # Look for phone in footer or near "Office" label
+        phone = ""
+        footer = soup.find("footer") or soup.find("div", id=re.compile(r"footer", re.I))
+        search_area = footer.get_text() if footer else soup.get_text()
+        # Prefer phone labeled "(Office)"
+        office_match = re.search(
+            r"(\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4})\s*\(?\s*Office\s*\)?",
+            search_area,
+        )
+        if office_match:
+            phone = normalize_phone(office_match.group(1))
+        else:
+            match = re.search(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", search_area)
+            phone = normalize_phone(match.group(0)) if match else ""
+        return {
+            "phone": phone,
+            "email": "",
+            "note": "Town Hall - no individual council member contact info published",
+        }
+
     @staticmethod
     def _sort_key(member: dict) -> tuple:
         title = member["title"]

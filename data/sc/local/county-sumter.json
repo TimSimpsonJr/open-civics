@@ -5,7 +5,9 @@
     "jurisdiction": "county:sumter",
     "label": "Sumter County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "sumter_county"
+    "adapter": "sumter_county",
+    "dataHash": "691daed101df1265",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {
