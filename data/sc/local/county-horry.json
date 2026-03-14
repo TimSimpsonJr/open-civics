@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:horry",
     "label": "Horry County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "horry_county"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "gardner.johnny@horrycountysc.gov",
       "phone": "(843) 855-0848",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jenna L. Dukes",
@@ -22,7 +22,7 @@
       "email": "Dukes.Jenna@horrycountysc.gov",
       "phone": "(843) 855-6962",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bill Howard",
@@ -30,7 +30,7 @@
       "email": "howardb@horrycountysc.gov",
       "phone": "(843) 421-2035",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dennis DiSabato",
@@ -38,7 +38,7 @@
       "email": "disabatod@horrycountysc.gov",
       "phone": "(843) 421-8522",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Gary Loftus",
@@ -46,7 +46,7 @@
       "email": "loftusg@horrycountysc.gov",
       "phone": "(843) 855-4735",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tyler Servant",
@@ -54,7 +54,7 @@
       "email": "servantt@horrycountysc.gov",
       "phone": "(843) 421-7250",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Cam Crawford",
@@ -62,7 +62,7 @@
       "email": "crawfordc@horrycountysc.gov",
       "phone": "(843) 504-0905",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tom Anderson",
@@ -70,7 +70,7 @@
       "email": "Anderson.Tom@horrycountysc.gov",
       "phone": "(843) 855-6129",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Michael \"Mash\" Masciarelli",
@@ -78,7 +78,7 @@
       "email": "Masciarelli.Mike@horrycountysc.gov",
       "phone": "(843) 855-6569",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "R. Mark Causey",
@@ -86,7 +86,7 @@
       "email": "Causey.mark@horrycountysc.gov",
       "phone": "(843) 421-0570",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Danny Hardee",
@@ -94,7 +94,7 @@
       "email": "hardeedan@horrycountysc.gov",
       "phone": "(843) 340-4426",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Al Allen",
@@ -102,7 +102,7 @@
       "email": "allena@horrycountysc.gov",
       "phone": "(843) 602-9243",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

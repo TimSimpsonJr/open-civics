@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:williamsburg",
     "label": "Williamsburg County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "joseph.lee@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Torrance T. Wilson",
@@ -22,7 +22,7 @@
       "email": "torrance.wilson@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Randall Nesmith",
@@ -30,7 +30,7 @@
       "email": "Randall.Nesmith@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Glenn A. Keels",
@@ -38,7 +38,7 @@
       "email": "gakeels@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Paul McKnight",
@@ -46,7 +46,7 @@
       "email": "paul.mcknight@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Samuel L. Floyd",
@@ -54,7 +54,7 @@
       "email": "sam.floyd@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jackie Hailes",
@@ -62,7 +62,7 @@
       "email": "jhailes@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

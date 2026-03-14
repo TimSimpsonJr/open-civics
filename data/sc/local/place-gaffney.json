@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "place:gaffney",
     "label": "Gaffney City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "gaffney_city"
   },
   "members": [
     {
@@ -13,56 +13,48 @@
       "title": "Mayor",
       "email": "Ldawkins@cityofgaffney-sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "gaffneycity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Cameo Wilson",
       "title": "Council Member, District 1",
       "email": "CWilson@cityofgaffney-sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "gaffneycity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "C. Allen Montgomery, Jr.",
+      "name": "C. Allen Montgomery, Jr",
       "title": "Council Member, District 2",
       "email": "amontgomery@cityofgaffney-sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "gaffneycity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Rosa Webber",
       "title": "Council Member, District 3",
       "email": "rwebber@cityofgaffney-sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "gaffneycity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "George Duncan",
       "title": "Council Member, District 4",
       "email": "Gduncan@cityofgaffney-sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "gaffneycity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kim F. Phillips",
       "title": "Council Member, District 5",
       "email": "kfphillips59@gmail.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Vacant",
-      "title": "Council Member, District 6",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "gaffneycity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

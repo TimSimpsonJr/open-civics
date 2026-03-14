@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:pickens",
     "label": "Pickens County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "revize"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "asaitta@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Chris Lollis",
@@ -22,7 +22,7 @@
       "email": "clollis@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "C. Claiborne Linvill",
@@ -30,7 +30,7 @@
       "email": "clinvill@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Scott Lang",
@@ -38,7 +38,7 @@
       "email": "slang@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Chris Bowers",
@@ -46,7 +46,7 @@
       "email": "cbowers@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dr. A.D. Holloway",
@@ -54,7 +54,7 @@
       "email": "dholloway@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Meagan Nations",
@@ -62,7 +62,7 @@
       "email": "meaganb@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:spartanburg",
     "label": "Spartanburg County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "mlynch@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Monier Abusaft",
@@ -22,7 +22,7 @@
       "email": "mabusaft@spartanburgcounty.org",
       "phone": "(706) 346-4465",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jack Mabry",
@@ -30,7 +30,7 @@
       "email": "jmabry@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Paul Abbott",
@@ -38,7 +38,7 @@
       "email": "pabbott@spartanburgcounty.org",
       "phone": "(864) 542-6335",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Grant DeShields",
@@ -46,7 +46,7 @@
       "email": "gdeshields@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bob Walker",
@@ -54,7 +54,7 @@
       "email": "bwalker@spartanburgcounty.org",
       "phone": "(864) 590-0409",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jessica Coker",
@@ -62,7 +62,7 @@
       "email": "jcoker@spartanburgcounty.org",
       "phone": "(864) 680-3297",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

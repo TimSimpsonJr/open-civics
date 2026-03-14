@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "place:mount-pleasant",
     "label": "Mount Pleasant Town Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Daniel Brownstein",
@@ -22,7 +22,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 209-5607",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jake Rambo",
@@ -30,7 +30,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 494-8261",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John Iacofano",
@@ -38,7 +38,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 806-6564",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kathryn Whitaker",
@@ -46,7 +46,7 @@
       "email": "",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Laura Hyatt",
@@ -54,7 +54,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 315-4294",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Mike Tinkey",
@@ -62,7 +62,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 884-8517",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "P.E., Howard R. Chapman",
@@ -70,7 +70,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 209-0399",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

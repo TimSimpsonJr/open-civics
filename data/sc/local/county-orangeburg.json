@@ -4,65 +4,41 @@
     "level": "local",
     "jurisdiction": "county:orangeburg",
     "label": "Orangeburg County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
     {
-      "name": "Johnnie Wright Sr.",
-      "title": "Chairman, District 1",
+      "name": "Johnnie Wright",
+      "title": "Council Member, District 1",
       "email": "",
       "phone": "(803) 492-7436",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Johnny Ravenell",
-      "title": "Vice Chairman, District 2",
+      "title": "Council Member, District 2",
       "email": "",
       "phone": "(803) 854-4452",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Kenneth McCaster",
-      "title": "Council Member, District 3",
-      "email": "",
-      "phone": "(803) 290-1473",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Joseph Garvin",
-      "title": "Council Member, District 4",
-      "email": "",
-      "phone": "(803) 606-6097",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Janie Cooper-Smith",
       "title": "Council Member, District 5",
       "email": "",
       "phone": "(803) 536-6447",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Deloris Frazier",
       "title": "Council Member, District 6",
       "email": "",
       "phone": "(803) 534-8589",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Latisha Walker",
-      "title": "Council Member, District 7",
-      "email": "",
-      "phone": "(803) 308-7152",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,81 +4,81 @@
     "level": "local",
     "jurisdiction": "county:chesterfield",
     "label": "Chesterfield County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "chesterfield_county"
   },
   "members": [
     {
       "name": "Brandon Price",
       "title": "Council Member, District 1",
       "email": "",
-      "phone": "(843) 517-3122",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Lawrence Brand",
+      "name": "Dr. Lawrance Brand",
       "title": "Council Member, District 2",
       "email": "",
-      "phone": "(843) 623-3945",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Douglas Curtis",
+      "name": "Ethan T. Foard",
       "title": "Council Member, District 3",
       "email": "",
-      "phone": "(843) 623-1496",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Ethan Foard",
+      "name": "Douglas A. Curtis",
       "title": "Council Member, District 4",
       "email": "",
-      "phone": "(843) 680-2541",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Eddie Kirkley",
+      "name": "Donald E. Kirkley",
       "title": "Council Member, District 5",
       "email": "",
-      "phone": "(843) 517-3123",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Hattie Burns",
       "title": "Council Member, District 6",
       "email": "",
-      "phone": "(843) 680-3042",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "William Smallwood",
-      "title": "Vice Chairman, District 7",
+      "name": "William Todd Smallwood",
+      "title": "Vice Chair, District 7",
       "email": "",
-      "phone": "(843) 680-9994",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Mary Anderson",
-      "title": "Chairman, District 8",
+      "name": "Mary D. Anderson",
+      "title": "Chair, District 8",
       "email": "",
-      "phone": "(843) 287-4541",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Johnnie McLendon",
+      "name": "Bishop, Dr. Johnnie McLendon",
       "title": "Council Member, District 9",
       "email": "",
-      "phone": "(843) 517-3030",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "chesterfieldcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

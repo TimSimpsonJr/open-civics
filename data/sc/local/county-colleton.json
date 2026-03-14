@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "county:colleton",
     "label": "Colleton County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "colleton_county"
   },
   "members": [
     {
       "name": "Scott Biering",
-      "title": "Chairman, Seat 2 Eastern",
+      "title": "Chairman",
       "email": "sbiering@colletoncounty.org",
       "phone": "(843) 224-8614",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Phillip M. Taylor, Sr.",
-      "title": "Council Member, Seat 3 Eastern",
-      "email": "ptaylor@colletoncounty.org",
-      "phone": "(843) 599-1711",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Steven D. Murdaugh",
-      "title": "Council Member, Seat 4 Western",
-      "email": "sdmurdaugh@colletoncounty.org",
-      "phone": "(843) 782-6070",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Johnny Frank",
-      "title": "Council Member, Seat 5 Western",
-      "email": "jfrank@colletoncounty.org",
-      "phone": "(843) 866-3227",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "colletoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bubba Trippe",
-      "title": "Vice Chairman, At Large",
+      "title": "Vice Chairman",
       "email": "btrippe@colletoncounty.org",
       "phone": "(843) 893-7058",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "colletoncounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Phillip M. Taylor, Sr.",
+      "title": "Council Member, Seat 3",
+      "email": "ptaylor@colletoncounty.org",
+      "phone": "(843) 599-1711",
+      "source": "colletoncounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Steven D. Murdaugh",
+      "title": "Council Member, Seat 4",
+      "email": "sdmurdaugh@colletoncounty.org",
+      "phone": "(843) 782-6070",
+      "source": "colletoncounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Johnny Frank",
+      "title": "Council Member, Seat 5",
+      "email": "jfrank@colletoncounty.org",
+      "phone": "(843) 866-3227",
+      "source": "colletoncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

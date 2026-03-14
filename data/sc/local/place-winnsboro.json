@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "place:winnsboro",
     "label": "Winnsboro Town Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "winnsboro"
   },
   "members": [
     {
-      "name": "John McMeekin",
+      "name": "Demetrius Chatman",
       "title": "Mayor",
-      "email": "",
+      "email": "demetrius.chatman@townofwinnsboro.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "winnsboro",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Danny Miller",
-      "title": "Council Member, At Large",
-      "email": "",
+      "title": "Mayor Pro Tem, District 1",
+      "email": "dmiller@fairfield1.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "winnsboro",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Janice Bartell-Prather",
-      "title": "Council Member, At Large",
-      "email": "",
+      "title": "Council Member, District 2",
+      "email": "janice.bartell@yahoo.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "winnsboro",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Demetrius Chatman",
-      "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Russ Brown",
+      "title": "Council Member, District 3",
+      "email": "rbwinnsboro@gmail.com",
+      "phone": "(803) 718-0911",
+      "source": "winnsboro",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jae Burroughs",
-      "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Council Member, District 4",
+      "email": "jamesburroughs35@yahoo.com",
+      "phone": "(803) 718-5581",
+      "source": "winnsboro",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

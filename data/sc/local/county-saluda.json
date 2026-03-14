@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "county:saluda",
     "label": "Saluda County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "saluda_county"
   },
   "members": [
+    {
+      "name": "James L. Moore",
+      "title": "Chairman, At Large",
+      "email": "j.moore@saludacounty.sc.gov",
+      "phone": "",
+      "source": "saludacounty",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "James Frank Daniel, Sr.",
       "title": "Council Member, District 1",
       "email": "f.daniel@saludacounty.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "saludacounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "John W. Atkinson",
+      "name": "John W. \"Jack\" Atkinson",
       "title": "Council Member, District 2",
       "email": "j.atkinson@saludacounty.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "saludacounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Justin Anderson",
       "title": "Council Member, District 3",
       "email": "j.anderson@saludacounty.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "saludacounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "J. Carey Bedenbaugh",
       "title": "Council Member, District 4",
       "email": "c.bedenbaugh@saludacounty.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "James L. Moore",
-      "title": "Chairman, At Large",
-      "email": "j.moore@saludacounty.sc.gov",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "saludacounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

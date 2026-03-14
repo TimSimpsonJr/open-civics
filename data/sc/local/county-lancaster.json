@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:lancaster",
     "label": "Lancaster County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "smgraham@lancastercountysc.gov",
       "phone": "(803) 319-5602",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Charlene McGriff",
@@ -22,7 +22,7 @@
       "email": "cmcgriff@comporium.net",
       "phone": "(803) 448-1021",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Billy Mosteller",
@@ -30,7 +30,7 @@
       "email": "bmosteller@lancastercountysc.gov",
       "phone": "(803) 416-2560",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jose Luis",
@@ -38,7 +38,7 @@
       "email": "jluis@lancastercountysc.gov",
       "phone": "(803) 412-1611",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Steve Harper",
@@ -46,7 +46,7 @@
       "email": "steveharper@lancastercountysc.gov",
       "phone": "(803) 804-5325",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bryant Neal",
@@ -54,7 +54,7 @@
       "email": "bneal@lancastercountysc.gov",
       "phone": "(803) 414-5820",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Brian Carnes",
@@ -62,7 +62,7 @@
       "email": "briancarnes@lancastercountysc.gov",
       "phone": "(803) 320-9107",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

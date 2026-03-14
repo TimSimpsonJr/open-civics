@@ -4,65 +4,73 @@
     "level": "local",
     "jurisdiction": "county:lee",
     "label": "Lee County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "lee_county"
   },
   "members": [
     {
-      "name": "Travis Windham",
-      "title": "Chairman",
+      "name": "R. Travis Windham",
+      "title": "Chairman, District 1",
       "email": "",
       "phone": "(803) 484-6725",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Gordon Eckley",
-      "title": "Vice Chairman",
-      "email": "",
-      "phone": "(803) 428-4210",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Keel Addison",
-      "title": "Council Member",
-      "email": "",
-      "phone": "(803) 393-5106",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Charles Beasley",
-      "title": "Council Member",
-      "email": "",
-      "phone": "(803) 428-3480",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Johnette Caughman",
-      "title": "Council Member",
-      "email": "",
-      "phone": "(803) 432-0037",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Ronald Fountain",
-      "title": "Council Member",
+      "name": "Ronald H. Fountain",
+      "title": "Council Member, District 2",
       "email": "",
       "phone": "(803) 428-4440",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Gordon W. Eckley",
+      "title": "Vice-Chairman, District 4",
+      "email": "",
+      "phone": "(803) 428-4210",
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jackie Josey",
-      "title": "Council Member",
+      "title": "Council Member, District 5",
       "email": "",
       "phone": "(803) 437-2393",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Charles A. Beasley",
+      "title": "Council Member, District 6",
+      "email": "",
+      "phone": "(803) 428-3480",
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Johnette M. Caughman",
+      "title": "Council Member, District 7",
+      "email": "",
+      "phone": "(803) 229-0694",
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Alan Watkins",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 484-5341",
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Julie Stokes",
+      "title": "Council Member",
+      "email": "",
+      "phone": "(803) 484-5341",
+      "source": "leecounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

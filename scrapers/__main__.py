@@ -21,28 +21,78 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(SCRIPT_DIR, "..")
 REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 
+from .adapters.anderson_county import AndersonCountyAdapter
+from .adapters.barnwell_city import BarnwellCityAdapter
+from .adapters.bishopville_city import BishopvilleCityAdapter
+from .adapters.charleston_city import CharlestonCityAdapter
+from .adapters.charleston_county import CharlestonCountyAdapter
+from .adapters.cherokee_county import CherokeeCountyAdapter
+from .adapters.chesterfield_county import ChesterfieldCountyAdapter
 from .adapters.civicplus import CivicPlusAdapter
-from .adapters.dorchester_county import DorchesterCountyAdapter
+from .adapters.colleton_county import ColletonCountyAdapter
+from .adapters.darlington_city import DarlingtonCityAdapter
+from .adapters.darlington_county import DarlingtonCountyAdapter
+from .adapters.florence_city import FlorenceCityAdapter
+from .adapters.florence_county import FlorenceCountyAdapter
+from .adapters.gaffney_city import GaffneyCityAdapter
 from .adapters.generic_mailto import GenericMailtoAdapter
 from .adapters.greenville_city import GreenvilleCityAdapter
 from .adapters.greenville_county import GreenvilleCountyAdapter
+from .adapters.greenwood_city import GreenwoodCityAdapter
+from .adapters.greenwood_county import GreenwoodCountyAdapter
 from .adapters.horry_county import HorryCountyAdapter
-from .adapters.kershaw_county import KershawCountyAdapter
+from .adapters.kingstree import KingstreeAdapter
+from .adapters.laurens_county import LaurensCountyAdapter
+from .adapters.lee_county import LeeCountyAdapter
+from .adapters.marion_city import MarionCityAdapter
+from .adapters.moncks_corner import MoncksCornerAdapter
+from .adapters.newberry_county import NewberryCountyAdapter
+from .adapters.orangeburg_city import OrangeburgCityAdapter
 from .adapters.revize import RevizeAdapter
 from .adapters.richland_county import RichlandCountyAdapter
+from .adapters.saluda_county import SaludaCountyAdapter
+from .adapters.st_george import StGeorgeAdapter
 from .adapters.table_adapter import TableAdapter
+from .adapters.walhalla_city import WalhallaCityAdapter
+from .adapters.winnsboro import WinnsboroAdapter
+from .adapters.york_county import YorkCountyAdapter
 
 ADAPTERS = {
+    "anderson_county": AndersonCountyAdapter,
+    "barnwell_city": BarnwellCityAdapter,
+    "bishopville_city": BishopvilleCityAdapter,
+    "charleston_city": CharlestonCityAdapter,
+    "charleston_county": CharlestonCountyAdapter,
+    "cherokee_county": CherokeeCountyAdapter,
+    "chesterfield_county": ChesterfieldCountyAdapter,
     "civicplus": CivicPlusAdapter,
-    "dorchester_county": DorchesterCountyAdapter,
+    "colleton_county": ColletonCountyAdapter,
+    "darlington_city": DarlingtonCityAdapter,
+    "darlington_county": DarlingtonCountyAdapter,
+    "florence_city": FlorenceCityAdapter,
+    "florence_county": FlorenceCountyAdapter,
+    "gaffney_city": GaffneyCityAdapter,
     "generic_mailto": GenericMailtoAdapter,
     "greenville_city": GreenvilleCityAdapter,
     "greenville_county": GreenvilleCountyAdapter,
+    "greenwood_city": GreenwoodCityAdapter,
+    "greenwood_county": GreenwoodCountyAdapter,
     "horry_county": HorryCountyAdapter,
-    "kershaw_county": KershawCountyAdapter,
+    "kingstree": KingstreeAdapter,
+    "laurens_county": LaurensCountyAdapter,
+    "lee_county": LeeCountyAdapter,
+    "marion_city": MarionCityAdapter,
+    "moncks_corner": MoncksCornerAdapter,
+    "newberry_county": NewberryCountyAdapter,
+    "orangeburg_city": OrangeburgCityAdapter,
     "revize": RevizeAdapter,
     "richland_county": RichlandCountyAdapter,
+    "saluda_county": SaludaCountyAdapter,
+    "st_george": StGeorgeAdapter,
     "table": TableAdapter,
+    "walhalla_city": WalhallaCityAdapter,
+    "winnsboro": WinnsboroAdapter,
+    "york_county": YorkCountyAdapter,
 }
 
 

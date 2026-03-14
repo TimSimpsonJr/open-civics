@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:georgetown",
     "label": "Georgetown County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "",
       "phone": "(843) 545-3058",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bob Anderson",
@@ -22,7 +22,7 @@
       "email": "",
       "phone": "(843) 543-2503",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Rev. Ernie Cooper",
@@ -30,7 +30,7 @@
       "email": "",
       "phone": "(843) 545-3058",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ron Charlton",
@@ -38,7 +38,7 @@
       "email": "",
       "phone": "(843) 630-5092",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Raymond L. Newton",
@@ -46,7 +46,7 @@
       "email": "",
       "phone": "(843) 344-1527",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Stella Mercado",
@@ -54,7 +54,7 @@
       "email": "",
       "phone": "(843) 545-3058",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Louis R. Morant",
@@ -62,7 +62,7 @@
       "email": "",
       "phone": "(843) 527-2448",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

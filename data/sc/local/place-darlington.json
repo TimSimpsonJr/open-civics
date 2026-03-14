@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "place:darlington",
     "label": "Darlington City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "darlington_city"
   },
   "members": [
     {
@@ -13,56 +13,56 @@
       "title": "Mayor",
       "email": "mayorcboyd@cityofdarlington.com",
       "phone": "(843) 206-4389",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Sheila Baccus",
-      "title": "Council Member, Ward 1",
-      "email": "sbaccus@cityofdarlington.com",
-      "phone": "(843) 307-2287",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Elaine Reed",
-      "title": "Council Member, Ward 2",
-      "email": "ereed@cityofdarlington.com",
-      "phone": "(843) 307-7086",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John Segars",
       "title": "Mayor Pro Tem, Ward 3",
       "email": "jsegars@cityofdarlington.com",
       "phone": "(843) 393-7114",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Sheila Baccus",
+      "title": "Council Member, Ward 1",
+      "email": "sbaccus@cityofdarlington.com",
+      "phone": "(843) 307-2287",
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Elaine Reed",
+      "title": "Council Member, Ward 2",
+      "email": "ereed@cityofdarlington.com",
+      "phone": "(843) 307-7086",
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bryant Gardner",
       "title": "Council Member, At Large",
-      "email": "bgardner@cityofdarlington.com",
+      "email": "BGARDNER@CITYOFDARLINGTON.COM",
       "phone": "(843) 260-1288",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John Milling",
       "title": "Council Member, At Large",
       "email": "jmilling@cityofdarlington.com",
       "phone": "(843) 393-4083",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Angela McRavin",
       "title": "Council Member, At Large",
       "email": "amcravin@cityofdarlington.com",
       "phone": "(843) 621-2997",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

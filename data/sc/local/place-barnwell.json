@@ -4,65 +4,65 @@
     "level": "local",
     "jurisdiction": "place:barnwell",
     "label": "Barnwell City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "barnwell_city"
   },
   "members": [
     {
       "name": "Ron Still",
       "title": "Mayor",
-      "email": "mayorronstill@gmail.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Ricky Dixon",
-      "title": "Council Member, District 1",
-      "email": "rickyd4districtone@gmail.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Peggy Kinlaw",
       "title": "Mayor Pro Tem, District 2",
-      "email": "peggy.kinlaw@gmail.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Ricky Dixon",
+      "title": "Council Member, District 1",
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Alicia Davis",
       "title": "Council Member, District 3",
-      "email": "adavis@davistaxconsultingfs.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Wanda Highsmith",
       "title": "Council Member, District 4",
-      "email": "whigh25@gmail.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Louis Claytor III",
       "title": "Council Member, District 5",
-      "email": "ltclay3@gmail.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jana Myers",
       "title": "Council Member, District 6",
-      "email": "BarnwellCityCouncilDistrict6@gmail.com",
-      "phone": "(803) 259-3266",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "",
+      "phone": "",
+      "source": "barnwellcity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

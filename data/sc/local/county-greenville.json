@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:greenville",
     "label": "Greenville County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "greenville_county"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "JRusso@greenvillecounty.org",
       "phone": "(864) 483-0689",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kelly Long",
@@ -22,7 +22,7 @@
       "email": "KeLong@greenvillecounty.org",
       "phone": "(864) 410-6172",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Benton Blount",
@@ -30,7 +30,7 @@
       "email": "BBlount@greenvillecounty.org",
       "phone": "(864) 483-2474",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Steve Shaw",
@@ -38,7 +38,7 @@
       "email": "SShaw@greenvillecounty.org",
       "phone": "(864) 553-9713",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Curt McGahhey",
@@ -46,7 +46,7 @@
       "email": "CMcGahhey@greenvillecounty.org",
       "phone": "(864) 398-0721",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Frank Farmer",
@@ -54,7 +54,7 @@
       "email": "FFarmer@greenvillecounty.org",
       "phone": "(864) 398-0880",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Alan Mitchell",
@@ -62,7 +62,7 @@
       "email": "AMitchell@greenvillecounty.org",
       "phone": "(864) 483-6952",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Liz Seman",
@@ -70,7 +70,7 @@
       "email": "LSeman@greenvillecounty.org",
       "phone": "(864) 501-4126",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ennis Fant, Sr.",
@@ -78,7 +78,7 @@
       "email": "efant@greenvillecounty.org",
       "phone": "(864) 483-2433",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Rick Bradley",
@@ -86,7 +86,7 @@
       "email": "RBradley@greenvillecounty.org",
       "phone": "(864) 483-3090",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Garey Collins",
@@ -94,7 +94,7 @@
       "email": "GCollins@greenvillecounty.org",
       "phone": "(864) 398-2709",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dan Tripp",
@@ -102,7 +102,7 @@
       "email": "DTripp@greenvillecounty.org",
       "phone": "(864) 915-9212",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

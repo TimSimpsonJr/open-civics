@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "place:lancaster",
     "label": "Lancaster City Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "colwebuser6363@lancastercitysc.com",
       "phone": "(803) 626-6641",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tomonica Marsh",
@@ -22,7 +22,7 @@
       "email": "colwebuser5683@lancastercitysc.com",
       "phone": "(803) 322-4243",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jackie Harris",
@@ -30,7 +30,7 @@
       "email": "colwebuser5275@lancastercitysc.com",
       "phone": "(843) 337-5984",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ashante Miller",
@@ -38,7 +38,7 @@
       "email": "amiller@lancastercitysc.com",
       "phone": "(839) 291-7240",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Vacant District 5",
@@ -46,7 +46,7 @@
       "email": "",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ronnie Sowell",
@@ -54,7 +54,7 @@
       "email": "colwebuser6481@lancastercitysc.com",
       "phone": "(843) 337-5950",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "T. Alston DeVenny",
@@ -62,7 +62,7 @@
       "email": "colwebuser2238@lancastercitysc.com",
       "phone": "(803) 320-1512",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

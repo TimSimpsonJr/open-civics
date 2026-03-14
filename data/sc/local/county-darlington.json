@@ -4,73 +4,73 @@
     "level": "local",
     "jurisdiction": "county:darlington",
     "label": "Darlington County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "darlington_county"
   },
   "members": [
     {
       "name": "Angie Stone Godbold",
       "title": "Council Member, District 1",
-      "email": "agodbold@darcosc.net",
+      "email": "godbold@darcosc.net",
       "phone": "(843) 758-0472",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Dannie Douglas, Jr.",
-      "title": "Council Member, District 2",
+      "name": "Dannie Douglas, Jr",
+      "title": "Chaplain, District 2",
       "email": "ddouglas@darcosc.net",
       "phone": "(843) 639-9252",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Joyce W. Thomas",
       "title": "Council Member, District 3",
       "email": "jthomas@darcosc.net",
       "phone": "(843) 393-0998",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bobby Hudson",
       "title": "Chairman, District 4",
       "email": "bhudson@darcosc.net",
       "phone": "(843) 326-5634",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Marvin Le Flowers",
       "title": "Vice Chairman, District 5",
       "email": "mflowers@darcosc.net",
       "phone": "(843) 393-0495",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Albert Davis, III",
       "title": "Council Member, District 6",
       "email": "aldavis@darcosc.net",
       "phone": "(843) 858-1480",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "M. Kirk Askins",
       "title": "Council Member, District 7",
       "email": "kaskins@darcosc.net",
       "phone": "(843) 858-3939",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "David Coker",
       "title": "Council Member, District 8",
       "email": "dcoker@darcosc.net",
       "phone": "(843) 861-2624",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "darlingtoncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

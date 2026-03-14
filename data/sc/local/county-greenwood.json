@@ -4,65 +4,65 @@
     "level": "local",
     "jurisdiction": "county:greenwood",
     "label": "Greenwood County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "greenwood_county"
   },
   "members": [
     {
       "name": "Teresa Griffin",
       "title": "Council Member, District 1",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "tgriffin@GreenwoodSC.Gov",
+      "phone": "(864) 993-2727",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Mark Allison",
       "title": "Council Member, District 2",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "mallison@GreenwoodSC.Gov",
+      "phone": "(864) 377-1500",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Johanna Bishop",
       "title": "Council Member, District 3",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "jbishop@greenwoodsc.Gov",
+      "phone": "(864) 941-6160",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Cathy Miller",
       "title": "Council Member, District 4",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "cmiller@GreenwoodSC.Gov",
+      "phone": "(864) 942-8507",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dayne Pruitt",
       "title": "Vice Chairman, District 5",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "dpruitt@greenwoodsc.gov",
+      "phone": "(864) 337-5842",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Robbie Templeton",
       "title": "Council Member, District 6",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "rtempleton@GreenwoodSC.Gov",
+      "phone": "(864) 980-8688",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Theo Lane",
-      "title": "Chairman, District 7",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Council Chairman, District 7",
+      "email": "tlane@GreenwoodSC.Gov",
+      "phone": "(864) 420-0068",
+      "source": "greenwoodcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:york",
     "label": "York County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "york_county"
   },
   "members": [
     {
@@ -13,56 +13,56 @@
       "title": "Vice Chairman, District 1",
       "email": "",
       "phone": "(704) 408-6155",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Andy Litten",
       "title": "Council Member, District 2",
       "email": "",
-      "phone": "(704) 557-6043",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tommy Adkins",
       "title": "Council Member, District 3",
       "email": "",
-      "phone": "(803) 242-4740",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 628-8328",
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "William \"Bump\" Roddey",
       "title": "Council Member, District 4",
       "email": "",
       "phone": "(803) 984-8033",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Christi Cox",
       "title": "Chairman, District 5",
       "email": "",
-      "phone": "(803) 847-0830",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 630-9526",
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "A. Watts Huckabee, Sr.",
+      "name": "Watts Huckabee",
       "title": "Council Member, District 6",
       "email": "",
-      "phone": "(803) 230-9988",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Debi Cloninger",
       "title": "Council Member, District 7",
       "email": "",
-      "phone": "(704) 957-4344",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 965-8393",
+      "source": "yorkcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

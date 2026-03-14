@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "county:hampton",
     "label": "Hampton County Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "rhllngs@yahoo.com",
       "phone": "(803) 943-2860",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Darin Williams",
@@ -22,7 +22,7 @@
       "email": "dwilliams@hamptoncountysc.org",
       "phone": "(803) 346-9561",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dennis Thompson Jr.",
@@ -30,7 +30,7 @@
       "email": "dthompson@hamptoncountysc.org",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jordan “J.J.” Jinks",
@@ -38,7 +38,7 @@
       "email": "jjjinks@hamptoncountysc.org",
       "phone": "(803) 346-2615",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Marvin J. Love",
@@ -46,7 +46,7 @@
       "email": "mlove@hamptoncountysc.org",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

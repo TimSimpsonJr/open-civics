@@ -4,81 +4,81 @@
     "level": "local",
     "jurisdiction": "county:charleston",
     "label": "Charleston County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "charleston_county"
   },
   "members": [
     {
       "name": "Herbert R. Sass, III",
       "title": "Council Member, District 1",
       "email": "HSass@CharlestonCounty.org",
-      "phone": "(843) 693-8305",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(843) 766-7500",
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Larry Kobrovsky",
-      "title": "Vice Chairman, District 2",
+      "title": "Vice Chair, District 2",
       "email": "LKobrovsky@CharlestonCounty.org",
       "phone": "(843) 958-4030",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Robert L. Wehrman",
       "title": "Council Member, District 3",
       "email": "RLWehrman@CharlestonCounty.org",
       "phone": "(843) 958-4030",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Henry E. Darby",
       "title": "Council Member, District 4",
       "email": "HenryDarby@msn.com",
       "phone": "(843) 901-6793",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Teddie E. Pryor, Sr.",
       "title": "Council Member, District 5",
       "email": "TPryor@CharlestonCounty.org",
       "phone": "(843) 958-4030",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kylon J. Middleton",
       "title": "Council Member, District 6",
       "email": "KMiddleton@CharlestonCounty.org",
       "phone": "(843) 325-4577",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "C. Brantley Moody",
       "title": "Council Member, District 7",
       "email": "BMoody@CharlestonCounty.org",
       "phone": "(843) 270-2483",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Joe Boykin",
-      "title": "Chairman, District 8",
+      "title": "Council Chair, District 8",
       "email": "JBoykin@CharlestonCounty.org",
       "phone": "(843) 214-0337",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jenny Costa Honeycutt",
       "title": "Council Member, District 9",
       "email": "JHoneycutt@CharlestonCounty.org",
       "phone": "(843) 693-6447",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "charlestoncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

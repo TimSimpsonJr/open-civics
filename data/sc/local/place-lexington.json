@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "place:lexington",
     "label": "Lexington Town Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "civicplus"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "gsmith@lexsc.gov",
       "phone": "(803) 828-8170",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Hazel Livingston",
@@ -22,7 +22,7 @@
       "email": "hlivingston@lexsc.gov",
       "phone": "(803) 463-6575",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jeannie Michaels",
@@ -30,7 +30,7 @@
       "email": "jmichaels@lexsc.gov",
       "phone": "(803) 206-8570",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ron Williams",
@@ -38,7 +38,7 @@
       "email": "rwilliams@lexsc.gov",
       "phone": "(803) 730-6395",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Todd Carnes",
@@ -46,7 +46,7 @@
       "email": "tcarnes@lexsc.gov",
       "phone": "(803) 960-4318",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Todd Lyle",
@@ -54,7 +54,7 @@
       "email": "tlyle@lexsc.gov",
       "phone": "(803) 960-8361",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Will Allen",
@@ -62,7 +62,7 @@
       "email": "wallen@lexsc.gov",
       "phone": "(803) 239-6369",
       "source": "civicplus",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

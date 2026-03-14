@@ -4,65 +4,57 @@
     "level": "local",
     "jurisdiction": "county:cherokee",
     "label": "Cherokee County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "cherokee_county"
   },
   "members": [
     {
-      "name": "Teresa Bonner",
+      "name": "Teresa Corry Bonner",
       "title": "Council Member, District 1",
-      "email": "",
-      "phone": "(864) 902-2252",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "Teresa.Bonner@cherokeecountysc.com",
+      "phone": "(864) 491-7671",
+      "source": "cherokeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Bill Blanton",
+      "name": "Billy D. Blanton",
       "title": "Council Member, District 2",
-      "email": "",
-      "phone": "(864) 491-6008",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "Bill.Blanton@cherokeecountysc.com",
+      "phone": "(864) 487-5754",
+      "source": "cherokeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Donnie Hardin",
+      "name": "Donnie L. Hardin",
       "title": "Council Member, District 3",
-      "email": "",
-      "phone": "(864) 902-2252",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "Donnie.Hardin@cherokeecountysc.com",
+      "phone": "(864) 761-6137",
+      "source": "cherokeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Tim Spencer",
+      "name": "Timothy F. Spencer",
       "title": "Chairman, District 4",
-      "email": "",
-      "phone": "(864) 902-2055",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "timspencer9@yahoo.com",
+      "phone": "(864) 761-6707",
+      "source": "cherokeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Elliott Hughes",
+      "name": "Elliot Hughes",
       "title": "Council Member, District 5",
-      "email": "",
-      "phone": "(864) 490-6165",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "ellwood105@yahoo.com",
+      "phone": "(864) 489-6165",
+      "source": "cherokeecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "R. David Smith",
-      "title": "Vice Chairman, District 6",
-      "email": "",
+      "name": "David Smith",
+      "title": "Council Member, District 6",
+      "email": "David.Smith@cherokeecountysc.com",
       "phone": "(864) 490-7522",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Vacant",
-      "title": "Council Member, District 7",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "cherokeecounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

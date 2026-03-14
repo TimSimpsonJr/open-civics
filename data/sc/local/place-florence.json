@@ -4,65 +4,65 @@
     "level": "local",
     "jurisdiction": "place:florence",
     "label": "Florence City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "florence_city"
   },
   "members": [
     {
       "name": "Lethonia Barnes",
       "title": "Mayor",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "lbarnes@cityofflorencesc.gov",
+      "phone": "(843) 665-3170",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "George D. Jebaily",
       "title": "Mayor Pro Tem, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "LaShonda NeSmith-Jackson",
-      "title": "Council Member, District 1",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "J. Lawrence Smith, II",
-      "title": "Council Member, District 2",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Bryan A. Braddock",
-      "title": "Council Member, District 3",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "gjebaily@cityofflorencesc.gov",
+      "phone": "(843) 319-9900",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Chaquez T. McCall",
       "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "cmccall@cityofflorencesc.gov",
+      "phone": "(843) 409-8515",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Zach McKay",
       "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "zmckay@cityofflorencesc.gov",
+      "phone": "(843) 992-8896",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "LaShonda NeSmith-Jackson",
+      "title": "Council Member, District 1",
+      "email": "ljackson@cityofflorencesc.gov",
+      "phone": "(843) 617-1000",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "J. Lawrence Smith, II",
+      "title": "Council Member, District 2",
+      "email": "jlsmith@cityofflorencesc.gov",
+      "phone": "(843) 601-8534",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Bryan A. Braddock",
+      "title": "Council Member, District 3",
+      "email": "bbraddock@cityofflorencesc.gov",
+      "phone": "(843) 992-9534",
+      "source": "florencecity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,8 +4,81 @@
     "level": "local",
     "jurisdiction": "place:charleston",
     "label": "Charleston City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "charleston_city"
   },
-  "members": []
+  "members": [
+    {
+      "name": "Boyd Gregg",
+      "title": "Council Member, District 1",
+      "email": "greggb@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Kevin Shealy",
+      "title": "Council Member, District 2",
+      "email": "shealyk@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Jim McBride",
+      "title": "Council Member, District 3",
+      "email": "mcbridej@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Karl L. Brady, Jr.",
+      "title": "Council Member, District 5",
+      "email": "bradyk@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Perry K. Waring",
+      "title": "Council Member, District 7",
+      "email": "waringp@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Michael S. Seekings",
+      "title": "Council Member, District 8",
+      "email": "seekingsm@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "William P. Tinkler",
+      "title": "Council Member, District 9",
+      "email": "tinklerw@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Stephen Bowden",
+      "title": "Council Member, District 10",
+      "email": "bowdens@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Ross A. Appel",
+      "title": "Council Member, District 11",
+      "email": "appelr@charleston-sc.gov",
+      "phone": "(843) 724-7311",
+      "source": "charlestoncity",
+      "lastUpdated": "2026-03-14"
+    }
+  ]
 }

@@ -4,51 +4,65 @@
     "level": "local",
     "jurisdiction": "county:laurens",
     "label": "Laurens County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "laurens_county"
   },
   "members": [
     {
       "name": "M. Kemp Younts",
       "title": "Council Member, District 1",
       "email": "council1@laurenscountysc.gov",
-      "phone": "(864) 681-3152"
+      "phone": "",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Matthew Brownlee",
       "title": "Vice Chairman, District 2",
       "email": "mbrownlee.council2@laurenscountysc.gov",
-      "phone": "(864) 981-6244"
+      "phone": "(864) 981-6244",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Shirley Clark",
       "title": "Council Member, District 3",
       "email": "council3@laurenscountysc.gov",
-      "phone": "(864) 983-8842"
+      "phone": "(864) 983-8842",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "W. Brown Patterson, Jr.",
       "title": "Council Member, District 4",
       "email": "council4@laurenscountysc.gov",
-      "phone": "(864) 984-5484"
+      "phone": "",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jeffrey Carroll",
       "title": "Chairman, District 5",
       "email": "council5@laurenscountysc.gov",
-      "phone": "(864) 597-6756"
+      "phone": "(864) 597-6756",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Arthur Lee Philson, Jr.",
       "title": "Council Member, District 6",
       "email": "aphilson.council6@laurenscountysc.gov",
-      "phone": "(864) 857-4072"
+      "phone": "(864) 857-4072",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Justin Lane",
       "title": "Council Member, District 7",
       "email": "jlane.council7@laurenscountysc.gov",
-      "phone": "(864) 981-6412"
+      "phone": "(864) 981-6412",
+      "source": "laurenscounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

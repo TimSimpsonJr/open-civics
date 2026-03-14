@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:florence",
     "label": "Florence County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "florence_county"
   },
   "members": [
     {
@@ -13,72 +13,72 @@
       "title": "Council Member, District 1",
       "email": "jsprings@florenceco.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Andrew T. Rodgers, Jr.",
       "title": "Council Member, District 2",
       "email": "andrew.rodgersjr@florencecountysc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dr. Alphonso Bradley",
       "title": "Council Member, District 3",
       "email": "abradley@florenceco.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jerry W. Yarborough",
       "title": "Chairman, District 4",
       "email": "jyarborough@florenceco.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kent C. Caudle",
       "title": "Council Member, District 5",
-      "email": "kcaudle@florenceco.org",
+      "email": "kentcaudle@gmail.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Toney Moore",
+      "name": "Stoney C. 'Toney' Moore",
       "title": "Council Member, District 6",
       "email": "tomoore@florenceco.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Rev. Waymon Mumford",
+      "name": "Reverend Waymon Mumford",
       "title": "Council Member, District 7",
       "email": "wmumford@florenceco.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "C. William Schofield",
       "title": "Council Member, District 8",
       "email": "cwschofield@florenceco.org",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Willard Dorriety, Jr.",
+      "name": "Willard Dorriety, Jr",
       "title": "Council Member, District 9",
       "email": "willtob@aol.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "florencecounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

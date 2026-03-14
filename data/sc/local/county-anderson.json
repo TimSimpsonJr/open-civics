@@ -4,51 +4,65 @@
     "level": "local",
     "jurisdiction": "county:anderson",
     "label": "Anderson County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "anderson_county"
   },
   "members": [
     {
       "name": "Chris N. Sullivan",
-      "title": "Council Member, District 1",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 356-2007"
+      "title": "Council Member, District One",
+      "email": "cnsullivan@andersoncountysc.org",
+      "phone": "(864) 356-2007",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Glenn A. Davis",
-      "title": "Council Member, District 2",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 965-8734"
+      "title": "Council Member, District Two",
+      "email": "gadavis@andersoncountysc.org",
+      "phone": "(864) 965-8734",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Greg Elgin",
-      "title": "Council Member, District 3",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 505-1815"
+      "title": "Council Member, District Three",
+      "email": "gelgin@andersoncountysc.org",
+      "phone": "(864) 505-1815",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Brett Sanders",
-      "title": "Vice Chairman, District 4",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 934-7053"
+      "title": "Council Member, Vice-Chairman, District Four",
+      "email": "bsanders@andersoncountysc.org",
+      "phone": "(864) 934-7053",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tommy Dunn",
-      "title": "Chairman, District 5",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 844-3765"
+      "title": "Council Member, Chairman, District Five",
+      "email": "district5@andersoncountysc.org",
+      "phone": "(864) 844-3765",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jimmy Davis",
-      "title": "Council Member, District 6",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 508-4788"
+      "title": "Council Member, District Six",
+      "email": "jdavis@andersoncountysc.org",
+      "phone": "(864) 508-4788",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "M. Cindy Wilson",
-      "title": "Council Member, District 7",
-      "email": "rdwatts@andersoncountysc.org",
-      "phone": "(864) 261-3980"
+      "title": "Council Member, District Seven",
+      "email": "district7@andersoncountysc.org",
+      "phone": "(864) 261-3980",
+      "source": "andersoncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

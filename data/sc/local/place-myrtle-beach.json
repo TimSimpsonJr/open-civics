@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "place:myrtle-beach",
     "label": "Myrtle Beach City Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "revize"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "bmcclure@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "C. H. Mike Lowder Jr.",
@@ -22,7 +22,7 @@
       "email": "mlowder@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Deborah “Debbie” K. Conner, Ph.D.",
@@ -30,7 +30,7 @@
       "email": "dconner@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dr. Philip N. Render, DMD",
@@ -38,7 +38,7 @@
       "email": "prender@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jackie Hatley",
@@ -46,7 +46,7 @@
       "email": "jvereen@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Mark Kruea",
@@ -54,7 +54,7 @@
       "email": "mkruea@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Michael \"Mike\" Chestnut",
@@ -62,7 +62,7 @@
       "email": "mchestnut@cityofmyrtlebeach.com",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

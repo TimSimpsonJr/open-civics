@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "place:greenwood",
     "label": "Greenwood City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "greenwood_city"
   },
   "members": [
     {
@@ -13,56 +13,56 @@
       "title": "Mayor",
       "email": "brandon.smith@gwdcity.com",
       "phone": "(864) 554-4535",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Niki Hutto",
-      "title": "Council Member, Ward 1",
-      "email": "niki.hutto@gwdcity.com",
-      "phone": "(864) 993-6303",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Robert Dean",
-      "title": "Mayor Pro Tem, Ward 2",
+      "title": "Mayor Pro Tem, Ward Two",
       "email": "robert.dean@gwdcity.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Niki Hutto",
+      "title": "Council Member, Ward One",
+      "email": "niki.hutto@gwdcity.com",
+      "phone": "(864) 993-6303",
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Annette Edwards",
-      "title": "Council Member, Ward 3",
+      "title": "Council Member, Ward Three",
       "email": "annette.edwards@gwdcity.com",
       "phone": "(864) 337-0532",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Johnathan Bass",
-      "title": "Council Member, Ward 4",
+      "title": "Council Member, Ward Four",
       "email": "johnathan.bass@gwdcity.com",
       "phone": "(864) 992-1467",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Matthew Miller",
-      "title": "Council Member, Ward 5",
+      "title": "Council Member, Ward Five",
       "email": "matthew.miller@gwdcity.com",
       "phone": "(864) 554-6013",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ronnie Ables",
-      "title": "Council Member, Ward 6",
+      "title": "Council Member, Ward Six",
       "email": "ronnie.ables@gwdcity.com",
       "phone": "(864) 980-5220",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "greenwoodcity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

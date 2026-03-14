@@ -4,7 +4,7 @@
     "level": "local",
     "jurisdiction": "place:greenville",
     "label": "Greenville City Council",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14",
     "adapter": "greenville_city"
   },
   "members": [
@@ -14,7 +14,7 @@
       "email": "kwhite@greenvillesc.gov",
       "phone": "(864) 467-4590",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John DeWorken",
@@ -22,7 +22,7 @@
       "email": "jdeworken@greenvillesc.gov",
       "phone": "(864) 905-5529",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Lillian Brock Flemming",
@@ -30,7 +30,7 @@
       "email": "lflemming@greenvillesc.gov",
       "phone": "(864) 241-8677",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ken Gibson",
@@ -38,7 +38,7 @@
       "email": "kgibson@greenvillesc.gov",
       "phone": "(864) 982-4298",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Wil Brasington",
@@ -46,7 +46,7 @@
       "email": "wbrasington@greenvillesc.gov",
       "phone": "(864) 421-3047",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Dorothy Dowe",
@@ -54,7 +54,7 @@
       "email": "ddowe@greenvillesc.gov",
       "phone": "(864) 884-4444",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tina Belge",
@@ -62,7 +62,7 @@
       "email": "tbelge@greenvillesc.gov",
       "phone": "(864) 270-9962",
       "source": "greenvillecity",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-14"
     }
   ]
 }
