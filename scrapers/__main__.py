@@ -286,7 +286,7 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
 
         except Exception as e:
             print(f"  ERROR scraping {jid}: {e}")
-            results[jid] = {"status": "error", "error": str(e)}
+            results[jid] = {"status": "error", "error": str(e), "members": 0, "warnings": []}
 
     return results
 
@@ -401,7 +401,8 @@ def main():
                 jurisdiction_filter=args.jurisdiction,
                 dry_run=args.dry_run,
             )
-            all_results.update(local_results)
+            for jid, result in local_results.items():
+                all_results[f"{state_code.lower()}:{jid}"] = result
 
         if run_boundaries:
             scrape_boundaries(state_code, state_config, dry_run=args.dry_run)
