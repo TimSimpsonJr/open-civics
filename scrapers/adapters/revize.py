@@ -20,7 +20,7 @@ import re
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-from .base import BaseAdapter
+from .base import BaseAdapter, deobfuscate_cf_email
 
 USER_AGENT = "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"
 
@@ -83,6 +83,17 @@ class RevizeAdapter(BaseAdapter):
                             if link_text not in seen_texts:
                                 seen_texts.add(link_text)
                                 markers.append(("name", link_text, el))
+                elif el.name == "a" and "/email-protection#" in el.get("href", ""):
+                    # Cloudflare-obfuscated email
+                    encoded = el["href"].split("#", 1)[-1]
+                    email = deobfuscate_cf_email(encoded)
+                    if email and not self._is_generic_email(email):
+                        markers.append(("email", email, el))
+                elif el.name == "span" and el.get("data-cfemail"):
+                    # Cloudflare inline obfuscation
+                    email = deobfuscate_cf_email(el["data-cfemail"])
+                    if email and not self._is_generic_email(email):
+                        markers.append(("email", email, el))
                 elif el.name == "a" and el.get("href", "").lower().startswith("tel:"):
                     phone_text = el.get_text(strip=True)
                     if phone_text:

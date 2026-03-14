@@ -5,6 +5,24 @@ import re
 from datetime import date
 
 
+def deobfuscate_cf_email(encoded: str) -> str:
+    """Decode a Cloudflare-obfuscated email address.
+
+    Cloudflare email protection encodes emails as hex strings where the
+    first two hex chars are the XOR key and subsequent pairs are the
+    encoded characters. Found in href="/cdn-cgi/l/email-protection#HEXSTRING"
+    and data-cfemail="HEXSTRING" attributes.
+    """
+    try:
+        key = int(encoded[:2], 16)
+        return "".join(
+            chr(int(encoded[i:i+2], 16) ^ key)
+            for i in range(2, len(encoded), 2)
+        )
+    except (ValueError, IndexError):
+        return ""
+
+
 def normalize_phone(phone_raw: str) -> str:
     """Normalize a US phone number to (NNN) NNN-NNNN format.
 

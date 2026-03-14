@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "county:calhoun",
     "label": "Calhoun County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "table"
   },
   "members": [
     {
-      "name": "Richard Carson",
-      "title": "Council Member, District 1",
-      "email": "RCarson@CalhounCounty.SC.Gov",
-      "phone": "(803) 874-2435",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "James Haigler",
+      "title": "Council Chairman, District 5",
+      "email": "jhaigler@calhouncounty.sc.gov",
+      "phone": "",
+      "source": "table",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ken Westbury",
-      "title": "Council Member, District 2",
-      "email": "KWestbury@CalhounCounty.SC.Gov",
-      "phone": "(803) 874-2435",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "County Council, District 2",
+      "email": "kwestbury@calhouncounty.sc.gov",
+      "phone": "",
+      "source": "table",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Richard Carson",
+      "title": "County Council, District 1",
+      "email": "rcarson@calhouncounty.sc.gov",
+      "phone": "",
+      "source": "table",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Rebecca A. Bonnette",
-      "title": "Council Member, District 3",
-      "email": "RBonnette@CalhounCounty.SC.Gov",
-      "phone": "(803) 874-2435",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "County Council, District 3",
+      "email": "rbonnette@calhouncounty.sc.gov",
+      "phone": "",
+      "source": "table",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Cecil M. Thornton, Jr.",
-      "title": "Vice Chairman, District 4",
-      "email": "CThornton@CalhounCounty.SC.Gov",
-      "phone": "(803) 874-2435",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "James Haigler",
-      "title": "Chairman, District 5",
-      "email": "JHaigler@CalhounCounty.SC.Gov",
-      "phone": "(803) 874-2435",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Council Vice-Chairman, District 4",
+      "email": "cthornton@calhouncounty.sc.gov",
+      "phone": "",
+      "source": "table",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

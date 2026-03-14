@@ -4,89 +4,81 @@
     "level": "local",
     "jurisdiction": "place:north-charleston",
     "label": "North Charleston City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "generic_mailto"
   },
   "members": [
     {
-      "name": "Greg Perry",
-      "title": "Council Member, District 1",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Rhonda Jerome",
-      "title": "Council Member, District 2",
-      "email": "",
-      "phone": "(843) 813-4404",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Stephanie Ganaway-Pasley",
-      "title": "Council Member, District 3",
-      "email": "",
-      "phone": "(843) 270-1961",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Charmaine Palmer-Roberts",
-      "title": "Council Member, District 4",
-      "email": "",
-      "phone": "(843) 819-9170",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Brandon Hudson",
+      "title": "Council Member",
+      "email": "bhudson@northcharleston.org",
+      "phone": "(803) 292-6044",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Christopher Emde",
-      "title": "Council Member, District 5",
-      "email": "",
+      "title": "Council Member",
+      "email": "cemde@northcharleston.org",
       "phone": "(843) 751-6214",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Nefertiti Brown",
-      "title": "Council Member, District 6",
-      "email": "",
-      "phone": "(843) 790-4098",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Dr. Charmaine Palmer-Roberts",
+      "title": "Council Member",
+      "email": "cpalmerroberts@northcharleston.org",
+      "phone": "(843) 819-9170",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Michael Brown, Jr.",
-      "title": "Council Member, District 7",
-      "email": "",
-      "phone": "(843) 367-3714",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Brandon Hudson",
-      "title": "Council Member, District 8",
-      "email": "",
-      "phone": "(803) 292-6044",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Dr. Stephanie Ganaway-Pasley",
+      "title": "Council Member",
+      "email": "sganawaypasley@northcharleston.org",
+      "phone": "(843) 270-1961",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kenny Skipper",
-      "title": "Council Member, District 9",
-      "email": "",
+      "title": "Council Member",
+      "email": "kskipper@northcharleston.org",
       "phone": "(843) 200-7520",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Michael Brown",
-      "title": "Council Member, District 10",
-      "email": "",
+      "title": "Council Member",
+      "email": "bmichaelchr@aol.com",
       "phone": "(843) 747-3531",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Michael Brown, Jr.",
+      "title": "Council Member",
+      "email": "mibrown@northcharleston.org",
+      "phone": "(843) 367-3714",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Nefertiti Brown",
+      "title": "Council Member",
+      "email": "nbrown@northcharleston.org",
+      "phone": "(843) 790-4098",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Rhonda Jerome",
+      "title": "Council Member",
+      "email": "rjerome@northcharleston.org",
+      "phone": "(843) 813-4404",
+      "source": "genericmailto",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

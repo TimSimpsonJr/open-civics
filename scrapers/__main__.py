@@ -30,6 +30,7 @@ from .adapters.horry_county import HorryCountyAdapter
 from .adapters.kershaw_county import KershawCountyAdapter
 from .adapters.revize import RevizeAdapter
 from .adapters.richland_county import RichlandCountyAdapter
+from .adapters.table_adapter import TableAdapter
 
 ADAPTERS = {
     "civicplus": CivicPlusAdapter,
@@ -41,6 +42,7 @@ ADAPTERS = {
     "kershaw_county": KershawCountyAdapter,
     "revize": RevizeAdapter,
     "richland_county": RichlandCountyAdapter,
+    "table": TableAdapter,
 }
 
 
