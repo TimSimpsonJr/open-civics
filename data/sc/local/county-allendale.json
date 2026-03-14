@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "county:allendale",
     "label": "Allendale County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "allendale_county"
   },
   "members": [
     {
+      "name": "William Robinson",
+      "title": "Chair, District 5",
+      "email": "wbrobinson@allendalecounty.gov",
+      "phone": "(803) 686-0314",
+      "source": "allendalecounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
       "name": "John Chaney",
-      "title": "Vice Chairman, District 1",
+      "title": "Vice Chair, District 1",
       "email": "jchaney@allendalecounty.gov",
       "phone": "(803) 686-5655",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "allendalecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "James White, Jr.",
       "title": "Council Member, District 2",
       "email": "jwhite@allendalecounty.gov",
       "phone": "(803) 686-5072",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "allendalecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Willa Jennings",
       "title": "Council Member, District 3",
       "email": "wjennings@allendalecounty.gov",
       "phone": "(803) 686-4747",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "allendalecounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Matthew Connelly",
       "title": "Council Member, District 4",
       "email": "mconnelly@allendalecounty.gov",
       "phone": "(803) 300-0984",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "William Robinson",
-      "title": "Chairman, District 5",
-      "email": "wbrobinson@allendalecounty.gov",
-      "phone": "(803) 686-0314",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "allendalecounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,57 +4,57 @@
     "level": "local",
     "jurisdiction": "county:union",
     "label": "Union County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "union_county"
   },
   "members": [
+    {
+      "name": "David Sinclair",
+      "title": "Vice Chairman, District 3",
+      "email": "dsinclair@countyofunion.com",
+      "phone": "(864) 426-1222",
+      "source": "unioncounty",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Danny Bright",
       "title": "Council Member, District 1",
       "email": "dbright@countyofunion.com",
       "phone": "(864) 426-0909",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "unioncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John R. Glenn",
       "title": "Council Member, District 2",
       "email": "jglenn@countyofunion.com",
       "phone": "(864) 426-4329",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "David Sinclair",
-      "title": "Council Member, District 3",
-      "email": "dsinclair@countyofunion.com",
-      "phone": "(864) 426-1222",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "unioncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Annie Smith",
       "title": "Council Member, District 4",
       "email": "asmith@countyofunion.com",
       "phone": "(864) 979-1818",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "unioncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Carolyn Rutherford",
       "title": "Council Member, District 5",
       "email": "crutherford@countyofunion.com",
       "phone": "(864) 426-7780",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "unioncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John Flood",
       "title": "Council Member, District 6",
       "email": "jflood@countyofunion.com",
       "phone": "(864) 466-2570",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "unioncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

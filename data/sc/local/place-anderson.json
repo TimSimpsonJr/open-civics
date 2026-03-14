@@ -4,63 +4,73 @@
     "level": "local",
     "jurisdiction": "place:anderson",
     "label": "Anderson City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "anderson_city"
   },
   "members": [
     {
-      "name": "Terence Roberts",
+      "name": "Terence V. Roberts",
       "title": "Mayor",
       "email": "troberts@cityofandersonsc.com",
-      "phone": "(864) 231-1135"
+      "phone": "",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Kyle Newton",
-      "title": "Council Member, Seat 1",
-      "email": "knewton@cityofandersonsc.com",
-      "phone": "(864) 712-5725"
-    },
-    {
-      "name": "Vacant",
-      "title": "Council Member, Seat 2",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "name": "Jeff Roberts",
+      "name": "Jeffrey D. Roberts",
       "title": "Mayor Pro Tem, Seat 3",
       "email": "jeffroberts@cityofandersonsc.com",
-      "phone": "(864) 226-8837"
+      "phone": "(864) 226-8837",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Kyle L. Newton",
+      "title": "Council Member, Seat 1",
+      "email": "knewton@cityofandersonsc.com",
+      "phone": "(864) 712-5725",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tony Stewart",
       "title": "Council Member, Seat 4",
       "email": "tstewart@cityofandersonsc.com",
-      "phone": "(864) 915-1122"
+      "phone": "(864) 915-1122",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Beatrice Thompson",
+      "name": "Beatrice R. Thompson",
       "title": "Council Member, Seat 5",
       "email": "bthompson@cityofandersonsc.com",
-      "phone": "(864) 224-1990"
+      "phone": "(864) 224-1990",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Greg Steele",
       "title": "Council Member, Seat 6",
       "email": "gsteele@cityofandersonsc.com",
-      "phone": "(864) 651-2351"
+      "phone": "(864) 651-2351",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Matt Harbin",
-      "title": "Council Member, At Large Seat 7",
+      "name": "Matthew C. Harbin",
+      "title": "Council Member, At-Large Seat 7",
       "email": "mharbin@cityofandersonsc.com",
-      "phone": "(864) 376-4968"
+      "phone": "(864) 376-4968",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "John Roberts",
-      "title": "Council Member, At Large Seat 8",
+      "name": "John M. Roberts",
+      "title": "Council Member, At-Large Seat 8",
       "email": "jroberts@cityofandersonsc.com",
-      "phone": "(864) 261-1311"
+      "phone": "(864) 261-1311",
+      "source": "andersoncity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

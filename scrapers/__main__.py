@@ -23,7 +23,11 @@ REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 
 from .adapters.abbeville import AbbevilleAdapter
 from .adapters.abbeville_county import AbbevilleCountyAdapter
+from .adapters.allendale_county import AllendaleCountyAdapter
+from .adapters.allendale_town import AllendaleTownAdapter
+from .adapters.anderson_city import AndersonCityAdapter
 from .adapters.anderson_county import AndersonCountyAdapter
+from .adapters.bamberg_city import BambergCityAdapter
 from .adapters.bamberg_county import BambergCountyAdapter
 from .adapters.barnwell_city import BarnwellCityAdapter
 from .adapters.beaufort_county import BeaufortCountyAdapter
@@ -43,6 +47,7 @@ from .adapters.conway_city import ConwayCityAdapter
 from .adapters.darlington_city import DarlingtonCityAdapter
 from .adapters.darlington_county import DarlingtonCountyAdapter
 from .adapters.dillon_city import DillonCityAdapter
+from .adapters.dillon_county import DillonCountyAdapter
 from .adapters.edgefield_county import EdgefieldCountyAdapter
 from .adapters.edgefield_town import EdgefieldTownAdapter
 from .adapters.florence_city import FlorenceCityAdapter
@@ -73,9 +78,11 @@ from .adapters.revize import RevizeAdapter
 from .adapters.richland_county import RichlandCountyAdapter
 from .adapters.saluda_county import SaludaCountyAdapter
 from .adapters.st_george import StGeorgeAdapter
+from .adapters.st_matthews import StMatthewsAdapter
 from .adapters.sumter_city import SumterCityAdapter
 from .adapters.sumter_county import SumterCountyAdapter
 from .adapters.table_adapter import TableAdapter
+from .adapters.union_county import UnionCountyAdapter
 from .adapters.walhalla_city import WalhallaCityAdapter
 from .adapters.winnsboro import WinnsboroAdapter
 from .adapters.york_county import YorkCountyAdapter
@@ -83,7 +90,11 @@ from .adapters.york_county import YorkCountyAdapter
 ADAPTERS = {
     "abbeville_city": AbbevilleAdapter,
     "abbeville_county": AbbevilleCountyAdapter,
+    "allendale_county": AllendaleCountyAdapter,
+    "allendale_town": AllendaleTownAdapter,
+    "anderson_city": AndersonCityAdapter,
     "anderson_county": AndersonCountyAdapter,
+    "bamberg_city": BambergCityAdapter,
     "bamberg_county": BambergCountyAdapter,
     "barnwell_city": BarnwellCityAdapter,
     "beaufort_county": BeaufortCountyAdapter,
@@ -103,6 +114,7 @@ ADAPTERS = {
     "darlington_city": DarlingtonCityAdapter,
     "darlington_county": DarlingtonCountyAdapter,
     "dillon_city": DillonCityAdapter,
+    "dillon_county": DillonCountyAdapter,
     "edgefield_county": EdgefieldCountyAdapter,
     "edgefield_town": EdgefieldTownAdapter,
     "florence_city": FlorenceCityAdapter,
@@ -133,9 +145,11 @@ ADAPTERS = {
     "richland_county": RichlandCountyAdapter,
     "saluda_county": SaludaCountyAdapter,
     "st_george": StGeorgeAdapter,
+    "st_matthews": StMatthewsAdapter,
     "sumter_city": SumterCityAdapter,
     "sumter_county": SumterCountyAdapter,
     "table": TableAdapter,
+    "union_county": UnionCountyAdapter,
     "walhalla_city": WalhallaCityAdapter,
     "winnsboro": WinnsboroAdapter,
     "york_county": YorkCountyAdapter,

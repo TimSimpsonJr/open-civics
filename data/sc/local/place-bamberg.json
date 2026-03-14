@@ -4,41 +4,57 @@
     "level": "local",
     "jurisdiction": "place:bamberg",
     "label": "Bamberg City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "bamberg_city"
   },
   "members": [
     {
-      "name": "Corey Ramsey",
-      "title": "Mayor",
+      "name": "Bobbi Bunch",
+      "title": "Mayor Pro Tem, District 4",
       "email": "",
-      "phone": "(803) 245-5128",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 707-7851",
+      "source": "bambergcity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Bobbi Bunch",
-      "title": "Council Member, At Large",
+      "name": "Alan Sunday",
+      "title": "Council Member, District 1",
       "email": "",
-      "phone": "(803) 245-5128",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 707-7094",
+      "source": "bambergcity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Willie Staley",
+      "title": "Council Member, District 2",
+      "email": "",
+      "phone": "(803) 347-5726",
+      "source": "bambergcity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Stephone Glover",
+      "title": "Sanitation Commissioner, District 3",
+      "email": "",
+      "phone": "",
+      "source": "bambergcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Joyce Searson",
-      "title": "Council Member, At Large",
+      "title": "Licensing & Chamber of Commerce Commissioner, District 5",
       "email": "",
-      "phone": "(803) 245-5128",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "bambergcity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Carey Bunch",
-      "title": "Council Member, At Large",
+      "title": "Public Building, Parks & Insurance Commissioner, District 6",
       "email": "",
-      "phone": "(803) 245-5128",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "bambergcity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }
