@@ -5,7 +5,9 @@
     "jurisdiction": "place:kingstree",
     "label": "Kingstree Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "kingstree"
+    "adapter": "kingstree",
+    "dataHash": "57d4add0b94cbfc8",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

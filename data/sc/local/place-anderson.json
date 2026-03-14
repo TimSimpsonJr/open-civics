@@ -5,7 +5,9 @@
     "jurisdiction": "place:anderson",
     "label": "Anderson City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "anderson_city"
+    "adapter": "anderson_city",
+    "dataHash": "8085227235abfdf5",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

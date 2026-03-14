@@ -5,7 +5,9 @@
     "jurisdiction": "place:orangeburg",
     "label": "Orangeburg City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "orangeburg_city"
+    "adapter": "orangeburg_city",
+    "dataHash": "955227703caaeae9",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

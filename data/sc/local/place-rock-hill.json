@@ -5,7 +5,9 @@
     "jurisdiction": "place:rock-hill",
     "label": "Rock Hill City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "rock_hill"
+    "adapter": "rock_hill",
+    "dataHash": "306763b1b711d078",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

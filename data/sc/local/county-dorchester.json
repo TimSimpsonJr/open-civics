@@ -5,7 +5,9 @@
     "jurisdiction": "county:dorchester",
     "label": "Dorchester County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "scac"
+    "adapter": "scac",
+    "dataHash": "a0de5c7c53a53adf",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

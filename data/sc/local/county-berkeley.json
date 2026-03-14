@@ -5,7 +5,9 @@
     "jurisdiction": "county:berkeley",
     "label": "Berkeley County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "scac"
+    "adapter": "scac",
+    "dataHash": "368052b1295014e9",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

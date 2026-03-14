@@ -5,7 +5,9 @@
     "jurisdiction": "place:union",
     "label": "Union City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "masc"
+    "adapter": "masc",
+    "dataHash": "3dc40ce798eb4684",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

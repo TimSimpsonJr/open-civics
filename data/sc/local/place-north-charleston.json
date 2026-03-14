@@ -5,7 +5,9 @@
     "jurisdiction": "place:north-charleston",
     "label": "North Charleston City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "008932ba877758f5",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

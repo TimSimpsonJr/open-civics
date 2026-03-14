@@ -5,7 +5,9 @@
     "jurisdiction": "county:lancaster",
     "label": "Lancaster County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "2482d838aa846854",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

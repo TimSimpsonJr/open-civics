@@ -5,9 +5,19 @@
     "jurisdiction": "place:summerville",
     "label": "Summerville Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "eccb72752423af92",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Russ Touchberry",
+      "title": "Mayor",
+      "email": "rtouchberry@SummervilleSC.gov",
+      "phone": "(843) 693-8707",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Dexcter Mack",
       "title": "Council Member, District 1",
@@ -53,14 +63,6 @@
       "title": "Council Member, District 6",
       "email": "BJackson@SummervilleSC.gov",
       "phone": "(843) 810-0449",
-      "source": "civicplus",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "Russ Touchberry",
-      "title": "Mayor",
-      "email": "rtouchberry@SummervilleSC.gov",
-      "phone": "(843) 693-8707",
       "source": "civicplus",
       "lastUpdated": "2026-03-14"
     }

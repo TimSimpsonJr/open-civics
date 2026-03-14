@@ -5,7 +5,9 @@
     "jurisdiction": "county:edgefield",
     "label": "Edgefield County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "edgefield_county"
+    "adapter": "edgefield_county",
+    "dataHash": "83a3adf495d54f16",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

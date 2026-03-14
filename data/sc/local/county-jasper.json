@@ -5,7 +5,9 @@
     "jurisdiction": "county:jasper",
     "label": "Jasper County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "table"
+    "adapter": "table",
+    "dataHash": "6a06bd13985d80da",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,7 +5,9 @@
     "jurisdiction": "county:marlboro",
     "label": "Marlboro County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "marlboro_county"
+    "adapter": "marlboro_county",
+    "dataHash": "fcefeea5013df116",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

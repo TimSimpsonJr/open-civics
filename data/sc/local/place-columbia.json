@@ -5,7 +5,9 @@
     "jurisdiction": "place:columbia",
     "label": "Columbia City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "columbia"
+    "adapter": "columbia",
+    "dataHash": "75775205bfd46b9e",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {
@@ -20,7 +22,7 @@
       "name": "Tina N. Herbert",
       "title": "Council Member, District 1",
       "email": "Tina.Herbert@Columbiasc.gov",
-      "phone": "",
+      "phone": "(803) 814-7207",
       "source": "columbia",
       "lastUpdated": "2026-03-14"
     },
@@ -28,7 +30,7 @@
       "name": "Edward H. McDowell, Jr.",
       "title": "Council Member, District 2",
       "email": "Edward.McDowell@columbiasc.gov",
-      "phone": "",
+      "phone": "(803) 545-3061",
       "source": "columbia",
       "lastUpdated": "2026-03-14"
     },
@@ -36,7 +38,7 @@
       "name": "Will Brennan",
       "title": "Council Member, District 3",
       "email": "Will.Brennan@columbiasc.gov",
-      "phone": "",
+      "phone": "(803) 876-4919",
       "source": "columbia",
       "lastUpdated": "2026-03-14"
     },
@@ -44,7 +46,7 @@
       "name": "Peter M. Brown",
       "title": "Council Member, District 4",
       "email": "peter.brown@columbiasc.gov",
-      "phone": "",
+      "phone": "(803) 360-3971",
       "source": "columbia",
       "lastUpdated": "2026-03-14"
     },
@@ -52,7 +54,7 @@
       "name": "Sam P. Johnson",
       "title": "Council Member, At-Large",
       "email": "Sam.Johnson@columbiasc.gov",
-      "phone": "",
+      "phone": "(803) 719-6158",
       "source": "columbia",
       "lastUpdated": "2026-03-14"
     },
@@ -60,7 +62,7 @@
       "name": "Tyler D. Bailey",
       "title": "Council Member, At-Large",
       "email": "Tyler.Bailey@columbiasc.gov",
-      "phone": "",
+      "phone": "(803) 908-6830",
       "source": "columbia",
       "lastUpdated": "2026-03-14"
     }

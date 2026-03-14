@@ -5,7 +5,9 @@
     "jurisdiction": "county:charleston",
     "label": "Charleston County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "charleston_county"
+    "adapter": "charleston_county",
+    "dataHash": "12c9f3a0ddb75a11",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

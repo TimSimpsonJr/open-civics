@@ -5,7 +5,9 @@
     "jurisdiction": "place:georgetown",
     "label": "Georgetown City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "revize"
+    "adapter": "revize",
+    "dataHash": "65893e667722b9fa",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

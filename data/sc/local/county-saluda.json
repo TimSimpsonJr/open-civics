@@ -5,7 +5,9 @@
     "jurisdiction": "county:saluda",
     "label": "Saluda County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "saluda_county"
+    "adapter": "saluda_county",
+    "dataHash": "67dd183345017262",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

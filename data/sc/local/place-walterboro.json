@@ -5,7 +5,9 @@
     "jurisdiction": "place:walterboro",
     "label": "Walterboro City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "b54644bba545c745",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

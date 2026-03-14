@@ -5,7 +5,9 @@
     "jurisdiction": "county:orangeburg",
     "label": "Orangeburg County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "8aa91419a2334e85",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

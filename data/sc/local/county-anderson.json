@@ -5,7 +5,9 @@
     "jurisdiction": "county:anderson",
     "label": "Anderson County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "anderson_county"
+    "adapter": "anderson_county",
+    "dataHash": "a6eee9f7e290f23d",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,7 +5,9 @@
     "jurisdiction": "county:barnwell",
     "label": "Barnwell County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "5e8cc350ba4d5c6a",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,9 +5,19 @@
     "jurisdiction": "place:lancaster",
     "label": "Lancaster City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "d8d1623bd3bc5ce8",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "T. Alston DeVenny",
+      "title": "Mayor",
+      "email": "colwebuser2238@lancastercitysc.com",
+      "phone": "(803) 320-1512",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Kenny Hood",
       "title": "Council Member, District 1",
@@ -53,14 +63,6 @@
       "title": "Council Member, District 6",
       "email": "colwebuser6481@lancastercitysc.com",
       "phone": "(843) 337-5950",
-      "source": "civicplus",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "T. Alston DeVenny",
-      "title": "Mayor",
-      "email": "colwebuser2238@lancastercitysc.com",
-      "phone": "(803) 320-1512",
       "source": "civicplus",
       "lastUpdated": "2026-03-14"
     }

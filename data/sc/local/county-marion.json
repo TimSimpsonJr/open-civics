@@ -5,7 +5,9 @@
     "jurisdiction": "county:marion",
     "label": "Marion County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "table"
+    "adapter": "table",
+    "dataHash": "e7db570eb5f3d550",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

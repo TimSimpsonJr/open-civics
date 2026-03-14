@@ -5,9 +5,19 @@
     "jurisdiction": "place:spartanburg",
     "label": "Spartanburg City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "41a92799a1bbe955",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Jerome Rice",
+      "title": "Mayor",
+      "email": "Jerome.Rice@cityofspartanburg.org",
+      "phone": "(864) 596-2796",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Meghan Smith",
       "title": "Council Member, District 1",
@@ -52,14 +62,6 @@
       "name": "Erica Brown",
       "title": "Council Member, District 6",
       "email": "ebrown@cityofspartanburg.org",
-      "phone": "(864) 596-2796",
-      "source": "civicplus",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "Jerome Rice",
-      "title": "Mayor",
-      "email": "Jerome.Rice@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
       "lastUpdated": "2026-03-14"

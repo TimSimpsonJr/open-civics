@@ -5,7 +5,9 @@
     "jurisdiction": "county:dillon",
     "label": "Dillon County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "dillon_county"
+    "adapter": "dillon_county",
+    "dataHash": "2645d0a10c268029",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

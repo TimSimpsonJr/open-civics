@@ -5,7 +5,9 @@
     "jurisdiction": "place:bennettsville",
     "label": "Bennettsville City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "table"
+    "adapter": "table",
+    "dataHash": "d0714d7217168458",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

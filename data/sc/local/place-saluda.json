@@ -5,7 +5,9 @@
     "jurisdiction": "place:saluda",
     "label": "Saluda Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "masc"
+    "adapter": "masc",
+    "dataHash": "65a51529d7b5b518",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,7 +5,9 @@
     "jurisdiction": "place:goose-creek",
     "label": "Goose Creek City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "goose_creek"
+    "adapter": "goose_creek",
+    "dataHash": "31d5b51cff2ef191",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

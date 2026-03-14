@@ -5,7 +5,9 @@
     "jurisdiction": "place:manning",
     "label": "Manning City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "masc"
+    "adapter": "masc",
+    "dataHash": "ea050a8caba8cd49",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

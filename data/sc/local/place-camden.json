@@ -5,7 +5,9 @@
     "jurisdiction": "place:camden",
     "label": "Camden City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "088cd79b116544b5",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

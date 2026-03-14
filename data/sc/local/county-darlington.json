@@ -5,7 +5,9 @@
     "jurisdiction": "county:darlington",
     "label": "Darlington County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "darlington_county"
+    "adapter": "darlington_county",
+    "dataHash": "35c0f87075ec1006",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

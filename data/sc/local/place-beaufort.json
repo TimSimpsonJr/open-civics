@@ -5,9 +5,19 @@
     "jurisdiction": "place:beaufort",
     "label": "Beaufort City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "c88fc12d4882394c",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
+    {
+      "name": "Phil Cromer",
+      "title": "Mayor",
+      "email": "pcromer@cityofbeaufort.org",
+      "phone": "(843) 525-7070",
+      "source": "civicplus",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Josh Scallate",
       "title": "Councilman",
@@ -36,14 +46,6 @@
       "name": "Neil Lipsitz",
       "title": "Councilman",
       "email": "nlipsitz@cityofbeaufort.org",
-      "phone": "(843) 525-7070",
-      "source": "civicplus",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "Phil Cromer",
-      "title": "Mayor",
-      "email": "pcromer@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
       "lastUpdated": "2026-03-14"

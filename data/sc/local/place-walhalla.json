@@ -5,7 +5,9 @@
     "jurisdiction": "place:walhalla",
     "label": "Walhalla City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "walhalla_city"
+    "adapter": "walhalla_city",
+    "dataHash": "1181dc53ef7cb4f8",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

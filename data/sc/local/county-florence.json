@@ -5,7 +5,9 @@
     "jurisdiction": "county:florence",
     "label": "Florence County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "florence_county"
+    "adapter": "florence_county",
+    "dataHash": "95084d1038ff99fb",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

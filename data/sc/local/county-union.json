@@ -5,7 +5,9 @@
     "jurisdiction": "county:union",
     "label": "Union County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "union_county"
+    "adapter": "union_county",
+    "dataHash": "dab2a3deb2866e06",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

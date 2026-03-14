@@ -5,7 +5,9 @@
     "jurisdiction": "county:colleton",
     "label": "Colleton County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "colleton_county"
+    "adapter": "colleton_county",
+    "dataHash": "95613020c9ddc625",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

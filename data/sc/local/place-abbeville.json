@@ -5,7 +5,9 @@
     "jurisdiction": "place:abbeville",
     "label": "Abbeville City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "abbeville_city"
+    "adapter": "abbeville_city",
+    "dataHash": "7083aa4243e86bbb",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

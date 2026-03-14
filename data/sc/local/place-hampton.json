@@ -5,7 +5,9 @@
     "jurisdiction": "place:hampton",
     "label": "Hampton Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "hampton_town"
+    "adapter": "hampton_town",
+    "dataHash": "3e9d8c112571d965",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

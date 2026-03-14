@@ -5,7 +5,9 @@
     "jurisdiction": "county:lee",
     "label": "Lee County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "lee_county"
+    "adapter": "lee_county",
+    "dataHash": "1526df351ea40b3c",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

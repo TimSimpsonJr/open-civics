@@ -5,7 +5,9 @@
     "jurisdiction": "place:mount-pleasant",
     "label": "Mount Pleasant Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "7861271e24668438",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

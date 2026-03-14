@@ -5,7 +5,9 @@
     "jurisdiction": "county:aiken",
     "label": "Aiken County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "civicplus"
+    "adapter": "civicplus",
+    "dataHash": "6b9eb1958b68cb0c",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

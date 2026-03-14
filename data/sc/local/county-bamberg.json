@@ -5,7 +5,9 @@
     "jurisdiction": "county:bamberg",
     "label": "Bamberg County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "bamberg_county"
+    "adapter": "bamberg_county",
+    "dataHash": "e5c4cd94b7f0878c",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

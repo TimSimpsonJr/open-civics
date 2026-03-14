@@ -5,7 +5,9 @@
     "jurisdiction": "place:myrtle-beach",
     "label": "Myrtle Beach City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "revize"
+    "adapter": "revize",
+    "dataHash": "343375b8c857d1d4",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

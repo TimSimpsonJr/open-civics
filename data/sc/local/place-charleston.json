@@ -5,7 +5,9 @@
     "jurisdiction": "place:charleston",
     "label": "Charleston City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "charleston_city"
+    "adapter": "charleston_city",
+    "dataHash": "4a99bd907b790235",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

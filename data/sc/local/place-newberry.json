@@ -5,7 +5,9 @@
     "jurisdiction": "place:newberry",
     "label": "Newberry City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "generic_mailto"
+    "adapter": "generic_mailto",
+    "dataHash": "aa1c55b9d9af41a1",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

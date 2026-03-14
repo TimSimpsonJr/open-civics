@@ -5,7 +5,9 @@
     "jurisdiction": "place:allendale",
     "label": "Allendale Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "allendale_town"
+    "adapter": "allendale_town",
+    "dataHash": "b1c67dfb1d813e75",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {

@@ -5,7 +5,9 @@
     "jurisdiction": "place:chesterfield",
     "label": "Chesterfield Town Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "chesterfield_town"
+    "adapter": "chesterfield_town",
+    "dataHash": "da0ab657d1bed7ae",
+    "dataLastChanged": "2026-03-14"
   },
   "members": [
     {
