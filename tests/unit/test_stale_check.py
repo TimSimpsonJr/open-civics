@@ -1,66 +1,18 @@
-"""Tests for stale detection logic from scripts/stale_check.py.
-
-Since stale_check.py's logic is embedded in main() with a hardcoded DATA_DIR,
-we duplicate the detection algorithm here as find_stale_files() and test that
-the algorithm is correct.
-"""
+"""Tests for stale detection logic from scripts/stale_check.py."""
 
 import json
 import os
+import sys
 from datetime import date, timedelta
 
 import pytest
 
+# scripts/ is not a Python package (no __init__.py), so add project root to path
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
-def find_stale_files(data_dir, threshold_days=90):
-    """Replicate the stale detection logic from scripts/stale_check.py.
-
-    Scans data_dir/{state}/local/*.json for files where
-    meta.dataLastChanged (or meta.lastUpdated fallback) is older than
-    threshold_days from today.
-    """
-    cutoff = date.today() - timedelta(days=threshold_days)
-    stale = []
-
-    if not os.path.isdir(data_dir):
-        return stale
-
-    for state_code in sorted(os.listdir(data_dir)):
-        local_dir = os.path.join(data_dir, state_code, "local")
-        if not os.path.isdir(local_dir):
-            continue
-
-        for filename in sorted(os.listdir(local_dir)):
-            if not filename.endswith(".json"):
-                continue
-
-            filepath = os.path.join(local_dir, filename)
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-            except (json.JSONDecodeError, IOError):
-                continue
-
-            meta = data.get("meta", {})
-            last_changed = meta.get("dataLastChanged", meta.get("lastUpdated", ""))
-            if not last_changed:
-                continue
-
-            try:
-                last_date = date.fromisoformat(last_changed)
-            except ValueError:
-                continue
-
-            if last_date < cutoff:
-                days_stale = (date.today() - last_date).days
-                stale.append({
-                    "jurisdiction": meta.get("jurisdiction", filename),
-                    "label": meta.get("label", ""),
-                    "dataLastChanged": last_changed,
-                    "daysSinceChange": days_stale,
-                })
-
-    return stale
+from scripts.stale_check import find_stale_files
 
 
 def _write_local_json(data_dir, state, filename, meta):
