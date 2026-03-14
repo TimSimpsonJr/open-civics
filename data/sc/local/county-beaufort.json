@@ -4,97 +4,97 @@
     "level": "local",
     "jurisdiction": "county:beaufort",
     "label": "Beaufort County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "beaufort_county"
   },
   "members": [
     {
       "name": "Gerald Dawson",
       "title": "Council Member, District 1",
-      "email": "",
+      "email": "gdawson@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "David Bartholomew",
       "title": "Council Member, District 2",
-      "email": "",
+      "email": "dbartholomew@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "York Glover",
+      "name": "York Glover, Sr.",
       "title": "Council Member, District 3",
-      "email": "",
+      "email": "yglover@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Alice Howard",
-      "title": "Chairman, District 4",
-      "email": "",
+      "name": "Alice G. Howard",
+      "title": "Council Member, District 4",
+      "email": "ahoward@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Joe Passiment",
+      "name": "Joseph Passiment",
       "title": "Council Member, District 5",
-      "email": "",
+      "email": "jpassiment@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Anna Maria Tabernik",
-      "title": "Vice Chairman, District 6",
-      "email": "",
+      "name": "Anna Maria (Tab) Tabernik",
+      "title": "Council Member, District 6",
+      "email": "anna.tabernik@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Logan Cunningham",
       "title": "Council Member, District 7",
-      "email": "",
+      "email": "logan.cunningham@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Paula Brown",
       "title": "Council Member, District 8",
-      "email": "",
+      "email": "rcaporale@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Mark Lawson",
       "title": "Council Member, District 9",
-      "email": "",
+      "email": "markl@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Larry McElynn",
+      "name": "Lawrence P. McElynn",
       "title": "Council Member, District 10",
-      "email": "",
+      "email": "lawrencem@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Thomas Reitz",
       "title": "Council Member, District 11",
-      "email": "",
+      "email": "thomas.reitz@bcgov.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "beaufortcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

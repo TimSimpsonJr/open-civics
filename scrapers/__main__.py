@@ -26,6 +26,7 @@ from .adapters.abbeville_county import AbbevilleCountyAdapter
 from .adapters.anderson_county import AndersonCountyAdapter
 from .adapters.bamberg_county import BambergCountyAdapter
 from .adapters.barnwell_city import BarnwellCityAdapter
+from .adapters.beaufort_county import BeaufortCountyAdapter
 from .adapters.bishopville_city import BishopvilleCityAdapter
 from .adapters.charleston_city import CharlestonCityAdapter
 from .adapters.charleston_county import CharlestonCountyAdapter
@@ -85,6 +86,7 @@ ADAPTERS = {
     "anderson_county": AndersonCountyAdapter,
     "bamberg_county": BambergCountyAdapter,
     "barnwell_city": BarnwellCityAdapter,
+    "beaufort_county": BeaufortCountyAdapter,
     "bishopville_city": BishopvilleCityAdapter,
     "charleston_city": CharlestonCityAdapter,
     "charleston_county": CharlestonCountyAdapter,

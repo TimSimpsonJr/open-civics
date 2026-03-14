@@ -360,7 +360,7 @@
           "name": "Beaufort County Council",
           "type": "county",
           "county": "Beaufort",
-          "adapter": "manual",
+          "adapter": "beaufort_county",
           "url": "https://www.beaufortcountysc.gov/council/index.html",
           "districts": 11,
           "atLarge": false,
