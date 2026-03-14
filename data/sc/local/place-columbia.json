@@ -4,65 +4,57 @@
     "level": "local",
     "jurisdiction": "place:columbia",
     "label": "Columbia City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "columbia"
   },
   "members": [
     {
-      "name": "Daniel J. Rickenmann",
-      "title": "Mayor",
-      "email": "mayor@columbiasc.gov",
-      "phone": "(803) 545-3045",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
       "name": "Tina N. Herbert",
-      "title": "Mayor Pro Tem, District 1",
-      "email": "Tina.Herbert@columbiasc.gov",
-      "phone": "(803) 814-7207",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Council Member, District 1",
+      "email": "Tina.Herbert@Columbiasc.gov",
+      "phone": "",
+      "source": "columbia",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Edward H. McDowell, Jr.",
       "title": "Council Member, District 2",
       "email": "Edward.McDowell@columbiasc.gov",
-      "phone": "(803) 545-3061",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "columbia",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Will Brennan",
       "title": "Council Member, District 3",
       "email": "Will.Brennan@columbiasc.gov",
-      "phone": "(803) 876-4919",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "",
+      "source": "columbia",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Peter M. Brown",
       "title": "Council Member, District 4",
-      "email": "pbrown@columbiasc.gov",
-      "phone": "(803) 360-3971",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "peter.brown@columbiasc.gov",
+      "phone": "",
+      "source": "columbia",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Sam P. Johnson",
-      "title": "Council Member, At Large",
-      "email": "",
+      "title": "Council Member, At-Large",
+      "email": "Sam.Johnson@columbiasc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "columbia",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tyler D. Bailey",
-      "title": "Council Member, At Large",
-      "email": "",
+      "title": "Council Member, At-Large",
+      "email": "Tyler.Bailey@columbiasc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "columbia",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,65 +4,65 @@
     "level": "local",
     "jurisdiction": "place:sumter",
     "label": "Sumter City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "sumter_city"
   },
   "members": [
     {
       "name": "David P. Merchant",
       "title": "Mayor",
-      "email": "",
+      "email": "dmerchant@sumtersc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Anthony Gibson",
-      "title": "Council Member, Ward 1",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "James B. Blassingame",
       "title": "Mayor Pro Tem, Ward 2",
-      "email": "",
+      "email": "jbblass@usa.net",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Anthony Gibson",
+      "title": "Council Member, Ward 1",
+      "email": "agibson@sumtersc.gov",
+      "phone": "",
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Calvin K. Hastie Sr.",
       "title": "Council Member, Ward 3",
-      "email": "",
+      "email": "chastie@sumtersc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Rebecca Lynn Kennedy",
       "title": "Council Member, Ward 4",
-      "email": "",
+      "email": "rkennedy@sumtersc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Colin C. Davis",
       "title": "Council Member, Ward 5",
-      "email": "",
+      "email": "cdavis@sumtersc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Gifford M. Shaw",
       "title": "Council Member, Ward 6",
-      "email": "",
+      "email": "gshaw@cu-tigers.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "sumtercity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

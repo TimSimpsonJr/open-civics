@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "county:mccormick",
     "label": "McCormick County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "mccormick_county"
   },
   "members": [
     {
       "name": "Bernard Hamby",
-      "title": "Chairman",
-      "email": "",
-      "phone": "(864) 333-5713",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Chairman, District 2",
+      "email": "bhamby@mccormickcountysc.org",
+      "phone": "(706) 318-2357",
+      "source": "mccormickcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Charles Jennings",
-      "title": "Vice Chairman",
-      "email": "",
+      "title": "Vice Chairman, District 4",
+      "email": "cjennings@mccormickcountysc.org",
       "phone": "(864) 443-2353",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Jacqueline Brown",
-      "title": "Council Member",
-      "email": "",
-      "phone": "(864) 443-3227",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Charles Cook",
-      "title": "Council Member",
-      "email": "",
-      "phone": "(864) 391-5838",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "mccormickcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "David Morrah",
-      "title": "Council Member",
-      "email": "",
-      "phone": "(864) 602-0483",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Council Member, District 1",
+      "email": "dmorrah@mccormickcountysc.org",
+      "phone": "",
+      "source": "mccormickcounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Charles H. Cook",
+      "title": "Council Member, District 3",
+      "email": "ccook@mccormickcountysc.org",
+      "phone": "(864) 391-5838",
+      "source": "mccormickcounty",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Jacqueline F. Brown",
+      "title": "Council Member, District 5",
+      "email": "jfbrown@mccormickcountysc.org",
+      "phone": "(864) 554-1228",
+      "source": "mccormickcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

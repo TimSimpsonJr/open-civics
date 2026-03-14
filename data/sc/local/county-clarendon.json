@@ -4,41 +4,41 @@
     "level": "local",
     "jurisdiction": "county:clarendon",
     "label": "Clarendon County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "clarendon_county"
   },
   "members": [
+    {
+      "name": "John E. Johnson, III",
+      "title": "Chairman",
+      "email": "",
+      "phone": "(803) 953-7075",
+      "source": "clarendoncounty",
+      "lastUpdated": "2026-03-14"
+    },
     {
       "name": "Billy G. Richardson",
       "title": "Council Member, District 1",
       "email": "",
       "phone": "(803) 478-7802",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "clarendoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kurtis W. Rodine",
       "title": "Council Member, District 2",
       "email": "",
       "phone": "(803) 953-7089",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "clarendoncounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John P. Coker",
       "title": "Vice Chairman, District 3",
       "email": "",
-      "phone": "(803) 598-1059",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "John E. Johnson, III",
-      "title": "Chairman",
-      "email": "",
-      "phone": "(803) 953-7075",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "(803) 825-9990",
+      "source": "clarendoncounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

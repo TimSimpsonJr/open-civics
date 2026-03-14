@@ -4,65 +4,81 @@
     "level": "local",
     "jurisdiction": "place:chester",
     "label": "Chester City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "chester_city"
   },
   "members": [
     {
       "name": "Carlos Williams",
       "title": "Mayor",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "cwilliams@chester.sc.gov",
+      "phone": "(803) 899-0763",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Wade Young",
       "title": "Council Member, Ward 1",
-      "email": "",
+      "email": "wyoung@chester.sc.gov",
+      "phone": "(803) 899-9949",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Heyward Boyd",
+      "title": "Council Member, Ward 1",
+      "email": "hboyd@chester.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Dennis Jackson",
+      "title": "Council Member, Ward 1",
+      "email": "djackson@chester.sc.gov",
+      "phone": "",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "David Claytor",
       "title": "Council Member, Ward 2",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "dclaytor@chester.sc.gov",
+      "phone": "(803) 209-7312",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Ursula Boyd-Crosby",
       "title": "Council Member, Ward 3",
-      "email": "",
+      "email": "ucrosby@chester.sc.gov",
+      "phone": "(803) 899-0736",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "Terry Foster",
+      "title": "Council Member, Ward 3",
+      "email": "tfoster@chester.sc.gov",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tony Nelson",
       "title": "Council Member, Ward 4",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "email": "tnelson@chester.sc.gov",
+      "phone": "(803) 899-0748",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Danielle Hughes",
-      "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
-    },
-    {
-      "name": "Tabatha Strother",
-      "title": "Council Member, At Large",
-      "email": "",
-      "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "name": "Robbie King-Boyd",
+      "title": "Council Member, Ward 4",
+      "email": "rking@chester.sc.gov",
+      "phone": "(803) 374-4174",
+      "source": "chestercity",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

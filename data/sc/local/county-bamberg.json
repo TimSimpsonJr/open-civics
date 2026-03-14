@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:bamberg",
     "label": "Bamberg County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "bamberg_county"
   },
   "members": [
     {
@@ -13,56 +13,56 @@
       "title": "Council Member, District 1",
       "email": "ahlink60@gmail.com",
       "phone": "(803) 245-5190",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Sharon Hammond",
       "title": "Council Member, District 2",
       "email": "hammonds@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Larry Haynes",
       "title": "Council Member, District 3",
       "email": "haynesl@bambergcounty.sc.gov",
       "phone": "(803) 535-9236",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Spencer Donaldson",
       "title": "Council Member, District 4",
       "email": "donaldsonsa@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jonathan Goodman, Ph.D",
       "title": "Council Member, District 5",
       "email": "goodmanjm@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Evert Comer, Jr.",
       "title": "Council Member, District 6",
       "email": "comerejr@bambergcounty.sc.gov",
       "phone": "(803) 793-3403",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Michelle Martin",
       "title": "Council Member, District 7",
       "email": "martinma@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "bambergcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "place:abbeville",
     "label": "Abbeville City Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "abbeville_city"
   },
   "members": [
     {
@@ -13,64 +13,64 @@
       "title": "Council Member, District 1",
       "email": "",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Faye Thomas",
       "title": "Council Member, District 2",
       "email": "",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "John Sutherland",
       "title": "Council Member, District 3",
       "email": "",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Chris Crawford",
       "title": "Council Member, District 4",
       "email": "",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "James Jackson",
       "title": "Council Member, District 5",
       "email": "",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Jason Edwards",
       "title": "Council Member, District 6",
       "email": "",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Benji Greeson",
       "title": "Council Member, District 7",
       "email": "bengreeson@gmail.com",
       "phone": "",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Matthew Gambrell",
       "title": "Council Member, District 8",
       "email": "mhgambrellsc@gmail.com",
-      "phone": "(864) 378-0488",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "phone": "378-0488",
+      "source": "abbeville",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

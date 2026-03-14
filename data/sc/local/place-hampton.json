@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "place:hampton",
     "label": "Hampton Town Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "hampton_town"
   },
   "members": [
     {
@@ -13,40 +13,40 @@
       "title": "Mayor",
       "email": "",
       "phone": "(803) 943-2951",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "hamptontown",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Beth Chafin",
       "title": "Mayor Pro Tem",
       "email": "",
       "phone": "(803) 943-2951",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "hamptontown",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Pete Mixson",
-      "title": "Council Member, At Large",
+      "title": "Council Member",
       "email": "",
       "phone": "(803) 943-2951",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "hamptontown",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Liz Hager",
-      "title": "Council Member, At Large",
+      "title": "Council Member",
       "email": "",
       "phone": "(803) 943-2951",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "hamptontown",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kevin Brown",
-      "title": "Council Member, At Large",
+      "title": "Council Member",
       "email": "",
       "phone": "(803) 943-2951",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "hamptontown",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

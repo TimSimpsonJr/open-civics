@@ -21,37 +21,49 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(SCRIPT_DIR, "..")
 REGISTRY_PATH = os.path.join(PROJECT_ROOT, "registry.json")
 
+from .adapters.abbeville import AbbevilleAdapter
 from .adapters.abbeville_county import AbbevilleCountyAdapter
 from .adapters.anderson_county import AndersonCountyAdapter
+from .adapters.bamberg_county import BambergCountyAdapter
 from .adapters.barnwell_city import BarnwellCityAdapter
 from .adapters.bishopville_city import BishopvilleCityAdapter
 from .adapters.charleston_city import CharlestonCityAdapter
 from .adapters.charleston_county import CharlestonCountyAdapter
 from .adapters.cherokee_county import CherokeeCountyAdapter
+from .adapters.chester_city import ChesterCityAdapter
+from .adapters.chester_county import ChesterCountyAdapter
 from .adapters.chesterfield_county import ChesterfieldCountyAdapter
 from .adapters.chesterfield_town import ChesterfieldTownAdapter
 from .adapters.civicplus import CivicPlusAdapter
+from .adapters.clarendon_county import ClarendonCountyAdapter
 from .adapters.colleton_county import ColletonCountyAdapter
+from .adapters.columbia import ColumbiaAdapter
 from .adapters.conway_city import ConwayCityAdapter
 from .adapters.darlington_city import DarlingtonCityAdapter
 from .adapters.darlington_county import DarlingtonCountyAdapter
+from .adapters.dillon_city import DillonCityAdapter
 from .adapters.edgefield_county import EdgefieldCountyAdapter
+from .adapters.edgefield_town import EdgefieldTownAdapter
 from .adapters.florence_city import FlorenceCityAdapter
 from .adapters.florence_county import FlorenceCountyAdapter
 from .adapters.gaffney_city import GaffneyCityAdapter
 from .adapters.generic_mailto import GenericMailtoAdapter
+from .adapters.goose_creek import GooseCreekAdapter
 from .adapters.greenville_city import GreenvilleCityAdapter
 from .adapters.greenville_county import GreenvilleCountyAdapter
 from .adapters.greenwood_city import GreenwoodCityAdapter
 from .adapters.greenwood_county import GreenwoodCountyAdapter
+from .adapters.hampton_town import HamptonTownAdapter
 from .adapters.hilton_head import HiltonHeadAdapter
 from .adapters.horry_county import HorryCountyAdapter
 from .adapters.kingstree import KingstreeAdapter
 from .adapters.laurens_county import LaurensCountyAdapter
-from .adapters.lexington_county import LexingtonCountyAdapter
 from .adapters.lee_county import LeeCountyAdapter
+from .adapters.lexington_county import LexingtonCountyAdapter
 from .adapters.marion_city import MarionCityAdapter
 from .adapters.marlboro_county import MarlboroCountyAdapter
+from .adapters.mccormick_county import McCormickCountyAdapter
+from .adapters.mccormick_town import McCormickTownAdapter
 from .adapters.moncks_corner import MoncksCornerAdapter
 from .adapters.newberry_county import NewberryCountyAdapter
 from .adapters.oconee_county import OconeeCountyAdapter
@@ -60,35 +72,47 @@ from .adapters.revize import RevizeAdapter
 from .adapters.richland_county import RichlandCountyAdapter
 from .adapters.saluda_county import SaludaCountyAdapter
 from .adapters.st_george import StGeorgeAdapter
+from .adapters.sumter_city import SumterCityAdapter
+from .adapters.sumter_county import SumterCountyAdapter
 from .adapters.table_adapter import TableAdapter
 from .adapters.walhalla_city import WalhallaCityAdapter
 from .adapters.winnsboro import WinnsboroAdapter
 from .adapters.york_county import YorkCountyAdapter
 
 ADAPTERS = {
+    "abbeville_city": AbbevilleAdapter,
     "abbeville_county": AbbevilleCountyAdapter,
     "anderson_county": AndersonCountyAdapter,
+    "bamberg_county": BambergCountyAdapter,
     "barnwell_city": BarnwellCityAdapter,
     "bishopville_city": BishopvilleCityAdapter,
     "charleston_city": CharlestonCityAdapter,
     "charleston_county": CharlestonCountyAdapter,
     "cherokee_county": CherokeeCountyAdapter,
+    "chester_city": ChesterCityAdapter,
+    "chester_county": ChesterCountyAdapter,
     "chesterfield_county": ChesterfieldCountyAdapter,
     "chesterfield_town": ChesterfieldTownAdapter,
     "civicplus": CivicPlusAdapter,
+    "clarendon_county": ClarendonCountyAdapter,
     "colleton_county": ColletonCountyAdapter,
+    "columbia": ColumbiaAdapter,
     "conway_city": ConwayCityAdapter,
     "darlington_city": DarlingtonCityAdapter,
     "darlington_county": DarlingtonCountyAdapter,
+    "dillon_city": DillonCityAdapter,
     "edgefield_county": EdgefieldCountyAdapter,
+    "edgefield_town": EdgefieldTownAdapter,
     "florence_city": FlorenceCityAdapter,
     "florence_county": FlorenceCountyAdapter,
     "gaffney_city": GaffneyCityAdapter,
     "generic_mailto": GenericMailtoAdapter,
+    "goose_creek": GooseCreekAdapter,
     "greenville_city": GreenvilleCityAdapter,
     "greenville_county": GreenvilleCountyAdapter,
     "greenwood_city": GreenwoodCityAdapter,
     "greenwood_county": GreenwoodCountyAdapter,
+    "hampton_town": HamptonTownAdapter,
     "hilton_head": HiltonHeadAdapter,
     "horry_county": HorryCountyAdapter,
     "kingstree": KingstreeAdapter,
@@ -97,6 +121,8 @@ ADAPTERS = {
     "lexington_county": LexingtonCountyAdapter,
     "marion_city": MarionCityAdapter,
     "marlboro_county": MarlboroCountyAdapter,
+    "mccormick_county": McCormickCountyAdapter,
+    "mccormick_town": McCormickTownAdapter,
     "moncks_corner": MoncksCornerAdapter,
     "newberry_county": NewberryCountyAdapter,
     "oconee_county": OconeeCountyAdapter,
@@ -105,6 +131,8 @@ ADAPTERS = {
     "richland_county": RichlandCountyAdapter,
     "saluda_county": SaludaCountyAdapter,
     "st_george": StGeorgeAdapter,
+    "sumter_city": SumterCityAdapter,
+    "sumter_county": SumterCountyAdapter,
     "table": TableAdapter,
     "walhalla_city": WalhallaCityAdapter,
     "winnsboro": WinnsboroAdapter,

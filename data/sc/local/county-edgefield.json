@@ -4,49 +4,49 @@
     "level": "local",
     "jurisdiction": "county:edgefield",
     "label": "Edgefield County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "edgefield_county"
   },
   "members": [
     {
       "name": "Dean Campbell",
-      "title": "Chairman",
-      "email": "",
+      "title": "Chairman, District 3",
+      "email": "dcampbell@edgefieldcounty.sc.gov",
       "phone": "(803) 275-3635",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "edgefieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Albert Talbert",
-      "title": "Vice Chairman",
-      "email": "",
-      "phone": "(803) 637-3000",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "title": "Vice Chairman, District 1",
+      "email": "atalbert@edgefieldcounty.sc.gov",
+      "phone": "(803) 637-4009",
+      "source": "edgefieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Tiffani Ireland",
-      "title": "Council Member",
-      "email": "",
+      "title": "Council Member, District 2",
+      "email": "tireland@edgefieldcounty.sc.gov",
       "phone": "(803) 637-4009",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "edgefieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "Jacqueline Kennion",
-      "title": "Council Member",
-      "email": "",
+      "name": "Dr. Jacqueline “Jackie” Kennion",
+      "title": "Council Member, District 4",
+      "email": "jkennion@edgefieldcounty.sc.gov",
       "phone": "(803) 341-1178",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "edgefieldcounty",
+      "lastUpdated": "2026-03-14"
     },
     {
-      "name": "William Moody",
-      "title": "Council Member",
-      "email": "",
+      "name": "Jerry Moody",
+      "title": "Council Member, District 5",
+      "email": "Wmoody@edgefieldcounty.sc.gov",
       "phone": "(803) 292-8000",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "edgefieldcounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }

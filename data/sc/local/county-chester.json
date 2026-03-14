@@ -4,8 +4,8 @@
     "level": "local",
     "jurisdiction": "county:chester",
     "label": "Chester County Council",
-    "lastUpdated": "2026-03-13",
-    "adapter": "manual"
+    "lastUpdated": "2026-03-14",
+    "adapter": "chester_county"
   },
   "members": [
     {
@@ -13,56 +13,56 @@
       "title": "Council Member, District 1",
       "email": "jagee@chestercountysc.gov",
       "phone": "(803) 235-1332",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Roy Brunson",
       "title": "Council Member, District 2",
       "email": "rbrunson@chestercountysc.gov",
       "phone": "(803) 899-1790",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Bobby Raines",
       "title": "Council Member, District 3",
       "email": "braines@chestercountysc.gov",
       "phone": "(803) 899-4713",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Pete Wilson",
-      "title": "Chairman, District 4",
+      "title": "Chair, District 4",
       "email": "pwilson@chestercountysc.gov",
       "phone": "(803) 385-7695",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Corey Guy",
       "title": "Council Member, District 5",
       "email": "cguy@chestercountysc.gov",
       "phone": "(803) 899-1408",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "William Killian",
       "title": "Council Member, District 6",
-      "email": "wkillian@chestercountysc.gov",
+      "email": "wbkillian@chestercountysc.gov",
       "phone": "(803) 209-5150",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     },
     {
       "name": "Erin Mosley",
-      "title": "Vice Chairman, At Large",
+      "title": "Vice Chair, At-Large",
       "email": "emosley@chestercountysc.gov",
       "phone": "(803) 899-4119",
-      "source": "manual",
-      "lastUpdated": "2026-03-04"
+      "source": "chestercounty",
+      "lastUpdated": "2026-03-14"
     }
   ]
 }
