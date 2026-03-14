@@ -10,6 +10,7 @@ from datetime import date
 import requests
 from bs4 import BeautifulSoup
 
+from .adapters.base import normalize_phone
 from .state_email_rules import generate_email
 
 HEADERS = {"User-Agent": "CallYourRep/1.0 (+https://github.com/TimSimpsonJr/call-your-rep)"}
@@ -46,7 +47,7 @@ def normalize_row(row: dict) -> dict:
         "district": row.get("current_district", "").strip(),
         "party": _abbreviate_party(row.get("current_party", "")),
         "email": row.get("email", "").strip(),
-        "phone": row.get("capitol_voice", "").strip(),
+        "phone": normalize_phone(row.get("capitol_voice", "")),
         "photoUrl": row.get("image", "").strip(),
         "website": _first_link(row.get("links", "")),
         "source": "openstates",
@@ -91,7 +92,7 @@ def _scrape_phone(member_url: str) -> str:
                 p_text = span.parent.get_text(strip=True)
                 match = re.search(r"\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}", p_text)
                 if match:
-                    return match.group(0)
+                    return normalize_phone(match.group(0))
         return ""
     except Exception as e:
         print(f"    WARNING: Failed to scrape phone from {member_url}: {e}")

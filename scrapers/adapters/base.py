@@ -1,7 +1,23 @@
 """Base adapter for scraping council member data."""
 
 import abc
+import re
 from datetime import date
+
+
+def normalize_phone(phone_raw: str) -> str:
+    """Normalize a US phone number to (NNN) NNN-NNNN format.
+
+    Handles common formats: 803-212-6016, 803.212.6016, (803) 212-6016,
+    8032126016, etc. Returns the original string if no 10-digit number found.
+    """
+    if not phone_raw or not phone_raw.strip():
+        return ""
+    phone_raw = phone_raw.strip()
+    match = re.search(r"\(?(\d{3})\)?[\s.\-]*(\d{3})[\s.\-]*(\d{4})", phone_raw)
+    if match:
+        return f"({match.group(1)}) {match.group(2)}-{match.group(3)}"
+    return phone_raw
 
 
 class BaseAdapter(abc.ABC):
@@ -30,6 +46,8 @@ class BaseAdapter(abc.ABC):
         for record in raw:
             record.setdefault("source", self.adapter_name())
             record.setdefault("lastUpdated", today)
+            if record.get("phone"):
+                record["phone"] = normalize_phone(record["phone"])
         return raw
 
     def validate(self, records: list[dict]) -> list[dict]:

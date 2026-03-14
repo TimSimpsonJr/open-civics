@@ -47,7 +47,7 @@ def load_json(path, label=None):
 # ---------------------------------------------------------------------------
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
-PHONE_RE = re.compile(r"^\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$")
+PHONE_RE = re.compile(r"^\(\d{3}\) \d{3}-\d{4}$")
 
 # US bounding box (continental)
 US_BOUNDS = {"lat_min": 24.0, "lat_max": 50.0, "lng_min": -125.0, "lng_max": -66.0}
@@ -157,6 +157,15 @@ def validate_local_file(data, filepath):
 
         if not member.get("title"):
             warn(label, f"{prefix}: missing 'title'")
+
+        title = member.get("title", "").lower()
+        admin_keywords = (
+            "clerk", "administrator", "manager", "secretary",
+            "treasurer", "attorney", "director", "assistant",
+            "staff", "deputy", "coordinator", "supervisor",
+        )
+        if any(kw in title for kw in admin_keywords):
+            warn(label, f"{prefix}: title '{member['title']}' looks like admin staff, not elected official")
 
         email = member.get("email", "")
         if email and not EMAIL_RE.match(email):

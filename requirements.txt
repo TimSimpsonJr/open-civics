@@ -1,4 +1,4 @@
-requests
-beautifulsoup4
-geopandas
-shapely
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+geopandas>=1.0,<2
+shapely>=2.0,<3
