@@ -336,6 +336,11 @@ def main():
         action="store_true",
         help="Print what would be done without actually scraping or writing files",
     )
+    parser.add_argument(
+        "--report",
+        metavar="PATH",
+        help="Write a JSON report of scrape results to the given path",
+    )
 
     args = parser.parse_args()
 
@@ -360,6 +365,8 @@ def main():
     # If --jurisdiction is specified, imply --local-only and --state
     if args.jurisdiction:
         args.local_only = True
+
+    all_results = {}
 
     for state_code, state_config in target_states.items():
         print(f"\n{'#' * 60}")
@@ -394,9 +401,31 @@ def main():
                 jurisdiction_filter=args.jurisdiction,
                 dry_run=args.dry_run,
             )
+            all_results.update(local_results)
 
         if run_boundaries:
             scrape_boundaries(state_code, state_config, dry_run=args.dry_run)
+
+    # Build summary from collected results
+    total = len(all_results)
+    ok = sum(1 for r in all_results.values() if r["status"] == "ok")
+    warned = sum(1 for r in all_results.values() if r["status"] == "warned")
+    failed = sum(1 for r in all_results.values() if r["status"] == "error")
+    summary = {"total": total, "ok": ok, "warned": warned, "failed": failed}
+
+    if all_results:
+        print(f"\nSummary: {total} adapters — {ok} ok, {warned} warned, {failed} failed")
+
+    if args.report:
+        report = {
+            "run_date": date.today().isoformat(),
+            "adapters": all_results,
+            "summary": summary,
+        }
+        with open(args.report, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"Report written to {args.report}")
 
     print(f"\n{'=' * 60}")
     print("Done!")
