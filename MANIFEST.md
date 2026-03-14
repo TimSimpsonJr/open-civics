@@ -22,7 +22,7 @@ call-your-rep/
 │   ├── state.py                   # OpenStates CSV download + scstatehouse.gov phone backfill
 │   ├── boundaries.py              # Census TIGER/Line + ArcGIS boundary downloader/simplifier
 │   ├── state_email_rules.py       # Per-state email format conventions for backfill
-│   └── adapters/                  # Per-site scraper adapters (~43 adapters)
+│   └── adapters/                  # Per-site scraper adapters (~65 adapters)
 │       ├── base.py                # Abstract base: fetch → parse → normalize → validate pipeline
 │       ├── civicplus.py           # Config-driven CivicPlus staff directory scraper (14 jurisdictions)
 │       ├── revize.py              # Marker-based parser for Revize CMS freeform pages (3 jurisdictions)
@@ -31,7 +31,8 @@ call-your-rep/
 │       ├── drupal_views.py        # Shared adapter for Drupal Views module sites (3 jurisdictions)
 │       ├── greenville_county.py   # Custom two-page scraper with JS email deobfuscation
 │       ├── greenville_city.py     # CivicPlus headless CMS JSON API with JWT auth
-│       └── [30+ site-specific]    # One-off adapters for unique site structures
+│       ├── bamberg_city.py        # CivicLive/ConnectSuite JSON API directory widget
+│       └── [50+ site-specific]    # One-off adapters for unique site structures
 │
 ├── data/
 │   └── sc/                        # South Carolina (only state so far)
@@ -66,4 +67,4 @@ call-your-rep/
 - `state.py` uses `state_email_rules.py` to fill missing emails from name-based conventions
 - `boundaries.py` reads boundary source configs from `registry.json` (both `stateBoundaries` and per-jurisdiction `boundary` blocks)
 - `base.py` provides `deobfuscate_cf_email()` and `normalize_phone()` utilities used across adapters
-- Coverage: 64/96 SC jurisdictions automated (67%), 13 inaccessible (403/blocked), 19 remaining manual
+- Coverage: 88/96 SC jurisdictions automated (91%), 8 remaining (all WAF-blocked or server errors)
