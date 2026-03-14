@@ -5,63 +5,63 @@
     "jurisdiction": "place:rock-hill",
     "label": "Rock Hill City Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "masc"
+    "adapter": "rock_hill"
   },
   "members": [
     {
-      "name": "John P. Gettys Jr.",
+      "name": "John Gettys",
       "title": "Mayor",
-      "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
-    },
-    {
-      "name": "Brent Faulkenberry",
-      "title": "Council Member",
-      "email": "",
-      "phone": "",
-      "source": "masc",
+      "email": "John.Gettys@cityofrockhill.com",
+      "phone": "(803) 329-7011",
+      "source": "rockhill",
       "lastUpdated": "2026-03-14"
     },
     {
       "name": "Derrick Lindsay",
-      "title": "Council Member",
-      "email": "",
+      "title": "Mayor Pro Tem, Ward 1",
+      "email": "Derrick.Lindsay@cityofrockhill.com",
       "phone": "",
-      "source": "masc",
+      "source": "rockhill",
       "lastUpdated": "2026-03-14"
     },
     {
-      "name": "John Black",
-      "title": "Council Member",
-      "email": "",
-      "phone": "",
-      "source": "masc",
+      "name": "Brent Faulkenberry",
+      "title": "Council Member, Ward 2",
+      "email": "brent.faulkenberry@cityofrockhill.com",
+      "phone": "(803) 329-7012",
+      "source": "rockhill",
       "lastUpdated": "2026-03-14"
     },
     {
       "name": "Kevin Sutton",
-      "title": "Council Member",
-      "email": "",
-      "phone": "",
-      "source": "masc",
+      "title": "Council Member, Ward 3",
+      "email": "Kevin.Sutton@cityofrockhill.com",
+      "phone": "(803) 328-1428",
+      "source": "rockhill",
+      "lastUpdated": "2026-03-14"
+    },
+    {
+      "name": "John A. Black III",
+      "title": "Council Member, Ward 4",
+      "email": "John.Black@cityofrockhill.com",
+      "phone": "(803) 517-9969",
+      "source": "rockhill",
       "lastUpdated": "2026-03-14"
     },
     {
       "name": "Nikita L. Jackson",
-      "title": "Council Member",
-      "email": "",
-      "phone": "",
-      "source": "masc",
+      "title": "Council Member, Ward 5",
+      "email": "Nikita.Jackson@cityofrockhill.com",
+      "phone": "(839) 214-7517",
+      "source": "rockhill",
       "lastUpdated": "2026-03-14"
     },
     {
       "name": "Sarah Vining",
-      "title": "Council Member",
-      "email": "",
-      "phone": "",
-      "source": "masc",
+      "title": "Council Member, Ward 6",
+      "email": "Sarah.Vining@cityofrockhill.com",
+      "phone": "(803) 329-7012",
+      "source": "rockhill",
       "lastUpdated": "2026-03-14"
     }
   ]

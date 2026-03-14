@@ -78,6 +78,7 @@ from .adapters.oconee_county import OconeeCountyAdapter
 from .adapters.orangeburg_city import OrangeburgCityAdapter
 from .adapters.revize import RevizeAdapter
 from .adapters.richland_county import RichlandCountyAdapter
+from .adapters.rock_hill import RockHillAdapter
 from .adapters.saluda_county import SaludaCountyAdapter
 from .adapters.scac import ScacAdapter
 from .adapters.st_george import StGeorgeAdapter
@@ -147,6 +148,7 @@ ADAPTERS = {
     "orangeburg_city": OrangeburgCityAdapter,
     "revize": RevizeAdapter,
     "richland_county": RichlandCountyAdapter,
+    "rock_hill": RockHillAdapter,
     "saluda_county": SaludaCountyAdapter,
     "scac": ScacAdapter,
     "st_george": StGeorgeAdapter,

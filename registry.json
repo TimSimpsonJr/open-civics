@@ -349,7 +349,7 @@
           "name": "Rock Hill City Council",
           "type": "place",
           "county": "York",
-          "adapter": "masc",
+          "adapter": "rock_hill",
           "url": "https://www.cityofrockhill.com/government/city-council",
           "districts": 6,
           "atLarge": false,
