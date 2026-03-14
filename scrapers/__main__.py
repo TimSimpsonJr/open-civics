@@ -191,7 +191,7 @@ def scrape_state(state_code, state_config, dry_run=False):
     Downloads the OpenStates CSV and writes a state.json file with
     senate and house members keyed by district number.
     """
-    from .state import update_state_legislators
+    from .state import update_state_legislators, scrape_executive
 
     source_url = state_config.get("openStatesUrl")
     if not source_url:
@@ -212,6 +212,17 @@ def scrape_state(state_code, state_config, dry_run=False):
         return
 
     update_state_legislators(source_url, output_path, state_code=state_code)
+
+    # Add executive officials
+    executives = scrape_executive(state_code)
+    if executives:
+        with open(output_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        data["executive"] = executives
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"  Added {len(executives)} executive officials")
 
 
 def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=False):
