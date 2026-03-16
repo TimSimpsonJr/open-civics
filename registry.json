@@ -1,4 +1,5 @@
 {
+  "federalSource": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
   "states": {
     "SC": {
       "openStatesUrl": "https://data.openstates.org/people/current/sc.csv",

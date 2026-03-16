@@ -336,6 +336,29 @@ def scrape_local(state_code, state_config, jurisdiction_filter=None, dry_run=Fal
     return results
 
 
+def scrape_federal(state_code=None, dry_run=False):
+    """Scrape federal legislators from unitedstates/congress-legislators.
+
+    Downloads the YAML once and writes per-state federal.json files.
+    If state_code is provided, only that state's file is written.
+    """
+    from .federal import update_federal_legislators
+
+    output_dir = os.path.join(PROJECT_ROOT, "data")
+
+    print(f"\n{'=' * 60}")
+    label = f"federal legislators for {state_code}" if state_code else "all federal legislators"
+    print(f"Scraping {label}")
+    print(f"{'=' * 60}")
+
+    if dry_run:
+        print("  Would download: unitedstates/congress-legislators YAML")
+        print(f"  Would write: data/*/federal.json")
+        return
+
+    update_federal_legislators(output_dir, state_filter=state_code)
+
+
 def scrape_boundaries(state_code, state_config, dry_run=False):
     """Build boundary GeoJSON files for a state."""
     from .boundaries import build_all_boundaries
@@ -361,6 +384,11 @@ def main():
         "--state-only",
         action="store_true",
         help="Only scrape state legislators (skip local councils and boundaries)",
+    )
+    parser.add_argument(
+        "--federal-only",
+        action="store_true",
+        help="Only scrape federal legislators (skip state, local, and boundaries)",
     )
     parser.add_argument(
         "--local-only",
@@ -424,28 +452,22 @@ def main():
         print(f"{'#' * 60}")
 
         # Determine what to run
-        run_state = not args.local_only and not args.boundaries_only
-        run_local = not args.state_only and not args.boundaries_only
-        run_boundaries = not args.state_only and not args.local_only
+        only_flags = [args.state_only, args.local_only, args.boundaries_only, args.federal_only]
+        has_only = any(only_flags)
 
-        if args.state_only:
-            run_state = True
-            run_local = False
-            run_boundaries = False
-        elif args.local_only:
-            run_state = False
-            run_local = True
-            run_boundaries = False
-        elif args.boundaries_only:
-            run_state = False
-            run_local = False
-            run_boundaries = True
+        run_state = not has_only or args.state_only
+        run_local = not has_only or args.local_only
+        run_boundaries = not has_only or args.boundaries_only
+        run_federal = not has_only or args.federal_only
 
         if args.skip_boundaries:
             run_boundaries = False
 
         if run_state:
             scrape_state(state_code, state_config, dry_run=args.dry_run)
+
+        if run_federal:
+            scrape_federal(state_code=state_code, dry_run=args.dry_run)
 
         if run_local:
             local_results = scrape_local(

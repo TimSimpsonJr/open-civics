@@ -138,6 +138,60 @@ def validate_state_json(data, state_code, filepath):
                     warn(label, f"{prefix}: unexpected phone format '{phone}'")
 
 
+def validate_federal_json(data, state_code, filepath):
+    """Validate a federal.json file with meta block + senate/house."""
+    label = filepath
+
+    if not isinstance(data, dict):
+        error(label, "Root must be an object")
+        return
+
+    # Validate meta block
+    meta = data.get("meta")
+    if not isinstance(meta, dict):
+        error(label, "Missing 'meta' block")
+    else:
+        for field in ("state", "level", "lastUpdated", "source"):
+            if not meta.get(field):
+                error(label, f"meta: missing '{field}'")
+        if meta.get("state") and meta["state"] != state_code:
+            error(label, f"meta.state is '{meta['state']}', expected '{state_code}'")
+        if meta.get("level") != "federal":
+            error(label, f"meta.level is '{meta['level']}', expected 'federal'")
+
+    # Validate senate (expect exactly 2 senators per state)
+    senate = data.get("senate")
+    if not isinstance(senate, dict):
+        error(label, "Missing or invalid 'senate' key")
+    else:
+        if len(senate) < 1:
+            warn(label, "Senate has 0 members")
+        elif len(senate) > 2:
+            warn(label, f"Senate has {len(senate)} members, expected at most 2")
+        for key, member in senate.items():
+            prefix = f"senate[{key}]"
+            if not member.get("name"):
+                error(label, f"{prefix}: missing 'name'")
+            party = member.get("party", "")
+            if party and party not in ("R", "D", "I"):
+                warn(label, f"{prefix}: unexpected party '{party}'")
+
+    # Validate house
+    house = data.get("house")
+    if not isinstance(house, dict):
+        error(label, "Missing or invalid 'house' key")
+    else:
+        if len(house) < 1:
+            warn(label, "House has 0 members")
+        for key, member in house.items():
+            prefix = f"house[{key}]"
+            if not member.get("name"):
+                error(label, f"{prefix}: missing 'name'")
+            party = member.get("party", "")
+            if party and party not in ("R", "D", "I"):
+                warn(label, f"{prefix}: unexpected party '{party}'")
+
+
 def validate_local_file(data, filepath):
     """Validate a single local council JSON file with meta + members."""
     label = filepath
@@ -366,6 +420,15 @@ def main():
             if state_data is not None:
                 validate_state_json(state_data, state_upper, state_label)
                 print(f"  Checked {state_label}")
+
+            # Validate federal.json
+            federal_json_path = os.path.join(state_dir, "federal.json")
+            federal_label = f"data/{state_code}/federal.json"
+            if os.path.exists(federal_json_path):
+                federal_data = load_json(federal_json_path, federal_label)
+                if federal_data is not None:
+                    validate_federal_json(federal_data, state_upper, federal_label)
+                    print(f"  Checked {federal_label}")
 
             # Validate local council files
             local_dir = os.path.join(state_dir, "local")
