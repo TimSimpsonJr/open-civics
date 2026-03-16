@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:conway",
     "label": "Conway City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "conway_city",
-    "dataHash": "eee38cbb868d8b37",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "f1dd9b0122a93f07",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "mayor@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William Goldfinch IV",
@@ -24,7 +24,7 @@
       "email": "wgoldfinch@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Amanda Butler",
@@ -32,7 +32,7 @@
       "email": "abutler@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Beth Helms",
@@ -40,7 +40,7 @@
       "email": "bhelms@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Julie Hardwick",
@@ -48,7 +48,7 @@
       "email": "jhardwick@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Justin Jordan",
@@ -56,7 +56,7 @@
       "email": "jdjordan@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Larry White",
@@ -64,7 +64,7 @@
       "email": "lwhite@conwaysc.gov",
       "phone": "",
       "source": "conwaycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

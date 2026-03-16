@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:allendale",
     "label": "Allendale County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "allendale_county",
-    "dataHash": "1e29ec5878d5450b",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "d1e41fb74499f15e",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "wbrobinson@allendalecounty.gov",
       "phone": "(803) 686-0314",
       "source": "allendalecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Chaney",
@@ -24,7 +24,7 @@
       "email": "jchaney@allendalecounty.gov",
       "phone": "(803) 686-5655",
       "source": "allendalecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James White, Jr.",
@@ -32,7 +32,7 @@
       "email": "jwhite@allendalecounty.gov",
       "phone": "(803) 686-5072",
       "source": "allendalecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Willa Jennings",
@@ -40,7 +40,7 @@
       "email": "wjennings@allendalecounty.gov",
       "phone": "(803) 686-4747",
       "source": "allendalecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Matthew Connelly",
@@ -48,7 +48,7 @@
       "email": "mconnelly@allendalecounty.gov",
       "phone": "(803) 300-0984",
       "source": "allendalecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

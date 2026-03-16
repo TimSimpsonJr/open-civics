@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:anderson",
     "label": "Anderson County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "anderson_county",
-    "dataHash": "a6eee9f7e290f23d",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "92a94df4e93ebb3d",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "cnsullivan@andersoncountysc.org",
       "phone": "(864) 356-2007",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Glenn A. Davis",
@@ -24,7 +24,7 @@
       "email": "gadavis@andersoncountysc.org",
       "phone": "(864) 965-8734",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Greg Elgin",
@@ -32,7 +32,7 @@
       "email": "gelgin@andersoncountysc.org",
       "phone": "(864) 505-1815",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Brett Sanders",
@@ -40,7 +40,7 @@
       "email": "bsanders@andersoncountysc.org",
       "phone": "(864) 934-7053",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tommy Dunn",
@@ -48,7 +48,7 @@
       "email": "district5@andersoncountysc.org",
       "phone": "(864) 844-3765",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jimmy Davis",
@@ -56,7 +56,7 @@
       "email": "jdavis@andersoncountysc.org",
       "phone": "(864) 508-4788",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "M. Cindy Wilson",
@@ -64,7 +64,7 @@
       "email": "district7@andersoncountysc.org",
       "phone": "(864) 261-3980",
       "source": "andersoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

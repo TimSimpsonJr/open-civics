@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:chester",
     "label": "Chester County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "chester_county",
-    "dataHash": "8a578a6b75248680",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "e15e5f90b6563063",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jagee@chestercountysc.gov",
       "phone": "(803) 235-1332",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Roy Brunson",
@@ -24,7 +24,7 @@
       "email": "rbrunson@chestercountysc.gov",
       "phone": "(803) 899-1790",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bobby Raines",
@@ -32,7 +32,7 @@
       "email": "braines@chestercountysc.gov",
       "phone": "(803) 899-4713",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Pete Wilson",
@@ -40,7 +40,7 @@
       "email": "pwilson@chestercountysc.gov",
       "phone": "(803) 385-7695",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Corey Guy",
@@ -48,7 +48,7 @@
       "email": "cguy@chestercountysc.gov",
       "phone": "(803) 899-1408",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William Killian",
@@ -56,7 +56,7 @@
       "email": "wbkillian@chestercountysc.gov",
       "phone": "(803) 209-5150",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Erin Mosley",
@@ -64,7 +64,7 @@
       "email": "emosley@chestercountysc.gov",
       "phone": "(803) 899-4119",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

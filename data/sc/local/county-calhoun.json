@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:calhoun",
     "label": "Calhoun County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "table",
-    "dataHash": "b46eb5641e98bba3",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "c8779b58fa38fe80",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jhaigler@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ken Westbury",
@@ -24,7 +24,7 @@
       "email": "kwestbury@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Richard Carson",
@@ -32,7 +32,7 @@
       "email": "rcarson@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Rebecca A. Bonnette",
@@ -40,7 +40,7 @@
       "email": "rbonnette@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Cecil M. Thornton, Jr.",
@@ -48,7 +48,7 @@
       "email": "cthornton@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

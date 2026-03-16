@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:darlington",
     "label": "Darlington County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "darlington_county",
-    "dataHash": "35c0f87075ec1006",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "53f7d8e2ef8bce67",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "godbold@darcosc.net",
       "phone": "(843) 758-0472",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dannie Douglas, Jr",
@@ -24,7 +24,7 @@
       "email": "ddouglas@darcosc.net",
       "phone": "(843) 639-9252",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Joyce W. Thomas",
@@ -32,7 +32,7 @@
       "email": "jthomas@darcosc.net",
       "phone": "(843) 393-0998",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bobby Hudson",
@@ -40,7 +40,7 @@
       "email": "bhudson@darcosc.net",
       "phone": "(843) 326-5634",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Marvin Le Flowers",
@@ -48,7 +48,7 @@
       "email": "mflowers@darcosc.net",
       "phone": "(843) 393-0495",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Albert Davis, III",
@@ -56,7 +56,7 @@
       "email": "aldavis@darcosc.net",
       "phone": "(843) 858-1480",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "M. Kirk Askins",
@@ -64,7 +64,7 @@
       "email": "kaskins@darcosc.net",
       "phone": "(843) 858-3939",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Coker",
@@ -72,7 +72,7 @@
       "email": "dcoker@darcosc.net",
       "phone": "(843) 861-2624",
       "source": "darlingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

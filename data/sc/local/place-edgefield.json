@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:edgefield",
     "label": "Edgefield Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "edgefield_town",
-    "dataHash": "33bd7050bd691b87",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "4b56b737c41d3dae",
+    "dataLastChanged": "2026-03-16",
     "contact": {
       "phone": "(803) 637-4014",
       "email": "townofedgefield@exploreedgefield.com",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kelvin Thomas",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Scott Mims",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sherry White Holmes",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robert M. Rodgers",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Herbert Yarborough",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Andy Whitfield",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "edgefieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

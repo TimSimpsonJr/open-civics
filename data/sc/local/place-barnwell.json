@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:barnwell",
     "label": "Barnwell City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "barnwell_city",
-    "dataHash": "0e97c89ad11edc34",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "9b236f30eb62eacb",
+    "dataLastChanged": "2026-03-16",
     "contact": {
       "phone": "(803) 259-3266",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Peggy Kinlaw",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ricky Dixon",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Alicia Davis",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Wanda Highsmith",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Louis Claytor III",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jana Myers",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:sumter",
     "label": "Sumter County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "sumter_county",
-    "dataHash": "691daed101df1265",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a78a5046c80a0696",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jbyrd@sumtercountysc.gov",
       "phone": "(803) 468-1719",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James T. McCain Jr.",
@@ -24,7 +24,7 @@
       "email": "jmccain@sumtercountysc.gov",
       "phone": "(803) 773-2353",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Carlton B. Washington",
@@ -32,7 +32,7 @@
       "email": "cwashington@sumtercountysc.gov",
       "phone": "",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Artie Baker",
@@ -40,7 +40,7 @@
       "email": "Council@sumtercountysc.gov",
       "phone": "",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charles T. Edens",
@@ -48,7 +48,7 @@
       "email": "cedens@sumtercountysc.gov",
       "phone": "(803) 236-5759",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Vivian Fleming-McGhaney",
@@ -56,7 +56,7 @@
       "email": "vmcghaney@sumtercountysc.gov",
       "phone": "(803) 983-4663",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tasha Gardner-Greene",
@@ -64,7 +64,7 @@
       "email": "tgreene@sumtercountysc.gov",
       "phone": "(803) 316-8228",
       "source": "sumtercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

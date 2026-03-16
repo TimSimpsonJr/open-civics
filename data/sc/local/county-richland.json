@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:richland",
     "label": "Richland County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "richland_county",
-    "dataHash": "d2509870feb24130",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "1b7f6d0853381296",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "branham.jason@richlandcountysc.gov",
       "phone": "(803) 542-0002",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Derrek Pugh",
@@ -24,7 +24,7 @@
       "email": "pugh.derrek@richlandcountysc.gov",
       "phone": "(803) 977-4339",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tyra Little",
@@ -32,7 +32,7 @@
       "email": "little.tyra@richlandcountysc.gov",
       "phone": "(803) 422-0203",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Paul Livingston",
@@ -40,7 +40,7 @@
       "email": "livingston.paul@richlandcountysc.gov",
       "phone": "(803) 576-5463",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Allison Terracio",
@@ -48,7 +48,7 @@
       "email": "terracio.allison@richlandcountysc.gov",
       "phone": "(803) 622-6029",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Don Weaver",
@@ -56,7 +56,7 @@
       "email": "weaver.don@richlandcountysc.gov",
       "phone": "(803) 995-3703",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Gretchen D. Cooper",
@@ -64,7 +64,7 @@
       "email": "cooper.gretchen@richlandcountysc.gov",
       "phone": "(803) 977-4337",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tish Dozier Alleyne",
@@ -72,7 +72,7 @@
       "email": "alleyne.tish@richlandcountysc.gov",
       "phone": "(803) 457-2597",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jesica Mackey",
@@ -80,7 +80,7 @@
       "email": "mackey.jesica@richlandcountysc.gov",
       "phone": "(803) 977-4338",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Cheryl English",
@@ -88,7 +88,7 @@
       "email": "english.cheryl@richlandcountysc.gov",
       "phone": "(803) 949-0770",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Chakisse Newton",
@@ -96,7 +96,7 @@
       "email": "newton.chakisse@richlandcountysc.gov",
       "phone": "(803) 973-9652",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

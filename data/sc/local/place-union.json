@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:union",
     "label": "Union City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "masc",
-    "dataHash": "3dc40ce798eb4684",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "fe83d6f831160e35",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Gloria Rogers",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jackie W. Earls Jr.",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Monty Lee Cooke",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Pamela G. Sloss",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ricky Todd Harris",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robert Garner",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

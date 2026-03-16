@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:clarendon",
     "label": "Clarendon County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "clarendon_county",
-    "dataHash": "b27910025256ec44",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "8dc7c5b27a35acb7",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(803) 953-7075",
       "source": "clarendoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Billy G. Richardson",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(803) 478-7802",
       "source": "clarendoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kurtis W. Rodine",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(803) 953-7089",
       "source": "clarendoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John P. Coker",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(803) 825-9990",
       "source": "clarendoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

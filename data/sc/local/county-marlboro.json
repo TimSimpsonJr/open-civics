@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:marlboro",
     "label": "Marlboro County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "marlboro_county",
-    "dataHash": "fcefeea5013df116",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "0e39062f5952b29a",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(843) 454-2317",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Damien Johnson",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(843) 535-7254",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charles P. Midgley, Jr.",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(843) 479-6821",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Pearly Lawson",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(843) 862-4744",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Lafeyette Jackson",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(843) 862-2199",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Verd Odom",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "(843) 523-6447",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Steve Blackmon",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "(843) 528-3573",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Anthony Woods",
@@ -72,7 +72,7 @@
       "email": "",
       "phone": "(843) 586-9571",
       "source": "marlborocounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

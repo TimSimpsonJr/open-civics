@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:bamberg",
     "label": "Bamberg County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "bamberg_county",
-    "dataHash": "e5c4cd94b7f0878c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a31cb51143d474ca",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "ahlink60@gmail.com",
       "phone": "(803) 245-5190",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sharon Hammond",
@@ -24,7 +24,7 @@
       "email": "hammonds@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Larry Haynes",
@@ -32,7 +32,7 @@
       "email": "haynesl@bambergcounty.sc.gov",
       "phone": "(803) 535-9236",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Spencer Donaldson",
@@ -40,7 +40,7 @@
       "email": "donaldsonsa@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jonathan Goodman, Ph.D",
@@ -48,7 +48,7 @@
       "email": "goodmanjm@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Evert Comer, Jr.",
@@ -56,7 +56,7 @@
       "email": "comerejr@bambergcounty.sc.gov",
       "phone": "(803) 793-3403",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Michelle Martin",
@@ -64,7 +64,7 @@
       "email": "martinma@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

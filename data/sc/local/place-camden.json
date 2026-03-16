@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:camden",
     "label": "Camden City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "generic_mailto",
-    "dataHash": "088cd79b116544b5",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "236f1565f73b7ab3",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "vincentformayor@gmail.com",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Delia Davis",
@@ -24,7 +24,7 @@
       "email": "ddavis@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Hamilton Boykin",
@@ -32,7 +32,7 @@
       "email": "hboykin@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Phil Elliott",
@@ -40,7 +40,7 @@
       "email": "pelliott@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William Wilkes",
@@ -48,7 +48,7 @@
       "email": "wwilkes@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

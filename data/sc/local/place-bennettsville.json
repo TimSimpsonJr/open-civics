@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:bennettsville",
     "label": "Bennettsville City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "table",
-    "dataHash": "d0714d7217168458",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "b0da664dce849ee7",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "tyron.abraham@bennettsvillesc.com",
       "phone": "(843) 439-1126",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Gregory Scott, Sr.",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(843) 479-0416",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Cy'Heim McRae",
@@ -32,7 +32,7 @@
       "email": "cyheim.mcrae@bennettsvillesc.com",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William Jennings, Jr.",
@@ -40,7 +40,7 @@
       "email": "william.jennings@bennettsvillesc.com",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Allen Taylor",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(843) 439-0700",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tyrone R. Davis",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Wanda Weaver",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

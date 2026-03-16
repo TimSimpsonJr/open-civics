@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:charleston",
     "label": "Charleston City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "charleston_city",
-    "dataHash": "4a99bd907b790235",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "9bd2f71b479e17e7",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "Cogswellw@charleston-sc.gov",
       "phone": "(843) 724-3737",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Boyd Gregg",
@@ -24,7 +24,7 @@
       "email": "greggb@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kevin Shealy",
@@ -32,7 +32,7 @@
       "email": "shealyk@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jim McBride",
@@ -40,7 +40,7 @@
       "email": "mcbridej@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Karl L. Brady, Jr.",
@@ -48,7 +48,7 @@
       "email": "bradyk@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Perry K. Waring",
@@ -56,7 +56,7 @@
       "email": "waringp@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Michael S. Seekings",
@@ -64,7 +64,7 @@
       "email": "seekingsm@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William P. Tinkler",
@@ -72,7 +72,7 @@
       "email": "tinklerw@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stephen Bowden",
@@ -80,7 +80,7 @@
       "email": "bowdens@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ross A. Appel",
@@ -88,7 +88,7 @@
       "email": "appelr@charleston-sc.gov",
       "phone": "(843) 724-7311",
       "source": "charlestoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

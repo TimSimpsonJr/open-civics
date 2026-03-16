@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:hampton",
     "label": "Hampton Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "hampton_town",
-    "dataHash": "3e9d8c112571d965",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "4db979a106274bc3",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Beth Chafin",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Pete Mixson",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Liz Hager",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kevin Brown",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

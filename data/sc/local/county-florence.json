@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:florence",
     "label": "Florence County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "florence_county",
-    "dataHash": "95084d1038ff99fb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a8258165441f8003",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jsprings@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Andrew T. Rodgers, Jr.",
@@ -24,7 +24,7 @@
       "email": "andrew.rodgersjr@florencecountysc.gov",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dr. Alphonso Bradley",
@@ -32,7 +32,7 @@
       "email": "abradley@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jerry W. Yarborough",
@@ -40,7 +40,7 @@
       "email": "jyarborough@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kent C. Caudle",
@@ -48,7 +48,7 @@
       "email": "kentcaudle@gmail.com",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stoney C. 'Toney' Moore",
@@ -56,7 +56,7 @@
       "email": "tomoore@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Reverend Waymon Mumford",
@@ -64,7 +64,7 @@
       "email": "wmumford@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "C. William Schofield",
@@ -72,7 +72,7 @@
       "email": "cwschofield@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Willard Dorriety, Jr",
@@ -80,7 +80,7 @@
       "email": "willtob@aol.com",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

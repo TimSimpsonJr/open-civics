@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:pickens",
     "label": "Pickens County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "revize",
-    "dataHash": "83c3bec1688906a9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "5c87ae6b6c197719",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "asaitta@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Chris Lollis",
@@ -24,7 +24,7 @@
       "email": "clollis@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "C. Claiborne Linvill",
@@ -32,7 +32,7 @@
       "email": "clinvill@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Scott Lang",
@@ -40,7 +40,7 @@
       "email": "slang@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Chris Bowers",
@@ -48,7 +48,7 @@
       "email": "cbowers@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dr. A.D. Holloway",
@@ -56,7 +56,7 @@
       "email": "dholloway@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Meagan Nations",
@@ -64,7 +64,7 @@
       "email": "meaganb@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

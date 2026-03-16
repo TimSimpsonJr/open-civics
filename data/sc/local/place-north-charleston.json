@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:north-charleston",
     "label": "North Charleston City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "generic_mailto",
-    "dataHash": "008932ba877758f5",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "1e0360c20b7b5146",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(843) 740-2504",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Brandon Hudson",
@@ -24,7 +24,7 @@
       "email": "bhudson@northcharleston.org",
       "phone": "(803) 292-6044",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Christopher Emde",
@@ -32,7 +32,7 @@
       "email": "cemde@northcharleston.org",
       "phone": "(843) 751-6214",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dr. Charmaine Palmer-Roberts",
@@ -40,7 +40,7 @@
       "email": "cpalmerroberts@northcharleston.org",
       "phone": "(843) 819-9170",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dr. Stephanie Ganaway-Pasley",
@@ -48,7 +48,7 @@
       "email": "sganawaypasley@northcharleston.org",
       "phone": "(843) 270-1961",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kenny Skipper",
@@ -56,7 +56,7 @@
       "email": "kskipper@northcharleston.org",
       "phone": "(843) 200-7520",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Michael Brown",
@@ -64,7 +64,7 @@
       "email": "bmichaelchr@aol.com",
       "phone": "(843) 747-3531",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Michael Brown, Jr.",
@@ -72,7 +72,7 @@
       "email": "mibrown@northcharleston.org",
       "phone": "(843) 367-3714",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Nefertiti Brown",
@@ -80,7 +80,7 @@
       "email": "nbrown@northcharleston.org",
       "phone": "(843) 790-4098",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Rhonda Jerome",
@@ -88,7 +88,7 @@
       "email": "rjerome@northcharleston.org",
       "phone": "(843) 813-4404",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:allendale",
     "label": "Allendale Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "allendale_town",
-    "dataHash": "b1c67dfb1d813e75",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a843c96310d4d209",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "tcarter@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Amanda Pressie-Gill",
@@ -24,7 +24,7 @@
       "email": "agill@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Hattie Jackson",
@@ -32,7 +32,7 @@
       "email": "cm.jackson@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kathy Tharin",
@@ -40,7 +40,7 @@
       "email": "ktharin@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Lee E. Harley-Fitts",
@@ -48,7 +48,7 @@
       "email": "lhfitts@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Marlon Creech",
@@ -56,7 +56,7 @@
       "email": "mcreech@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Randy Creech",
@@ -64,7 +64,7 @@
       "email": "rcreech@townofallendalesc.us",
       "phone": "",
       "source": "allendaletown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

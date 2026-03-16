@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:sumter",
     "label": "Sumter City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "sumter_city",
-    "dataHash": "80844f30ac882f88",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "8c740de067634223",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "dmerchant@sumtersc.gov",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James B. Blassingame",
@@ -24,7 +24,7 @@
       "email": "jbblass@usa.net",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Anthony Gibson",
@@ -32,7 +32,7 @@
       "email": "agibson@sumtersc.gov",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Calvin K. Hastie Sr.",
@@ -40,7 +40,7 @@
       "email": "chastie@sumtersc.gov",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Rebecca Lynn Kennedy",
@@ -48,7 +48,7 @@
       "email": "rkennedy@sumtersc.gov",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Colin C. Davis",
@@ -56,7 +56,7 @@
       "email": "cdavis@sumtersc.gov",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Gifford M. Shaw",
@@ -64,7 +64,7 @@
       "email": "gshaw@cu-tigers.com",
       "phone": "",
       "source": "sumtercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

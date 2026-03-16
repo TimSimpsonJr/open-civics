@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:greenwood",
     "label": "Greenwood County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "greenwood_county",
-    "dataHash": "88d7527ee75b616c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "4bd48fbcca150304",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "tgriffin@GreenwoodSC.Gov",
       "phone": "(864) 993-2727",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Mark Allison",
@@ -24,7 +24,7 @@
       "email": "mallison@GreenwoodSC.Gov",
       "phone": "(864) 377-1500",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Johanna Bishop",
@@ -32,7 +32,7 @@
       "email": "jbishop@greenwoodsc.Gov",
       "phone": "(864) 941-6160",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Cathy Miller",
@@ -40,7 +40,7 @@
       "email": "cmiller@GreenwoodSC.Gov",
       "phone": "(864) 942-8507",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dayne Pruitt",
@@ -48,7 +48,7 @@
       "email": "dpruitt@greenwoodsc.gov",
       "phone": "(864) 337-5842",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robbie Templeton",
@@ -56,7 +56,7 @@
       "email": "rtempleton@GreenwoodSC.Gov",
       "phone": "(864) 980-8688",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Theo Lane",
@@ -64,7 +64,7 @@
       "email": "tlane@GreenwoodSC.Gov",
       "phone": "(864) 420-0068",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

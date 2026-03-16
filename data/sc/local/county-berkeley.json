@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:berkeley",
     "label": "Berkeley County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "scac",
-    "dataHash": "368052b1295014e9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "b9d09352774492ad",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(843) 719-4094",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dan Owens",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(843) 709-3808",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Amy Stern",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(843) 318-8287",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Caldwell Pinckney",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(843) 753-7377",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jarrod Brooks",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(843) 425-9736",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Marshall West",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "(843) 209-4014",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Phillip Obie",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "(843) 532-6243",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Steve Davis",
@@ -72,7 +72,7 @@
       "email": "",
       "phone": "(843) 761-7727",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tommy Newell",
@@ -80,7 +80,7 @@
       "email": "",
       "phone": "(843) 442-2109",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:anderson",
     "label": "Anderson City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "anderson_city",
-    "dataHash": "8085227235abfdf5",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "8206d302da495468",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "troberts@cityofandersonsc.com",
       "phone": "",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jeffrey D. Roberts",
@@ -24,7 +24,7 @@
       "email": "jeffroberts@cityofandersonsc.com",
       "phone": "(864) 226-8837",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kyle L. Newton",
@@ -32,7 +32,7 @@
       "email": "knewton@cityofandersonsc.com",
       "phone": "(864) 712-5725",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tony Stewart",
@@ -40,7 +40,7 @@
       "email": "tstewart@cityofandersonsc.com",
       "phone": "(864) 915-1122",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Beatrice R. Thompson",
@@ -48,7 +48,7 @@
       "email": "bthompson@cityofandersonsc.com",
       "phone": "(864) 224-1990",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Greg Steele",
@@ -56,7 +56,7 @@
       "email": "gsteele@cityofandersonsc.com",
       "phone": "(864) 651-2351",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Matthew C. Harbin",
@@ -64,7 +64,7 @@
       "email": "mharbin@cityofandersonsc.com",
       "phone": "(864) 376-4968",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John M. Roberts",
@@ -72,7 +72,7 @@
       "email": "jroberts@cityofandersonsc.com",
       "phone": "(864) 261-1311",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

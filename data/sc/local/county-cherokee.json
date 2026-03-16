@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:cherokee",
     "label": "Cherokee County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "cherokee_county",
-    "dataHash": "24a56d01590b2331",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "91013d1be59fd62a",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "Teresa.Bonner@cherokeecountysc.com",
       "phone": "(864) 491-7671",
       "source": "cherokeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Billy D. Blanton",
@@ -24,7 +24,7 @@
       "email": "Bill.Blanton@cherokeecountysc.com",
       "phone": "(864) 487-5754",
       "source": "cherokeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Donnie L. Hardin",
@@ -32,7 +32,7 @@
       "email": "Donnie.Hardin@cherokeecountysc.com",
       "phone": "(864) 761-6137",
       "source": "cherokeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Timothy F. Spencer",
@@ -40,7 +40,7 @@
       "email": "timspencer9@yahoo.com",
       "phone": "(864) 761-6707",
       "source": "cherokeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Elliot Hughes",
@@ -48,7 +48,7 @@
       "email": "ellwood105@yahoo.com",
       "phone": "(864) 489-6165",
       "source": "cherokeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Smith",
@@ -56,7 +56,7 @@
       "email": "David.Smith@cherokeecountysc.com",
       "phone": "(864) 490-7522",
       "source": "cherokeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

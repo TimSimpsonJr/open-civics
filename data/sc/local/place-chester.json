@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:chester",
     "label": "Chester City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "chester_city",
-    "dataHash": "9ecec6f8b9107a6d",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "faabd1e8758f2cfa",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "cwilliams@chester.sc.gov",
       "phone": "(803) 899-0763",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Wade Young",
@@ -24,7 +24,7 @@
       "email": "wyoung@chester.sc.gov",
       "phone": "(803) 899-9949",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Heyward Boyd",
@@ -32,7 +32,7 @@
       "email": "hboyd@chester.sc.gov",
       "phone": "",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dennis Jackson",
@@ -40,7 +40,7 @@
       "email": "djackson@chester.sc.gov",
       "phone": "",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Claytor",
@@ -48,7 +48,7 @@
       "email": "dclaytor@chester.sc.gov",
       "phone": "(803) 209-7312",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ursula Boyd-Crosby",
@@ -56,7 +56,7 @@
       "email": "ucrosby@chester.sc.gov",
       "phone": "(803) 899-0736",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Terry Foster",
@@ -64,7 +64,7 @@
       "email": "tfoster@chester.sc.gov",
       "phone": "",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tony Nelson",
@@ -72,7 +72,7 @@
       "email": "tnelson@chester.sc.gov",
       "phone": "(803) 899-0748",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robbie King-Boyd",
@@ -80,7 +80,7 @@
       "email": "rking@chester.sc.gov",
       "phone": "(803) 374-4174",
       "source": "chestercity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

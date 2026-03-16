@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:kingstree",
     "label": "Kingstree Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "kingstree",
-    "dataHash": "57d4add0b94cbfc8",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "7efc4e66a4545d26",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Frankie White",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Michelle Butterworth",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Edward Anderson",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Derek Fitts",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bubba Hammet",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stan Williamson",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "(843) 355-7484",
       "source": "kingstree",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

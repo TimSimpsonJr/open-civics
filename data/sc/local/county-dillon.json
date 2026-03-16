@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:dillon",
     "label": "Dillon County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "dillon_county",
-    "dataHash": "2645d0a10c268029",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "df308d3f5810e9c7",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "dtownsend@dilloncountysc.org",
       "phone": "(843) 621-4478",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jr. Kenny Cook",
@@ -24,7 +24,7 @@
       "email": "kcook@dilloncountysc.org",
       "phone": "(843) 610-9780",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James Washington",
@@ -32,7 +32,7 @@
       "email": "jwashingtonwfc@gmail.com",
       "phone": "(843) 615-4955",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Detrice Dawkins",
@@ -40,7 +40,7 @@
       "email": "dmdawkins@dilloncountysc.org",
       "phone": "(843) 617-3425",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Brad Coward",
@@ -48,7 +48,7 @@
       "email": "cowardstowing@aol.com",
       "phone": "(843) 845-1268",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robbie Coward",
@@ -56,7 +56,7 @@
       "email": "rcoward@dilloncountysc.org",
       "phone": "(843) 845-1944",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stevie Grice",
@@ -64,7 +64,7 @@
       "email": "scgrice@dilloncountysc.org",
       "phone": "(843) 206-1743",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

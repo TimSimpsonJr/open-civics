@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:orangeburg",
     "label": "Orangeburg City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "orangeburg_city",
-    "dataHash": "955227703caaeae9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "46e06f34f800de46",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "michael.butler@orangeburg.sc.us",
       "phone": "(803) 533-6000",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jordan Hawkins",
@@ -24,7 +24,7 @@
       "email": "jordan.hawkins@orangeburg.sc.us",
       "phone": "(803) 937-1593",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kalu Kalu",
@@ -32,7 +32,7 @@
       "email": "kalu.kalu@orangeburg.sc.us",
       "phone": "(803) 347-4842",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jerry Hannah",
@@ -40,7 +40,7 @@
       "email": "jerry.hannah@orangeburg.sc.us",
       "phone": "(803) 534-2869",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Annette Dees Grevious",
@@ -48,7 +48,7 @@
       "email": "annette.grevious@orangeburg.sc.us",
       "phone": "(803) 387-5505",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "L. Zimmerman Keitt",
@@ -56,7 +56,7 @@
       "email": "liz.keitt@orangeburg.sc.us",
       "phone": "(803) 534-8967",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sandra Knotts",
@@ -64,7 +64,7 @@
       "email": "sandra.knotts@orangeburg.sc.us",
       "phone": "(803) 534-2160",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

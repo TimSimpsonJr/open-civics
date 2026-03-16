@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:columbia",
     "label": "Columbia City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "columbia",
-    "dataHash": "75775205bfd46b9e",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "7b691baf0c872287",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "Mayor@columbiasc.gov",
       "phone": "",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tina N. Herbert",
@@ -24,7 +24,7 @@
       "email": "Tina.Herbert@Columbiasc.gov",
       "phone": "(803) 814-7207",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Edward H. McDowell, Jr.",
@@ -32,7 +32,7 @@
       "email": "Edward.McDowell@columbiasc.gov",
       "phone": "(803) 545-3061",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Will Brennan",
@@ -40,7 +40,7 @@
       "email": "Will.Brennan@columbiasc.gov",
       "phone": "(803) 876-4919",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Peter M. Brown",
@@ -48,7 +48,7 @@
       "email": "peter.brown@columbiasc.gov",
       "phone": "(803) 360-3971",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sam P. Johnson",
@@ -56,7 +56,7 @@
       "email": "Sam.Johnson@columbiasc.gov",
       "phone": "(803) 719-6158",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tyler D. Bailey",
@@ -64,7 +64,7 @@
       "email": "Tyler.Bailey@columbiasc.gov",
       "phone": "(803) 908-6830",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:orangeburg",
     "label": "Orangeburg County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "8aa91419a2334e85",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "834b09968c2fdddb",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(803) 492-7436",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Johnny Ravenell",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(803) 854-4452",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Janie Cooper-Smith",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(803) 536-6447",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Deloris Frazier",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(803) 534-8589",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

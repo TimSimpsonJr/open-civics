@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:laurens",
     "label": "Laurens County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "laurens_county",
-    "dataHash": "ec15c382ea7dee74",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "1bdde25e2652d9d8",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "council1@laurenscountysc.gov",
       "phone": "",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Matthew Brownlee",
@@ -24,7 +24,7 @@
       "email": "mbrownlee.council2@laurenscountysc.gov",
       "phone": "(864) 981-6244",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Shirley Clark",
@@ -32,7 +32,7 @@
       "email": "council3@laurenscountysc.gov",
       "phone": "(864) 983-8842",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "W. Brown Patterson, Jr.",
@@ -40,7 +40,7 @@
       "email": "council4@laurenscountysc.gov",
       "phone": "",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jeffrey Carroll",
@@ -48,7 +48,7 @@
       "email": "council5@laurenscountysc.gov",
       "phone": "(864) 597-6756",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Arthur Lee Philson, Jr.",
@@ -56,7 +56,7 @@
       "email": "aphilson.council6@laurenscountysc.gov",
       "phone": "(864) 857-4072",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Justin Lane",
@@ -64,7 +64,7 @@
       "email": "jlane.council7@laurenscountysc.gov",
       "phone": "(864) 981-6412",
       "source": "laurenscounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:mount-pleasant",
     "label": "Mount Pleasant Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "7861271e24668438",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "0fb6c4f94bacd46b",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "lcanney@tompsc.com",
       "phone": "(843) 884-8517",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Alex Crosby",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Daniel Brownstein",
@@ -32,7 +32,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 209-5607",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jake Rambo",
@@ -40,7 +40,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 494-8261",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Iacofano",
@@ -48,7 +48,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 806-6564",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kathryn Whitaker",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Laura Hyatt",
@@ -64,7 +64,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 315-4294",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Mike Tinkey",
@@ -72,7 +72,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 884-8517",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "P.E., Howard R. Chapman",
@@ -80,7 +80,7 @@
       "email": "councilclk@tompsc.com",
       "phone": "(843) 209-0399",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

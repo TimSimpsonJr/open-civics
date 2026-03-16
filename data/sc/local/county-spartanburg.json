@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:spartanburg",
     "label": "Spartanburg County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "9683003342acd8cb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "ad88036f7d180654",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "mlynch@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Monier Abusaft",
@@ -24,7 +24,7 @@
       "email": "mabusaft@spartanburgcounty.org",
       "phone": "(706) 346-4465",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jack Mabry",
@@ -32,7 +32,7 @@
       "email": "jmabry@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Paul Abbott",
@@ -40,7 +40,7 @@
       "email": "pabbott@spartanburgcounty.org",
       "phone": "(864) 542-6335",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Grant DeShields",
@@ -48,7 +48,7 @@
       "email": "gdeshields@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bob Walker",
@@ -56,7 +56,7 @@
       "email": "bwalker@spartanburgcounty.org",
       "phone": "(864) 590-0409",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jessica Coker",
@@ -64,7 +64,7 @@
       "email": "jcoker@spartanburgcounty.org",
       "phone": "(864) 680-3297",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

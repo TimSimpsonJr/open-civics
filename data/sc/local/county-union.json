@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:union",
     "label": "Union County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "union_county",
-    "dataHash": "dab2a3deb2866e06",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "dda9f93ac64a5db0",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "dsinclair@countyofunion.com",
       "phone": "(864) 426-1222",
       "source": "unioncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Danny Bright",
@@ -24,7 +24,7 @@
       "email": "dbright@countyofunion.com",
       "phone": "(864) 426-0909",
       "source": "unioncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John R. Glenn",
@@ -32,7 +32,7 @@
       "email": "jglenn@countyofunion.com",
       "phone": "(864) 426-4329",
       "source": "unioncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Annie Smith",
@@ -40,7 +40,7 @@
       "email": "asmith@countyofunion.com",
       "phone": "(864) 979-1818",
       "source": "unioncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Carolyn Rutherford",
@@ -48,7 +48,7 @@
       "email": "crutherford@countyofunion.com",
       "phone": "(864) 426-7780",
       "source": "unioncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Flood",
@@ -56,7 +56,7 @@
       "email": "jflood@countyofunion.com",
       "phone": "(864) 466-2570",
       "source": "unioncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

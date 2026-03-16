@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:winnsboro",
     "label": "Winnsboro Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "winnsboro",
-    "dataHash": "f19695bc97528b91",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "3f1b998cc5888758",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "demetrius.chatman@townofwinnsboro.sc.gov",
       "phone": "",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Danny Miller",
@@ -24,7 +24,7 @@
       "email": "dmiller@fairfield1.org",
       "phone": "",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Janice Bartell-Prather",
@@ -32,7 +32,7 @@
       "email": "janice.bartell@yahoo.com",
       "phone": "",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Russ Brown",
@@ -40,7 +40,7 @@
       "email": "rbwinnsboro@gmail.com",
       "phone": "(803) 718-0911",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jae Burroughs",
@@ -48,7 +48,7 @@
       "email": "jamesburroughs35@yahoo.com",
       "phone": "(803) 718-5581",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

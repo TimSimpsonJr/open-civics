@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:colleton",
     "label": "Colleton County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "colleton_county",
-    "dataHash": "95613020c9ddc625",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "2111cf5f030b923d",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "sbiering@colletoncounty.org",
       "phone": "(843) 224-8614",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bubba Trippe",
@@ -24,7 +24,7 @@
       "email": "btrippe@colletoncounty.org",
       "phone": "(843) 893-7058",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Phillip M. Taylor, Sr.",
@@ -32,7 +32,7 @@
       "email": "ptaylor@colletoncounty.org",
       "phone": "(843) 599-1711",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Steven D. Murdaugh",
@@ -40,7 +40,7 @@
       "email": "sdmurdaugh@colletoncounty.org",
       "phone": "(843) 782-6070",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Johnny Frank",
@@ -48,7 +48,7 @@
       "email": "jfrank@colletoncounty.org",
       "phone": "(843) 866-3227",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

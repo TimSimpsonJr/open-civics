@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:bamberg",
     "label": "Bamberg City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "bamberg_city",
-    "dataHash": "8d92382d5bc78be4",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "096924a247e3fa74",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(803) 707-7851",
       "source": "bambergcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Alan Sunday",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(803) 707-7094",
       "source": "bambergcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Willie Staley",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(803) 347-5726",
       "source": "bambergcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stephone Glover",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "",
       "source": "bambergcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Joyce Searson",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "",
       "source": "bambergcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Carey Bunch",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "bambergcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

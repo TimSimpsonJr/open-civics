@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:mccormick",
     "label": "McCormick County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "mccormick_county",
-    "dataHash": "fe9684f736ae31fc",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "9e5dfdd37dfcbae4",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "bhamby@mccormickcountysc.org",
       "phone": "(706) 318-2357",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charles Jennings",
@@ -24,7 +24,7 @@
       "email": "cjennings@mccormickcountysc.org",
       "phone": "(864) 443-2353",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Morrah",
@@ -32,7 +32,7 @@
       "email": "dmorrah@mccormickcountysc.org",
       "phone": "",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charles H. Cook",
@@ -40,7 +40,7 @@
       "email": "ccook@mccormickcountysc.org",
       "phone": "(864) 391-5838",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jacqueline F. Brown",
@@ -48,7 +48,7 @@
       "email": "jfbrown@mccormickcountysc.org",
       "phone": "(864) 554-1228",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

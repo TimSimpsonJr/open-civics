@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:summerville",
     "label": "Summerville Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "eccb72752423af92",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "d94ef4c9bf4d659d",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "rtouchberry@SummervilleSC.gov",
       "phone": "(843) 693-8707",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dexcter Mack",
@@ -24,7 +24,7 @@
       "email": "Dmack@summervillesc.gov",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tiffany Johnson",
@@ -32,7 +32,7 @@
       "email": "tjohnson@summervillesc.gov",
       "phone": "(843) 735-8377",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Matt Halter",
@@ -40,7 +40,7 @@
       "email": "mhalter@summervillesc.gov",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Richard Waring",
@@ -48,7 +48,7 @@
       "email": "rwaring@summervillesc.gov",
       "phone": "",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kima Garten",
@@ -56,7 +56,7 @@
       "email": "KGarten@SummervilleSC.gov",
       "phone": "(843) 821-9337",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bob Jackson",
@@ -64,7 +64,7 @@
       "email": "BJackson@SummervilleSC.gov",
       "phone": "(843) 810-0449",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

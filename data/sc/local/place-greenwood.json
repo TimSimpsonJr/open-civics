@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:greenwood",
     "label": "Greenwood City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "greenwood_city",
-    "dataHash": "e7c433270346bae9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "e37801b3d805ad69",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "brandon.smith@gwdcity.com",
       "phone": "(864) 554-4535",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robert Dean",
@@ -24,7 +24,7 @@
       "email": "robert.dean@gwdcity.com",
       "phone": "",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Niki Hutto",
@@ -32,7 +32,7 @@
       "email": "niki.hutto@gwdcity.com",
       "phone": "(864) 993-6303",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Annette Edwards",
@@ -40,7 +40,7 @@
       "email": "annette.edwards@gwdcity.com",
       "phone": "(864) 337-0532",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Johnathan Bass",
@@ -48,7 +48,7 @@
       "email": "johnathan.bass@gwdcity.com",
       "phone": "(864) 992-1467",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Matthew Miller",
@@ -56,7 +56,7 @@
       "email": "matthew.miller@gwdcity.com",
       "phone": "(864) 554-6013",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ronnie Ables",
@@ -64,7 +64,7 @@
       "email": "ronnie.ables@gwdcity.com",
       "phone": "(864) 980-5220",
       "source": "greenwoodcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

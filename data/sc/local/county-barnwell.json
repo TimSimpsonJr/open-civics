@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:barnwell",
     "label": "Barnwell County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "5e8cc350ba4d5c6a",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "bea904568bd2ac19",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "fhouston62@gmail.com",
       "phone": "(803) 266-7961",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Kenner",
@@ -24,7 +24,7 @@
       "email": "bccd2kenner@gmail.com",
       "phone": "(803) 284-4621",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Andy Hogg",
@@ -32,7 +32,7 @@
       "email": "hoggandy45@gmail.com",
       "phone": "(803) 671-4159",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Daniel Alexander",
@@ -40,7 +40,7 @@
       "email": "barnwelldistrict4@danielralexander.com",
       "phone": "(803) 300-4705",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Harold Buckmon",
@@ -48,7 +48,7 @@
       "email": "buckmonharold@gmail.com",
       "phone": "(803) 450-6390",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "JJ Cruz",
@@ -56,7 +56,7 @@
       "email": "trpjjcruz@msn.com",
       "phone": "(803) 383-4004",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Travis Hooper",
@@ -64,7 +64,7 @@
       "email": "hooper_travis02@yahoo.com",
       "phone": "(803) 671-2414",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:hilton-head",
     "label": "Hilton Head Island Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "hilton_head",
-    "dataHash": "c67eab39d8b9892e",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "1bcf53bb247b9486",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "AlanP@hiltonheadislandsc.gov",
       "phone": "(843) 384-2895",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Alex Brown",
@@ -24,7 +24,7 @@
       "email": "AlexB@hiltonheadislandsc.gov",
       "phone": "(843) 290-5943",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Patsy Brison",
@@ -32,7 +32,7 @@
       "email": "PatsyB@hiltonheadislandsc.gov",
       "phone": "(843) 384-4181",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Steve DeSimone",
@@ -40,7 +40,7 @@
       "email": "SteveD@hiltonheadislandsc.gov",
       "phone": "(854) 272-7115",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tamara Becker",
@@ -48,7 +48,7 @@
       "email": "TamaraB@hiltonheadislandsc.gov",
       "phone": "(843) 816-6372",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Steve Alfred",
@@ -56,7 +56,7 @@
       "email": "SteveA@hiltonheadislandsc.gov",
       "phone": "(843) 384-2421",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Melinda Tunner",
@@ -64,7 +64,7 @@
       "email": "MelindaT@hiltonheadislandsc.gov",
       "phone": "(854) 272-7114",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

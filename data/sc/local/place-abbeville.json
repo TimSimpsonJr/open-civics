@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:abbeville",
     "label": "Abbeville City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "abbeville_city",
-    "dataHash": "7083aa4243e86bbb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "dbac4f3316da786a",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "tedwards@abbevillecitysc.com",
       "phone": "(864) 366-5017",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stanley Marshall",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Faye Thomas",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Sutherland",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Chris Crawford",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James Jackson",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jason Edwards",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Benji Greeson",
@@ -72,7 +72,7 @@
       "email": "bengreeson@gmail.com",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Matthew Gambrell",
@@ -80,7 +80,7 @@
       "email": "mhgambrellsc@gmail.com",
       "phone": "378-0488",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

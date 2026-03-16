@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:manning",
     "label": "Manning City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "masc",
-    "dataHash": "ea050a8caba8cd49",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "9444e5563ca2083d",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Clayton Bert Pack",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Diane Georgia",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ervin L. Davis",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Johnny E. Gordon",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Julius Dukes Jr.",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sherry A. Welle",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }
