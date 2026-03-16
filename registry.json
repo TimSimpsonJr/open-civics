@@ -20,6 +20,28 @@
           "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_45_sldl.zip",
           "districtField": "SLDLST",
           "file": "sldl.json"
+        },
+        {
+          "id": "federal:sc:congress",
+          "name": "SC Congressional Districts",
+          "source": "tiger",
+          "url": "https://www2.census.gov/geo/tiger/TIGER2024/CD/tl_2024_us_cd119.zip",
+          "districtField": "CD119FP",
+          "file": "cd.json",
+          "config": {
+            "stateFips": "45"
+          }
+        },
+        {
+          "id": "federal:sc:senate",
+          "name": "SC State Boundary (US Senate)",
+          "source": "tiger",
+          "url": "https://www2.census.gov/geo/tiger/TIGER2024/STATE/tl_2024_us_state.zip",
+          "districtField": "STUSPS",
+          "file": "state-outline.json",
+          "config": {
+            "stateFips": "45"
+          }
         }
       ],
       "jurisdictions": [

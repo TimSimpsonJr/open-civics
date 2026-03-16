@@ -291,17 +291,22 @@ def build_tiger(entry, output_path, dry_run=False):
     Build district boundaries from Census TIGER/Line shapefile.
 
     Args:
-        entry: Boundary entry dict with 'url', 'districtField', 'name'/'id'.
+        entry: Boundary entry dict with 'url', 'districtField', 'name'/'id',
+               and optional 'config.stateFips' to filter nationwide files.
         output_path: Path to write the output GeoJSON.
         dry_run: If True, print what would happen without downloading.
     """
     url = entry["url"]
     district_field = entry["districtField"]
     name = entry.get("name", entry.get("id", "unknown"))
+    config = entry.get("config", {})
+    state_fips_filter = config.get("stateFips")
 
     if dry_run:
         print(f"  Source: Census TIGER/Line shapefile")
         print(f"  Would download: {url}")
+        if state_fips_filter:
+            print(f"  Would filter to state FIPS: {state_fips_filter}")
         print(f"  Would write: {output_path}")
         return
 
@@ -314,8 +319,15 @@ def build_tiger(entry, output_path, dry_run=False):
             f"Available columns: {list(gdf.columns)}"
         )
 
-    # Filter to target state (should already be state-only, but verify)
-    if "STATEFP" in gdf.columns:
+    # Filter to target state if stateFips is configured (for nationwide files)
+    if state_fips_filter and "STATEFP" in gdf.columns:
+        gdf = gdf[gdf["STATEFP"] == str(state_fips_filter)]
+        print(f"  Filtered to state FIPS {state_fips_filter}: {len(gdf)} features")
+        if len(gdf) == 0:
+            raise RuntimeError(
+                f"No features found for state FIPS '{state_fips_filter}' in {name}"
+            )
+    elif "STATEFP" in gdf.columns:
         # Extract state FIPS from the data rather than hardcoding
         state_fips_values = gdf["STATEFP"].unique()
         if len(state_fips_values) > 1:
