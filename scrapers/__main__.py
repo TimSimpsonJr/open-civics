@@ -217,7 +217,11 @@ def scrape_state(state_code, state_config, dry_run=False):
         print(f"  Would write: {output_path}")
         return
 
-    update_state_legislators(source_url, output_path, state_code=state_code)
+    try:
+        update_state_legislators(source_url, output_path, state_code=state_code)
+    except Exception as e:
+        print(f"  ERROR scraping state legislators for {state_code}: {e}")
+        return
 
     # Add executive officials
     executives = scrape_executive(state_code)
@@ -356,7 +360,10 @@ def scrape_federal(state_code=None, dry_run=False):
         print(f"  Would write: data/*/federal.json")
         return
 
-    update_federal_legislators(output_dir, state_filter=state_code)
+    try:
+        update_federal_legislators(output_dir, state_filter=state_code)
+    except Exception as e:
+        print(f"  ERROR scraping federal legislators: {e}")
 
 
 def scrape_boundaries(state_code, state_config, dry_run=False):
