@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:jasper",
     "label": "Jasper County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "table",
-    "dataHash": "6a06bd13985d80da",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "4b18df6324a5de42",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jarzillo@jaspercountysc.gov",
       "phone": "(843) 226-4208",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Chris VanGeison",
@@ -24,7 +24,7 @@
       "email": "cvangeison@jaspercountysc.gov",
       "phone": "(843) 226-4209",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Kemp",
@@ -32,7 +32,7 @@
       "email": "jkemp@jaspercountysc.gov",
       "phone": "(843) 505-4395",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Joey Rowell",
@@ -40,7 +40,7 @@
       "email": "jrowell@jaspercountysc.gov",
       "phone": "(843) 226-3925",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Gene Ceccarelli",
@@ -48,7 +48,7 @@
       "email": "gceccarelli@jaspercountysc.gov",
       "phone": "(843) 226-3996",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

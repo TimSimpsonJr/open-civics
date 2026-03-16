@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:spartanburg",
     "label": "Spartanburg City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "41a92799a1bbe955",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "37579ded630388e8",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "Jerome.Rice@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Meghan Smith",
@@ -24,7 +24,7 @@
       "email": "mesmith@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Leslie Rodgers",
@@ -32,7 +32,7 @@
       "email": "lrodgers@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ruth Littlejohn",
@@ -40,7 +40,7 @@
       "email": "rlittlejohn@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jamie Fulmer",
@@ -48,7 +48,7 @@
       "email": "jfulmer@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Janie Salley",
@@ -56,7 +56,7 @@
       "email": "jsalley@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Erica Brown",
@@ -64,7 +64,7 @@
       "email": "ebrown@cityofspartanburg.org",
       "phone": "(864) 596-2796",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

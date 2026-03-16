@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:lexington",
     "label": "Lexington County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "lexington_county",
-    "dataHash": "435a5c5b5b657df4",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a89f42f50a4443d9",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "mbishop@lexingtoncounty.sc.gov",
       "phone": "(803) 849-4275",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Paul Lawrence \"Larry\" Brigham, Jr.",
@@ -24,7 +24,7 @@
       "email": "lbrigham@lexingtoncounty.sc.gov",
       "phone": "(803) 465-6263",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Darrell Hudson",
@@ -32,7 +32,7 @@
       "email": "dhudson@lexingtoncounty.sc.gov",
       "phone": "(803) 240-6077",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Todd Cockrell",
@@ -40,7 +40,7 @@
       "email": "toddcockrell@lexingtoncounty.sc.gov",
       "phone": "(803) 849-0295",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Clifford P. Fisher, III",
@@ -48,7 +48,7 @@
       "email": "cfisher@lexingtoncounty.sc.gov",
       "phone": "(803) 849-4465",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charlene \"Charli\" Wessinger",
@@ -56,7 +56,7 @@
       "email": "cwessinger@lexingtoncounty.sc.gov",
       "phone": "(803) 730-7254",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Beth A. Carrigg",
@@ -64,7 +64,7 @@
       "email": "bcarrigg@lexingtoncounty.sc.gov",
       "phone": "(803) 518-8077",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Glen M. Conwell",
@@ -72,7 +72,7 @@
       "email": "gconwell@lexingtoncounty.sc.gov",
       "phone": "(803) 351-7435",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "M. Todd Cullum",
@@ -80,7 +80,7 @@
       "email": "tcullum@lexingtoncounty.sc.gov",
       "phone": "(803) 794-6930",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

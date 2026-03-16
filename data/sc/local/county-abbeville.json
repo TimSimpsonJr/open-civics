@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:abbeville",
     "label": "Abbeville County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "abbeville_county",
-    "dataHash": "37e9610b760250f3",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "89f649657dfa8762",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-2893",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Brandon Johnson",
@@ -24,7 +24,7 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-2902",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charles H. Goodwin",
@@ -32,7 +32,7 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 378-0072",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William C. “Billy” Norris",
@@ -40,7 +40,7 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 378-7208",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James P. McCord",
@@ -48,7 +48,7 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 828-2359",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Trent Taylor",
@@ -56,7 +56,7 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-0794",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

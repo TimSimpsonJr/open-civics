@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:newberry",
     "label": "Newberry County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "newberry_county",
-    "dataHash": "dc6949656ca39bd7",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "81abb693e7c95cfc",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "nickshealy@newberrycounty.gov",
       "phone": "(803) 924-2616",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Karl Sease",
@@ -24,7 +24,7 @@
       "email": "ksease@newberrycounty.gov",
       "phone": "(803) 944-5544",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Todd Johnson",
@@ -32,7 +32,7 @@
       "email": "toddjohnson@newberrycounty.gov",
       "phone": "(803) 940-1384",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Leon Fulmer Jr.",
@@ -40,7 +40,7 @@
       "email": "lfulmer@newberrycounty.gov",
       "phone": "(803) 924-0493",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Stuart Smith",
@@ -48,7 +48,7 @@
       "email": "ssmith@newberrycounty.gov",
       "phone": "(803) 944-5988",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Johnny Mack Scurry",
@@ -56,7 +56,7 @@
       "email": "jscurry@newberrycounty.gov",
       "phone": "(803) 276-7118",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Travis Reeder",
@@ -64,7 +64,7 @@
       "email": "treeder@newberrycounty.gov",
       "phone": "(803) 276-9433",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

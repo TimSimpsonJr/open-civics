@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:beaufort",
     "label": "Beaufort County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "beaufort_county",
-    "dataHash": "a9f7d33b87e44846",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "c51ea76b37bf2e50",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "gdawson@bcgov.net",
       "phone": "(843) 986-7265",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Bartholomew",
@@ -24,7 +24,7 @@
       "email": "dbartholomew@bcgov.net",
       "phone": "(843) 986-7430",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "York Glover, Sr.",
@@ -32,7 +32,7 @@
       "email": "yglover@bcgov.net",
       "phone": "(843) 812-2909",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Alice G. Howard",
@@ -40,7 +40,7 @@
       "email": "ahoward@bcgov.net",
       "phone": "(843) 986-7403",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Joseph Passiment",
@@ -48,7 +48,7 @@
       "email": "jpassiment@bcgov.net",
       "phone": "(843) 592-2299",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Anna Maria (Tab) Tabernik",
@@ -56,7 +56,7 @@
       "email": "anna.tabernik@bcgov.net",
       "phone": "(843) 986-7380",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Logan Cunningham",
@@ -64,7 +64,7 @@
       "email": "logan.cunningham@bcgov.net",
       "phone": "(843) 986-4772",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Paula Brown",
@@ -72,7 +72,7 @@
       "email": "rcaporale@bcgov.net",
       "phone": "(843) 941-9936",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Mark Lawson",
@@ -80,7 +80,7 @@
       "email": "markl@bcgov.net",
       "phone": "(843) 986-7045",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Lawrence P. McElynn",
@@ -88,7 +88,7 @@
       "email": "lawrencem@bcgov.net",
       "phone": "(843) 941-3519",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Thomas Reitz",
@@ -96,7 +96,7 @@
       "email": "thomas.reitz@bcgov.net",
       "phone": "(843) 941-3931",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

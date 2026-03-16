@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:gaffney",
     "label": "Gaffney City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "gaffney_city",
-    "dataHash": "72ef517bf03b49d0",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "9175ae49e611ae98",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "Ldawkins@cityofgaffney-sc.gov",
       "phone": "",
       "source": "gaffneycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Cameo Wilson",
@@ -24,7 +24,7 @@
       "email": "CWilson@cityofgaffney-sc.gov",
       "phone": "",
       "source": "gaffneycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "C. Allen Montgomery, Jr",
@@ -32,7 +32,7 @@
       "email": "amontgomery@cityofgaffney-sc.gov",
       "phone": "",
       "source": "gaffneycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Rosa Webber",
@@ -40,7 +40,7 @@
       "email": "rwebber@cityofgaffney-sc.gov",
       "phone": "",
       "source": "gaffneycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "George Duncan",
@@ -48,7 +48,7 @@
       "email": "Gduncan@cityofgaffney-sc.gov",
       "phone": "",
       "source": "gaffneycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kim F. Phillips",
@@ -56,7 +56,7 @@
       "email": "kfphillips59@gmail.com",
       "phone": "",
       "source": "gaffneycity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

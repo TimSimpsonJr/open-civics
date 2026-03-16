@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:darlington",
     "label": "Darlington City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "darlington_city",
-    "dataHash": "b960968eb0e5d36a",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "b65ae2df2f663c3e",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "mayorcboyd@cityofdarlington.com",
       "phone": "(843) 206-4389",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Segars",
@@ -24,7 +24,7 @@
       "email": "jsegars@cityofdarlington.com",
       "phone": "(843) 393-7114",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sheila Baccus",
@@ -32,7 +32,7 @@
       "email": "sbaccus@cityofdarlington.com",
       "phone": "(843) 307-2287",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Elaine Reed",
@@ -40,7 +40,7 @@
       "email": "ereed@cityofdarlington.com",
       "phone": "(843) 307-7086",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bryant Gardner",
@@ -48,7 +48,7 @@
       "email": "BGARDNER@CITYOFDARLINGTON.COM",
       "phone": "(843) 260-1288",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John Milling",
@@ -56,7 +56,7 @@
       "email": "jmilling@cityofdarlington.com",
       "phone": "(843) 393-4083",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Angela McRavin",
@@ -64,7 +64,7 @@
       "email": "amcravin@cityofdarlington.com",
       "phone": "(843) 621-2997",
       "source": "darlingtoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:mccormick",
     "label": "McCormick Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "mccormick_town",
-    "dataHash": "4a832361ea1e5574",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "9e81339f7215d161",
+    "dataLastChanged": "2026-03-16",
     "contact": {
       "phone": "(864) 852-2225",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dolly P. Franklin",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Nathan Jones",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James C. (Calvin) Chiles",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Curtis Dansby",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Alvin Jennings",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Fay Hood",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

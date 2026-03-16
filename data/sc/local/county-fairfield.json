@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:fairfield",
     "label": "Fairfield County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "generic_mailto",
-    "dataHash": "2368c5ad6f95adde",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "f9417ee6cd441f53",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "dan.ruff@fairfield.sc.gov",
       "phone": "(803) 337-8601",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Donald C. Goldbach Jr. - District 2",
@@ -24,7 +24,7 @@
       "email": "don.goldbach@fairfield.sc.gov",
       "phone": "(803) 801-3367",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Peggy Swearingen - District 3",
@@ -32,7 +32,7 @@
       "email": "peggy.swearingen@fairfield.sc.gov",
       "phone": "(803) 712-9287",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Carl Bell",
@@ -40,7 +40,7 @@
       "email": "carl.bell@fairfield.sc.gov",
       "phone": "(803) 801-3320",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Douglas Pauley- District 5",
@@ -48,7 +48,7 @@
       "email": "douglas.pauley@fairfield.sc.gov",
       "phone": "(803) 712-6510",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Oren Gadson - District 6",
@@ -56,7 +56,7 @@
       "email": "oren.gadson@fairfield.sc.gov",
       "phone": "(803) 801-9559",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Clarence Gilbert",
@@ -64,7 +64,7 @@
       "email": "clarence.gilbert@fairfield.sc.gov",
       "phone": "(803) 712-6510",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:walterboro",
     "label": "Walterboro City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "generic_mailto",
-    "dataHash": "b54644bba545c745",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a9e9d0cdb0547513",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jbroderick@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Carl Brown",
@@ -24,7 +24,7 @@
       "email": "cbrown@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jimmy Syfrett",
@@ -32,7 +32,7 @@
       "email": "jsyfrett@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Judy Bridge",
@@ -40,7 +40,7 @@
       "email": "jbridge@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ladson Fishburne",
@@ -48,7 +48,7 @@
       "email": "lfishburne@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Paul Siegel",
@@ -56,7 +56,7 @@
       "email": "psiegel@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Spencer Witkin",
@@ -64,7 +64,7 @@
       "email": "switkin@walterborosc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

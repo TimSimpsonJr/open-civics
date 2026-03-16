@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:ridgeland",
     "label": "Ridgeland Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "generic_mailto",
-    "dataHash": "3adfd5f0494a9e9f",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "cc837e504091f57c",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jnmalphrus@ridgelandsc.gov",
       "phone": "(843) 726-7500",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bill Fishburne",
@@ -24,7 +24,7 @@
       "email": "bfishburne@ridgelandsc.gov",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "LEE GRAMLING",
@@ -32,7 +32,7 @@
       "email": "jgramling@ridgelandsc.gov",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "LINDA TENEROWICZ",
@@ -40,7 +40,7 @@
       "email": "ltenerowicz@ridgelandsc.gov",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Libby Malphrus",
@@ -48,7 +48,7 @@
       "email": "lmalphrus@ridgelandsc.gov",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:chesterfield",
     "label": "Chesterfield County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "chesterfield_county",
-    "dataHash": "319f9bbc947c2fdf",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "2edbf8ba7fa3cdf0",
+    "dataLastChanged": "2026-03-16",
     "contact": {
       "phone": "(843) 623-3945",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dr. Lawrance Brand",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ethan T. Foard",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Douglas A. Curtis",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Donald E. Kirkley",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Hattie Burns",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William Todd Smallwood",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Mary D. Anderson",
@@ -77,7 +77,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bishop, Dr. Johnnie McLendon",
@@ -85,7 +85,7 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

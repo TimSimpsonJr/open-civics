@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:edgefield",
     "label": "Edgefield County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "edgefield_county",
-    "dataHash": "83a3adf495d54f16",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "6f4132cf6850d37f",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "dcampbell@edgefieldcounty.sc.gov",
       "phone": "(803) 275-3635",
       "source": "edgefieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Albert Talbert",
@@ -24,7 +24,7 @@
       "email": "atalbert@edgefieldcounty.sc.gov",
       "phone": "(803) 637-4009",
       "source": "edgefieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tiffani Ireland",
@@ -32,7 +32,7 @@
       "email": "tireland@edgefieldcounty.sc.gov",
       "phone": "(803) 637-4009",
       "source": "edgefieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Dr. Jacqueline “Jackie” Kennion",
@@ -40,7 +40,7 @@
       "email": "jkennion@edgefieldcounty.sc.gov",
       "phone": "(803) 341-1178",
       "source": "edgefieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jerry Moody",
@@ -48,7 +48,7 @@
       "email": "Wmoody@edgefieldcounty.sc.gov",
       "phone": "(803) 292-8000",
       "source": "edgefieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

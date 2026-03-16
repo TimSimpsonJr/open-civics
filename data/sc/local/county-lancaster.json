@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:lancaster",
     "label": "Lancaster County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "2482d838aa846854",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "cd616a226c63c86b",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "smgraham@lancastercountysc.gov",
       "phone": "(803) 319-5602",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Charlene McGriff",
@@ -24,7 +24,7 @@
       "email": "cmcgriff@comporium.net",
       "phone": "(803) 448-1021",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Billy Mosteller",
@@ -32,7 +32,7 @@
       "email": "bmosteller@lancastercountysc.gov",
       "phone": "(803) 416-2560",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jose Luis",
@@ -40,7 +40,7 @@
       "email": "jluis@lancastercountysc.gov",
       "phone": "(803) 412-1611",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Steve Harper",
@@ -48,7 +48,7 @@
       "email": "steveharper@lancastercountysc.gov",
       "phone": "(803) 804-5325",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Bryant Neal",
@@ -56,7 +56,7 @@
       "email": "bneal@lancastercountysc.gov",
       "phone": "(803) 414-5820",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Brian Carnes",
@@ -64,7 +64,7 @@
       "email": "briancarnes@lancastercountysc.gov",
       "phone": "(803) 320-9107",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

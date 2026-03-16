@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:st-george",
     "label": "St. George Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "st_george",
-    "dataHash": "63363ca3c74b7b8e",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "b195f4f7c3ef2973",
+    "dataLastChanged": "2026-03-16",
     "contact": {
       "phone": "(843) 563-3032",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Betty Collins",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Margie Ladson",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Wil Lindsey",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ruthie Sojourner Tripp",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Darrell Hinton",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James Herndon",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

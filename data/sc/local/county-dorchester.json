@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:dorchester",
     "label": "Dorchester County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "scac",
-    "dataHash": "a0de5c7c53a53adf",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "fa988e466a5f3b2c",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(843) 801-2326",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Rita May Ranck",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(843) 955-9708",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Edward Crosby",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(843) 832-0196",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James Byars",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(843) 832-0196",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Peter Smith",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(843) 853-1174",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "S. Todd Friddle",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "(843) 805-2258",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

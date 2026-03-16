@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:aiken",
     "label": "Aiken County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "civicplus",
-    "dataHash": "6b9eb1958b68cb0c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "34d4852b1ab69420",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "gbunker@aikencountysc.gov",
       "phone": "(803) 645-8388",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable Danny Feagin",
@@ -24,7 +24,7 @@
       "email": "dannyfeagin.district3@gmail.com",
       "phone": "(803) 507-4556",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable L. Andrew Siders",
@@ -32,7 +32,7 @@
       "email": "asiders@aikencountysc.gov",
       "phone": "(803) 645-1302",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable Landon Ball",
@@ -40,7 +40,7 @@
       "email": "LBall@aikencountysc.gov",
       "phone": "(803) 221-0002",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable Mike Kellems",
@@ -48,7 +48,7 @@
       "email": "mkellems@aikencountysc.gov",
       "phone": "(803) 507-4856",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable P.K. Hightower",
@@ -56,7 +56,7 @@
       "email": "pkhightower@aikencountysc.gov",
       "phone": "(803) 292-5314",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable Phil Napier",
@@ -64,7 +64,7 @@
       "email": "pnapier@aikencountysc.gov",
       "phone": "(803) 663-7251",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable Ron Felder",
@@ -72,7 +72,7 @@
       "email": "rfelder@aikencountysc.gov",
       "phone": "(803) 422-1266",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Honorable Sandy Haskell",
@@ -80,7 +80,7 @@
       "email": "shaskell@aikencountysc.gov",
       "phone": "(803) 279-5769",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

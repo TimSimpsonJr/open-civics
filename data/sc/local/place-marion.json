@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:marion",
     "label": "Marion City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "marion_city",
-    "dataHash": "58a540e101a5db35",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "dd0721480abbc2b6",
+    "dataLastChanged": "2026-03-16",
     "contact": {
       "phone": "(843) 423-5961",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Emerson Hunt",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Donny Gerald",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Ronald Atkinson",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Fred Gause",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tassie Lewis",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Michael Baker",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

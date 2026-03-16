@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:saluda",
     "label": "Saluda County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "saluda_county",
-    "dataHash": "67dd183345017262",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "b8c5fd4da8280faf",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "j.moore@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "James Frank Daniel, Sr.",
@@ -24,7 +24,7 @@
       "email": "f.daniel@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John W. \"Jack\" Atkinson",
@@ -32,7 +32,7 @@
       "email": "j.atkinson@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Justin Anderson",
@@ -40,7 +40,7 @@
       "email": "j.anderson@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "J. Carey Bedenbaugh",
@@ -48,7 +48,7 @@
       "email": "c.bedenbaugh@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

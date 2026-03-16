@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:york",
     "label": "York County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "york_county",
-    "dataHash": "239e22ea9983b4f7",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "066141266de46421",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "(704) 408-6155",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Andy Litten",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Tommy Adkins",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "(803) 628-8328",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "William \"Bump\" Roddey",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "(803) 984-8033",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Christi Cox",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "(803) 630-9526",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Watts Huckabee",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Debi Cloninger",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "(803) 965-8393",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

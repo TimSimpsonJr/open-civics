@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:charleston",
     "label": "Charleston County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "charleston_county",
-    "dataHash": "12c9f3a0ddb75a11",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "2edf4e243b01dbe7",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "HSass@CharlestonCounty.org",
       "phone": "(843) 766-7500",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Larry Kobrovsky",
@@ -24,7 +24,7 @@
       "email": "LKobrovsky@CharlestonCounty.org",
       "phone": "(843) 958-4030",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Robert L. Wehrman",
@@ -32,7 +32,7 @@
       "email": "RLWehrman@CharlestonCounty.org",
       "phone": "(843) 958-4030",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Henry E. Darby",
@@ -40,7 +40,7 @@
       "email": "HenryDarby@msn.com",
       "phone": "(843) 901-6793",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Teddie E. Pryor, Sr.",
@@ -48,7 +48,7 @@
       "email": "TPryor@CharlestonCounty.org",
       "phone": "(843) 958-4030",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kylon J. Middleton",
@@ -56,7 +56,7 @@
       "email": "KMiddleton@CharlestonCounty.org",
       "phone": "(843) 325-4577",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "C. Brantley Moody",
@@ -64,7 +64,7 @@
       "email": "BMoody@CharlestonCounty.org",
       "phone": "(843) 270-2483",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Joe Boykin",
@@ -72,7 +72,7 @@
       "email": "JBoykin@CharlestonCounty.org",
       "phone": "(843) 214-0337",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jenny Costa Honeycutt",
@@ -80,7 +80,7 @@
       "email": "JHoneycutt@CharlestonCounty.org",
       "phone": "(843) 693-6447",
       "source": "charlestoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

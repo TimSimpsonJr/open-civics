@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:goose-creek",
     "label": "Goose Creek City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "goose_creek",
-    "dataHash": "31d5b51cff2ef191",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "651af08ce3db9f79",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "ghabib@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jerry Tekac",
@@ -24,7 +24,7 @@
       "email": "jtekac@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Christopher Harmon",
@@ -32,7 +32,7 @@
       "email": "charmon@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Corey McClary",
@@ -40,7 +40,7 @@
       "email": "cmclary@goosecreeksc.gov",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Debra Green-Fletcher",
@@ -48,7 +48,7 @@
       "email": "dgreen-fletcher@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Gayla McSwain",
@@ -56,7 +56,7 @@
       "email": "gmcswain@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Melissa Enos-Sims",
@@ -64,7 +64,7 @@
       "email": "menos@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

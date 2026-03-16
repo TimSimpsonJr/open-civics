@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:rock-hill",
     "label": "Rock Hill City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "rock_hill",
-    "dataHash": "306763b1b711d078",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "12d9a677112f6720",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "John.Gettys@cityofrockhill.com",
       "phone": "(803) 329-7011",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Derrick Lindsay",
@@ -24,7 +24,7 @@
       "email": "Derrick.Lindsay@cityofrockhill.com",
       "phone": "",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Brent Faulkenberry",
@@ -32,7 +32,7 @@
       "email": "brent.faulkenberry@cityofrockhill.com",
       "phone": "(803) 329-7012",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Kevin Sutton",
@@ -40,7 +40,7 @@
       "email": "Kevin.Sutton@cityofrockhill.com",
       "phone": "(803) 328-1428",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "John A. Black III",
@@ -48,7 +48,7 @@
       "email": "John.Black@cityofrockhill.com",
       "phone": "(803) 517-9969",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Nikita L. Jackson",
@@ -56,7 +56,7 @@
       "email": "Nikita.Jackson@cityofrockhill.com",
       "phone": "(839) 214-7517",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Sarah Vining",
@@ -64,7 +64,7 @@
       "email": "Sarah.Vining@cityofrockhill.com",
       "phone": "(803) 329-7012",
       "source": "rockhill",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

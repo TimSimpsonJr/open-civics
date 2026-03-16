@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:newberry",
     "label": "Newberry City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "generic_mailto",
-    "dataHash": "aa1c55b9d9af41a1",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "56c951bb79711733",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "FSenn@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Lemont Glasgow, District 1",
@@ -24,7 +24,7 @@
       "email": "LGlasgow@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Clay Smith, District 2",
@@ -32,7 +32,7 @@
       "email": "RCSmith@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Carlton Kinard, District 3",
@@ -40,7 +40,7 @@
       "email": "CKinard@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David Force, District 4",
@@ -48,7 +48,7 @@
       "email": "DForce@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Jackie Holmes, District 5",
@@ -56,7 +56,7 @@
       "email": "JHolmes@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "David DuBose, District 6",
@@ -64,7 +64,7 @@
       "email": "DDubose@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }

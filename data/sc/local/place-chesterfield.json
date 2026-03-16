@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:chesterfield",
     "label": "Chesterfield Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-16",
     "adapter": "chesterfield_town",
-    "dataHash": "da0ab657d1bed7ae",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "e5af48e7c929c0e4",
+    "dataLastChanged": "2026-03-16"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "cfmayorjb@shtc.net",
       "phone": "(843) 623-9114",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Latonya Myers",
@@ -24,7 +24,7 @@
       "email": "lrmyers2001@yahoo.com",
       "phone": "(843) 287-1950",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Lyndy Hudson",
@@ -32,7 +32,7 @@
       "email": "lhudson29709@yahoo.com",
       "phone": "(843) 680-0591",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Derek Watson",
@@ -40,7 +40,7 @@
       "email": "derekwatson2005@yahoo.com",
       "phone": "(843) 623-4446",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Nikki Cassidy",
@@ -48,7 +48,7 @@
       "email": "ncassidy0308@gmail.com",
       "phone": "(843) 337-6081",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Fred D. Rivers",
@@ -56,7 +56,7 @@
       "email": "frddrivers@gmail.com",
       "phone": "(843) 680-1585",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     },
     {
       "name": "Shannon A. Justice",
@@ -64,7 +64,7 @@
       "email": "justice.district6@yahoo.com",
       "phone": "(843) 910-3334",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-16"
     }
   ]
 }
