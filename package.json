@@ -9,6 +9,7 @@
   },
   "files": [
     "data/*/state.json",
+    "data/*/federal.json",
     "data/*/local/**"
   ],
   "exports": {
