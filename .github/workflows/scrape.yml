@@ -96,7 +96,9 @@ jobs:
           python scripts/quality_report.py > quality-report.md
           python scripts/quality_report.py --json > quality-report.json
           SUMMARY=$(python scripts/quality_report.py --summary-only)
-          echo "output=$SUMMARY" >> $GITHUB_OUTPUT
+          echo "output<<EOF" >> $GITHUB_OUTPUT
+          echo "$SUMMARY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Upload quality report
         if: always()
@@ -112,6 +114,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -e
+
           if git diff --quiet data/; then
             echo "No data changes detected"
             exit 0
@@ -121,7 +125,7 @@ jobs:
           git add data/
           BODY=$(python scripts/diff_summary.py --base HEAD --report scrape-report.json)
 
-          BRANCH="data-update/$(date +%Y-%m-%d-%H%M)"
+          BRANCH="data-update/$(date +%Y-%m-%d-%H%M%S)"
           git checkout -b "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
