@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:saluda",
     "label": "Saluda Town Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-23",
     "adapter": "masc",
-    "dataHash": "65a51529d7b5b518",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "771aee6a8bb3c362",
+    "dataLastChanged": "2026-03-23"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "John Mark Griffith",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Lauren Yonce",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Myranda Butler",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Obie Combs",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     }
   ]
 }
