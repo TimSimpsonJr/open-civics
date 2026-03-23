@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:beaufort",
     "label": "Beaufort City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-23",
     "adapter": "civicplus",
-    "dataHash": "c88fc12d4882394c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "47188687ed30d901",
+    "dataLastChanged": "2026-03-23"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "pcromer@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Josh Scallate",
@@ -24,7 +24,7 @@
       "email": "pscallate@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Mike McFee",
@@ -32,7 +32,7 @@
       "email": "mmcfee@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Mitch Mitchell",
@@ -40,7 +40,7 @@
       "email": "mmitchell@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     },
     {
       "name": "Neil Lipsitz",
@@ -48,7 +48,7 @@
       "email": "nlipsitz@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-23"
     }
   ]
 }
