@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:oconee",
     "label": "Oconee County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-04-06",
     "adapter": "oconee_county",
-    "dataHash": "21a0ef8e31860085",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "39f5250ee82b24c8",
+    "dataLastChanged": "2026-04-06"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "district1@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-06"
     },
     {
       "name": "Matthew Durham",
@@ -24,7 +24,7 @@
       "email": "district2@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-06"
     },
     {
       "name": "Don Mize",
@@ -32,7 +32,7 @@
       "email": "district3@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-06"
     },
     {
       "name": "Thomas James",
@@ -40,7 +40,7 @@
       "email": "district4@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-06"
     },
     {
       "name": "James Glenn Hart",
@@ -48,7 +48,7 @@
       "email": "district5@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-06"
     }
   ]
 }
