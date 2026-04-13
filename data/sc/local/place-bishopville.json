@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:bishopville",
     "label": "Bishopville City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-04-13",
     "adapter": "bishopville_city",
-    "dataHash": "8be125527f6fc273",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "dbff6e978273c611",
+    "dataLastChanged": "2026-04-13",
     "contact": {
       "phone": "(803) 484-5948",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     },
     {
       "name": "Gloria S. Lewis",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     },
     {
       "name": "Wayne Hancock",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     },
     {
       "name": "Belinda Hay",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     },
     {
       "name": "Scottie Hayes",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     },
     {
       "name": "Shirley Hill",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     },
     {
       "name": "Sammie Ruth",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-13"
     }
   ]
 }
