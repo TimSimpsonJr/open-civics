@@ -4,67 +4,67 @@
     "level": "local",
     "jurisdiction": "county:spartanburg",
     "label": "Spartanburg County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-04-20",
     "adapter": "civicplus",
-    "dataHash": "9683003342acd8cb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "f46f8c142364386a",
+    "dataLastChanged": "2026-04-20"
   },
   "members": [
     {
       "name": "Manning Lynch",
       "title": "Chairman",
-      "email": "mlynch@spartanburgcounty.org",
+      "email": "mlynch@spartanburgcounty.gov",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     },
     {
       "name": "Monier Abusaft",
       "title": "Council Member, District 1",
-      "email": "mabusaft@spartanburgcounty.org",
+      "email": "mabusaft@spartanburgcounty.gov",
       "phone": "(706) 346-4465",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     },
     {
       "name": "Jack Mabry",
       "title": "Council Member, District 2",
-      "email": "jmabry@spartanburgcounty.org",
+      "email": "jmabry@spartanburgcounty.gov",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     },
     {
       "name": "Paul Abbott",
       "title": "Council Member, District 3",
-      "email": "pabbott@spartanburgcounty.org",
+      "email": "pabbott@spartanburgcounty.gov",
       "phone": "(864) 542-6335",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     },
     {
       "name": "Grant DeShields",
       "title": "Council Member, District 4",
-      "email": "gdeshields@spartanburgcounty.org",
+      "email": "gdeshields@spartanburgcounty.gov",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     },
     {
       "name": "Bob Walker",
       "title": "Council Member, District 5",
-      "email": "bwalker@spartanburgcounty.org",
+      "email": "bwalker@spartanburgcounty.gov",
       "phone": "(864) 590-0409",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     },
     {
       "name": "Jessica Coker",
       "title": "Council Member, District 6",
-      "email": "jcoker@spartanburgcounty.org",
+      "email": "jcoker@spartanburgcounty.gov",
       "phone": "(864) 680-3297",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-20"
     }
   ]
 }
