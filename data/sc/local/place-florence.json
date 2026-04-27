@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:florence",
     "label": "Florence City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-04-27",
     "adapter": "florence_city",
-    "dataHash": "a0d2ec355319232e",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "16aa1649639e6f08",
+    "dataLastChanged": "2026-04-27"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "lbarnes@cityofflorencesc.gov",
       "phone": "(843) 665-3170",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "George D. Jebaily",
@@ -24,7 +24,7 @@
       "email": "gjebaily@cityofflorencesc.gov",
       "phone": "(843) 319-9900",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Chaquez T. McCall",
@@ -32,7 +32,7 @@
       "email": "cmccall@cityofflorencesc.gov",
       "phone": "(843) 409-8515",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Zach McKay",
@@ -40,7 +40,7 @@
       "email": "zmckay@cityofflorencesc.gov",
       "phone": "(843) 992-8896",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "LaShonda NeSmith-Jackson",
@@ -48,7 +48,7 @@
       "email": "ljackson@cityofflorencesc.gov",
       "phone": "(843) 617-1000",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "J. Lawrence Smith, II",
@@ -56,7 +56,7 @@
       "email": "jlsmith@cityofflorencesc.gov",
       "phone": "(843) 601-8534",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Bryan A. Braddock",
@@ -64,7 +64,7 @@
       "email": "bbraddock@cityofflorencesc.gov",
       "phone": "(843) 992-9534",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     }
   ]
 }
