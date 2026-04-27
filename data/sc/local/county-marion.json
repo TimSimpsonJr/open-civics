@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "county:marion",
     "label": "Marion County Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-04-27",
     "adapter": "table",
-    "dataHash": "e7db570eb5f3d550",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "273b3ada051d0e23",
+    "dataLastChanged": "2026-04-27"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Oscar Foxworth",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Joel Rogers",
@@ -32,7 +32,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Allen W. Floyd",
@@ -40,7 +40,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Tarus Gilchrist",
@@ -48,7 +48,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Robin Turner",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     },
     {
       "name": "Dewayne Tennie",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-04-27"
     }
   ]
 }
