@@ -4,65 +4,67 @@
     "level": "local",
     "jurisdiction": "place:aiken",
     "label": "Aiken City Council",
-    "lastUpdated": "2026-03-14",
-    "adapter": "masc"
+    "lastUpdated": "2026-05-01",
+    "adapter": "aiken_city",
+    "dataHash": "d235a3900c4a300e",
+    "dataLastChanged": "2026-05-01"
   },
   "members": [
     {
-      "name": "Teddy W. Milner",
+      "name": "Teddy Milner",
       "title": "Mayor",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 295-2850",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     },
     {
-      "name": "Barbara Ruth Morgan",
-      "title": "Council Member",
+      "name": "Gail Diggs",
+      "title": "Council Member District 1",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 293-6704",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     },
     {
-      "name": "Braylen Waldo",
-      "title": "Council Member",
+      "name": "Lessie Price",
+      "title": "Council Member District 2",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 439-8292",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     },
     {
-      "name": "Gail Bush Diggs",
-      "title": "Council Member",
+      "name": "Kay Brohl",
+      "title": "Council Member District 3",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 642-8386",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     },
     {
-      "name": "Kay Biermann Brohl",
-      "title": "Council Member",
+      "name": "Pete Messina",
+      "title": "Council Member District 4",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 642-7654",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     },
     {
-      "name": "Lessie B. Price",
-      "title": "Council Member",
+      "name": "Braylen D. Waldo",
+      "title": "Council Member District 5",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 642-7654",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     },
     {
-      "name": "Peter Messina",
-      "title": "Council Member",
+      "name": "Barbara Morgan",
+      "title": "Council Member District 6",
       "email": "",
-      "phone": "",
-      "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "phone": "(803) 642-7654",
+      "source": "aikencity",
+      "lastUpdated": "2026-05-01"
     }
   ]
 }
