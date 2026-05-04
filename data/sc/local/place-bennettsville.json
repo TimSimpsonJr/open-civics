@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:bennettsville",
     "label": "Bennettsville City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-05-04",
     "adapter": "table",
-    "dataHash": "d0714d7217168458",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "919416e688de698b",
+    "dataLastChanged": "2026-05-04"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "tyron.abraham@bennettsvillesc.com",
       "phone": "(843) 439-1126",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Gregory Scott, Sr.",
@@ -24,7 +24,7 @@
       "email": "",
       "phone": "(843) 479-0416",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Cy'Heim McRae",
@@ -32,7 +32,7 @@
       "email": "cyheim.mcrae@bennettsvillesc.com",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "William Jennings, Jr.",
@@ -40,15 +40,15 @@
       "email": "william.jennings@bennettsvillesc.com",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
-      "name": "Allen Taylor",
+      "name": "Caraline Harpe",
       "title": "Council Member, District 3",
-      "email": "",
+      "email": "caraline.harpe@bennettsvillesc.com",
       "phone": "(843) 439-0700",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Tyrone R. Davis",
@@ -56,7 +56,7 @@
       "email": "",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Wanda Weaver",
@@ -64,7 +64,7 @@
       "email": "",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     }
   ]
 }

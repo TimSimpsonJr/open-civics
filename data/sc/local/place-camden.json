@@ -4,19 +4,19 @@
     "level": "local",
     "jurisdiction": "place:camden",
     "label": "Camden City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-05-04",
     "adapter": "generic_mailto",
-    "dataHash": "088cd79b116544b5",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "20e99e549f7fe2d8",
+    "dataLastChanged": "2026-05-04"
   },
   "members": [
     {
       "name": "Vincent Sheheen",
       "title": "Mayor",
-      "email": "vincentformayor@gmail.com",
+      "email": "vsheheen@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Delia Davis",
@@ -24,7 +24,7 @@
       "email": "ddavis@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Hamilton Boykin",
@@ -32,7 +32,7 @@
       "email": "hboykin@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Phil Elliott",
@@ -40,7 +40,7 @@
       "email": "pelliott@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "William Wilkes",
@@ -48,7 +48,7 @@
       "email": "wwilkes@camdensc.org",
       "phone": "",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     }
   ]
 }

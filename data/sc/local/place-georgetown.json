@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:georgetown",
     "label": "Georgetown City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-05-04",
     "adapter": "revize",
-    "dataHash": "65893e667722b9fa",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "0b469c74245c49c3",
+    "dataLastChanged": "2026-05-04"
   },
   "members": [
     {
@@ -16,7 +16,7 @@
       "email": "jdoyle@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Bruce Carl",
@@ -24,7 +24,7 @@
       "email": "bcarl@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Erin Ethridge",
@@ -32,7 +32,7 @@
       "email": "eethridge@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Hobson Henry Milton",
@@ -40,7 +40,7 @@
       "email": "hmilton@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Jessie M. Walker",
@@ -48,7 +48,7 @@
       "email": "jwalker@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Sharon Melton",
@@ -56,7 +56,7 @@
       "email": "smelton@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Tamika Williams-Obeng",
@@ -64,7 +64,7 @@
       "email": "tobeng@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     }
   ]
 }
