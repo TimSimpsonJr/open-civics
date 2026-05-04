@@ -4,10 +4,10 @@
     "level": "local",
     "jurisdiction": "place:dillon",
     "label": "Dillon City Council",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-05-04",
     "adapter": "dillon_city",
-    "dataHash": "9bf6e44db716f002",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "1dbd0522136ea077",
+    "dataLastChanged": "2026-05-04",
     "contact": {
       "phone": "(843) 774-0040",
       "email": "",
@@ -21,7 +21,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Timothy Cousar",
@@ -29,7 +29,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Danielle M.  Smith",
@@ -37,7 +37,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "L. Carl \"Chip\" Huggins",
@@ -45,7 +45,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Douglas Jackson",
@@ -53,7 +53,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "James W. David",
@@ -61,7 +61,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     },
     {
       "name": "Dr. Phil Wallace, M.D.",
@@ -69,7 +69,7 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-05-04"
     }
   ]
 }
