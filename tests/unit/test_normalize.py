@@ -75,3 +75,30 @@ def test_title_parsing_at_large(title):
     assert out["seatClass"] == "at-large"
     assert out["seatLabel"] is None
     assert out["seatId"] is None
+
+
+def test_title_parsing_mayor():
+    record = {"name": "Knox White", "title": "Mayor"}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:greenville")
+    out = normalize_member(record, ctx)
+    assert out["office"] == "mayor"
+    assert out["leadership"] is None
+    assert out["seatClass"] == "at-large"
+    assert out["seatLabel"] is None
+    assert out["seatId"] is None
+
+
+@pytest.mark.parametrize("title, expected_seat_id", [
+    ("Mayor Pro Tem", None),
+    ("Mayor Pro-Tem", None),
+    ("Mayor Pro Tem, District 2", "2"),
+])
+def test_title_parsing_mayor_pro_tem(title, expected_seat_id):
+    record = {"name": "Test", "title": title}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:test")
+    out = normalize_member(record, ctx)
+    assert out["office"] == "council-member"
+    assert out["leadership"] == "mayor-pro-tem"
+    assert out["seatId"] == expected_seat_id

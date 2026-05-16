@@ -46,6 +46,8 @@ _PREFIX_DISTRICT_RE = re.compile(
     re.IGNORECASE,
 )
 _AT_LARGE_RE = re.compile(r"\bAt[\s-]?Large\b", re.IGNORECASE)
+_MAYOR_PRO_TEM_RE = re.compile(r"^Mayor\s+Pro[\s-]?Tem\b", re.IGNORECASE)
+_MAYOR_RE = re.compile(r"^Mayor\b", re.IGNORECASE)
 
 
 def _parse_title(title: str) -> dict:
@@ -57,6 +59,23 @@ def _parse_title(title: str) -> dict:
     """
     out = {}
     if not title:
+        return out
+
+    # Mayor Pro Tem must beat Mayor (more specific prefix wins)
+    if _MAYOR_PRO_TEM_RE.match(title):
+        out["office"] = "council-member"
+        out["leadership"] = "mayor-pro-tem"
+        # Seed seat fields to None; downstream seat parsing overwrites if matched
+        out["seatClass"] = None
+        out["seatLabel"] = None
+        out["seatId"] = None
+        # Continue parsing for embedded seat (e.g., "Mayor Pro Tem, District 2")
+    elif _MAYOR_RE.match(title):
+        out["office"] = "mayor"
+        out["leadership"] = None
+        out["seatClass"] = "at-large"
+        out["seatLabel"] = None
+        out["seatId"] = None
         return out
 
     # At-large beats incidental numeric matches (e.g. "Council Member 1, At-Large")
@@ -109,7 +128,7 @@ def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
     # Stage 2: title parsing fills any structured fields not already set
     parsed = _parse_title(title)
     filled_from_parse = False
-    for field in ("seatClass", "seatLabel", "seatId"):
+    for field in ("office", "leadership", "seatClass", "seatLabel", "seatId"):
         if field not in record and field in parsed:
             record[field] = parsed[field]
             filled_from_parse = True
