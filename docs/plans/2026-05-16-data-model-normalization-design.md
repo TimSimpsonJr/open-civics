@@ -248,11 +248,33 @@ Splitting code/tests first, data second keeps the PR reviewable: reviewers can r
 5. **`refactor: render seatLabel for display`** — UI shows "Ward 3" or "Seat 5" using the literal label instead of hardcoding "District".
 6. **`chore: sync data and verify`** — runs prebuild sync, commits the regenerated `src/data/local-councils.json`.
 
-**No compatibility shim.** Both PRs land same day; the site builds via `npm install` so the resolved schema is deterministic. Dev/preview environments run `npm install` to get the new version. A scattered shim across two files would be more complexity than it saves; a single helper isn't worth the abstraction for a one-day window. Clean break.
+**No compatibility shim.** The site builds via `npm install` so the resolved schema is deterministic once both repos are aligned. A scattered shim across two files would be more complexity than it saves; a single helper isn't worth the abstraction for a coordinated cutover. Clean break.
 
 ### Coordination
 
-Both PRs land on the same day, in either order. Production deploys are gated by `prebuild` (which runs `npm install` then `sync-open-civics.mjs`), so the actual deployed artifact will have the new schema regardless of merge order. Developers running the site locally between the two merges run `npm install` once to resolve the new schema version.
+The site consumes raw JSON files from `node_modules/open-civics/data/...`, so site code referencing `member.seatClass` only works once `open-civics@0.2.0` is **published to npm**. The current [publish.yml](../../.github/workflows/publish.yml) runs on a weekly cron (Friday 6pm ET) OR `workflow_dispatch`. To avoid a multi-day window where the site PR can't be authored, the open-civics PR's merge MUST be followed by a manual publish trigger before the site PR can begin.
+
+**Strict ordering:**
+
+1. open-civics PR is reviewed and merged to master (with `package.json` bumped to `0.2.0` and all data regenerated)
+2. Maintainer runs `gh workflow run publish.yml -R TimSimpsonJr/open-civics` to manually trigger the publish workflow. This is the explicit gate — without it, the next publish is up to a week away.
+3. Workflow publishes `open-civics@0.2.0` to npm and tags `v0.2.0`
+4. Site PR is opened with `package.json` referencing `^0.2.0`; `npm install` resolves to the just-published version
+5. Site PR is reviewed and merged
+
+This sequence holds for both production and dev. A developer pulling site main between steps 1 and 4 would have a broken `npm install` (no 0.2.0 available yet) — but the site PR itself can't be opened against an unpublished version, so the site PR's existence implies step 3 has completed.
+
+The open-civics PR description must include the manual trigger as an explicit post-merge step, not buried in the implementation plan. Same with the site PR: it should reference the open-civics version it depends on so reviewers can verify the publish has happened.
+
+### Open-civics PR post-merge step (explicit)
+
+After the open-civics PR merges, the maintainer runs:
+
+```sh
+gh workflow run publish.yml -R TimSimpsonJr/open-civics
+```
+
+Then waits for the workflow to complete (publishes both packages, tags v0.2.0, pushes the bump commit). Only then is the site PR cleared to open.
 
 ## Out of scope (for this design)
 
