@@ -43,3 +43,19 @@ def test_title_parsing_numeric_districts(title, expected_class, expected_label, 
     assert out["seatLabel"] == expected_label
     assert out["seatId"] == expected_id
     assert out["seatSource"] == "parsed-title"
+
+
+@pytest.mark.parametrize("title, expected_id", [
+    ("Council Member, District One", "1"),
+    ("Council Member, District Two", "2"),
+    ("Council Member, District Three", "3"),
+    ("Council Member, Ward Four", "4"),
+    ("Council Member, District Twelve", "12"),
+])
+def test_title_parsing_word_form_numbers(title, expected_id):
+    record = {"name": "Test", "title": title}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:test")
+    out = normalize_member(record, ctx)
+    assert out["seatClass"] == "numbered"
+    assert out["seatId"] == expected_id

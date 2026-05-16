@@ -24,6 +24,19 @@ class NormalizationContext:
 
 
 # Stage 2: title parsing patterns
+_WORD_NUMS = {
+    "one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
+    "six": "6", "seven": "7", "eight": "8", "nine": "9", "ten": "10",
+    "eleven": "11", "twelve": "12", "thirteen": "13", "fourteen": "14",
+    "fifteen": "15", "sixteen": "16", "seventeen": "17", "eighteen": "18",
+    "nineteen": "19", "twenty": "20",
+}
+
+_WORD_SEAT_RE = re.compile(
+    r"\b(District|Ward|Seat)\s+(" + "|".join(_WORD_NUMS.keys()) + r")\b",
+    re.IGNORECASE,
+)
+
 _NUMERIC_SEAT_RE = re.compile(
     r"\b(District|Ward|Seat)\s+(?:Number\s+)?(\d+)\b",
     re.IGNORECASE,
@@ -59,6 +72,14 @@ def _parse_title(title: str) -> dict:
         out["seatClass"] = "numbered"
         out["seatLabel"] = m.group(1).lower()
         out["seatId"] = m.group(2)
+        return out
+
+    # Word-form: "District One" / "Ward Four" / "District Twelve"
+    m = _WORD_SEAT_RE.search(title)
+    if m:
+        out["seatClass"] = "numbered"
+        out["seatLabel"] = m.group(1).lower()
+        out["seatId"] = _WORD_NUMS[m.group(2).lower()]
         return out
 
     return out
