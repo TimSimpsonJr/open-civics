@@ -65,10 +65,6 @@ def _parse_title(title: str) -> dict:
     if _MAYOR_PRO_TEM_RE.match(title):
         out["office"] = "council-member"
         out["leadership"] = "mayor-pro-tem"
-        # Seed seat fields to None; downstream seat parsing overwrites if matched
-        out["seatClass"] = None
-        out["seatLabel"] = None
-        out["seatId"] = None
         # Continue parsing for embedded seat (e.g., "Mayor Pro Tem, District 2")
     elif _MAYOR_RE.match(title):
         out["office"] = "mayor"

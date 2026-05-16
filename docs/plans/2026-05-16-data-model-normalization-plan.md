@@ -495,6 +495,8 @@ pytest tests/unit/test_normalize.py -v
 git commit -am "feat: parse Mayor and Mayor Pro Tem from titles"
 ```
 
+**Note on bare "Mayor Pro Tem" / "Mayor Pro-Tem" cases:** The plan originally listed these in the A5 parametrize test, but they require A7's leadership-only fallback to populate seat fields with `seatClass: unknown`. They have been moved to A7's test set. The A5 commit only covers the "with embedded district" case.
+
 ---
 
 ### Task A6: Title parsing — Chairman and Vice Chairman
@@ -586,9 +588,11 @@ def test_title_parsing_plain_council_member(title):
 @pytest.mark.parametrize("title, expected_leadership", [
     ("Chairman", "chair"),
     ("Vice Chairman", "vice-chair"),
+    ("Mayor Pro Tem", "mayor-pro-tem"),
+    ("Mayor Pro-Tem", "mayor-pro-tem"),
 ])
 def test_leadership_only_titles_get_unknown_seat_class(title, expected_leadership):
-    """Chairman / Vice Chairman with no embedded seat: leadership set, seat unknown."""
+    """Chairman / Vice Chairman / Mayor Pro Tem with no embedded seat: leadership set, seat unknown."""
     record = {"name": "Test", "title": title}
     ctx = NormalizationContext(level="local", jurisdiction_type="county",
                                jurisdiction_id="county:test")

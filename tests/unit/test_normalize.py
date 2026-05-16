@@ -90,8 +90,6 @@ def test_title_parsing_mayor():
 
 
 @pytest.mark.parametrize("title, expected_seat_id", [
-    ("Mayor Pro Tem", None),
-    ("Mayor Pro-Tem", None),
     ("Mayor Pro Tem, District 2", "2"),
 ])
 def test_title_parsing_mayor_pro_tem(title, expected_seat_id):
