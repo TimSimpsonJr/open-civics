@@ -59,3 +59,19 @@ def test_title_parsing_word_form_numbers(title, expected_id):
     out = normalize_member(record, ctx)
     assert out["seatClass"] == "numbered"
     assert out["seatId"] == expected_id
+
+
+@pytest.mark.parametrize("title", [
+    "Council Member, At Large",
+    "Council Member, At-Large",
+    "Vice Chair, At-Large",
+    "Mayor Pro Tem, At Large",
+])
+def test_title_parsing_at_large(title):
+    record = {"name": "Test", "title": title}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:test")
+    out = normalize_member(record, ctx)
+    assert out["seatClass"] == "at-large"
+    assert out["seatLabel"] is None
+    assert out["seatId"] is None

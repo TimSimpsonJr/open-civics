@@ -45,6 +45,7 @@ _PREFIX_DISTRICT_RE = re.compile(
     r"^District\s+(?:Number\s+)?(\d+)\b",
     re.IGNORECASE,
 )
+_AT_LARGE_RE = re.compile(r"\bAt[\s-]?Large\b", re.IGNORECASE)
 
 
 def _parse_title(title: str) -> dict:
@@ -56,6 +57,13 @@ def _parse_title(title: str) -> dict:
     """
     out = {}
     if not title:
+        return out
+
+    # At-large beats incidental numeric matches (e.g. "Council Member 1, At-Large")
+    if _AT_LARGE_RE.search(title):
+        out["seatClass"] = "at-large"
+        out["seatLabel"] = None
+        out["seatId"] = None
         return out
 
     # Prefix form: "District Number 3 - Councilman"
