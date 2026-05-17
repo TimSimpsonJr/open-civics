@@ -85,6 +85,12 @@ def _parse_title(title: str) -> dict:
         out["leadership"] = "chair"
         # Fall through for embedded seat parsing below
 
+    # Plain "Council Member" / "Councilman" with embedded seat info: set office
+    # here so the early-return seat branches below preserve it. Mirrors the
+    # leadership branches above which set office and fall through.
+    if "office" not in out and re.search(r"council(?:man)?", title, re.IGNORECASE):
+        out["office"] = "council-member"
+
     # At-large beats incidental numeric matches (e.g. "Council Member 1, At-Large")
     if _AT_LARGE_RE.search(title):
         out["seatClass"] = "at-large"

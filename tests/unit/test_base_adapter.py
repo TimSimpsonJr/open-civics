@@ -106,3 +106,23 @@ class TestAdapterName:
     def test_strips_adapter_suffix(self):
         adapter = StubAdapter()
         assert adapter.adapter_name() == "stub"
+
+
+def test_base_adapter_normalize_calls_normalize_member():
+    """BaseAdapter.normalize should populate structured seat fields."""
+    from scrapers.adapters.base import BaseAdapter
+
+    class DummyAdapter(BaseAdapter):
+        def fetch(self): return ""
+        def parse(self, html): return []
+
+    adapter = DummyAdapter({"id": "place:test", "url": "http://example.com",
+                            "type": "place"})
+    raw = [{"name": "Joey Russo", "title": "Council Member, District 17",
+            "email": "x@y.com", "phone": "8645551234"}]
+    out = adapter.normalize(raw)
+    assert out[0]["office"] == "council-member"
+    assert out[0]["seatClass"] == "numbered"
+    assert out[0]["seatId"] == "17"
+    assert out[0]["vacant"] is False
+    assert out[0]["partisan"] is False
