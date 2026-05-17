@@ -176,4 +176,23 @@ def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
     if filled_from_parse and "seatSource" not in record:
         record["seatSource"] = "parsed-title"
 
+    # Stage 3: registry defaults fill remaining unknown fields only.
+    # Critically: a registry hint of seatClass: at-large does NOT overwrite
+    # a numbered seatClass produced by title parsing. It only promotes unknown.
+    hints = ctx.registry_hints or {}
+    promoted_from_registry = False
+
+    if record.get("seatClass") == "unknown" and hints.get("seatClass"):
+        record["seatClass"] = hints["seatClass"]
+        if hints["seatClass"] == "at-large":
+            record["seatLabel"] = None
+            record["seatId"] = None
+        promoted_from_registry = True
+
+    if "partisan" not in record and "partisan" in hints:
+        record["partisan"] = hints["partisan"]
+
+    if promoted_from_registry:
+        record["seatSource"] = "inferred-registry"
+
     return record

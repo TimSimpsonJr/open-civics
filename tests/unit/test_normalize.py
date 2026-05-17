@@ -169,3 +169,34 @@ def test_vacancy_detection(name, expected_vacant, expected_seat_id):
     assert out["vacant"] == expected_vacant
     if expected_seat_id is not None:
         assert out["seatId"] == expected_seat_id
+
+
+def test_registry_defaults_promote_unknown_to_at_large():
+    record = {"name": "Teddy W. Milner", "title": "Council Member"}
+    ctx = NormalizationContext(
+        level="local",
+        jurisdiction_type="place",
+        jurisdiction_id="place:aiken",
+        registry_hints={"seatClass": "at-large", "partisan": False},
+    )
+    out = normalize_member(record, ctx)
+    assert out["seatClass"] == "at-large"
+    assert out["seatLabel"] is None
+    assert out["seatId"] is None
+    assert out["seatSource"] == "inferred-registry"
+    assert out["partisan"] is False
+
+
+def test_registry_defaults_do_not_overwrite_numbered_seat():
+    """Registry hint of at-large should NOT swallow a member whose title says District N."""
+    record = {"name": "Test", "title": "Council Member, District 3"}
+    ctx = NormalizationContext(
+        level="local",
+        jurisdiction_type="place",
+        jurisdiction_id="place:somewhere",
+        registry_hints={"seatClass": "at-large"},
+    )
+    out = normalize_member(record, ctx)
+    assert out["seatClass"] == "numbered"
+    assert out["seatId"] == "3"
+    assert out["seatSource"] == "parsed-title"
