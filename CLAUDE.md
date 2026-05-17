@@ -86,3 +86,20 @@ Before writing a bespoke adapter, check these in order:
    - Register it in `scrapers/__main__.py` ADAPTERS dict
    - Add jurisdiction entry to `registry.json` under the state's `jurisdictions` array
    - Run `python -m scrapers --jurisdiction county:my-jurisdiction`
+
+## Schema (v0.2+)
+
+All member records — state legislators, executive, and local council members — share the same shape with structured seat fields:
+
+- `office`: enum of `state-senator | state-representative | governor | lt-governor | mayor | council-member`
+- `leadership`: `chair | vice-chair | mayor-pro-tem | null`
+- `seatClass`: `numbered | at-large | unknown`
+- `seatLabel`: `district | ward | seat | null`
+- `seatId`: string or null
+- `vacant`: boolean
+- `seatSource`: `source | parsed-title | inferred-registry | manual`
+- `partisan`: boolean (true for state offices, false for most local SC offices)
+
+Normalization runs in `scrapers/normalize.py` and is called from both `BaseAdapter.normalize()` (locals) and `scrapers/state.py` (state legislators and executive). Per-record patches go in `scrapers/seat_overrides.py`. Jurisdiction-wide hints (e.g., a council being all-at-large) go in `registry.json` under each jurisdiction's `councilDefaults` block.
+
+See `docs/plans/2026-05-16-data-model-normalization-design.md` for the rationale.
