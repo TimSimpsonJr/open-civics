@@ -100,3 +100,17 @@ def test_title_parsing_mayor_pro_tem(title, expected_seat_id):
     assert out["office"] == "council-member"
     assert out["leadership"] == "mayor-pro-tem"
     assert out["seatId"] == expected_seat_id
+
+
+@pytest.mark.parametrize("title, expected_leadership, expected_seat_id", [
+    ("Chairman, District 4", "chair", "4"),
+    ("Vice Chairman, District 3", "vice-chair", "3"),
+])
+def test_title_parsing_leadership(title, expected_leadership, expected_seat_id):
+    record = {"name": "Test", "title": title}
+    ctx = NormalizationContext(level="local", jurisdiction_type="county",
+                               jurisdiction_id="county:test")
+    out = normalize_member(record, ctx)
+    assert out["office"] == "council-member"
+    assert out["leadership"] == expected_leadership
+    assert out["seatId"] == expected_seat_id

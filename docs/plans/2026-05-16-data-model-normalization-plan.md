@@ -507,11 +507,7 @@ git commit -am "feat: parse Mayor and Mayor Pro Tem from titles"
 
 ```python
 @pytest.mark.parametrize("title, expected_leadership, expected_seat_id", [
-    ("Chairman", "chair", None),
-    ("Chair", "chair", None),
     ("Chairman, District 4", "chair", "4"),
-    ("Vice Chairman", "vice-chair", None),
-    ("Vice Chair", "vice-chair", None),
     ("Vice Chairman, District 3", "vice-chair", "3"),
 ])
 def test_title_parsing_leadership(title, expected_leadership, expected_seat_id):
@@ -526,7 +522,7 @@ def test_title_parsing_leadership(title, expected_leadership, expected_seat_id):
 
 **Step 2: Run tests to verify they fail**
 
-Expected: 6 failures.
+Expected: 2 failures.
 
 **Step 3: Implement**
 
@@ -555,6 +551,8 @@ pytest tests/unit/test_normalize.py -v
 ```bash
 git commit -am "feat: parse Chair / Vice Chair leadership from titles"
 ```
+
+**Note on bare leadership-only cases:** The plan originally listed "Chairman", "Chair", "Vice Chairman", "Vice Chair" (no embedded district) in A6's parametrize, but they require A7's leadership-only fallback to populate seat fields with `seatClass: unknown`. They have been moved to A7's `test_leadership_only_titles_get_unknown_seat_class` parametrize. The A6 commit only covers the "with embedded district" cases.
 
 ---
 
@@ -587,7 +585,9 @@ def test_title_parsing_plain_council_member(title):
 
 @pytest.mark.parametrize("title, expected_leadership", [
     ("Chairman", "chair"),
+    ("Chair", "chair"),
     ("Vice Chairman", "vice-chair"),
+    ("Vice Chair", "vice-chair"),
     ("Mayor Pro Tem", "mayor-pro-tem"),
     ("Mayor Pro-Tem", "mayor-pro-tem"),
 ])
@@ -606,7 +606,7 @@ def test_leadership_only_titles_get_unknown_seat_class(title, expected_leadershi
 
 **Step 2: Run tests to verify they fail**
 
-Expected: 6 failures.
+Expected: 10 failures (6 leadership-only + 4 plain-council-member).
 
 **Step 3: Implement**
 

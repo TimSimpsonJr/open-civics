@@ -74,6 +74,16 @@ def _parse_title(title: str) -> dict:
         out["seatId"] = None
         return out
 
+    # Vice Chair must beat Chair (more specific prefix wins)
+    if re.search(r"\bVice[\s-]?Chair(?:man)?\b", title, re.IGNORECASE):
+        out["office"] = "council-member"
+        out["leadership"] = "vice-chair"
+        # Fall through for embedded seat parsing below
+    elif re.search(r"\bChair(?:man)?\b", title, re.IGNORECASE):
+        out["office"] = "council-member"
+        out["leadership"] = "chair"
+        # Fall through for embedded seat parsing below
+
     # At-large beats incidental numeric matches (e.g. "Council Member 1, At-Large")
     if _AT_LARGE_RE.search(title):
         out["seatClass"] = "at-large"
