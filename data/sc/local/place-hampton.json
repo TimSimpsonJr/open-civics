@@ -6,8 +6,8 @@
     "label": "Hampton Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "hampton_town",
-    "dataHash": "3e9d8c112571d965",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "4fe8b1a32ecd0447",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Beth Chafin",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Pete Mixson",
@@ -32,7 +48,15 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Liz Hager",
@@ -40,7 +64,15 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Kevin Brown",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "(803) 943-2951",
       "source": "hamptontown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

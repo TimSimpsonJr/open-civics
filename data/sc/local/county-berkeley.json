@@ -6,8 +6,8 @@
     "label": "Berkeley County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "scac",
-    "dataHash": "368052b1295014e9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "bca5c9733783111b",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "",
       "phone": "(843) 719-4094",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Dan Owens",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "(843) 709-3808",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Amy Stern",
@@ -32,7 +48,15 @@
       "email": "",
       "phone": "(843) 318-8287",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Caldwell Pinckney",
@@ -40,7 +64,15 @@
       "email": "",
       "phone": "(843) 753-7377",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jarrod Brooks",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "(843) 425-9736",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Marshall West",
@@ -56,7 +96,15 @@
       "email": "",
       "phone": "(843) 209-4014",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Phillip Obie",
@@ -64,7 +112,15 @@
       "email": "",
       "phone": "(843) 532-6243",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Steve Davis",
@@ -72,7 +128,15 @@
       "email": "",
       "phone": "(843) 761-7727",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Tommy Newell",
@@ -80,7 +144,15 @@
       "email": "",
       "phone": "(843) 442-2109",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

@@ -6,8 +6,8 @@
     "label": "Florence County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "florence_county",
-    "dataHash": "95084d1038ff99fb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "bb44eb162f6fa2c9",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "jsprings@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Andrew T. Rodgers, Jr.",
@@ -24,7 +32,15 @@
       "email": "andrew.rodgersjr@florencecountysc.gov",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dr. Alphonso Bradley",
@@ -32,7 +48,15 @@
       "email": "abradley@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jerry W. Yarborough",
@@ -40,7 +64,15 @@
       "email": "jyarborough@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Kent C. Caudle",
@@ -48,7 +80,15 @@
       "email": "kentcaudle@gmail.com",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Stoney C. 'Toney' Moore",
@@ -56,7 +96,15 @@
       "email": "tomoore@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Reverend Waymon Mumford",
@@ -64,7 +112,15 @@
       "email": "wmumford@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "C. William Schofield",
@@ -72,7 +128,15 @@
       "email": "cwschofield@florenceco.org",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Willard Dorriety, Jr",
@@ -80,7 +144,15 @@
       "email": "willtob@aol.com",
       "phone": "",
       "source": "florencecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

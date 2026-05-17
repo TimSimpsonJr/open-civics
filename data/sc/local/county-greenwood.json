@@ -6,8 +6,8 @@
     "label": "Greenwood County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "greenwood_county",
-    "dataHash": "88d7527ee75b616c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "524f9a3db60248d8",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "tgriffin@GreenwoodSC.Gov",
       "phone": "(864) 993-2727",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Mark Allison",
@@ -24,7 +32,15 @@
       "email": "mallison@GreenwoodSC.Gov",
       "phone": "(864) 377-1500",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Johanna Bishop",
@@ -32,7 +48,15 @@
       "email": "jbishop@greenwoodsc.Gov",
       "phone": "(864) 941-6160",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Cathy Miller",
@@ -40,7 +64,15 @@
       "email": "cmiller@GreenwoodSC.Gov",
       "phone": "(864) 942-8507",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dayne Pruitt",
@@ -48,7 +80,15 @@
       "email": "dpruitt@greenwoodsc.gov",
       "phone": "(864) 337-5842",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Robbie Templeton",
@@ -56,7 +96,15 @@
       "email": "rtempleton@GreenwoodSC.Gov",
       "phone": "(864) 980-8688",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Theo Lane",
@@ -64,7 +112,15 @@
       "email": "tlane@GreenwoodSC.Gov",
       "phone": "(864) 420-0068",
       "source": "greenwoodcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

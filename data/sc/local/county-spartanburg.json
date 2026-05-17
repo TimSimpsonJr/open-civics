@@ -6,8 +6,8 @@
     "label": "Spartanburg County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "civicplus",
-    "dataHash": "9683003342acd8cb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "70b21663cde8521c",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "mlynch@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Monier Abusaft",
@@ -24,7 +32,15 @@
       "email": "mabusaft@spartanburgcounty.org",
       "phone": "(706) 346-4465",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jack Mabry",
@@ -32,7 +48,15 @@
       "email": "jmabry@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Paul Abbott",
@@ -40,7 +64,15 @@
       "email": "pabbott@spartanburgcounty.org",
       "phone": "(864) 542-6335",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Grant DeShields",
@@ -48,7 +80,15 @@
       "email": "gdeshields@spartanburgcounty.org",
       "phone": "(864) 596-2528",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Bob Walker",
@@ -56,7 +96,15 @@
       "email": "bwalker@spartanburgcounty.org",
       "phone": "(864) 590-0409",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jessica Coker",
@@ -64,7 +112,15 @@
       "email": "jcoker@spartanburgcounty.org",
       "phone": "(864) 680-3297",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

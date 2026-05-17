@@ -6,8 +6,8 @@
     "label": "Winnsboro Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "winnsboro",
-    "dataHash": "f19695bc97528b91",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "2ca0d9163f744a79",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "demetrius.chatman@townofwinnsboro.sc.gov",
       "phone": "",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Danny Miller",
@@ -24,7 +32,15 @@
       "email": "dmiller@fairfield1.org",
       "phone": "",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Janice Bartell-Prather",
@@ -32,7 +48,15 @@
       "email": "janice.bartell@yahoo.com",
       "phone": "",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Russ Brown",
@@ -40,7 +64,15 @@
       "email": "rbwinnsboro@gmail.com",
       "phone": "(803) 718-0911",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jae Burroughs",
@@ -48,7 +80,15 @@
       "email": "jamesburroughs35@yahoo.com",
       "phone": "(803) 718-5581",
       "source": "winnsboro",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

@@ -6,8 +6,8 @@
     "label": "Saluda Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "masc",
-    "dataHash": "65a51529d7b5b518",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "3575af4b9ec0e88f",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "John Mark Griffith",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Lauren Yonce",
@@ -32,7 +48,15 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Myranda Butler",
@@ -40,7 +64,15 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Obie Combs",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "",
       "source": "masc",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

@@ -6,8 +6,8 @@
     "label": "McCormick County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "mccormick_county",
-    "dataHash": "fe9684f736ae31fc",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "36ce4438187d1dfe",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "bhamby@mccormickcountysc.org",
       "phone": "(706) 318-2357",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Charles Jennings",
@@ -24,7 +32,15 @@
       "email": "cjennings@mccormickcountysc.org",
       "phone": "(864) 443-2353",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "David Morrah",
@@ -32,7 +48,15 @@
       "email": "dmorrah@mccormickcountysc.org",
       "phone": "",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Charles H. Cook",
@@ -40,7 +64,15 @@
       "email": "ccook@mccormickcountysc.org",
       "phone": "(864) 391-5838",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jacqueline F. Brown",
@@ -48,7 +80,15 @@
       "email": "jfbrown@mccormickcountysc.org",
       "phone": "(864) 554-1228",
       "source": "mccormickcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

@@ -5,7 +5,9 @@
     "jurisdiction": "county:kershaw",
     "label": "Kershaw County Council",
     "lastUpdated": "2026-03-14",
-    "adapter": "scac"
+    "adapter": "scac",
+    "dataHash": "3665634b03964cd2",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -14,7 +16,15 @@
       "email": "",
       "phone": "(803) 425-1501",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Russell Brazell",
@@ -22,7 +32,15 @@
       "email": "",
       "phone": "(803) 425-1501",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Brant Tomlinson",
@@ -30,7 +48,15 @@
       "email": "",
       "phone": "(803) 425-1500",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Danny Catoe",
@@ -38,7 +64,15 @@
       "email": "",
       "phone": "(803) 425-1501",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Derek Shoemake",
@@ -46,7 +80,15 @@
       "email": "",
       "phone": "(803) 425-1501",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jimmy Jones",
@@ -54,7 +96,15 @@
       "email": "",
       "phone": "(803) 425-1501",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Sammie Tucker",
@@ -62,7 +112,15 @@
       "email": "",
       "phone": "(803) 425-1501",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

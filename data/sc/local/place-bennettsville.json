@@ -6,8 +6,8 @@
     "label": "Bennettsville City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "table",
-    "dataHash": "d0714d7217168458",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "58a79df260d46611",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "tyron.abraham@bennettsvillesc.com",
       "phone": "(843) 439-1126",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Gregory Scott, Sr.",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "(843) 479-0416",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Cy'Heim McRae",
@@ -32,7 +48,15 @@
       "email": "cyheim.mcrae@bennettsvillesc.com",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "William Jennings, Jr.",
@@ -40,7 +64,15 @@
       "email": "william.jennings@bennettsvillesc.com",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Allen Taylor",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "(843) 439-0700",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tyrone R. Davis",
@@ -56,7 +96,15 @@
       "email": "",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Wanda Weaver",
@@ -64,7 +112,15 @@
       "email": "",
       "phone": "(843) 479-9001",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

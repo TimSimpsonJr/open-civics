@@ -6,8 +6,8 @@
     "label": "Abbeville City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "abbeville_city",
-    "dataHash": "7083aa4243e86bbb",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "13d44585dfd758bb",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "tedwards@abbevillecitysc.com",
       "phone": "(864) 366-5017",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Stanley Marshall",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Faye Thomas",
@@ -32,7 +48,15 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "John Sutherland",
@@ -40,7 +64,15 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Chris Crawford",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "James Jackson",
@@ -56,7 +96,15 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jason Edwards",
@@ -64,7 +112,15 @@
       "email": "",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Benji Greeson",
@@ -72,7 +128,15 @@
       "email": "bengreeson@gmail.com",
       "phone": "",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Matthew Gambrell",
@@ -80,7 +144,15 @@
       "email": "mhgambrellsc@gmail.com",
       "phone": "378-0488",
       "source": "abbeville",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

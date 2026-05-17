@@ -6,8 +6,8 @@
     "label": "Dillon County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "dillon_county",
-    "dataHash": "2645d0a10c268029",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "99a89d3ce1ac192d",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "dtownsend@dilloncountysc.org",
       "phone": "(843) 621-4478",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jr. Kenny Cook",
@@ -24,7 +32,15 @@
       "email": "kcook@dilloncountysc.org",
       "phone": "(843) 610-9780",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "James Washington",
@@ -32,7 +48,15 @@
       "email": "jwashingtonwfc@gmail.com",
       "phone": "(843) 615-4955",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Detrice Dawkins",
@@ -40,7 +64,15 @@
       "email": "dmdawkins@dilloncountysc.org",
       "phone": "(843) 617-3425",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Brad Coward",
@@ -48,7 +80,15 @@
       "email": "cowardstowing@aol.com",
       "phone": "(843) 845-1268",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Robbie Coward",
@@ -56,7 +96,15 @@
       "email": "rcoward@dilloncountysc.org",
       "phone": "(843) 845-1944",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Stevie Grice",
@@ -64,7 +112,15 @@
       "email": "scgrice@dilloncountysc.org",
       "phone": "(843) 206-1743",
       "source": "dilloncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

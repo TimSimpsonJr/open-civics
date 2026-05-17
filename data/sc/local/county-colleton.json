@@ -6,8 +6,8 @@
     "label": "Colleton County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "colleton_county",
-    "dataHash": "95613020c9ddc625",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "10b06cca054f46e9",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "sbiering@colletoncounty.org",
       "phone": "(843) 224-8614",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Bubba Trippe",
@@ -24,7 +32,15 @@
       "email": "btrippe@colletoncounty.org",
       "phone": "(843) 893-7058",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Phillip M. Taylor, Sr.",
@@ -32,7 +48,15 @@
       "email": "ptaylor@colletoncounty.org",
       "phone": "(843) 599-1711",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Steven D. Murdaugh",
@@ -40,7 +64,15 @@
       "email": "sdmurdaugh@colletoncounty.org",
       "phone": "(843) 782-6070",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Johnny Frank",
@@ -48,7 +80,15 @@
       "email": "jfrank@colletoncounty.org",
       "phone": "(843) 866-3227",
       "source": "colletoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

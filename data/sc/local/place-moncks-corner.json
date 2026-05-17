@@ -6,8 +6,8 @@
     "label": "Moncks Corner Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "moncks_corner",
-    "dataHash": "b1a8bd6e581c6ae4",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "9d365425b1d95039",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "T.Hamilton@monckscornersc.gov",
       "phone": "(843) 934-8621",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "David A. Dennis",
@@ -24,7 +32,15 @@
       "email": "David.Dennis@monckscornersc.gov",
       "phone": "",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Leroy S. Dingle",
@@ -32,7 +48,15 @@
       "email": "L.Dingle@monckscornersc.gov",
       "phone": "",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "James N. Law",
@@ -40,7 +64,15 @@
       "email": "Jay.Law@monckscornersc.gov",
       "phone": "",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Latorie S. Lloyd",
@@ -48,7 +80,15 @@
       "email": "latorie.lloyd@monckscornersc.gov",
       "phone": "",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Chad Sweatman",
@@ -56,7 +96,15 @@
       "email": "Chadwick.Sweatman@monckscornersc.gov",
       "phone": "",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "James Bryan Ware, III",
@@ -64,7 +112,15 @@
       "email": "bryan.ware@monckscornersc.gov",
       "phone": "",
       "source": "monckscorner",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

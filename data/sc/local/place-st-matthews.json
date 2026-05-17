@@ -6,8 +6,8 @@
     "label": "St. Matthews Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "st_matthews",
-    "dataHash": "6af3ac0f1535e0de",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "3673fcc525c8f5ee",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(803) 874-2405",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Deidre Prickett",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Eloise Shuler-Guinyard",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Marla Riley",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Sharon Bennett",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Virgil Jacobs",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "William 'Webb' Carroll",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "stmatthews",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

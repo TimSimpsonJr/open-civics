@@ -6,8 +6,8 @@
     "label": "Newberry City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "generic_mailto",
-    "dataHash": "aa1c55b9d9af41a1",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "69527bf268d88eaf",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "FSenn@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Lemont Glasgow, District 1",
@@ -24,7 +32,15 @@
       "email": "LGlasgow@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Clay Smith, District 2",
@@ -32,7 +48,15 @@
       "email": "RCSmith@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Carlton Kinard, District 3",
@@ -40,7 +64,15 @@
       "email": "CKinard@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "David Force, District 4",
@@ -48,7 +80,15 @@
       "email": "DForce@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jackie Holmes, District 5",
@@ -56,7 +96,15 @@
       "email": "JHolmes@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "David DuBose, District 6",
@@ -64,7 +112,15 @@
       "email": "DDubose@CityofNewberry.com",
       "phone": "(803) 321-1000",
       "source": "genericmailto",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

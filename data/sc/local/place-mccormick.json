@@ -6,8 +6,8 @@
     "label": "McCormick Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "mccormick_town",
-    "dataHash": "4a832361ea1e5574",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "cda14c816e4889f1",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(864) 852-2225",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Dolly P. Franklin",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Nathan Jones",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "James C. (Calvin) Chiles",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Curtis Dansby",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Alvin Jennings",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Fay Hood",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "mccormicktown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

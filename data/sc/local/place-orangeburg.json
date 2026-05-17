@@ -6,8 +6,8 @@
     "label": "Orangeburg City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "orangeburg_city",
-    "dataHash": "955227703caaeae9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "34c757b71e17cf05",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "michael.butler@orangeburg.sc.us",
       "phone": "(803) 533-6000",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jordan Hawkins",
@@ -24,7 +32,15 @@
       "email": "jordan.hawkins@orangeburg.sc.us",
       "phone": "(803) 937-1593",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Kalu Kalu",
@@ -32,7 +48,15 @@
       "email": "kalu.kalu@orangeburg.sc.us",
       "phone": "(803) 347-4842",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jerry Hannah",
@@ -40,7 +64,15 @@
       "email": "jerry.hannah@orangeburg.sc.us",
       "phone": "(803) 534-2869",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Annette Dees Grevious",
@@ -48,7 +80,15 @@
       "email": "annette.grevious@orangeburg.sc.us",
       "phone": "(803) 387-5505",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "L. Zimmerman Keitt",
@@ -56,7 +96,15 @@
       "email": "liz.keitt@orangeburg.sc.us",
       "phone": "(803) 534-8967",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Sandra Knotts",
@@ -64,7 +112,15 @@
       "email": "sandra.knotts@orangeburg.sc.us",
       "phone": "(803) 534-2160",
       "source": "orangeburgcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

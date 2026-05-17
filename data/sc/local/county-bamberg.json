@@ -6,8 +6,8 @@
     "label": "Bamberg County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "bamberg_county",
-    "dataHash": "e5c4cd94b7f0878c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a1690774a43197b8",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "ahlink60@gmail.com",
       "phone": "(803) 245-5190",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Sharon Hammond",
@@ -24,7 +32,15 @@
       "email": "hammonds@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Larry Haynes",
@@ -32,7 +48,15 @@
       "email": "haynesl@bambergcounty.sc.gov",
       "phone": "(803) 535-9236",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Spencer Donaldson",
@@ -40,7 +64,15 @@
       "email": "donaldsonsa@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jonathan Goodman, Ph.D",
@@ -48,7 +80,15 @@
       "email": "goodmanjm@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Evert Comer, Jr.",
@@ -56,7 +96,15 @@
       "email": "comerejr@bambergcounty.sc.gov",
       "phone": "(803) 793-3403",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Michelle Martin",
@@ -64,7 +112,15 @@
       "email": "martinma@bambergcounty.sc.gov",
       "phone": "(803) 245-5191",
       "source": "bambergcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

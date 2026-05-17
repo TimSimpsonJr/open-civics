@@ -6,8 +6,8 @@
     "label": "Bishopville City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "bishopville_city",
-    "dataHash": "8be125527f6fc273",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "5b5315dc75444dbf",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(803) 484-5948",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Gloria S. Lewis",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Wayne Hancock",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Belinda Hay",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Scottie Hayes",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Shirley Hill",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Sammie Ruth",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "bishopvillecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

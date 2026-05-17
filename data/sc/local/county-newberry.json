@@ -6,8 +6,8 @@
     "label": "Newberry County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "newberry_county",
-    "dataHash": "dc6949656ca39bd7",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "25fe1de90fc6a1f1",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "nickshealy@newberrycounty.gov",
       "phone": "(803) 924-2616",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Karl Sease",
@@ -24,7 +32,15 @@
       "email": "ksease@newberrycounty.gov",
       "phone": "(803) 944-5544",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Todd Johnson",
@@ -32,7 +48,15 @@
       "email": "toddjohnson@newberrycounty.gov",
       "phone": "(803) 940-1384",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Leon Fulmer Jr.",
@@ -40,7 +64,15 @@
       "email": "lfulmer@newberrycounty.gov",
       "phone": "(803) 924-0493",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Stuart Smith",
@@ -48,7 +80,15 @@
       "email": "ssmith@newberrycounty.gov",
       "phone": "(803) 944-5988",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Johnny Mack Scurry",
@@ -56,7 +96,15 @@
       "email": "jscurry@newberrycounty.gov",
       "phone": "(803) 276-7118",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Travis Reeder",
@@ -64,7 +112,15 @@
       "email": "treeder@newberrycounty.gov",
       "phone": "(803) 276-9433",
       "source": "newberrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

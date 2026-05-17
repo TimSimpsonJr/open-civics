@@ -6,8 +6,8 @@
     "label": "Georgetown City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "revize",
-    "dataHash": "65893e667722b9fa",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "a8b066128780d3cb",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "jdoyle@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Bruce Carl",
@@ -24,7 +32,15 @@
       "email": "bcarl@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Erin Ethridge",
@@ -32,7 +48,15 @@
       "email": "eethridge@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Hobson Henry Milton",
@@ -40,7 +64,15 @@
       "email": "hmilton@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jessie M. Walker",
@@ -48,7 +80,15 @@
       "email": "jwalker@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Sharon Melton",
@@ -56,7 +96,15 @@
       "email": "smelton@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Tamika Williams-Obeng",
@@ -64,7 +112,15 @@
       "email": "tobeng@georgetownsc.gov",
       "phone": "",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

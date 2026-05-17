@@ -6,8 +6,8 @@
     "label": "Pickens County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "revize",
-    "dataHash": "83c3bec1688906a9",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "7ced62f16dacea87",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "asaitta@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Chris Lollis",
@@ -24,7 +32,15 @@
       "email": "clollis@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "C. Claiborne Linvill",
@@ -32,7 +48,15 @@
       "email": "clinvill@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Scott Lang",
@@ -40,7 +64,15 @@
       "email": "slang@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Chris Bowers",
@@ -48,7 +80,15 @@
       "email": "cbowers@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dr. A.D. Holloway",
@@ -56,7 +96,15 @@
       "email": "dholloway@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Meagan Nations",
@@ -64,7 +112,15 @@
       "email": "meaganb@pickenscountysc.gov",
       "phone": "(864) 898-5856",
       "source": "revize",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

@@ -6,8 +6,8 @@
     "label": "Barnwell City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "barnwell_city",
-    "dataHash": "0e97c89ad11edc34",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "6f30acdbeef600d9",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(803) 259-3266",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Peggy Kinlaw",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Ricky Dixon",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Alicia Davis",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Wanda Highsmith",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Louis Claytor III",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jana Myers",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "barnwellcity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }
