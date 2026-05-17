@@ -114,3 +114,42 @@ def test_title_parsing_leadership(title, expected_leadership, expected_seat_id):
     assert out["office"] == "council-member"
     assert out["leadership"] == expected_leadership
     assert out["seatId"] == expected_seat_id
+
+
+@pytest.mark.parametrize("title", [
+    "Council Member",
+    "Councilman",
+    "Town Council Member",
+    "",
+])
+def test_title_parsing_plain_council_member(title):
+    record = {"name": "Test", "title": title}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:test")
+    out = normalize_member(record, ctx)
+    assert out["office"] == "council-member"
+    assert out["leadership"] is None
+    assert out["seatClass"] == "unknown"
+    assert out["seatLabel"] is None
+    assert out["seatId"] is None
+
+
+@pytest.mark.parametrize("title, expected_leadership", [
+    ("Chairman", "chair"),
+    ("Chair", "chair"),
+    ("Vice Chairman", "vice-chair"),
+    ("Vice Chair", "vice-chair"),
+    ("Mayor Pro Tem", "mayor-pro-tem"),
+    ("Mayor Pro-Tem", "mayor-pro-tem"),
+])
+def test_leadership_only_titles_get_unknown_seat_class(title, expected_leadership):
+    """Chairman / Vice Chairman / Mayor Pro Tem with no embedded seat: leadership set, seat unknown."""
+    record = {"name": "Test", "title": title}
+    ctx = NormalizationContext(level="local", jurisdiction_type="county",
+                               jurisdiction_id="county:test")
+    out = normalize_member(record, ctx)
+    assert out["office"] == "council-member"
+    assert out["leadership"] == expected_leadership
+    assert out["seatClass"] == "unknown"
+    assert out["seatLabel"] is None
+    assert out["seatId"] is None

@@ -58,8 +58,6 @@ def _parse_title(title: str) -> dict:
     parse actually contributed.
     """
     out = {}
-    if not title:
-        return out
 
     # Mayor Pro Tem must beat Mayor (more specific prefix wins)
     if _MAYOR_PRO_TEM_RE.match(title):
@@ -114,6 +112,26 @@ def _parse_title(title: str) -> dict:
         out["seatLabel"] = m.group(1).lower()
         out["seatId"] = _WORD_NUMS[m.group(2).lower()]
         return out
+
+    # Default seat fields when title yielded an office but no seat info.
+    # This catches "Chairman" / "Vice Chairman" / "Mayor Pro Tem" with no
+    # embedded district, and the plain "Council Member" case below.
+    if "seatClass" not in out:
+        if "office" not in out:
+            # Title is empty, plain "Council Member", or otherwise unrecognized.
+            # Default to council-member with unknown seat.
+            if re.search(r"council(?:man)?", title, re.IGNORECASE) or not title:
+                out["office"] = "council-member"
+                out["leadership"] = None
+        # Whether office was set above or by an earlier branch, fill seat fields as unknown.
+        if "office" in out:
+            out["seatClass"] = "unknown"
+            out["seatLabel"] = None
+            out["seatId"] = None
+
+    # If we set office but no leadership, leadership defaults to None
+    if "office" in out and "leadership" not in out:
+        out["leadership"] = None
 
     return out
 
