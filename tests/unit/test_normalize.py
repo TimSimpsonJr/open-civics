@@ -153,3 +153,19 @@ def test_leadership_only_titles_get_unknown_seat_class(title, expected_leadershi
     assert out["seatClass"] == "unknown"
     assert out["seatLabel"] is None
     assert out["seatId"] is None
+
+
+@pytest.mark.parametrize("name, expected_vacant, expected_seat_id", [
+    ("Vacant", True, None),
+    ("Vacant District 5", True, "5"),
+    ("vacant district 7", True, "7"),
+    ("Joey Russo", False, None),
+])
+def test_vacancy_detection(name, expected_vacant, expected_seat_id):
+    record = {"name": name, "title": "Council Member"}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:test")
+    out = normalize_member(record, ctx)
+    assert out["vacant"] == expected_vacant
+    if expected_seat_id is not None:
+        assert out["seatId"] == expected_seat_id

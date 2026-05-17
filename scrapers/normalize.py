@@ -48,6 +48,7 @@ _PREFIX_DISTRICT_RE = re.compile(
 _AT_LARGE_RE = re.compile(r"\bAt[\s-]?Large\b", re.IGNORECASE)
 _MAYOR_PRO_TEM_RE = re.compile(r"^Mayor\s+Pro[\s-]?Tem\b", re.IGNORECASE)
 _MAYOR_RE = re.compile(r"^Mayor\b", re.IGNORECASE)
+_VACANT_RE = re.compile(r"^Vacant\b\s*(.*)$", re.IGNORECASE)
 
 
 def _parse_title(title: str) -> dict:
@@ -147,7 +148,22 @@ def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
 
     Returns the same dict, mutated in place.
     """
-    title = record.get("title", "") or ""
+    # Vacancy detection: if name starts with "Vacant", set vacant=True and
+    # parse the rest of the name as a synthetic title for seat extraction.
+    name = record.get("name", "") or ""
+    m = _VACANT_RE.match(name)
+    if m:
+        record["vacant"] = True
+        remainder = m.group(1).strip()
+        existing_title = (record.get("title") or "").strip()
+        if remainder and (not existing_title or existing_title == "Council Member"):
+            # If no real title or title is generic, treat the name remainder as the title
+            title = remainder
+        else:
+            title = existing_title or remainder
+    else:
+        record.setdefault("vacant", False)
+        title = record.get("title", "") or ""
 
     # Stage 2: title parsing fills any structured fields not already set
     parsed = _parse_title(title)
