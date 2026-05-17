@@ -57,6 +57,78 @@ STATE_EXPECTED_COUNTS = {
     "SC": {"senate": 46, "house": 124},
 }
 
+# Normalized seat-field enums (v0.2 schema)
+VALID_OFFICES = {"state-senator", "state-representative", "governor",
+                 "lt-governor", "mayor", "council-member"}
+VALID_LEADERSHIP = {"chair", "vice-chair", "mayor-pro-tem", None}
+VALID_SEAT_CLASS = {"numbered", "at-large", "unknown"}
+VALID_SEAT_LABEL = {"district", "ward", "seat", None}
+VALID_SEAT_SOURCE = {"source", "parsed-title", "inferred-registry", "manual"}
+
+# Sentinel for distinguishing "key missing" from "key present with value None".
+_MISSING = object()
+
+
+def _validate_normalized_fields(label, prefix, member):
+    """Validate the new normalized seat fields and cross-field invariants.
+
+    Called for every member record (state legislators, executive, local council).
+    Adds errors to the module-level errors list via error().
+    """
+    office = member.get("office")
+    if office not in VALID_OFFICES:
+        error(label, f"{prefix}: office '{office}' not in {sorted(VALID_OFFICES)}")
+
+    leadership = member.get("leadership", _MISSING)
+    if leadership is _MISSING:
+        error(label, f"{prefix}: missing 'leadership' (must be null or enum)")
+    elif leadership not in VALID_LEADERSHIP:
+        error(label, f"{prefix}: leadership '{leadership}' not valid")
+
+    seat_class = member.get("seatClass")
+    if seat_class not in VALID_SEAT_CLASS:
+        error(label, f"{prefix}: seatClass '{seat_class}' not valid")
+
+    seat_label = member.get("seatLabel", _MISSING)
+    if seat_label is _MISSING:
+        error(label, f"{prefix}: missing 'seatLabel'")
+    elif seat_label not in VALID_SEAT_LABEL:
+        error(label, f"{prefix}: seatLabel '{seat_label}' not valid")
+
+    seat_id = member.get("seatId", _MISSING)
+    if seat_id is _MISSING:
+        error(label, f"{prefix}: missing 'seatId'")
+
+    seat_source = member.get("seatSource")
+    if seat_source not in VALID_SEAT_SOURCE:
+        error(label, f"{prefix}: seatSource '{seat_source}' not valid")
+
+    if not isinstance(member.get("vacant"), bool):
+        error(label, f"{prefix}: vacant must be boolean")
+
+    if "partisan" not in member:
+        error(label, f"{prefix}: missing 'partisan'")
+
+    # Cross-field invariants. Only run when both sides of the invariant are
+    # present so we don't double-report on already-broken records.
+    sl = None if seat_label is _MISSING else seat_label
+    si = None if seat_id is _MISSING else seat_id
+
+    if seat_class == "at-large":
+        if sl is not None or si is not None:
+            error(label, f"{prefix}: at-large must have null seatLabel and seatId")
+    elif seat_class == "numbered":
+        if sl is None or si is None:
+            error(label, f"{prefix}: numbered must have seatLabel and seatId set")
+    elif seat_class == "unknown":
+        if si is not None:
+            error(label, f"{prefix}: unknown seatClass must have null seatId")
+
+    if leadership == "mayor-pro-tem" and office != "council-member":
+        error(label, f"{prefix}: mayor-pro-tem leadership requires council-member office")
+    if office == "mayor" and seat_class != "at-large":
+        error(label, f"{prefix}: mayor office requires at-large seatClass")
+
 
 def validate_state_json(data, state_code, filepath):
     """Validate a state.json file with meta block + senate/house."""
@@ -118,6 +190,8 @@ def validate_state_json(data, state_code, filepath):
             if party and party not in ("R", "D", "I"):
                 warn(label, f"{prefix}: unexpected party '{party}'")
 
+            _validate_normalized_fields(label, prefix, member)
+
     # Validate executive (optional)
     executive = data.get("executive")
     if executive is not None:
@@ -136,6 +210,7 @@ def validate_state_json(data, state_code, filepath):
                 phone = member.get("phone", "")
                 if phone and not PHONE_RE.match(phone):
                     warn(label, f"{prefix}: unexpected phone format '{phone}'")
+                _validate_normalized_fields(label, prefix, member)
 
 
 def validate_local_file(data, filepath):
@@ -205,6 +280,8 @@ def validate_local_file(data, filepath):
         phone = member.get("phone", "")
         if phone and not PHONE_RE.match(phone):
             warn(label, f"{prefix}: unexpected phone format '{phone}'")
+
+        _validate_normalized_fields(label, prefix, member)
 
 
 def validate_registry(data):

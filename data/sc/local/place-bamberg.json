@@ -6,7 +6,7 @@
     "label": "Bamberg City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "bamberg_city",
-    "dataHash": "e825545bc302631d",
+    "dataHash": "c3ddaad425c61f87",
     "dataLastChanged": "2026-05-17"
   },
   "members": [
@@ -71,7 +71,8 @@
       "seatId": "3",
       "seatSource": "parsed-title",
       "leadership": null,
-      "partisan": false
+      "partisan": false,
+      "office": "council-member"
     },
     {
       "name": "Joyce Searson",
@@ -86,7 +87,8 @@
       "seatId": "5",
       "seatSource": "parsed-title",
       "leadership": null,
-      "partisan": false
+      "partisan": false,
+      "office": "council-member"
     },
     {
       "name": "Carey Bunch",
@@ -101,7 +103,8 @@
       "seatId": "6",
       "seatSource": "parsed-title",
       "leadership": null,
-      "partisan": false
+      "partisan": false,
+      "office": "council-member"
     }
   ]
 }

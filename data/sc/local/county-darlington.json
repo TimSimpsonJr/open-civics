@@ -6,7 +6,7 @@
     "label": "Darlington County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "darlington_county",
-    "dataHash": "5e3b2a32b042277a",
+    "dataHash": "da465063b4852222",
     "dataLastChanged": "2026-05-17"
   },
   "members": [
@@ -39,7 +39,8 @@
       "seatId": "2",
       "seatSource": "parsed-title",
       "leadership": null,
-      "partisan": false
+      "partisan": false,
+      "office": "council-member"
     },
     {
       "name": "Joyce W. Thomas",

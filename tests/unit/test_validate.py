@@ -23,6 +23,42 @@ def clear_validation_state():
 # Helper builders
 # ---------------------------------------------------------------------------
 
+def _make_member(**overrides):
+    """Build a local council member with all required normalized fields.
+
+    Defaults to a numbered council seat. Pass overrides to customize.
+    """
+    member = {
+        "name": "Council Person",
+        "title": "Council Member, District 1",
+        "email": "person@city.gov",
+        "phone": "(555) 123-4567",
+        "office": "council-member",
+        "leadership": None,
+        "seatClass": "numbered",
+        "seatLabel": "district",
+        "seatId": "1",
+        "seatSource": "parsed-title",
+        "vacant": False,
+        "partisan": False,
+    }
+    member.update(overrides)
+    return member
+
+
+def _make_mayor(**overrides):
+    """Build a valid mayor member (at-large)."""
+    return _make_member(**{
+        "name": "Mayor Person",
+        "title": "Mayor",
+        "office": "mayor",
+        "seatClass": "at-large",
+        "seatLabel": None,
+        "seatId": None,
+        **overrides,
+    })
+
+
 def _make_local_data(members=None, meta_overrides=None, contact=None):
     """Build a valid local council data dict."""
     meta = {
@@ -39,8 +75,9 @@ def _make_local_data(members=None, meta_overrides=None, contact=None):
         meta.update(meta_overrides)
     if members is None:
         members = [
-            {"name": "Alice", "title": "Mayor", "email": "alice@city.gov", "phone": "(555) 123-4567"},
-            {"name": "Bob", "title": "Council Member", "email": "bob@city.gov", "phone": "(555) 987-6543"},
+            _make_mayor(name="Alice", email="alice@city.gov", phone="(555) 123-4567"),
+            _make_member(name="Bob", title="Council Member, District 2", seatId="2",
+                         email="bob@city.gov", phone="(555) 987-6543"),
         ]
     return {"meta": meta, "members": members}
 
@@ -65,6 +102,14 @@ def _make_state_data(senate_count=46, house_count=124, state_code="SC",
             "email": f"senator{i}@senate.gov",
             "phone": "(803) 555-0001",
             "party": "R",
+            "office": "state-senator",
+            "leadership": None,
+            "seatClass": "numbered",
+            "seatLabel": "district",
+            "seatId": str(i),
+            "seatSource": "source",
+            "vacant": False,
+            "partisan": True,
         }
 
     house = {}
@@ -75,12 +120,40 @@ def _make_state_data(senate_count=46, house_count=124, state_code="SC",
             "email": f"rep{i}@house.gov",
             "phone": "(803) 555-0002",
             "party": "D",
+            "office": "state-representative",
+            "leadership": None,
+            "seatClass": "numbered",
+            "seatLabel": "district",
+            "seatId": str(i),
+            "seatSource": "source",
+            "vacant": False,
+            "partisan": True,
         }
 
     data = {"meta": meta, "senate": senate, "house": house}
     if executive is not None:
         data["executive"] = executive
     return data
+
+
+def _make_executive(**overrides):
+    """Build a valid executive (governor) record."""
+    member = {
+        "name": "Gov Smith",
+        "title": "Governor",
+        "email": "gov@sc.gov",
+        "phone": "(803) 555-0000",
+        "office": "governor",
+        "leadership": None,
+        "seatClass": "at-large",
+        "seatLabel": None,
+        "seatId": None,
+        "seatSource": "source",
+        "vacant": False,
+        "partisan": True,
+    }
+    member.update(overrides)
+    return member
 
 
 # ---------------------------------------------------------------------------
@@ -223,23 +296,21 @@ class TestValidateStateJson:
         assert any("Missing 'senate'" in e for e in val.errors)
 
     def test_valid_executive(self):
-        data = _make_state_data(executive=[
-            {"name": "Gov Smith", "title": "Governor", "email": "gov@sc.gov", "phone": "(803) 555-0000"},
-        ])
+        data = _make_state_data(executive=[_make_executive()])
         val.validate_state_json(data, "SC", "state.json")
         assert len(val.errors) == 0
 
     def test_executive_missing_name_is_error(self):
-        data = _make_state_data(executive=[
-            {"title": "Governor"},
-        ])
+        exec_member = _make_executive()
+        del exec_member["name"]
+        data = _make_state_data(executive=[exec_member])
         val.validate_state_json(data, "SC", "state.json")
         assert any("missing 'name'" in e for e in val.errors)
 
     def test_executive_missing_title_is_error(self):
-        data = _make_state_data(executive=[
-            {"name": "Gov Smith"},
-        ])
+        exec_member = _make_executive()
+        del exec_member["title"]
+        data = _make_state_data(executive=[exec_member])
         val.validate_state_json(data, "SC", "state.json")
         assert any("missing 'title'" in e for e in val.errors)
 
@@ -262,3 +333,205 @@ class TestValidateStateJson:
         data["senate"]["1"]["party"] = "X"
         val.validate_state_json(data, "SC", "state.json")
         assert any("unexpected party" in w for w in val.warnings)
+
+
+# ---------------------------------------------------------------------------
+# Normalized seat fields (validate_local_file + validate_state_json)
+# ---------------------------------------------------------------------------
+
+class TestNormalizedFieldsLocal:
+    """Verify _validate_normalized_fields runs against local council members."""
+
+    def test_valid_normalized_record_no_errors(self):
+        data = _make_local_data()
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+    def test_missing_office_is_error(self):
+        m = _make_member()
+        del m["office"]
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("office" in e and "not in" in e for e in val.errors)
+
+    def test_invalid_office_is_error(self):
+        m = _make_member(office="dogcatcher")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("office 'dogcatcher'" in e for e in val.errors)
+
+    def test_missing_leadership_is_error(self):
+        m = _make_member()
+        del m["leadership"]
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("missing 'leadership'" in e for e in val.errors)
+
+    def test_null_leadership_is_valid(self):
+        m = _make_member(leadership=None)
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+    def test_invalid_leadership_is_error(self):
+        m = _make_member(leadership="president")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("leadership 'president'" in e for e in val.errors)
+
+    def test_invalid_seat_class_is_error(self):
+        m = _make_member(seatClass="ranked")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("seatClass 'ranked'" in e for e in val.errors)
+
+    def test_missing_seat_label_is_error(self):
+        m = _make_member()
+        del m["seatLabel"]
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("missing 'seatLabel'" in e for e in val.errors)
+
+    def test_invalid_seat_label_is_error(self):
+        m = _make_member(seatLabel="zone")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("seatLabel 'zone'" in e for e in val.errors)
+
+    def test_missing_seat_id_is_error(self):
+        m = _make_member()
+        del m["seatId"]
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("missing 'seatId'" in e for e in val.errors)
+
+    def test_invalid_seat_source_is_error(self):
+        m = _make_member(seatSource="guessed")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("seatSource 'guessed'" in e for e in val.errors)
+
+    def test_vacant_not_bool_is_error(self):
+        m = _make_member(vacant="yes")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("vacant must be boolean" in e for e in val.errors)
+
+    def test_missing_partisan_is_error(self):
+        m = _make_member()
+        del m["partisan"]
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("missing 'partisan'" in e for e in val.errors)
+
+    def test_partisan_false_does_not_require_party(self):
+        """A non-partisan member without a 'party' field should validate clean."""
+        m = _make_member(partisan=False)
+        assert "party" not in m
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+
+class TestSeatInvariants:
+    """Cross-field invariants on seatClass / seatLabel / seatId / office / leadership."""
+
+    def test_at_large_must_have_null_seat_label(self):
+        m = _make_member(seatClass="at-large", seatLabel="district", seatId=None)
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("at-large" in e and "null seatLabel" in e for e in val.errors)
+
+    def test_at_large_must_have_null_seat_id(self):
+        m = _make_member(seatClass="at-large", seatLabel=None, seatId="1")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("at-large" in e for e in val.errors)
+
+    def test_at_large_with_nulls_is_valid(self):
+        m = _make_member(seatClass="at-large", seatLabel=None, seatId=None)
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+    def test_numbered_must_have_seat_label(self):
+        m = _make_member(seatClass="numbered", seatLabel=None, seatId="1")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("numbered" in e for e in val.errors)
+
+    def test_numbered_must_have_seat_id(self):
+        m = _make_member(seatClass="numbered", seatLabel="district", seatId=None)
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("numbered" in e for e in val.errors)
+
+    def test_unknown_must_have_null_seat_id(self):
+        m = _make_member(seatClass="unknown", seatLabel=None, seatId="1")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("unknown" in e and "seatId" in e for e in val.errors)
+
+    def test_unknown_with_null_seat_id_is_valid(self):
+        m = _make_member(seatClass="unknown", seatLabel=None, seatId=None,
+                         leadership="chair", seatSource="parsed-title")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+    def test_mayor_pro_tem_requires_council_member_office(self):
+        m = _make_member(office="mayor", seatClass="at-large", seatLabel=None,
+                         seatId=None, leadership="mayor-pro-tem")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("mayor-pro-tem" in e and "council-member" in e for e in val.errors)
+
+    def test_mayor_pro_tem_on_council_member_is_valid(self):
+        m = _make_member(office="council-member", leadership="mayor-pro-tem")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+    def test_mayor_office_requires_at_large(self):
+        m = _make_member(office="mayor", seatClass="numbered",
+                         seatLabel="district", seatId="1")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert any("mayor" in e and "at-large" in e for e in val.errors)
+
+    def test_mayor_with_at_large_is_valid(self):
+        data = _make_local_data(members=[_make_mayor()])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
+
+class TestNormalizedFieldsState:
+    """Verify _validate_normalized_fields runs against state legislators and executive."""
+
+    def test_state_legislators_validate_clean(self):
+        data = _make_state_data()
+        val.validate_state_json(data, "SC", "state.json")
+        assert len(val.errors) == 0
+
+    def test_senator_missing_office_is_error(self):
+        data = _make_state_data()
+        del data["senate"]["1"]["office"]
+        val.validate_state_json(data, "SC", "state.json")
+        assert any("senate[1]" in e and "office" in e for e in val.errors)
+
+    def test_house_member_invalid_seat_class_is_error(self):
+        data = _make_state_data()
+        data["house"]["1"]["seatClass"] = "ranked"
+        val.validate_state_json(data, "SC", "state.json")
+        assert any("house[1]" in e and "seatClass 'ranked'" in e for e in val.errors)
+
+    def test_executive_normalized_fields_validated(self):
+        bad_exec = _make_executive(office="dogcatcher")
+        data = _make_state_data(executive=[bad_exec])
+        val.validate_state_json(data, "SC", "state.json")
+        assert any("executive[0]" in e and "office 'dogcatcher'" in e for e in val.errors)
+
+    def test_executive_at_large_governor_is_valid(self):
+        data = _make_state_data(executive=[_make_executive()])
+        val.validate_state_json(data, "SC", "state.json")
+        assert len(val.errors) == 0

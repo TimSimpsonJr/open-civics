@@ -217,14 +217,19 @@ def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
     record.setdefault("vacant", False)
     if "partisan" not in record:
         record["partisan"] = True if ctx.level == "state" else False
-    # office must be set somewhere — if not, infer from level/chamber
+    # office must be set somewhere — if not, infer from level/chamber.
+    # For locals, default to council-member: this catches titles like
+    # "Chaplain, District 2" or "Sanitation Commissioner, District 3" where
+    # title parsing extracts the seat but the office isn't a recognized
+    # keyword. The validator requires office on every record.
     if "office" not in record:
         if ctx.level == "state":
             if ctx.chamber == "senate":
                 record["office"] = "state-senator"
             elif ctx.chamber == "house":
                 record["office"] = "state-representative"
-        # local default already filled by title parse fallback
+        elif ctx.level == "local":
+            record["office"] = "council-member"
     # seatSource fallback if nothing set it
     record.setdefault("seatSource", "source")
 
