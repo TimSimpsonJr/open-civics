@@ -12,6 +12,8 @@ import re
 from dataclasses import dataclass
 from typing import Literal, Optional
 
+from .seat_overrides import SEAT_OVERRIDES
+
 
 @dataclass
 class NormalizationContext:
@@ -194,5 +196,14 @@ def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
 
     if promoted_from_registry:
         record["seatSource"] = "inferred-registry"
+
+    # Stage 4: manual overrides — the ONLY stage that overwrites existing values
+    if ctx.jurisdiction_id:
+        key = (ctx.jurisdiction_id, record.get("name", ""))
+        override = SEAT_OVERRIDES.get(key)
+        if override:
+            for field, value in override.items():
+                record[field] = value
+            record["seatSource"] = "manual"
 
     return record

@@ -200,3 +200,19 @@ def test_registry_defaults_do_not_overwrite_numbered_seat():
     assert out["seatClass"] == "numbered"
     assert out["seatId"] == "3"
     assert out["seatSource"] == "parsed-title"
+
+
+def test_manual_override_replaces_parsed_value():
+    # Adapter set seatClass: unknown from parsed title; manual override fixes it
+    record = {"name": "Alex Saitta", "title": "Chairman"}
+    ctx = NormalizationContext(
+        level="local",
+        jurisdiction_type="county",
+        jurisdiction_id="county:pickens",
+    )
+    out = normalize_member(record, ctx)
+    # With the override in place, the chairman gets their actual district
+    assert out["seatClass"] == "numbered"
+    assert out["seatLabel"] == "district"
+    assert out["seatId"] == "3"
+    assert out["seatSource"] == "manual"
