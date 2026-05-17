@@ -286,6 +286,10 @@
             "councilPageId": "255",
             "directoryDeptId": "17"
           },
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
+          },
           "notes": "Mayor + 5 council members, all elected at-large. Council-Administrator form of government."
         },
         {
@@ -314,6 +318,10 @@
           "url": "https://www.cityofmyrtlebeach.com/government/mayor___city_council/index.php",
           "districts": 6,
           "atLarge": true,
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
+          },
           "notes": "6 council members + mayor, all elected at-large. Council-Manager form of government."
         },
         {
@@ -325,6 +333,10 @@
           "url": "https://www.conwaysc.gov/city_council/",
           "districts": 6,
           "atLarge": true,
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
+          },
           "notes": "6 council members + mayor, all elected at-large"
         },
         {
@@ -399,6 +411,10 @@
             "baseUrl": "https://www.cityofbeaufort.org",
             "councilPageId": "221",
             "directoryDeptId": "19"
+          },
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
           },
           "notes": "4 council members + mayor, all elected at-large. Council-Manager form of government."
         },
@@ -607,6 +623,10 @@
           "url": "https://www.goosecreeksc.gov/government/mayor-and-city-council",
           "districts": 6,
           "atLarge": true,
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
+          },
           "notes": "6 council members + mayor, all elected at-large. Pop. ~46k."
         },
         {
@@ -1086,6 +1106,10 @@
               "countyFips": "45049",
               "countyName": "Hampton"
             }
+          },
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
           },
           "notes": "5 council members elected at-large. CivicPlus website. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile."
         },
@@ -1579,6 +1603,10 @@
             "councilPageId": "91",
             "directoryDeptId": "23",
             "mayorUrl": "https://www.tompsc.com/89/Mayor-Will-Haynie"
+          },
+          "councilDefaults": {
+            "seatClass": "at-large",
+            "partisan": false
           },
           "notes": "8 council members + mayor, all elected at-large. CivicPlus website. Pop. ~91k."
         }
