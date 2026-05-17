@@ -206,4 +206,20 @@ def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
                 record[field] = value
             record["seatSource"] = "manual"
 
+    # Final defaults: ensure all required fields are set.
+    record.setdefault("leadership", None)
+    record.setdefault("vacant", False)
+    if "partisan" not in record:
+        record["partisan"] = True if ctx.level == "state" else False
+    # office must be set somewhere — if not, infer from level/chamber
+    if "office" not in record:
+        if ctx.level == "state":
+            if ctx.chamber == "senate":
+                record["office"] = "state-senator"
+            elif ctx.chamber == "house":
+                record["office"] = "state-representative"
+        # local default already filled by title parse fallback
+    # seatSource fallback if nothing set it
+    record.setdefault("seatSource", "source")
+
     return record

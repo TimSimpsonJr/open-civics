@@ -216,3 +216,27 @@ def test_manual_override_replaces_parsed_value():
     assert out["seatLabel"] == "district"
     assert out["seatId"] == "3"
     assert out["seatSource"] == "manual"
+
+
+def test_partisan_default_state():
+    record = {"name": "Shane Massey", "title": "State Senator, District 25",
+              "office": "state-senator"}
+    ctx = NormalizationContext(level="state", chamber="senate")
+    out = normalize_member(record, ctx)
+    assert out["partisan"] is True
+
+
+def test_partisan_default_local():
+    record = {"name": "Joey Russo", "title": "Council Member, District 17"}
+    ctx = NormalizationContext(level="local", jurisdiction_type="county",
+                               jurisdiction_id="county:greenville")
+    out = normalize_member(record, ctx)
+    assert out["partisan"] is False
+
+
+def test_leadership_defaults_to_null():
+    record = {"name": "Test", "title": "Council Member, District 1"}
+    ctx = NormalizationContext(level="local", jurisdiction_type="place",
+                               jurisdiction_id="place:test")
+    out = normalize_member(record, ctx)
+    assert out["leadership"] is None
