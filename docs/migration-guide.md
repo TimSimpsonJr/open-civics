@@ -120,7 +120,7 @@ interface LocalMember {
   // state
   vacant: boolean;
   seatSource: "source" | "parsed-title" | "inferred-registry" | "manual";
-  partisan: boolean;             // false for most SC local offices
+  partisan: boolean | null;      // false for most SC local offices; null when unknown
 
   // contact
   email?: string;
@@ -309,7 +309,7 @@ function findCouncilMember(lat, lng) {
 - Local members are in a `members` array
 - Prefer `seatClass`/`seatId` over parsing `title` for seat lookup (`title` is human-readable but variable; the structured fields are normalized)
 - Filter vacancies via `member.vacant === true`, NOT `name === "Vacant"` (vacancies sometimes carry the seat in the name)
-- Render display labels with `seatLabel`: a Ward town like Camden should read "Ward 3" not "District 3"
+- Render display labels with `seatLabel`: a ward-based town like Darlington should read "Ward 3" not "District 3" (6 SC cities currently expose `seatLabel: "ward"`: Chester, Darlington, Greenwood, Hilton Head, Rock Hill, Sumter; 2 jurisdictions use `seatLabel: "seat"`: Anderson city and Colleton county)
 - Federal records have their OWN `office` and `seatClass` fields with different semantics (office address; senate class number) — don't share types with state/local
 - Party info is on state legislators, governor/lt-governor, and federal — local offices are nonpartisan (`partisan: false`) and won't carry `party`
 
@@ -375,7 +375,7 @@ Use Dependabot (Option A). It gives you visibility into what changed, lets you r
 
 ## Available jurisdictions
 
-96 local jurisdictions are covered — every SC county and incorporated municipality. Full list of files:
+96 local jurisdictions are covered: all 46 SC counties and 50 of the largest cities/towns. (SC has ~270 incorporated municipalities total — coverage is the largest 50 by population plus targeted additions, not exhaustive.) Full list of files:
 
 https://github.com/TimSimpsonJr/open-civics/tree/master/data/sc/local
 
