@@ -6,8 +6,8 @@
     "label": "Lexington County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "lexington_county",
-    "dataHash": "435a5c5b5b657df4",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "deeb40b4f100e660",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "mbishop@lexingtoncounty.sc.gov",
       "phone": "(803) 849-4275",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Paul Lawrence \"Larry\" Brigham, Jr.",
@@ -24,7 +32,15 @@
       "email": "lbrigham@lexingtoncounty.sc.gov",
       "phone": "(803) 465-6263",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Darrell Hudson",
@@ -32,7 +48,15 @@
       "email": "dhudson@lexingtoncounty.sc.gov",
       "phone": "(803) 240-6077",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Todd Cockrell",
@@ -40,7 +64,15 @@
       "email": "toddcockrell@lexingtoncounty.sc.gov",
       "phone": "(803) 849-0295",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Clifford P. Fisher, III",
@@ -48,7 +80,15 @@
       "email": "cfisher@lexingtoncounty.sc.gov",
       "phone": "(803) 849-4465",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Charlene \"Charli\" Wessinger",
@@ -56,7 +96,15 @@
       "email": "cwessinger@lexingtoncounty.sc.gov",
       "phone": "(803) 730-7254",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Beth A. Carrigg",
@@ -64,7 +112,15 @@
       "email": "bcarrigg@lexingtoncounty.sc.gov",
       "phone": "(803) 518-8077",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Glen M. Conwell",
@@ -72,7 +128,15 @@
       "email": "gconwell@lexingtoncounty.sc.gov",
       "phone": "(803) 351-7435",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "M. Todd Cullum",
@@ -80,7 +144,15 @@
       "email": "tcullum@lexingtoncounty.sc.gov",
       "phone": "(803) 794-6930",
       "source": "lexingtoncounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

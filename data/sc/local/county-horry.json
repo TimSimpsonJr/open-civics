@@ -6,8 +6,8 @@
     "label": "Horry County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "horry_county",
-    "dataHash": "4e226c11b8d23cc3",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "df9ae7f2ae246917",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "gardner.johnny@horrycountysc.gov",
       "phone": "(843) 855-0848",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jenna L. Dukes",
@@ -24,7 +32,15 @@
       "email": "Dukes.Jenna@horrycountysc.gov",
       "phone": "(843) 855-6962",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Bill Howard",
@@ -32,7 +48,15 @@
       "email": "howardb@horrycountysc.gov",
       "phone": "(843) 421-2035",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dennis DiSabato",
@@ -40,7 +64,15 @@
       "email": "disabatod@horrycountysc.gov",
       "phone": "(843) 421-8522",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Gary Loftus",
@@ -48,7 +80,15 @@
       "email": "loftusg@horrycountysc.gov",
       "phone": "(843) 855-4735",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tyler Servant",
@@ -56,7 +96,15 @@
       "email": "servantt@horrycountysc.gov",
       "phone": "(843) 421-7250",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Cam Crawford",
@@ -64,7 +112,15 @@
       "email": "crawfordc@horrycountysc.gov",
       "phone": "(843) 504-0905",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tom Anderson",
@@ -72,7 +128,15 @@
       "email": "Anderson.Tom@horrycountysc.gov",
       "phone": "(843) 855-6129",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Michael \"Mash\" Masciarelli",
@@ -80,7 +144,15 @@
       "email": "Masciarelli.Mike@horrycountysc.gov",
       "phone": "(843) 855-6569",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "R. Mark Causey",
@@ -88,7 +160,15 @@
       "email": "Causey.mark@horrycountysc.gov",
       "phone": "(843) 421-0570",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Danny Hardee",
@@ -96,7 +176,15 @@
       "email": "hardeedan@horrycountysc.gov",
       "phone": "(843) 340-4426",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "10",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Al Allen",
@@ -104,7 +192,15 @@
       "email": "allena@horrycountysc.gov",
       "phone": "(843) 602-9243",
       "source": "horrycounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "11",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

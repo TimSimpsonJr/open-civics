@@ -6,8 +6,8 @@
     "label": "Columbia City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "columbia",
-    "dataHash": "75775205bfd46b9e",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "ec88219a60357874",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "Mayor@columbiasc.gov",
       "phone": "",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Tina N. Herbert",
@@ -24,7 +32,15 @@
       "email": "Tina.Herbert@Columbiasc.gov",
       "phone": "(803) 814-7207",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Edward H. McDowell, Jr.",
@@ -32,7 +48,15 @@
       "email": "Edward.McDowell@columbiasc.gov",
       "phone": "(803) 545-3061",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Will Brennan",
@@ -40,7 +64,15 @@
       "email": "Will.Brennan@columbiasc.gov",
       "phone": "(803) 876-4919",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Peter M. Brown",
@@ -48,7 +80,15 @@
       "email": "peter.brown@columbiasc.gov",
       "phone": "(803) 360-3971",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Sam P. Johnson",
@@ -56,7 +96,15 @@
       "email": "Sam.Johnson@columbiasc.gov",
       "phone": "(803) 719-6158",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tyler D. Bailey",
@@ -64,7 +112,15 @@
       "email": "Tyler.Bailey@columbiasc.gov",
       "phone": "(803) 908-6830",
       "source": "columbia",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

@@ -15,7 +15,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1185227131.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1185227131",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 25",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "25",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "27": {
       "name": "Allen Blackmon",
@@ -26,7 +35,16 @@
       "photoUrl": "https://scdailygazette.com/wp-content/uploads/2024/06/image000001-682x1024.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0143749983",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 27",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "27",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "10": {
       "name": "Billy Garrett",
@@ -37,7 +55,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0638636287.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0638636287",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 10",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "10",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "40": {
       "name": "Brad Hutto",
@@ -48,7 +75,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0912499891.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0912499891",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 40",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "40",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "44": {
       "name": "Brian Adams",
@@ -59,7 +95,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0002272727.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0002272727",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 44",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "44",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "23": {
       "name": "Carlisle Kennedy",
@@ -70,7 +115,16 @@
       "photoUrl": "https://votecarlislekennedy.com/wp-content/uploads/2024/04/MG_3387-scaled.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0984090791",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 23",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "23",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "9": {
       "name": "Danny Verdin",
@@ -81,7 +135,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1874999775.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1874999775",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 9",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "21": {
       "name": "Darrell Jackson",
@@ -92,7 +155,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0920454435.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0920454435",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 21",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "21",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "42": {
       "name": "Deon Tedder",
@@ -103,7 +175,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1811931601.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1811931601",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 42",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "42",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "20": {
       "name": "Ed Sutton",
@@ -114,7 +195,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ed_Sutton2024.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1782954332",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 20",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "20",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "17": {
       "name": "Everett Stubbs",
@@ -125,7 +215,16 @@
       "photoUrl": "https://assets.civicengine.com/uploads/candidate/headshot/817690/817690.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1780681605",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 17",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "17",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "43": {
       "name": "Chip Campsen",
@@ -136,7 +235,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0302272691.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0302272691",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 43",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "43",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "28": {
       "name": "Greg Hembree",
@@ -147,7 +255,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0819318084.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0819318084",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 28",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "28",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "14": {
       "name": "Harvey Peeler",
@@ -158,7 +275,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1454545280.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1454545280",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 14",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "14",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "29": {
       "name": "J.D. Chaplin",
@@ -169,7 +295,16 @@
       "photoUrl": "https://npr.brightspotcdn.com/dims4/default/533a1d5/2147483647/strip/true/crop/1761x1084+0+0/resize/1760x1084!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F35%2F0ec3711f4b1ab8064a0a54363740%2Fchaplin.JPG",
       "website": "https://www.scstatehouse.gov/member.php?code=0346590868",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 29",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "29",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "6": {
       "name": "Jason Elliott",
@@ -180,7 +315,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0529545391.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0529545391",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 6",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "36": {
       "name": "Jeff Zell",
@@ -191,7 +335,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jeffrey_Zell.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1999431789",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 36",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "36",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "35": {
       "name": "Jeffrey Graham",
@@ -202,7 +355,16 @@
       "photoUrl": "https://www.grahamrealtyinc.com/files/images/agents/g/4d80bc35-8f04-43ab-84f1-1858ae7a8b42/1.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0703124916",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 35",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "35",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "11": {
       "name": "Josh Kimbrell",
@@ -213,7 +375,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0993465790.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0993465790",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 11",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "11",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "7": {
       "name": "Karl Allen",
@@ -224,7 +395,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0015340908.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0015340908",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 7",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "30": {
       "name": "Kent Williams",
@@ -235,7 +415,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1938636131.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1938636131",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 30",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "30",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "37": {
       "name": "Larry Grooms",
@@ -246,7 +435,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0729545367.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0729545367",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 37",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "37",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "12": {
       "name": "Lee Bright",
@@ -257,7 +455,16 @@
       "photoUrl": "http://www.scstatehouse.gov/images/members/0193181795.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0193181795",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 12",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "12",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "33": {
       "name": "Luke Rankin",
@@ -268,7 +475,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1511363455.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1511363455",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 33",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "33",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "45": {
       "name": "Margie Bright Matthews",
@@ -279,7 +495,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0194318159.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0194318159",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 45",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "45",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "41": {
       "name": "Matt Leber",
@@ -290,7 +515,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1074431690.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1074431690",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 41",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "41",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "16": {
       "name": "Michael Johnson",
@@ -301,7 +535,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0949431704.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0949431704",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 16",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "16",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "4": {
       "name": "Mike Gambrell",
@@ -312,7 +555,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0635227197.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0635227197",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 4",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "31": {
       "name": "Mike Reichenbach",
@@ -323,7 +575,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1528408908.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1528408908",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 31",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "31",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "22": {
       "name": "Overture Walker",
@@ -334,7 +595,16 @@
       "photoUrl": "https://overture4scsenate.com/wp-content/uploads/2024/05/Screenshot-2024-05-09-at-12.12.03%E2%80%AFPM-813x1024.png",
       "website": "https://www.scstatehouse.gov/member.php?code=1889772501",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 22",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "22",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "2": {
       "name": "Rex Rice",
@@ -345,7 +615,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1547727087.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1547727087",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 2",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "3": {
       "name": "Richard Cash",
@@ -356,7 +635,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0328409052.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0328409052",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 3",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "32": {
       "name": "Ronnie Sabb",
@@ -367,7 +655,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1617045261.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1617045261",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 32",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "32",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "18": {
       "name": "Ronnie Cromer",
@@ -378,7 +675,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0438636311.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0438636311",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 18",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "18",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "8": {
       "name": "Ross Turner",
@@ -389,7 +695,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1847727051.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1847727051",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 8",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "26": {
       "name": "Russell Ott",
@@ -400,7 +715,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1433096420.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1433096420",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 26",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "26",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "38": {
       "name": "Sean Bennett",
@@ -411,7 +735,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0141193165.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0141193165",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 38",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "38",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "13": {
       "name": "Shane Martin",
@@ -422,7 +755,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1179545313.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1179545313",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 13",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "13",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "34": {
       "name": "Stephen Goldfinch",
@@ -433,7 +775,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0682386282.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0682386282",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 34",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "34",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "19": {
       "name": "Tameika Isaac Devine",
@@ -444,7 +795,16 @@
       "photoUrl": "",
       "website": "https://www.scstatehouse.gov/member.php?code=0477840852",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 19",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "19",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "1": {
       "name": "Thomas Alexander",
@@ -455,7 +815,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0013636362.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0013636362",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 1",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "5": {
       "name": "Tom Corbin",
@@ -466,7 +835,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0402272679.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0402272679",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 5",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "46": {
       "name": "Tom Davis",
@@ -477,7 +855,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0456818127.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0456818127",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 46",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "46",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "39": {
       "name": "Tom Fernandez",
@@ -488,7 +875,16 @@
       "photoUrl": "https://tomfernandezforsenate.com/wp-content/uploads/2023/03/tom-fernandez-headshot-2-957x1024.png",
       "website": "https://www.scstatehouse.gov/member.php?code=0574999931",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 39",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "39",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "24": {
       "name": "Tom Young",
@@ -499,7 +895,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1996590730.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1996590730",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 24",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "24",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "15": {
       "name": "Wes Climer",
@@ -510,7 +915,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0356818139.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0356818139",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Senator, District 15",
+      "office": "state-senator",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "15",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     }
   },
   "house": {
@@ -523,7 +937,16 @@
       "photoUrl": "https://bloximages.chicago2.vip.townnews.com/upstatetoday.com/content/tncms/assets/v3/editorial/2/db/2dbe7f98-2879-11ef-8c0d-7356b5095dbe/66692c7a1bcf4.image.jpg?crop=1045%2C588%2C12%2C42&resize=1045%2C588&order=crop%2Cresize",
       "website": "https://www.scstatehouse.gov/member.php?code=0502272667",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 2",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "41": {
       "name": "Annie McDaniel",
@@ -534,7 +957,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1221590763.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1221590763",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 41",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "41",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "6": {
       "name": "April Cromer",
@@ -545,7 +977,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0434090857.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0434090857",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 6",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "78": {
       "name": "Beth Bernstein",
@@ -556,7 +997,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0141477256.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0141477256",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 78",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "78",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "86": {
       "name": "Bill Taylor",
@@ -567,7 +1017,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1811363419.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1811363419",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 86",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "86",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "9": {
       "name": "Blake Sanders",
@@ -578,7 +1037,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/BlakeSanders24.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1624999805",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 9",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "48": {
       "name": "Brandon Guffey",
@@ -589,7 +1057,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0730681731.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0730681731",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 48",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "48",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "92": {
       "name": "Brandon Cox",
@@ -600,7 +1077,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0428124949.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0428124949",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 92",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "92",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "45": {
       "name": "Brandon Newton",
@@ -611,7 +1097,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1418607785.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1418607785",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 45",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "45",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "24": {
       "name": "Bruce Bannister",
@@ -622,7 +1117,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0103409079.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0103409079",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 24",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "24",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "39": {
       "name": "Cal Forrest",
@@ -633,7 +1137,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0608238564.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0608238564",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 39",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "39",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "103": {
       "name": "Carl Anderson",
@@ -644,7 +1157,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0021590907.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0021590907",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 103",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "103",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "61": {
       "name": "Carla Schuessler",
@@ -655,7 +1177,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1635227077.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1635227077",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 61",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "61",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "23": {
       "name": "Chandra Dillard",
@@ -666,7 +1197,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0479545397.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0479545397",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 23",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "23",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "81": {
       "name": "Charlie Hartz",
@@ -677,7 +1217,16 @@
       "photoUrl": "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/6/dd/6ddc9b30-8988-11ef-9d6e-abf6ce2aa967/62e03fbeba019.image.jpg?crop=724%2C987%2C710%2C3&resize=367%2C500&order=crop%2Cresize",
       "website": "https://www.scstatehouse.gov/member.php?code=0776136271",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 81",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "81",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "28": {
       "name": "Chris Huff",
@@ -688,7 +1237,16 @@
       "photoUrl": "https://assets.civicengine.com/uploads/candidate/headshot/817554/817554.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0893181711",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 28",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "28",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "69": {
       "name": "Chris Wooten",
@@ -699,7 +1257,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1978408854.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1978408854",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 69",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "69",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "73": {
       "name": "Chris Hart",
@@ -710,7 +1277,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0770454453.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0770454453",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 73",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "73",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "65": {
       "name": "Cody Mitchell",
@@ -721,7 +1297,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1344033930.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1344033930",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 65",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "65",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "113": {
       "name": "Courtney Waters",
@@ -733,7 +1318,16 @@
       "website": "https://www.scstatehouse.gov/member.php?code=1896590682",
       "source": "openstates",
       "lastUpdated": "2026-03-14",
-      "emailVerified": false
+      "emailVerified": false,
+      "title": "State Representative, District 113",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "113",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "11": {
       "name": "Craig Gagnon",
@@ -744,7 +1338,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0632954470.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0632954470",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 11",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "11",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "12": {
       "name": "Daniel Gibson",
@@ -755,7 +1358,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0667045375.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0667045375",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 12",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "12",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "26": {
       "name": "David Martin",
@@ -766,7 +1378,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/David_Martin_20240907_125219.jpeg",
       "website": "https://www.scstatehouse.gov/member.php?code=1157954407",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 26",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "26",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "4": {
       "name": "Davey Hiott",
@@ -777,7 +1398,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0848863535.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0848863535",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 4",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "27": {
       "name": "David Vaughan",
@@ -788,7 +1418,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1865908867.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1865908867",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 27",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "27",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "29": {
       "name": "Dennis Moss",
@@ -799,7 +1438,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1379545289.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1379545289",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 29",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "29",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "21": {
       "name": "Dianne Mitchell",
@@ -811,7 +1459,16 @@
       "website": "https://www.scstatehouse.gov/member.php?code=1344175976",
       "source": "openstates",
       "lastUpdated": "2026-03-14",
-      "emailVerified": false
+      "emailVerified": false,
+      "title": "State Representative, District 21",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "21",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "8": {
       "name": "Don Chapman",
@@ -822,7 +1479,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0347727231.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0347727231",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 8",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "96": {
       "name": "Ryan McCabe",
@@ -833,7 +1499,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1206818037.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1206818037",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 96",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "96",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "115": {
       "name": "Spencer Wetmore",
@@ -844,7 +1519,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1905681590.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1905681590",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 115",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "115",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "64": {
       "name": "Fawn Pedalino",
@@ -855,7 +1539,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1453408917.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1453408917",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 64",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "64",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "67": {
       "name": "Murrell Smith",
@@ -866,7 +1559,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1703408887.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1703408887",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 67",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "67",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "114": {
       "name": "Gary Brewer",
@@ -877,7 +1579,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0192045432.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0192045432",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 114",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "114",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "94": {
       "name": "Gil Gatch",
@@ -888,7 +1599,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0658522648.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0658522648",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 94",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "94",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "95": {
       "name": "Gilda Cobb-Hunter",
@@ -899,7 +1619,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0372727228.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0372727228",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 95",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "95",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "98": {
       "name": "Greg Ford",
@@ -911,7 +1640,16 @@
       "website": "https://scstatehouse.gov/member.php?code=0605681746",
       "source": "openstates",
       "lastUpdated": "2026-03-14",
-      "emailVerified": false
+      "emailVerified": false,
+      "title": "State Representative, District 98",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "98",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "79": {
       "name": "Hamilton Grant",
@@ -922,7 +1660,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/HamiltonGrant2024.jpeg",
       "website": "https://www.scstatehouse.gov/member.php?code=0705681734",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 79",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "79",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "102": {
       "name": "Harriet Holman",
@@ -933,7 +1680,16 @@
       "photoUrl": "https://static.wixstatic.com/media/8accea_e11fd53b395c467b9a13c9643ee9b49f~mv2.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0867045351",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 102",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "102",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "46": {
       "name": "Heath Sessions",
@@ -944,7 +1700,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1649715712.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1649715712",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 46",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "46",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "68": {
       "name": "Heather Crawford",
@@ -955,7 +1720,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0428977222.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0428977222",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 68",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "68",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "75": {
       "name": "Heather Bauer",
@@ -966,7 +1740,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0125568167.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0125568167",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 75",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "75",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "51": {
       "name": "David Weeks",
@@ -977,7 +1760,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1898863409.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1898863409",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 51",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "51",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "74": {
       "name": "Todd Rutherford",
@@ -988,7 +1780,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1614772534.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1614772534",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 74",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "74",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "15": {
       "name": "J.A. Moore",
@@ -999,7 +1800,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1356818019.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1356818019",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 15",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "15",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "55": {
       "name": "Jackie Hayes",
@@ -1010,7 +1820,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0802272631.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0802272631",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 55",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "55",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "66": {
       "name": "Jackie Terribile",
@@ -1021,7 +1840,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jackie_Terribile.jpeg",
       "website": "https://www.scstatehouse.gov/member.php?code=1812357738",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 66",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "66",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "44": {
       "name": "Mike Neese",
@@ -1032,7 +1860,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1403977105.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1403977105",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 44",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "44",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "17": {
       "name": "Mike Burns",
@@ -1043,7 +1880,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0257954515.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0257954515",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 17",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "17",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "116": {
       "name": "James Teeple",
@@ -1054,7 +1900,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/James_Teeple_20240908_101043.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1812215692",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 116",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "116",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "54": {
       "name": "Jason Luck",
@@ -1065,7 +1920,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jason_Luck1.png",
       "website": "https://www.scstatehouse.gov/member.php?code=1126420320",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 54",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "54",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "123": {
       "name": "Jeff Bradley",
@@ -1076,7 +1940,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0171590889.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0171590889",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 123",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "123",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "58": {
       "name": "Jeff Johnson",
@@ -1087,7 +1960,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0938636251.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0938636251",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 58",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "58",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "52": {
       "name": "Jermaine Johnson",
@@ -1098,7 +1980,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0943181705.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0943181705",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 52",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "52",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "93": {
       "name": "Jerry Govan",
@@ -1109,7 +2000,16 @@
       "photoUrl": "https://www.scstatehouse.gov/images/members/0702272643.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0702272643",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 93",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "93",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "85": {
       "name": "Jay Kilmartin",
@@ -1120,7 +2020,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0993323745.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0993323745",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 85",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "85",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "88": {
       "name": "John Lastinger",
@@ -1132,7 +2041,16 @@
       "website": "https://www.scstatehouse.gov/member.php?code=1066761236",
       "source": "openstates",
       "lastUpdated": "2026-03-14",
-      "emailVerified": false
+      "emailVerified": false,
+      "title": "State Representative, District 88",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "88",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "13": {
       "name": "John McCravy",
@@ -1143,7 +2061,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1217045309.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1217045309",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 13",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "13",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "49": {
       "name": "John King",
@@ -1154,7 +2081,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1002272607.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1002272607",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 49",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "49",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "117": {
       "name": "Jordan Pace",
@@ -1165,7 +2101,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1433984204.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1433984204",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 117",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "117",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "112": {
       "name": "Joe Bustos",
@@ -1176,7 +2121,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0278409057.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0278409057",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 112",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "112",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "40": {
       "name": "Joe White",
@@ -1187,7 +2141,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1912499771.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1912499771",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 40",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "40",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "38": {
       "name": "Josiah Magnuson",
@@ -1198,7 +2161,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1130965774.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1130965774",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 38",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "38",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "90": {
       "name": "Justin Bamberg",
@@ -1209,7 +2181,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0102840897.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0102840897",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 90",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "90",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "77": {
       "name": "Kambrell Garvin",
@@ -1220,7 +2201,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0657954467.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0657954467",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 77",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "77",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "80": {
       "name": "Kathy Landing",
@@ -1231,7 +2221,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1066477145.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1066477145",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 80",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "80",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "50": {
       "name": "Keishan Scott",
@@ -1243,7 +2242,16 @@
       "website": "https://www.scstatehouse.gov/member.php?code=1645738439",
       "source": "openstates",
       "lastUpdated": "2026-03-14",
-      "emailVerified": false
+      "emailVerified": false,
+      "title": "State Representative, District 50",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "50",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "105": {
       "name": "Kevin Hardee",
@@ -1254,7 +2262,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0743749911.jpg",
       "website": "https://kevinhardee.com/",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 105",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "105",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "7": {
       "name": "Lee Gilreath",
@@ -1265,7 +2282,16 @@
       "photoUrl": "https://lirp.cdn-website.com/4c846247/dms3rep/multi/opt/_DSC0892-a9d9c1ff-1920w.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0675852192",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 7",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "108": {
       "name": "Lee Hewitt",
@@ -1276,7 +2302,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0834658991.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0834658991",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 108",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "108",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "42": {
       "name": "Doug Gilliam",
@@ -1287,7 +2322,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0675426055.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0675426055",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 42",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "42",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "76": {
       "name": "Leon Howard",
@@ -1298,7 +2342,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0879545349.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0879545349",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 76",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "76",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "119": {
       "name": "Leon Stavrinakis",
@@ -1309,7 +2362,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1747727063.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1747727063",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 119",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "119",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "91": {
       "name": "Lonnie Hosey",
@@ -1320,7 +2382,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0874999895.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0874999895",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 91",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "91",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "57": {
       "name": "Lucas Atkinson",
@@ -1331,7 +2402,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0066477265.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0066477265",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 57",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "57",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "14": {
       "name": "Luke Rankin",
@@ -1342,7 +2422,16 @@
       "photoUrl": "https://lirp.cdn-website.com/44a83ceb/dms3rep/multi/opt/P1011798-1920w.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1510227092",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 14",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "14",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "30": {
       "name": "Brian Lawson",
@@ -1353,7 +2442,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1067613508.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1067613508",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 30",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "30",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "16": {
       "name": "Mark Willis",
@@ -1364,7 +2462,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1942613404.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1942613404",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 16",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "16",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "99": {
       "name": "Mark Smith",
@@ -1375,7 +2482,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1724999793.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1724999793",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 99",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "99",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "84": {
       "name": "Melissa Oremus",
@@ -1386,7 +2502,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1432386192.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1432386192",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 84",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "84",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "89": {
       "name": "Micah Caskey",
@@ -1397,7 +2522,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0329545415.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0329545415",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 89",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "89",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "121": {
       "name": "Michael Rivers",
@@ -1408,7 +2542,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1564346404.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1564346404",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 121",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "121",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "71": {
       "name": "Nathan Ballentine",
@@ -1419,7 +2562,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0102272715.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0102272715",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 71",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "71",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "5": {
       "name": "Neal Collins",
@@ -1430,7 +2582,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0388636317.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0388636317",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 5",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "19": {
       "name": "Patrick Haddon",
@@ -1441,7 +2602,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0733806731.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0733806731",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 19",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "19",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "22": {
       "name": "Paul Wickensimer",
@@ -1452,7 +2622,16 @@
       "photoUrl": "https://static.wixstatic.com/media/669915_0fcf6e9fdd9e484b959c5ec5b9c80ce2~mv2.jpg/v1/fill/w_489,h_982,al_l,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/669915_0fcf6e9fdd9e484b959c5ec5b9c80ce2~mv2.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1914630453",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 22",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "22",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "87": {
       "name": "Paula Calhoon",
@@ -1463,7 +2642,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0293181783.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0293181783",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 87",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "87",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "3": {
       "name": "Phillip Bowers",
@@ -1474,7 +2662,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Phillip_Bowers.PNG",
       "website": "https://www.scstatehouse.gov/member.php?code=0169318162",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 3",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "60": {
       "name": "Phillip Lowe",
@@ -1485,7 +2682,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1125568047.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1125568047",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 60",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "60",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "53": {
       "name": "Richie Yow",
@@ -1496,7 +2702,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1998863577.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1998863577",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 53",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "53",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "97": {
       "name": "Robby Robbins",
@@ -1507,7 +2722,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1565340722.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1565340722",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 97",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "97",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "36": {
       "name": "Rob Harris",
@@ -1518,7 +2742,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0764772636.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0764772636",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 36",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "36",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "62": {
       "name": "Robert Williams",
@@ -1529,7 +2762,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1942045222.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1942045222",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 62",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "62",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "70": {
       "name": "Robert Reese",
@@ -1540,7 +2782,16 @@
       "photoUrl": "https://i0.wp.com/robertreeseforsc70.com/wp-content/uploads/2024/05/Rob_Marketing_-08-removebg-preview.png?w=408&ssl=1",
       "website": "https://www.scstatehouse.gov/member.php?code=1527840726",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 70",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "70",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "101": {
       "name": "Roger Kirby",
@@ -1551,7 +2802,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1006818061.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1006818061",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 101",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "101",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "31": {
       "name": "Rosalyn Henderson-Myers",
@@ -1562,7 +2822,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0824999901.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0824999901",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 31",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "31",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "34": {
       "name": "Sarita Edgerton",
@@ -1573,7 +2842,16 @@
       "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/SaritaEdgerton2024.jpeg",
       "website": "https://www.scstatehouse.gov/member.php?code=0522159029",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 34",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "34",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "32": {
       "name": "Scott Montgomery",
@@ -1584,7 +2862,16 @@
       "photoUrl": "https://static.wixstatic.com/media/78a712_6c314e5806da4a328efc91387de831c7~mv2.jpg/v1/fill/w_321,h_446,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_6157-Edit.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=1351704384",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 32",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "32",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "72": {
       "name": "Seth Rose",
@@ -1595,7 +2882,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1584090719.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1584090719",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 72",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "72",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "124": {
       "name": "Shannon Erickson",
@@ -1606,7 +2902,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0539772663.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0539772663",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 124",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "124",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "20": {
       "name": "Stephen Frank",
@@ -1617,7 +2922,16 @@
       "photoUrl": "https://votestephenfrank.com/wp-content/uploads/2024/05/430804199_10168719229715314_3862493250670651338_n.jpg",
       "website": "https://www.scstatehouse.gov/member.php?code=0614772654",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 20",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "20",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "37": {
       "name": "Steven Long",
@@ -1628,7 +2942,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1120454411.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1120454411",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 37",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "37",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "100": {
       "name": "Sylleste Davis",
@@ -1639,7 +2962,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0456249946.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0456249946",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 100",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "100",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "18": {
       "name": "Alan Morgan",
@@ -1650,7 +2982,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1374999835.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1374999835",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 18",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "18",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "59": {
       "name": "Terry Alexander",
@@ -1661,7 +3002,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0011363635.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0011363635",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 59",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "59",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "10": {
       "name": "Thomas Beach",
@@ -1672,7 +3022,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0129545439.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0129545439",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 10",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "10",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "107": {
       "name": "Case Brittain",
@@ -1683,7 +3042,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0202272703.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0202272703",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 107",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "107",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "106": {
       "name": "Val Guest",
@@ -1694,7 +3062,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0730113549.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0730113549",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 106",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "106",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "47": {
       "name": "Tommy Pope",
@@ -1705,7 +3082,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1484090731.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1484090731",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 47",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "47",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "110": {
       "name": "Tom Hartnett",
@@ -1716,7 +3102,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0774999907.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0774999907",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 110",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "110",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "43": {
       "name": "Randy Ligon",
@@ -1727,7 +3122,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1087499870.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1087499870",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 43",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "43",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "109": {
       "name": "Tiffany Spann-Wilder",
@@ -1738,7 +3142,16 @@
       "photoUrl": "",
       "website": "https://www.scstatehouse.gov/member.php?code=1742897519",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 109",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "109",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "56": {
       "name": "Tim McGinnis",
@@ -1749,7 +3162,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1256818031.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1256818031",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 56",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "56",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "33": {
       "name": "Travis Moore",
@@ -1760,7 +3182,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1365908927.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1365908927",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 33",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "33",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "63": {
       "name": "Jay Jordan",
@@ -1771,7 +3202,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0957954431.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0957954431",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 63",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "63",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "111": {
       "name": "Wendell Gilliard",
@@ -1782,7 +3222,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0675568101.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0675568101",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 111",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "111",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "25": {
       "name": "Wendell Jones",
@@ -1793,7 +3242,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0953408977.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0953408977",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 25",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "25",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "82": {
       "name": "Bill Clyburn",
@@ -1804,7 +3262,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0363636320.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0363636320",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 82",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "82",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "118": {
       "name": "Bill Herbkersman",
@@ -1815,7 +3282,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0832954446.jpg",
       "website": "https://repbillherbkersman.com/",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 118",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "118",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "104": {
       "name": "William Bailey",
@@ -1826,7 +3302,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0088636353.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0088636353",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 104",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "104",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "35": {
       "name": "Bill Chumley",
@@ -1837,7 +3322,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0351704504.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0351704504",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 35",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "35",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "83": {
       "name": "Bill Hixon",
@@ -1848,7 +3342,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0849715808.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0849715808",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 83",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "83",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "1": {
       "name": "Bill Whitmire",
@@ -1859,7 +3362,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1914204316.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1914204316",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 1",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "122": {
       "name": "Bill Hager",
@@ -1870,7 +3382,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/0733948776.jpg",
       "website": "https://scstatehouse.gov/member.php?code=0733948776",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 122",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "122",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     "120": {
       "name": "Weston Newton",
@@ -1881,7 +3402,16 @@
       "photoUrl": "https://scstatehouse.gov/images/members/1418749830.jpg",
       "website": "https://scstatehouse.gov/member.php?code=1418749830",
       "source": "openstates",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "title": "State Representative, District 120",
+      "office": "state-representative",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "120",
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     }
   },
   "executive": [
@@ -1892,7 +3422,15 @@
       "phone": "(803) 734-2100",
       "website": "https://governor.sc.gov/",
       "source": "governor.sc.gov",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "office": "governor",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     },
     {
       "name": "Pamela Evette",
@@ -1901,7 +3439,15 @@
       "phone": "(803) 734-2080",
       "website": "https://ltgov.sc.gov/",
       "source": "ltgov.sc.gov",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "office": "lt-governor",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "source",
+      "leadership": null,
+      "vacant": false,
+      "partisan": true
     }
   ]
 }

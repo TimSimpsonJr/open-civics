@@ -6,8 +6,8 @@
     "label": "Florence City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "florence_city",
-    "dataHash": "a0d2ec355319232e",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "c1a455517ca0535b",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "lbarnes@cityofflorencesc.gov",
       "phone": "(843) 665-3170",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "George D. Jebaily",
@@ -24,7 +32,15 @@
       "email": "gjebaily@cityofflorencesc.gov",
       "phone": "(843) 319-9900",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Chaquez T. McCall",
@@ -32,7 +48,15 @@
       "email": "cmccall@cityofflorencesc.gov",
       "phone": "(843) 409-8515",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Zach McKay",
@@ -40,7 +64,15 @@
       "email": "zmckay@cityofflorencesc.gov",
       "phone": "(843) 992-8896",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "LaShonda NeSmith-Jackson",
@@ -48,7 +80,15 @@
       "email": "ljackson@cityofflorencesc.gov",
       "phone": "(843) 617-1000",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "J. Lawrence Smith, II",
@@ -56,7 +96,15 @@
       "email": "jlsmith@cityofflorencesc.gov",
       "phone": "(843) 601-8534",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Bryan A. Braddock",
@@ -64,7 +112,15 @@
       "email": "bbraddock@cityofflorencesc.gov",
       "phone": "(843) 992-9534",
       "source": "florencecity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

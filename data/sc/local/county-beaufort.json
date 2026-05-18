@@ -6,8 +6,8 @@
     "label": "Beaufort County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "beaufort_county",
-    "dataHash": "a9f7d33b87e44846",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "62c611132305a69d",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "gdawson@bcgov.net",
       "phone": "(843) 986-7265",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "David Bartholomew",
@@ -24,7 +32,15 @@
       "email": "dbartholomew@bcgov.net",
       "phone": "(843) 986-7430",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "York Glover, Sr.",
@@ -32,7 +48,15 @@
       "email": "yglover@bcgov.net",
       "phone": "(843) 812-2909",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Alice G. Howard",
@@ -40,7 +64,15 @@
       "email": "ahoward@bcgov.net",
       "phone": "(843) 986-7403",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Joseph Passiment",
@@ -48,7 +80,15 @@
       "email": "jpassiment@bcgov.net",
       "phone": "(843) 592-2299",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Anna Maria (Tab) Tabernik",
@@ -56,7 +96,15 @@
       "email": "anna.tabernik@bcgov.net",
       "phone": "(843) 986-7380",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Logan Cunningham",
@@ -64,7 +112,15 @@
       "email": "logan.cunningham@bcgov.net",
       "phone": "(843) 986-4772",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Paula Brown",
@@ -72,7 +128,15 @@
       "email": "rcaporale@bcgov.net",
       "phone": "(843) 941-9936",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Mark Lawson",
@@ -80,7 +144,15 @@
       "email": "markl@bcgov.net",
       "phone": "(843) 986-7045",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Lawrence P. McElynn",
@@ -88,7 +160,15 @@
       "email": "lawrencem@bcgov.net",
       "phone": "(843) 941-3519",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "10",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Thomas Reitz",
@@ -96,7 +176,15 @@
       "email": "thomas.reitz@bcgov.net",
       "phone": "(843) 941-3931",
       "source": "beaufortcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "11",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

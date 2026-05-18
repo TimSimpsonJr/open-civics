@@ -6,8 +6,8 @@
     "label": "Hilton Head Island Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "hilton_head",
-    "dataHash": "c67eab39d8b9892e",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "40260da2c21c0098",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "AlanP@hiltonheadislandsc.gov",
       "phone": "(843) 384-2895",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Alex Brown",
@@ -24,7 +32,15 @@
       "email": "AlexB@hiltonheadislandsc.gov",
       "phone": "(843) 290-5943",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "numbered",
+      "seatLabel": "ward",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Patsy Brison",
@@ -32,7 +48,15 @@
       "email": "PatsyB@hiltonheadislandsc.gov",
       "phone": "(843) 384-4181",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "ward",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Steve DeSimone",
@@ -40,7 +64,15 @@
       "email": "SteveD@hiltonheadislandsc.gov",
       "phone": "(854) 272-7115",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "ward",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tamara Becker",
@@ -48,7 +80,15 @@
       "email": "TamaraB@hiltonheadislandsc.gov",
       "phone": "(843) 816-6372",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "ward",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Steve Alfred",
@@ -56,7 +96,15 @@
       "email": "SteveA@hiltonheadislandsc.gov",
       "phone": "(843) 384-2421",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "ward",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Melinda Tunner",
@@ -64,7 +112,15 @@
       "email": "MelindaT@hiltonheadislandsc.gov",
       "phone": "(854) 272-7114",
       "source": "hiltonhead",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "ward",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

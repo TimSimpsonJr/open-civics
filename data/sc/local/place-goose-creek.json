@@ -6,8 +6,8 @@
     "label": "Goose Creek City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "goose_creek",
-    "dataHash": "31d5b51cff2ef191",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "c11751a271d36a2a",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "ghabib@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jerry Tekac",
@@ -24,7 +32,15 @@
       "email": "jtekac@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Christopher Harmon",
@@ -32,7 +48,15 @@
       "email": "charmon@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Corey McClary",
@@ -40,7 +64,15 @@
       "email": "cmclary@goosecreeksc.gov",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Debra Green-Fletcher",
@@ -48,7 +80,15 @@
       "email": "dgreen-fletcher@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Gayla McSwain",
@@ -56,7 +96,15 @@
       "email": "gmcswain@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Melissa Enos-Sims",
@@ -64,7 +112,15 @@
       "email": "menos@cityofgoosecreek.com",
       "phone": "(843) 797-6220",
       "source": "goosecreek",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     }
   ]
 }

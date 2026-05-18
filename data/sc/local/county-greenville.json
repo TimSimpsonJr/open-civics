@@ -6,8 +6,8 @@
     "label": "Greenville County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "greenville_county",
-    "dataHash": "9d0143869f87b2b3",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "07b90d892ffe5293",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "JRusso@greenvillecounty.org",
       "phone": "(864) 483-0689",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "17",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Kelly Long",
@@ -24,7 +32,15 @@
       "email": "KeLong@greenvillecounty.org",
       "phone": "(864) 410-6172",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "18",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Benton Blount",
@@ -32,7 +48,15 @@
       "email": "BBlount@greenvillecounty.org",
       "phone": "(864) 483-2474",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "19",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Steve Shaw",
@@ -40,7 +64,15 @@
       "email": "SShaw@greenvillecounty.org",
       "phone": "(864) 553-9713",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "20",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Curt McGahhey",
@@ -48,7 +80,15 @@
       "email": "CMcGahhey@greenvillecounty.org",
       "phone": "(864) 398-0721",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "21",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Frank Farmer",
@@ -56,7 +96,15 @@
       "email": "FFarmer@greenvillecounty.org",
       "phone": "(864) 398-0880",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "22",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Alan Mitchell",
@@ -64,7 +112,15 @@
       "email": "AMitchell@greenvillecounty.org",
       "phone": "(864) 483-6952",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "23",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Liz Seman",
@@ -72,7 +128,15 @@
       "email": "LSeman@greenvillecounty.org",
       "phone": "(864) 501-4126",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "24",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Ennis Fant, Sr.",
@@ -80,7 +144,15 @@
       "email": "efant@greenvillecounty.org",
       "phone": "(864) 483-2433",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "25",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Rick Bradley",
@@ -88,7 +160,15 @@
       "email": "RBradley@greenvillecounty.org",
       "phone": "(864) 483-3090",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "26",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Garey Collins",
@@ -96,7 +176,15 @@
       "email": "GCollins@greenvillecounty.org",
       "phone": "(864) 398-2709",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "27",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dan Tripp",
@@ -104,7 +192,15 @@
       "email": "DTripp@greenvillecounty.org",
       "phone": "(864) 915-9212",
       "source": "greenvillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "28",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

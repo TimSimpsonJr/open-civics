@@ -6,8 +6,8 @@
     "label": "Abbeville County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "abbeville_county",
-    "dataHash": "37e9610b760250f3",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "2cbcb98e382e8a82",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-2893",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Brandon Johnson",
@@ -24,7 +32,15 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-2902",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Charles H. Goodwin",
@@ -32,7 +48,15 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 378-0072",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "William C. “Billy” Norris",
@@ -40,7 +64,15 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 378-7208",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "James P. McCord",
@@ -48,7 +80,15 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 828-2359",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Trent Taylor",
@@ -56,7 +96,15 @@
       "email": "info@abbevillecountysc.com",
       "phone": "(864) 548-0794",
       "source": "abbevillecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

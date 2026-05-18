@@ -6,8 +6,8 @@
     "label": "Chester County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "chester_county",
-    "dataHash": "8a578a6b75248680",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "3433a2037125fa11",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "jagee@chestercountysc.gov",
       "phone": "(803) 235-1332",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Roy Brunson",
@@ -24,7 +32,15 @@
       "email": "rbrunson@chestercountysc.gov",
       "phone": "(803) 899-1790",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Bobby Raines",
@@ -32,7 +48,15 @@
       "email": "braines@chestercountysc.gov",
       "phone": "(803) 899-4713",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Pete Wilson",
@@ -40,7 +64,15 @@
       "email": "pwilson@chestercountysc.gov",
       "phone": "(803) 385-7695",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Corey Guy",
@@ -48,7 +80,15 @@
       "email": "cguy@chestercountysc.gov",
       "phone": "(803) 899-1408",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "William Killian",
@@ -56,7 +96,15 @@
       "email": "wbkillian@chestercountysc.gov",
       "phone": "(803) 209-5150",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Erin Mosley",
@@ -64,7 +112,15 @@
       "email": "emosley@chestercountysc.gov",
       "phone": "(803) 899-4119",
       "source": "chestercounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

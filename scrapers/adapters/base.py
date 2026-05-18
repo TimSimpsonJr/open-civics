@@ -4,6 +4,8 @@ import abc
 import re
 from datetime import date
 
+from ..normalize import normalize_member, NormalizationContext
+
 
 def deobfuscate_cf_email(encoded: str) -> str:
     """Decode a Cloudflare-obfuscated email address.
@@ -63,11 +65,21 @@ class BaseAdapter(abc.ABC):
         Default passes through with required metadata fields.
         """
         today = date.today().isoformat()
+        jid = self.entry.get("id", "")
+        jtype = "county" if jid.startswith("county:") else "place" if jid.startswith("place:") else None
+        hints = self.entry.get("councilDefaults")
+        ctx = NormalizationContext(
+            level="local",
+            jurisdiction_type=jtype,
+            jurisdiction_id=jid,
+            registry_hints=hints,
+        )
         for record in raw:
             record.setdefault("source", self.adapter_name())
             record.setdefault("lastUpdated", today)
             if record.get("phone"):
                 record["phone"] = normalize_phone(record["phone"])
+            normalize_member(record, ctx)
         return raw
 
     def validate(self, records: list[dict]) -> list[dict]:

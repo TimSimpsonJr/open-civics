@@ -6,8 +6,8 @@
     "label": "Richland County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "richland_county",
-    "dataHash": "d2509870feb24130",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "37cb9d4b02ef1fd1",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "branham.jason@richlandcountysc.gov",
       "phone": "(803) 542-0002",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Derrek Pugh",
@@ -24,7 +32,15 @@
       "email": "pugh.derrek@richlandcountysc.gov",
       "phone": "(803) 977-4339",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Tyra Little",
@@ -32,7 +48,15 @@
       "email": "little.tyra@richlandcountysc.gov",
       "phone": "(803) 422-0203",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Paul Livingston",
@@ -40,7 +64,15 @@
       "email": "livingston.paul@richlandcountysc.gov",
       "phone": "(803) 576-5463",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Allison Terracio",
@@ -48,7 +80,15 @@
       "email": "terracio.allison@richlandcountysc.gov",
       "phone": "(803) 622-6029",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Don Weaver",
@@ -56,7 +96,15 @@
       "email": "weaver.don@richlandcountysc.gov",
       "phone": "(803) 995-3703",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Gretchen D. Cooper",
@@ -64,7 +112,15 @@
       "email": "cooper.gretchen@richlandcountysc.gov",
       "phone": "(803) 977-4337",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tish Dozier Alleyne",
@@ -72,7 +128,15 @@
       "email": "alleyne.tish@richlandcountysc.gov",
       "phone": "(803) 457-2597",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jesica Mackey",
@@ -80,7 +144,15 @@
       "email": "mackey.jesica@richlandcountysc.gov",
       "phone": "(803) 977-4338",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Cheryl English",
@@ -88,7 +160,15 @@
       "email": "english.cheryl@richlandcountysc.gov",
       "phone": "(803) 949-0770",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "10",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Chakisse Newton",
@@ -96,7 +176,15 @@
       "email": "newton.chakisse@richlandcountysc.gov",
       "phone": "(803) 973-9652",
       "source": "richlandcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "11",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

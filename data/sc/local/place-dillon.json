@@ -6,8 +6,8 @@
     "label": "Dillon City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "dillon_city",
-    "dataHash": "9bf6e44db716f002",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "1e00ff4c950df32a",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(843) 774-0040",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Timothy Cousar",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Danielle M.  Smith",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "L. Carl \"Chip\" Huggins",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Douglas Jackson",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "James W. David",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dr. Phil Wallace, M.D.",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "dilloncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

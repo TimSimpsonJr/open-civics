@@ -6,8 +6,8 @@
     "label": "Beaufort City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "civicplus",
-    "dataHash": "c88fc12d4882394c",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "3b684e5c63ca90f7",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "pcromer@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Josh Scallate",
@@ -24,7 +32,15 @@
       "email": "pscallate@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Mike McFee",
@@ -32,7 +48,15 @@
       "email": "mmcfee@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Mitch Mitchell",
@@ -40,7 +64,15 @@
       "email": "mmitchell@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     },
     {
       "name": "Neil Lipsitz",
@@ -48,7 +80,15 @@
       "email": "nlipsitz@cityofbeaufort.org",
       "phone": "(843) 525-7070",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "inferred-registry",
+      "partisan": false
     }
   ]
 }

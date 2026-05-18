@@ -6,8 +6,8 @@
     "label": "Saluda County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "saluda_county",
-    "dataHash": "67dd183345017262",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "41253576c3c77249",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "j.moore@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "James Frank Daniel, Sr.",
@@ -24,7 +32,15 @@
       "email": "f.daniel@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "John W. \"Jack\" Atkinson",
@@ -32,7 +48,15 @@
       "email": "j.atkinson@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Justin Anderson",
@@ -40,7 +64,15 @@
       "email": "j.anderson@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "J. Carey Bedenbaugh",
@@ -48,7 +80,15 @@
       "email": "c.bedenbaugh@saludacounty.sc.gov",
       "phone": "",
       "source": "saludacounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

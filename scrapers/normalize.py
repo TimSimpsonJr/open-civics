@@ -1,0 +1,236 @@
+"""Centralized normalization of seat semantics into structured fields.
+
+Called from both BaseAdapter.normalize() (locals) and scrapers/state.py
+(state legislators and executive) so the same logic produces the same
+structured fields regardless of source.
+
+See docs/plans/2026-05-16-data-model-normalization-design.md for the
+schema definition and the four-stage precedence model.
+"""
+
+import re
+from dataclasses import dataclass
+from typing import Literal, Optional
+
+from .seat_overrides import SEAT_OVERRIDES
+
+
+@dataclass
+class NormalizationContext:
+    """Context passed into normalize_member from the caller."""
+    level: Literal["state", "local"]
+    chamber: Optional[Literal["senate", "house", "executive"]] = None
+    jurisdiction_type: Optional[Literal["county", "place"]] = None
+    jurisdiction_id: Optional[str] = None
+    registry_hints: Optional[dict] = None  # e.g. {"seatClass": "at-large", "partisan": False}
+
+
+# Stage 2: title parsing patterns
+_WORD_NUMS = {
+    "one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
+    "six": "6", "seven": "7", "eight": "8", "nine": "9", "ten": "10",
+    "eleven": "11", "twelve": "12", "thirteen": "13", "fourteen": "14",
+    "fifteen": "15", "sixteen": "16", "seventeen": "17", "eighteen": "18",
+    "nineteen": "19", "twenty": "20",
+}
+
+_WORD_SEAT_RE = re.compile(
+    r"\b(District|Ward|Seat)\s+(" + "|".join(_WORD_NUMS.keys()) + r")\b",
+    re.IGNORECASE,
+)
+
+_NUMERIC_SEAT_RE = re.compile(
+    r"\b(District|Ward|Seat)\s+(?:Number\s+)?(\d+)\b",
+    re.IGNORECASE,
+)
+_PREFIX_DISTRICT_RE = re.compile(
+    r"^District\s+(?:Number\s+)?(\d+)\b",
+    re.IGNORECASE,
+)
+_AT_LARGE_RE = re.compile(r"\bAt[\s-]?Large\b", re.IGNORECASE)
+_MAYOR_PRO_TEM_RE = re.compile(r"^Mayor\s+Pro[\s-]?Tem\b", re.IGNORECASE)
+_MAYOR_RE = re.compile(r"^Mayor\b", re.IGNORECASE)
+_VACANT_RE = re.compile(r"^Vacant\b\s*(.*)$", re.IGNORECASE)
+
+
+def _parse_title(title: str) -> dict:
+    """Extract structured seat fields from a free-text title.
+
+    Returns a dict of fields the title could determine. Does not set
+    seatSource — the caller decides that based on whether the title
+    parse actually contributed.
+    """
+    out = {}
+
+    # Mayor Pro Tem must beat Mayor (more specific prefix wins)
+    if _MAYOR_PRO_TEM_RE.match(title):
+        out["office"] = "council-member"
+        out["leadership"] = "mayor-pro-tem"
+        # Continue parsing for embedded seat (e.g., "Mayor Pro Tem, District 2")
+    elif _MAYOR_RE.match(title):
+        out["office"] = "mayor"
+        out["leadership"] = None
+        out["seatClass"] = "at-large"
+        out["seatLabel"] = None
+        out["seatId"] = None
+        return out
+
+    # Vice Chair must beat Chair (more specific prefix wins)
+    if re.search(r"\bVice[\s-]?Chair(?:man)?\b", title, re.IGNORECASE):
+        out["office"] = "council-member"
+        out["leadership"] = "vice-chair"
+        # Fall through for embedded seat parsing below
+    elif re.search(r"\bChair(?:man)?\b", title, re.IGNORECASE):
+        out["office"] = "council-member"
+        out["leadership"] = "chair"
+        # Fall through for embedded seat parsing below
+
+    # Plain "Council Member" / "Councilman" with embedded seat info: set office
+    # here so the early-return seat branches below preserve it. Mirrors the
+    # leadership branches above which set office and fall through.
+    if "office" not in out and re.search(r"council(?:man)?", title, re.IGNORECASE):
+        out["office"] = "council-member"
+
+    # At-large beats incidental numeric matches (e.g. "Council Member 1, At-Large")
+    if _AT_LARGE_RE.search(title):
+        out["seatClass"] = "at-large"
+        out["seatLabel"] = None
+        out["seatId"] = None
+        return out
+
+    # Prefix form: "District Number 3 - Councilman"
+    m = _PREFIX_DISTRICT_RE.match(title)
+    if m:
+        out["seatClass"] = "numbered"
+        out["seatLabel"] = "district"
+        out["seatId"] = m.group(1)
+        return out
+
+    # Embedded form: "Council Member, District 17" / "Ward 3" / "Seat 5"
+    m = _NUMERIC_SEAT_RE.search(title)
+    if m:
+        out["seatClass"] = "numbered"
+        out["seatLabel"] = m.group(1).lower()
+        out["seatId"] = m.group(2)
+        return out
+
+    # Word-form: "District One" / "Ward Four" / "District Twelve"
+    m = _WORD_SEAT_RE.search(title)
+    if m:
+        out["seatClass"] = "numbered"
+        out["seatLabel"] = m.group(1).lower()
+        out["seatId"] = _WORD_NUMS[m.group(2).lower()]
+        return out
+
+    # Default seat fields when title yielded an office but no seat info.
+    # This catches "Chairman" / "Vice Chairman" / "Mayor Pro Tem" with no
+    # embedded district, and the plain "Council Member" case below.
+    if "seatClass" not in out:
+        if "office" not in out:
+            # Title is empty, plain "Council Member", or otherwise unrecognized.
+            # Default to council-member with unknown seat.
+            if re.search(r"council(?:man)?", title, re.IGNORECASE) or not title:
+                out["office"] = "council-member"
+                out["leadership"] = None
+        # Whether office was set above or by an earlier branch, fill seat fields as unknown.
+        if "office" in out:
+            out["seatClass"] = "unknown"
+            out["seatLabel"] = None
+            out["seatId"] = None
+
+    # If we set office but no leadership, leadership defaults to None
+    if "office" in out and "leadership" not in out:
+        out["leadership"] = None
+
+    return out
+
+
+def normalize_member(record: dict, ctx: NormalizationContext) -> dict:
+    """Fill missing structured seat fields on a member record.
+
+    Four-stage precedence (see design doc §"Layered precedence"):
+        1. Explicit source fields (gap-fill, highest non-override)
+        2. Title parsing (gap-fill)
+        3. Registry defaults (gap-fill, only for unknown seatClass)
+        4. Manual overrides (override-anything)
+
+    Returns the same dict, mutated in place.
+    """
+    # Vacancy detection: if name starts with "Vacant", set vacant=True and
+    # parse the rest of the name as a synthetic title for seat extraction.
+    name = record.get("name", "") or ""
+    m = _VACANT_RE.match(name)
+    if m:
+        record["vacant"] = True
+        remainder = m.group(1).strip()
+        existing_title = (record.get("title") or "").strip()
+        if remainder and (not existing_title or existing_title == "Council Member"):
+            # If no real title or title is generic, treat the name remainder as the title
+            title = remainder
+        else:
+            title = existing_title or remainder
+    else:
+        record.setdefault("vacant", False)
+        title = record.get("title", "") or ""
+
+    # Stage 2: title parsing fills any structured fields not already set
+    parsed = _parse_title(title)
+    filled_from_parse = False
+    for field in ("office", "leadership", "seatClass", "seatLabel", "seatId"):
+        if field not in record and field in parsed:
+            record[field] = parsed[field]
+            filled_from_parse = True
+
+    if filled_from_parse and "seatSource" not in record:
+        record["seatSource"] = "parsed-title"
+
+    # Stage 3: registry defaults fill remaining unknown fields only.
+    # Critically: a registry hint of seatClass: at-large does NOT overwrite
+    # a numbered seatClass produced by title parsing. It only promotes unknown.
+    hints = ctx.registry_hints or {}
+    promoted_from_registry = False
+
+    if record.get("seatClass") == "unknown" and hints.get("seatClass"):
+        record["seatClass"] = hints["seatClass"]
+        if hints["seatClass"] == "at-large":
+            record["seatLabel"] = None
+            record["seatId"] = None
+        promoted_from_registry = True
+
+    if "partisan" not in record and "partisan" in hints:
+        record["partisan"] = hints["partisan"]
+
+    if promoted_from_registry:
+        record["seatSource"] = "inferred-registry"
+
+    # Stage 4: manual overrides — the ONLY stage that overwrites existing values
+    if ctx.jurisdiction_id:
+        key = (ctx.jurisdiction_id, record.get("name", ""))
+        override = SEAT_OVERRIDES.get(key)
+        if override:
+            for field, value in override.items():
+                record[field] = value
+            record["seatSource"] = "manual"
+
+    # Final defaults: ensure all required fields are set.
+    record.setdefault("leadership", None)
+    record.setdefault("vacant", False)
+    if "partisan" not in record:
+        record["partisan"] = True if ctx.level == "state" else False
+    # office must be set somewhere — if not, infer from level/chamber.
+    # For locals, default to council-member: this catches titles like
+    # "Chaplain, District 2" or "Sanitation Commissioner, District 3" where
+    # title parsing extracts the seat but the office isn't a recognized
+    # keyword. The validator requires office on every record.
+    if "office" not in record:
+        if ctx.level == "state":
+            if ctx.chamber == "senate":
+                record["office"] = "state-senator"
+            elif ctx.chamber == "house":
+                record["office"] = "state-representative"
+        elif ctx.level == "local":
+            record["office"] = "council-member"
+    # seatSource fallback if nothing set it
+    record.setdefault("seatSource", "source")
+
+    return record

@@ -22,6 +22,8 @@ open-civics/
 │   ├── state.py                   # OpenStates CSV download + phone backfill + executive scraping
 │   ├── boundaries.py              # Census TIGER/Line + ArcGIS boundary downloader/simplifier
 │   ├── state_email_rules.py       # Per-state email format conventions for backfill
+│   ├── normalize.py               # Seat-field normalization: office/leadership/seatClass/seatLabel/seatId/vacant/seatSource/partisan (v0.2+)
+│   ├── seat_overrides.py          # Per-record manual seat-field overrides keyed by (jurisdiction, name) (v0.2+)
 │   └── adapters/                  # Per-site scraper adapters (~68 files)
 │       ├── base.py                # Abstract base: fetch → parse → normalize → validate + get_contact()
 │       ├── civicplus.py           # Config-driven CivicPlus staff directory scraper (14 jurisdictions)
@@ -96,4 +98,7 @@ open-civics/
 - `MascAdapter` and `ScacAdapter` provide fallback data for WAF-blocked municipal/county sites
 - Dead-end adapters override `get_contact()` to provide city hall phone as `meta.contact` fallback
 - `state.py` `scrape_executive()` adds Governor + Lt. Gov to `state.json` after legislature scrape
+- `normalize.py` is called from both `adapters/base.py` `BaseAdapter.normalize()` (local council members) and `scrapers/state.py` (state legislators + executive), producing the same structured seat-field shape across all record types
+- `normalize.py` consults `seat_overrides.py` for per-record patches and reads `councilDefaults` blocks from `registry.json` for jurisdiction-wide hints (e.g., all-at-large councils)
+- `validate.py` enforces the v0.2 schema: required seat fields, enum values, and cross-field invariants (e.g., `seatClass=at-large` ⇒ `seatId=null`)
 - Coverage: 96/96 SC jurisdictions automated (100%), 88/96 with executive (91%), 70 email / 71 phone

@@ -6,8 +6,8 @@
     "label": "Dorchester County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "scac",
-    "dataHash": "a0de5c7c53a53adf",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "5d50c5a4cf50976f",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "",
       "phone": "(843) 801-2326",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Rita May Ranck",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "(843) 955-9708",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Edward Crosby",
@@ -32,7 +48,15 @@
       "email": "",
       "phone": "(843) 832-0196",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "James Byars",
@@ -40,7 +64,15 @@
       "email": "",
       "phone": "(843) 832-0196",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Peter Smith",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "(843) 853-1174",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "S. Todd Friddle",
@@ -56,7 +96,15 @@
       "email": "",
       "phone": "(843) 805-2258",
       "source": "scac",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

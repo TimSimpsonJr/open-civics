@@ -6,8 +6,8 @@
     "label": "Marion City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "marion_city",
-    "dataHash": "58a540e101a5db35",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "bc17737a201a0333",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(843) 423-5961",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Emerson Hunt",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Donny Gerald",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Ronald Atkinson",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Fred Gause",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tassie Lewis",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Michael Baker",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "marioncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

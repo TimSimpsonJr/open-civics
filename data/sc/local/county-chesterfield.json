@@ -6,8 +6,8 @@
     "label": "Chesterfield County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "chesterfield_county",
-    "dataHash": "319f9bbc947c2fdf",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "f8eedbbf09748c83",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(843) 623-3945",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Dr. Lawrance Brand",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Ethan T. Foard",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Douglas A. Curtis",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Donald E. Kirkley",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Hattie Burns",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "William Todd Smallwood",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Mary D. Anderson",
@@ -77,7 +133,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "8",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Bishop, Dr. Johnnie McLendon",
@@ -85,7 +149,15 @@
       "email": "",
       "phone": "",
       "source": "chesterfieldcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "9",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

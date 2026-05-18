@@ -6,8 +6,8 @@
     "label": "Oconee County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "oconee_county",
-    "dataHash": "21a0ef8e31860085",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "98e171c5d205d714",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "district1@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Matthew Durham",
@@ -24,7 +32,15 @@
       "email": "district2@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Don Mize",
@@ -32,7 +48,15 @@
       "email": "district3@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Thomas James",
@@ -40,7 +64,15 @@
       "email": "district4@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "James Glenn Hart",
@@ -48,7 +80,15 @@
       "email": "district5@oconeesc.com",
       "phone": "(864) 718-1023",
       "source": "oconeecounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

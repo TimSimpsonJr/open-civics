@@ -6,8 +6,8 @@
     "label": "York County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "york_county",
-    "dataHash": "239e22ea9983b4f7",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "0a5f928d9b418e61",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "",
       "phone": "(704) 408-6155",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Andy Litten",
@@ -24,7 +32,15 @@
       "email": "",
       "phone": "",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tommy Adkins",
@@ -32,7 +48,15 @@
       "email": "",
       "phone": "(803) 628-8328",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "William \"Bump\" Roddey",
@@ -40,7 +64,15 @@
       "email": "",
       "phone": "(803) 984-8033",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Christi Cox",
@@ -48,7 +80,15 @@
       "email": "",
       "phone": "(803) 630-9526",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Watts Huckabee",
@@ -56,7 +96,15 @@
       "email": "",
       "phone": "",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Debi Cloninger",
@@ -64,7 +112,15 @@
       "email": "",
       "phone": "(803) 965-8393",
       "source": "yorkcounty",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

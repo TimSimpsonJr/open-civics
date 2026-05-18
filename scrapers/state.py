@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from .adapters.base import normalize_phone
+from .normalize import NormalizationContext, normalize_member
 from .state_email_rules import generate_email
 
 HEADERS = {"User-Agent": "OpenCivics/1.0 (+https://github.com/TimSimpsonJr/open-civics)"}
@@ -40,11 +41,28 @@ def download_csv(url: str) -> list[dict]:
     return rows
 
 
-def normalize_row(row: dict) -> dict:
+def normalize_row(row: dict, chamber: str = "") -> dict:
     """Convert an OpenStates CSV row to our unified schema."""
+    district = row.get("current_district", "").strip()
+    office_map = {"upper": "state-senator", "lower": "state-representative"}
+    office = office_map.get(chamber, "")
+    title_map = {
+        "upper": f"State Senator, District {district}",
+        "lower": f"State Representative, District {district}",
+    }
     record = {
         "name": row.get("name", "").strip(),
-        "district": row.get("current_district", "").strip(),
+        "title": title_map.get(chamber, ""),
+        "office": office,
+        "district": district,
+        # Stage-1 structured seat fields from the OpenStates CSV column.
+        "seatClass": "numbered" if district else "unknown",
+        "seatLabel": "district" if district else None,
+        "seatId": district if district else None,
+        "seatSource": "source",
+        "leadership": None,
+        "vacant": False,
+        "partisan": True,
         "party": _abbreviate_party(row.get("current_party", "")),
         "email": row.get("email", "").strip(),
         "phone": normalize_phone(row.get("capitol_voice", "")),
@@ -60,6 +78,9 @@ def normalize_row(row: dict) -> dict:
     if row.get("facebook", "").strip():
         record["facebook"] = row["facebook"].strip()
 
+    chamber_norm = {"upper": "senate", "lower": "house"}.get(chamber)
+    ctx = NormalizationContext(level="state", chamber=chamber_norm)
+    normalize_member(record, ctx)
     return record
 
 
@@ -131,12 +152,28 @@ def scrape_executive(state_code: str) -> list[dict]:
         print(f"  Executive scraping not implemented for {state_code}")
         return []
 
+    def _preset_executive_fields(rec: dict, office: str):
+        """Stage-1 seat field population for executive officers."""
+        rec["office"] = office
+        rec.setdefault("seatClass", "at-large")
+        rec.setdefault("seatLabel", None)
+        rec.setdefault("seatId", None)
+        rec.setdefault("seatSource", "source")
+        rec.setdefault("leadership", None)
+        rec.setdefault("vacant", False)
+        rec.setdefault("partisan", True)
+
+    ctx = NormalizationContext(level="state", chamber="executive")
     executives = []
     gov = _scrape_sc_governor()
     if gov:
+        _preset_executive_fields(gov, "governor")
+        normalize_member(gov, ctx)
         executives.append(gov)
     lt_gov = _scrape_sc_lt_governor()
     if lt_gov:
+        _preset_executive_fields(lt_gov, "lt-governor")
+        normalize_member(lt_gov, ctx)
         executives.append(lt_gov)
     return executives
 
@@ -253,7 +290,7 @@ def update_state_legislators(
         if not district:
             continue
 
-        record = normalize_row(row)
+        record = normalize_row(row, chamber=row.get("current_chamber", ""))
 
         if chamber == "upper":
             senate[district] = record

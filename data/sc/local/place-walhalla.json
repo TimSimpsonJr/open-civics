@@ -6,8 +6,8 @@
     "label": "Walhalla City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "walhalla_city",
-    "dataHash": "1181dc53ef7cb4f8",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "153d97d0ff773649",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "thall@cityofwalhalla.com",
       "phone": "(864) 710-6848",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Josh Holliday",
@@ -24,7 +32,15 @@
       "email": "jholliday@cityofwalhalla.com",
       "phone": "",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Lynn McClain",
@@ -32,7 +48,15 @@
       "email": "lmcclain@cityofwalhalla.com",
       "phone": "",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jessie Bunning",
@@ -40,7 +64,15 @@
       "email": "jbunning@cityofwalhalla.com",
       "phone": "",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Sarai Melendez",
@@ -48,7 +80,15 @@
       "email": "saraimelendez@cityofwalhalla.com",
       "phone": "",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Chris Grant",
@@ -56,7 +96,15 @@
       "email": "cgrant@cityofwalhalla.com",
       "phone": "",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "David Underwood",
@@ -64,7 +112,15 @@
       "email": "dunderwood@cityofwalhalla.com",
       "phone": "",
       "source": "walhallacity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": null,
+      "seatClass": "unknown",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

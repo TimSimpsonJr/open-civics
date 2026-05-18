@@ -6,8 +6,8 @@
     "label": "Williamsburg County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "civicplus",
-    "dataHash": "641415d5bec3cf3d",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "150edddad7eea9dd",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "joseph.lee@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Torrance T. Wilson",
@@ -24,7 +32,15 @@
       "email": "torrance.wilson@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Randall Nesmith",
@@ -32,7 +48,15 @@
       "email": "Randall.Nesmith@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Glenn A. Keels",
@@ -40,7 +64,15 @@
       "email": "gakeels@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Paul McKnight",
@@ -48,7 +80,15 @@
       "email": "paul.mcknight@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Samuel L. Floyd",
@@ -56,7 +96,15 @@
       "email": "sam.floyd@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Jackie Hailes",
@@ -64,7 +112,15 @@
       "email": "jhailes@wc.sc.gov",
       "phone": "(843) 355-9321",
       "source": "civicplus",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

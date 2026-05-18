@@ -6,8 +6,8 @@
     "label": "Calhoun County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "table",
-    "dataHash": "b46eb5641e98bba3",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "7f255113eeabd5ea",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "jhaigler@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Ken Westbury",
@@ -24,7 +32,15 @@
       "email": "kwestbury@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Richard Carson",
@@ -32,7 +48,15 @@
       "email": "rcarson@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Rebecca A. Bonnette",
@@ -40,7 +64,15 @@
       "email": "rbonnette@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Cecil M. Thornton, Jr.",
@@ -48,7 +80,15 @@
       "email": "cthornton@calhouncounty.sc.gov",
       "phone": "",
       "source": "table",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "vice-chair",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "partisan": false
     }
   ]
 }

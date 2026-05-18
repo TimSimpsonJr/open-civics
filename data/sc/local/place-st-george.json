@@ -6,8 +6,8 @@
     "label": "St. George Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "st_george",
-    "dataHash": "63363ca3c74b7b8e",
-    "dataLastChanged": "2026-03-14",
+    "dataHash": "f38ae3ae58c3bdfc",
+    "dataLastChanged": "2026-05-17",
     "contact": {
       "phone": "(843) 563-3032",
       "email": "",
@@ -21,7 +21,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Betty Collins",
@@ -29,7 +37,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Margie Ladson",
@@ -37,7 +53,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Wil Lindsey",
@@ -45,7 +69,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Ruthie Sojourner Tripp",
@@ -53,7 +85,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Darrell Hinton",
@@ -61,7 +101,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "James Herndon",
@@ -69,7 +117,15 @@
       "email": "",
       "phone": "",
       "source": "stgeorge",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

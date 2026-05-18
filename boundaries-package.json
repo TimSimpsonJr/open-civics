@@ -1,6 +1,6 @@
 {
   "name": "open-civics-boundaries",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "US legislative district boundary GeoJSON for client-side matching",
   "license": "MIT",
   "repository": {

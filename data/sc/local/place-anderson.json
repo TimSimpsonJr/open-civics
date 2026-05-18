@@ -6,8 +6,8 @@
     "label": "Anderson City Council",
     "lastUpdated": "2026-03-14",
     "adapter": "anderson_city",
-    "dataHash": "8085227235abfdf5",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "0f9986d96bbf68c3",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "troberts@cityofandersonsc.com",
       "phone": "",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Jeffrey D. Roberts",
@@ -24,7 +32,15 @@
       "email": "jeffroberts@cityofandersonsc.com",
       "phone": "(864) 226-8837",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "leadership": "mayor-pro-tem",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Kyle L. Newton",
@@ -32,7 +48,15 @@
       "email": "knewton@cityofandersonsc.com",
       "phone": "(864) 712-5725",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Tony Stewart",
@@ -40,7 +64,15 @@
       "email": "tstewart@cityofandersonsc.com",
       "phone": "(864) 915-1122",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Beatrice R. Thompson",
@@ -48,7 +80,15 @@
       "email": "bthompson@cityofandersonsc.com",
       "phone": "(864) 224-1990",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Greg Steele",
@@ -56,7 +96,15 @@
       "email": "gsteele@cityofandersonsc.com",
       "phone": "(864) 651-2351",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "seat",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Matthew C. Harbin",
@@ -64,7 +112,15 @@
       "email": "mharbin@cityofandersonsc.com",
       "phone": "(864) 376-4968",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "John M. Roberts",
@@ -72,7 +128,15 @@
       "email": "jroberts@cityofandersonsc.com",
       "phone": "(864) 261-1311",
       "source": "andersoncity",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }

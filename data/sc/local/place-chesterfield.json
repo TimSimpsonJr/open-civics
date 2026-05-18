@@ -6,8 +6,8 @@
     "label": "Chesterfield Town Council",
     "lastUpdated": "2026-03-14",
     "adapter": "chesterfield_town",
-    "dataHash": "da0ab657d1bed7ae",
-    "dataLastChanged": "2026-03-14"
+    "dataHash": "c48b7c82ac7036d7",
+    "dataLastChanged": "2026-05-17"
   },
   "members": [
     {
@@ -16,7 +16,15 @@
       "email": "cfmayorjb@shtc.net",
       "phone": "(843) 623-9114",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "mayor",
+      "leadership": null,
+      "seatClass": "at-large",
+      "seatLabel": null,
+      "seatId": null,
+      "seatSource": "parsed-title",
+      "partisan": false
     },
     {
       "name": "Latonya Myers",
@@ -24,7 +32,15 @@
       "email": "lrmyers2001@yahoo.com",
       "phone": "(843) 287-1950",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Lyndy Hudson",
@@ -32,7 +48,15 @@
       "email": "lhudson29709@yahoo.com",
       "phone": "(843) 680-0591",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Derek Watson",
@@ -40,7 +64,15 @@
       "email": "derekwatson2005@yahoo.com",
       "phone": "(843) 623-4446",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Nikki Cassidy",
@@ -48,7 +80,15 @@
       "email": "ncassidy0308@gmail.com",
       "phone": "(843) 337-6081",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Fred D. Rivers",
@@ -56,7 +96,15 @@
       "email": "frddrivers@gmail.com",
       "phone": "(843) 680-1585",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     },
     {
       "name": "Shannon A. Justice",
@@ -64,7 +112,15 @@
       "email": "justice.district6@yahoo.com",
       "phone": "(843) 910-3334",
       "source": "chesterfieldtown",
-      "lastUpdated": "2026-03-14"
+      "lastUpdated": "2026-03-14",
+      "vacant": false,
+      "office": "council-member",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "parsed-title",
+      "leadership": null,
+      "partisan": false
     }
   ]
 }
