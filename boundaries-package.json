@@ -8,10 +8,16 @@
     "url": "https://github.com/TimSimpsonJr/open-civics"
   },
   "files": [
-    "data/**/boundaries/"
+    "data/*/boundaries/**"
   ],
   "exports": {
     "./*": "./data/*"
   },
-  "keywords": ["districts", "boundaries", "geojson", "legislators", "civic"]
+  "keywords": [
+    "districts",
+    "boundaries",
+    "geojson",
+    "legislators",
+    "civic"
+  ]
 }

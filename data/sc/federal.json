@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "state": "SC",
+    "level": "federal",
+    "lastUpdated": "2026-03-16",
+    "source": "unitedstates/congress-legislators"
+  },
+  "senate": {
+    "2": {
+      "name": "Lindsey Graham",
+      "party": "R",
+      "phone": "(202) 224-5972",
+      "website": "https://www.lgraham.senate.gov/public",
+      "contactForm": "https://www.lgraham.senate.gov/public/index.cfm/e-mail-senator-graham",
+      "office": "211 Russell Senate Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "seatClass": "2",
+      "stateRank": "senior",
+      "bioguideId": "G000359"
+    },
+    "3": {
+      "name": "Tim Scott",
+      "party": "R",
+      "phone": "(202) 224-6121",
+      "website": "https://www.scott.senate.gov",
+      "contactForm": "https://www.scott.senate.gov/contact/email-me",
+      "office": "104 Hart Senate Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "seatClass": "3",
+      "stateRank": "junior",
+      "bioguideId": "S001184"
+    }
+  },
+  "house": {
+    "6": {
+      "name": "James E. Clyburn",
+      "party": "D",
+      "phone": "(202) 225-3315",
+      "website": "https://clyburn.house.gov",
+      "contactForm": "",
+      "office": "274 Cannon House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "6",
+      "bioguideId": "C000537"
+    },
+    "2": {
+      "name": "Joe Wilson",
+      "party": "R",
+      "phone": "(202) 225-2452",
+      "website": "https://joewilson.house.gov",
+      "contactForm": "",
+      "office": "1436 Longworth House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "2",
+      "bioguideId": "W000795"
+    },
+    "5": {
+      "name": "Ralph Norman",
+      "party": "R",
+      "phone": "(202) 225-5501",
+      "website": "https://norman.house.gov",
+      "contactForm": "",
+      "office": "569 Cannon House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "5",
+      "bioguideId": "N000190"
+    },
+    "4": {
+      "name": "William R. Timmons IV",
+      "party": "R",
+      "phone": "(202) 225-6030",
+      "website": "https://timmons.house.gov",
+      "contactForm": "",
+      "office": "267 Cannon House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "4",
+      "bioguideId": "T000480"
+    },
+    "1": {
+      "name": "Nancy Mace",
+      "party": "R",
+      "phone": "(202) 225-3176",
+      "website": "https://mace.house.gov",
+      "contactForm": "",
+      "office": "1728 Longworth House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "1",
+      "bioguideId": "M000194"
+    },
+    "7": {
+      "name": "Russell Fry",
+      "party": "R",
+      "phone": "(202) 225-9895",
+      "website": "https://fry.house.gov",
+      "contactForm": "",
+      "office": "345 Cannon House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "7",
+      "bioguideId": "F000478"
+    },
+    "3": {
+      "name": "Sheri Biggs",
+      "party": "R",
+      "phone": "(202) 225-5301",
+      "website": "https://sheribiggs.house.gov",
+      "contactForm": "",
+      "office": "1530 Longworth House Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-03-16",
+      "district": "3",
+      "bioguideId": "B001325"
+    }
+  }
+}
