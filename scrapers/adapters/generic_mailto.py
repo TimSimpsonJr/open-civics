@@ -83,7 +83,37 @@ class GenericMailtoAdapter(RevizeAdapter):
                 members.insert(0, mayor)
                 members.sort(key=self._sort_key)
 
+        # Attach district headings for Revize sites that wrap each member
+        # in a div.rz-business-block with a sibling category-list <li>.
+        # No-op on sites without that structure.
+        name_to_district = self._extract_district_map_from_rz_blocks(html)
+        if name_to_district:
+            for m in members:
+                if m.get("title", "").startswith("Mayor"):
+                    continue
+                district = name_to_district.get(m["name"])
+                if district:
+                    m["title"] = f"Council Member, {district}"
+            members.sort(key=self._sort_key)
+
         return members
+
+    @staticmethod
+    def _extract_district_map_from_rz_blocks(html: str) -> dict[str, str]:
+        """For Revize-style sites that wrap each member in a div.rz-business-block
+        with <ul class="category-list"><li>District N</li></ul>, return
+        {member_name: 'District N'}. No-op on sites without this structure."""
+        soup = BeautifulSoup(html, "html.parser")
+        mapping: dict[str, str] = {}
+        for block in soup.find_all("div", class_="rz-business-block"):
+            li = block.select_one("ul.category-list li")
+            h2 = block.find("h2")
+            if not li or not h2:
+                continue
+            li_text = li.get_text(strip=True)
+            if li_text.lower().startswith("district"):
+                mapping[h2.get_text(strip=True)] = li_text
+        return mapping
 
     @staticmethod
     def _fetch_mayor_page(url: str) -> dict | None:

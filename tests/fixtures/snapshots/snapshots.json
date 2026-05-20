@@ -42,6 +42,19 @@
         }
       },
       "min_members": 3
+    },
+    {
+      "file": "generic_mailto_north_charleston.html",
+      "url": "https://www.northcharleston.org/government/city_council/city_council_members_and_districts.php",
+      "adapter": "generic_mailto",
+      "adapter_module": "scrapers.adapters.generic_mailto",
+      "adapter_class": "GenericMailtoAdapter",
+      "entry": {
+        "id": "place:north-charleston",
+        "url": "https://www.northcharleston.org/government/city_council/city_council_members_and_districts.php",
+        "adapterConfig": {"mayorUrl": "https://www.northcharleston.org/government/office_of_the_mayor/index.php"}
+      },
+      "min_members": 10
     }
   ]
 }
