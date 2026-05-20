@@ -255,3 +255,21 @@ def test_township_seat_label_is_valid():
     # Override stage fields shouldn't be overwritten when already set
     assert result["seatLabel"] == "township"
     assert result["seatId"] == "Hardeeville"
+
+
+def test_township_in_title_parses_to_township_seat():
+    """The title-parse regex recognizes 'Township N' alongside District/Ward/Seat."""
+    from scrapers.normalize import _parse_title
+    out = _parse_title("Council Member, Township 3")
+    assert out.get("seatClass") == "numbered"
+    assert out.get("seatLabel") == "township"
+    assert out.get("seatId") == "3"
+
+
+def test_township_word_form_in_title_parses():
+    """The word-form regex recognizes 'Township Two' alongside District/Ward/Seat."""
+    from scrapers.normalize import _parse_title
+    out = _parse_title("Council Member, Township Two")
+    assert out.get("seatClass") == "numbered"
+    assert out.get("seatLabel") == "township"
+    assert out.get("seatId") == "2"

@@ -20,11 +20,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "vice-chair",
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "township",
       "seatId": "Hardeeville",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Chris VanGeison",
@@ -36,11 +36,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "township",
       "seatId": "Robertville",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "John Kemp",
@@ -52,11 +52,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "at-large",
       "seatLabel": null,
       "seatId": null,
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Joey Rowell",
@@ -68,11 +68,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "chair",
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "township",
       "seatId": "Pocotaligo",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Gene Ceccarelli",
@@ -84,11 +84,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "township",
       "seatId": "Coosawhatchie",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     }
   ]
 }

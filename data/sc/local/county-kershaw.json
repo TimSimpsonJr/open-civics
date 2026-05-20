@@ -20,11 +20,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "chair",
-      "partisan": false,
       "seatClass": "at-large",
       "seatLabel": null,
       "seatId": null,
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Russell Brazell",
@@ -36,11 +36,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "vice-chair",
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "district",
       "seatId": "1",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Brant Tomlinson",
@@ -52,11 +52,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "district",
       "seatId": "5",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Danny Catoe",
@@ -68,11 +68,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "district",
       "seatId": "6",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Derek Shoemake",
@@ -84,11 +84,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "district",
       "seatId": "3",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Jimmy Jones",
@@ -100,11 +100,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "district",
       "seatId": "4",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     },
     {
       "name": "Sammie Tucker",
@@ -116,11 +116,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "partisan": false,
       "seatClass": "numbered",
       "seatLabel": "district",
       "seatId": "2",
-      "seatSource": "manual"
+      "seatSource": "manual",
+      "partisan": false
     }
   ]
 }
