@@ -62,7 +62,7 @@ VALID_OFFICES = {"state-senator", "state-representative", "governor",
                  "lt-governor", "mayor", "council-member"}
 VALID_LEADERSHIP = {"chair", "vice-chair", "mayor-pro-tem", None}
 VALID_SEAT_CLASS = {"numbered", "at-large", "unknown"}
-VALID_SEAT_LABEL = {"district", "ward", "seat", None}
+VALID_SEAT_LABEL = {"district", "ward", "seat", "township", None}
 VALID_SEAT_SOURCE = {"source", "parsed-title", "inferred-registry", "manual"}
 
 # Sentinel for distinguishing "key missing" from "key present with value None".

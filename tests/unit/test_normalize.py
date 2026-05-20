@@ -240,3 +240,18 @@ def test_leadership_defaults_to_null():
                                jurisdiction_id="place:test")
     out = normalize_member(record, ctx)
     assert out["leadership"] is None
+
+
+def test_township_seat_label_is_valid():
+    """Township is a valid seatLabel after schema extension."""
+    ctx = NormalizationContext(level="local", jurisdiction_type="county",
+                               jurisdiction_id="county:test")
+    record = {"name": "Test", "title": "Council Member",
+              "office": "council-member", "leadership": None,
+              "seatClass": "numbered", "seatLabel": "township",
+              "seatId": "Hardeeville", "seatSource": "manual",
+              "vacant": False, "partisan": False}
+    result = normalize_member(record, ctx)
+    # Override stage fields shouldn't be overwritten when already set
+    assert result["seatLabel"] == "township"
+    assert result["seatId"] == "Hardeeville"

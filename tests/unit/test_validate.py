@@ -504,6 +504,14 @@ class TestSeatInvariants:
         val.validate_local_file(data, "test.json")
         assert len(val.errors) == 0
 
+    def test_numbered_with_township_seat_label_is_valid(self):
+        """`township` is an accepted seatLabel for numbered seats (Jasper SC hybrid)."""
+        m = _make_member(seatClass="numbered", seatLabel="township",
+                         seatId="Hardeeville", seatSource="manual")
+        data = _make_local_data(members=[m])
+        val.validate_local_file(data, "test.json")
+        assert len(val.errors) == 0
+
 
 class TestNormalizedFieldsState:
     """Verify _validate_normalized_fields runs against state legislators and executive."""
