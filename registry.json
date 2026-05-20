@@ -1163,7 +1163,7 @@
               "countyName": "Jasper"
             }
           },
-          "notes": "5 council members elected by township districts. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile.",
+          "notes": "4 township districts + 1 at-large councilwide seat. Townships: Hardeeville, Pocotaligo, Robertville, Coosawhatchie. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile.",
           "adapterConfig": {
             "departmentFilter": "County Council"
           }

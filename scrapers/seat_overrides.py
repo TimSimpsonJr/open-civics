@@ -71,4 +71,23 @@ SEAT_OVERRIDES: dict[tuple[str, str], dict] = {
     ("county:dorchester", "James Byars"): {
         "seatClass": "numbered", "seatLabel": "district", "seatId": "7",
     },
+    # Jasper County — 4 township districts + 1 at-large councilwide seat (hybrid).
+    # Primary site has no district info on the council page. Verified against
+    # Wayback Machine capture (web.archive.org/web/20260220120737) and Post & Courier
+    # 2024 election results coverage on 2026-05-20.
+    ("county:jasper", "Joey Rowell"): {
+        "seatClass": "numbered", "seatLabel": "township", "seatId": "Pocotaligo",
+    },
+    ("county:jasper", "Joseph Arzillo"): {
+        "seatClass": "numbered", "seatLabel": "township", "seatId": "Hardeeville",
+    },
+    ("county:jasper", "Chris VanGeison"): {
+        "seatClass": "numbered", "seatLabel": "township", "seatId": "Robertville",
+    },
+    ("county:jasper", "Gene Ceccarelli"): {
+        "seatClass": "numbered", "seatLabel": "township", "seatId": "Coosawhatchie",
+    },
+    ("county:jasper", "John Kemp"): {
+        "seatClass": "at-large", "seatLabel": None, "seatId": None,
+    },
 }
