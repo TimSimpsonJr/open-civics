@@ -12,6 +12,10 @@ writes the result to data/<state>/local/<jurisdiction>.json with the same
 meta block that scrapers.__main__ would produce (including a SHA256
 dataHash and dataLastChanged that preserves the prior value when the
 content is unchanged).
+
+See also `scripts/refresh_snapshots.py`, which goes the OTHER direction:
+fetches live HTML from URLs and refreshes the saved snapshot files. This
+script is the inverse: replays a saved snapshot into a data file.
 """
 import hashlib
 import json
@@ -51,6 +55,7 @@ def main(jid: str, snapshot_path: str) -> None:
     with open(snapshot_path, "r", encoding="utf-8") as f:
         html = f.read()
 
+    adapter._html = html  # Mirror BaseAdapter.scrape() so get_contact() can read it
     raw = adapter.parse(html)
     members = adapter.normalize(raw)
     adapter.validate(members)
@@ -103,6 +108,8 @@ def main(jid: str, snapshot_path: str) -> None:
     print(f"Wrote {out}")
 
 
+# Positional args for now; Task 4 (docs/plans/2026-05-16-followup-districted-scraper-bugs-plan.md)
+# refactors to argparse when it adds a --civicplus-supplement flag.
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         sys.exit("usage: python scripts/refresh_from_snapshot.py "
