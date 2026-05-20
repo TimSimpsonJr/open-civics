@@ -608,9 +608,9 @@
           "name": "Berkeley County Council",
           "type": "county",
           "county": "Berkeley",
-          "adapter": "scac",
-          "url": "https://berkeleycountysc.gov/dept/council/",
-          "districts": 7,
+          "adapter": "berkeley_county",
+          "url": "https://berkeleycountysc.gov/dept/council/elected-officials/",
+          "districts": 8,
           "atLarge": false,
           "boundary": {
             "source": "scrfa",
@@ -621,7 +621,7 @@
               "countyName": "Berkeley"
             }
           },
-          "notes": "7 single-member districts + county supervisor. Supervisor-Council form of government. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile."
+          "notes": "8 single-member districts + county supervisor (post-redistricting). Supervisor-Council form of government. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile."
         },
         {
           "id": "place:moncks-corner",

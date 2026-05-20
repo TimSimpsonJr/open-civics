@@ -33,6 +33,7 @@ from .adapters.bamberg_city import BambergCityAdapter
 from .adapters.bamberg_county import BambergCountyAdapter
 from .adapters.barnwell_city import BarnwellCityAdapter
 from .adapters.beaufort_county import BeaufortCountyAdapter
+from .adapters.berkeley_county import BerkeleyCountyAdapter
 from .adapters.bishopville_city import BishopvilleCityAdapter
 from .adapters.charleston_city import CharlestonCityAdapter
 from .adapters.charleston_county import CharlestonCountyAdapter
@@ -105,6 +106,7 @@ ADAPTERS = {
     "bamberg_county": BambergCountyAdapter,
     "barnwell_city": BarnwellCityAdapter,
     "beaufort_county": BeaufortCountyAdapter,
+    "berkeley_county": BerkeleyCountyAdapter,
     "bishopville_city": BishopvilleCityAdapter,
     "charleston_city": CharlestonCityAdapter,
     "charleston_county": CharlestonCountyAdapter,

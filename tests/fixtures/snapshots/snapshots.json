@@ -64,6 +64,15 @@
       "adapter_class": "AikenCityAdapter",
       "entry": {"id": "place:aiken", "url": "https://www.cityofaikensc.gov/government/city-council/"},
       "min_members": 7
+    },
+    {
+      "file": "berkeley_county.html",
+      "url": "https://berkeleycountysc.gov/dept/council/elected-officials/",
+      "adapter": "berkeley_county",
+      "adapter_module": "scrapers.adapters.berkeley_county",
+      "adapter_class": "BerkeleyCountyAdapter",
+      "entry": {"id": "county:berkeley", "url": "https://berkeleycountysc.gov/dept/council/elected-officials/"},
+      "min_members": 7
     }
   ]
 }
