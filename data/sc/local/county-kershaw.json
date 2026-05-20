@@ -6,8 +6,8 @@
     "label": "Kershaw County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "scac",
-    "dataHash": "3665634b03964cd2",
-    "dataLastChanged": "2026-05-17"
+    "dataHash": "09acc58c79d43585",
+    "dataLastChanged": "2026-05-20"
   },
   "members": [
     {
@@ -20,11 +20,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "chair",
-      "seatClass": "unknown",
+      "partisan": false,
+      "seatClass": "at-large",
       "seatLabel": null,
       "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "seatSource": "manual"
     },
     {
       "name": "Russell Brazell",
@@ -36,11 +36,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "vice-chair",
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "manual"
     },
     {
       "name": "Brant Tomlinson",
@@ -52,11 +52,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "manual"
     },
     {
       "name": "Danny Catoe",
@@ -68,11 +68,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "manual"
     },
     {
       "name": "Derek Shoemake",
@@ -84,11 +84,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "manual"
     },
     {
       "name": "Jimmy Jones",
@@ -100,11 +100,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "manual"
     },
     {
       "name": "Sammie Tucker",
@@ -116,11 +116,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "manual"
     }
   ]
 }
