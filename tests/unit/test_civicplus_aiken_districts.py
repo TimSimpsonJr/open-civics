@@ -7,7 +7,6 @@ HTTP call in scrape() (NOT in parse()) and rewrite titles.
 """
 
 import os
-import pytest
 from scrapers.adapters.civicplus import CivicPlusAdapter
 
 

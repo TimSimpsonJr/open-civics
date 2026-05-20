@@ -426,8 +426,10 @@ class CivicPlusAdapter(BaseAdapter):
             if m.get("title") != "Council Member":
                 continue
             bare = _strip_hon(m["name"])
-            district = name_to_district.get(bare) \
-                or surname_to_district.get(bare.split()[-1].lower() if bare else "")
+            if not bare:
+                continue
+            district = (name_to_district.get(bare)
+                        or surname_to_district.get(bare.split()[-1].lower()))
             if district is not None:
                 m["title"] = f"Council Member, District {district}"
 
@@ -455,10 +457,11 @@ class CivicPlusAdapter(BaseAdapter):
                     self._apply_district_map(members, mapping)
                 else:
                     self.warnings.append(
-                        f"councilMembersUrl returned empty district map for {self.id}")
+                        f"councilMembersUrl supplement parsed to an empty district map "
+                        f"for {self.id} (check council-members page heading structure)")
             except requests.RequestException as e:
                 self.warnings.append(
-                    f"councilMembersUrl fetch failed for {self.id}: {e}")
+                    f"councilMembersUrl supplement fetch failed for {self.id}: {e}")
 
         normalized = self.normalize(members)
         return self.validate(normalized)
