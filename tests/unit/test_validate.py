@@ -560,39 +560,47 @@ class TestLocalSeatCoverage:
         }
 
     def test_warns_when_districted_jurisdiction_has_all_unknown_seats(self):
-        from validate import validate_local_file, warnings as warn_list
-        warn_list.clear()
         entry = {"id": "county:test", "type": "county", "atLarge": False}
         data = self._data([self._member("A"), self._member("B")])
-        validate_local_file(data, "test.json", jurisdiction_entry=entry)
+        val.validate_local_file(data, "test.json", jurisdiction_entry=entry)
         assert any("districted but all members have seatClass: unknown" in w
-                   for w in warn_list)
+                   for w in val.warnings)
 
     def test_no_warning_when_at_large(self):
-        from validate import validate_local_file, warnings as warn_list
-        warn_list.clear()
         entry = {"id": "place:test", "type": "place", "atLarge": True,
                  "councilDefaults": {"seatClass": "at-large", "partisan": False}}
         data = self._data([self._member("A", seat_class="at-large")])
-        validate_local_file(data, "test.json", jurisdiction_entry=entry)
-        assert not any("seatClass: unknown" in w for w in warn_list)
+        val.validate_local_file(data, "test.json", jurisdiction_entry=entry)
+        assert not any("seatClass: unknown" in w for w in val.warnings)
 
     def test_no_warning_when_at_least_one_seat_populated(self):
-        from validate import validate_local_file, warnings as warn_list
-        warn_list.clear()
         entry = {"id": "county:test", "type": "county", "atLarge": False}
         data = self._data([
             self._member("A", seat_class="numbered", seat_label="district", seat_id="1"),
             self._member("B"),
         ])
-        validate_local_file(data, "test.json", jurisdiction_entry=entry)
-        assert not any("seatClass: unknown" in w for w in warn_list)
+        val.validate_local_file(data, "test.json", jurisdiction_entry=entry)
+        assert not any("seatClass: unknown" in w for w in val.warnings)
 
     def test_no_warning_when_jurisdiction_entry_missing(self):
         # Defensive: if the lookup fails, don't warn (avoids noise on jurisdictions
         # that were dropped from registry but still have a data file).
-        from validate import validate_local_file, warnings as warn_list
-        warn_list.clear()
         data = self._data([self._member("A"), self._member("B")])
-        validate_local_file(data, "test.json", jurisdiction_entry=None)
-        assert not any("seatClass: unknown" in w for w in warn_list)
+        val.validate_local_file(data, "test.json", jurisdiction_entry=None)
+        assert not any("seatClass: unknown" in w for w in val.warnings)
+
+    def test_no_warning_when_council_defaults_pins_at_large(self):
+        # Branch coverage: atLarge omitted but councilDefaults pins at-large.
+        entry = {"id": "place:test", "type": "place",
+                 "councilDefaults": {"seatClass": "at-large", "partisan": False}}
+        data = self._data([self._member("A", seat_class="at-large")])
+        val.validate_local_file(data, "test.json", jurisdiction_entry=entry)
+        assert not any("seatClass: unknown" in w for w in val.warnings)
+
+    def test_no_warning_when_only_leadership_members(self):
+        # Branch coverage: filter empties out leadership-only rosters.
+        entry = {"id": "county:test", "type": "county", "atLarge": False}
+        data = self._data([self._member("A", leadership="chair"),
+                           self._member("B", leadership="vice-chair")])
+        val.validate_local_file(data, "test.json", jurisdiction_entry=entry)
+        assert not any("seatClass: unknown" in w for w in val.warnings)
