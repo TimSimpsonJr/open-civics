@@ -6,8 +6,8 @@
     "label": "Dorchester County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "scac",
-    "dataHash": "5d50c5a4cf50976f",
-    "dataLastChanged": "2026-05-17"
+    "dataHash": "e755726781f0f9f8",
+    "dataLastChanged": "2026-05-20"
   },
   "members": [
     {
@@ -20,11 +20,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "chair",
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "manual"
     },
     {
       "name": "Rita May Ranck",
@@ -36,11 +36,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "vice-chair",
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "manual"
     },
     {
       "name": "Edward Crosby",
@@ -52,11 +52,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "manual"
     },
     {
       "name": "James Byars",
@@ -68,11 +68,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "7",
+      "seatSource": "manual"
     },
     {
       "name": "Peter Smith",
@@ -84,11 +84,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "manual"
     },
     {
       "name": "S. Todd Friddle",
@@ -100,11 +100,11 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
-      "partisan": false
+      "partisan": false,
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "manual"
     }
   ]
 }

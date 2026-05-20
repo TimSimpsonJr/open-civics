@@ -46,4 +46,29 @@ SEAT_OVERRIDES: dict[tuple[str, str], dict] = {
     ("county:kershaw", "Danny Catoe"): {
         "seatClass": "numbered", "seatLabel": "district", "seatId": "6",
     },
+    # Dorchester County — 7 single-member districts (District 6 currently vacant).
+    # Primary site Akamai-blocked. Verified against Wayback Machine capture of
+    # https://www.dorchestercountysc.gov/government/county-council/council-members
+    # (web.archive.org/web/20260228181654) on 2026-05-20.
+    # Name variations: source page uses "Peter Smith Jr." / "Eddie" / "Jay" / "Todd",
+    # our SCAC scrape produced "Peter Smith" / "Edward" / "James" / "S. Todd Friddle".
+    # Override keys match the scraped names.
+    ("county:dorchester", "Peter Smith"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "1",
+    },
+    ("county:dorchester", "C. David Chinnis"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "2",
+    },
+    ("county:dorchester", "Rita May Ranck"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "3",
+    },
+    ("county:dorchester", "S. Todd Friddle"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "4",
+    },
+    ("county:dorchester", "Edward Crosby"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "5",
+    },
+    ("county:dorchester", "James Byars"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "7",
+    },
 }
