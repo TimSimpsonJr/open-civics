@@ -73,6 +73,23 @@
       "adapter_class": "BerkeleyCountyAdapter",
       "entry": {"id": "county:berkeley", "url": "https://berkeleycountysc.gov/dept/council/elected-officials/"},
       "min_members": 7
+    },
+    {
+      "file": "civicplus_aiken_directory.html",
+      "url": "https://www.aikencountysc.gov/directory.aspx?did=117",
+      "adapter": "civicplus",
+      "adapter_module": "scrapers.adapters.civicplus",
+      "adapter_class": "CivicPlusAdapter",
+      "entry": {
+        "id": "county:aiken",
+        "url": "https://www.aikencountysc.gov/528/County-Council",
+        "adapterConfig": {
+          "baseUrl": "https://www.aikencountysc.gov",
+          "councilPageId": "528",
+          "directoryDeptId": "117"
+        }
+      },
+      "min_members": 8
     }
   ]
 }

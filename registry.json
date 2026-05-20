@@ -481,7 +481,8 @@
           "adapterConfig": {
             "baseUrl": "https://www.aikencountysc.gov",
             "councilPageId": "528",
-            "directoryDeptId": "117"
+            "directoryDeptId": "117",
+            "councilMembersUrl": "https://sc-aikencounty.civicplus.com/529/Council-Members"
           },
           "boundary": {
             "source": "scrfa",

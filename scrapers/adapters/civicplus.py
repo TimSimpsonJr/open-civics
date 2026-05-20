@@ -32,6 +32,12 @@ adapterConfig fields:
     from the council page if not provided
   - memberFilter: (optional) list of title substrings to EXCLUDE from results
     (default: ["clerk"])
+  - councilMembersUrl: (optional) a supplementary CivicPlus page that groups
+    members under "District N" headings. When set, scrape() performs a
+    second HTTP fetch and rewrites bare "Council Member" titles with the
+    district number. Used for sites like Aiken County whose directory
+    lists everyone as "Council Member" with no district info, but whose
+    council-members landing page does carry the districts.
 """
 
 import re
@@ -363,3 +369,96 @@ class CivicPlusAdapter(BaseAdapter):
 
         # At-large or other: sort alphabetically
         return (2, 0, member["name"])
+
+    # --- District-supplement helpers ---
+    #
+    # Some CivicPlus directories (Aiken County) emit bare "Council Member"
+    # titles with no district info. The supplementary council-members page
+    # at adapterConfig.councilMembersUrl groups members under "District N"
+    # headings. The helpers below extract a {district_num: name} map and
+    # rewrite member titles. The actual HTTP fetch lives in scrape() so
+    # parse(html) stays hermetic and snapshot-testable.
+
+    @staticmethod
+    def _extract_district_map_from_council_page(html: str) -> dict[int, str]:
+        """Parse a CivicPlus council-members page that groups members under
+        District N headings. Returns {district_number: member_name}.
+
+        Walks the document, tracking the most-recent District N heading; assigns
+        the next person-looking line ("Honorable <name>") to that district.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+        mapping: dict[int, str] = {}
+        current_district: int | None = None
+        for el in soup.find_all(True):
+            if el.name not in ("h1", "h2", "h3", "h4", "h5", "p", "strong"):
+                continue
+            text = el.get_text(strip=True)
+            if not text:
+                continue
+            m = re.match(r"^District\s+(\d+)\s*$", text, re.IGNORECASE)
+            if m:
+                current_district = int(m.group(1))
+                continue
+            if current_district is not None and re.match(r"^Honorable\s+\S+", text):
+                name = re.sub(r",\s*Council\s+Member\s*$", "", text).strip()
+                if current_district not in mapping:
+                    mapping[current_district] = name
+                    current_district = None  # consume
+        return mapping
+
+    @staticmethod
+    def _apply_district_map(members: list[dict], mapping: dict[int, str]) -> None:
+        """Mutate member titles: 'Council Member' -> 'Council Member, District N'.
+
+        Tolerates 'Honorable' prefix variance and minor surname-only fallback."""
+        def _strip_hon(name: str) -> str:
+            return re.sub(r"^Honorable\s+", "", name).strip()
+
+        name_to_district = {_strip_hon(name): dist for dist, name in mapping.items()}
+        surname_to_district: dict[str, int] = {}
+        for dist, name in mapping.items():
+            bare = _strip_hon(name).split()
+            if bare:
+                surname_to_district.setdefault(bare[-1].lower(), dist)
+
+        for m in members:
+            if m.get("title") != "Council Member":
+                continue
+            bare = _strip_hon(m["name"])
+            district = name_to_district.get(bare) \
+                or surname_to_district.get(bare.split()[-1].lower() if bare else "")
+            if district is not None:
+                m["title"] = f"Council Member, District {district}"
+
+    def scrape(self) -> list[dict]:
+        """Index-page scrape + optional supplementary council-members page.
+
+        Network calls live here (not in parse) so parse(html) remains hermetic
+        for snapshot tests. When adapterConfig.councilMembersUrl is set, this
+        fetches the supplementary page and applies its district map to the
+        directory members.
+        """
+        html = self.fetch()
+        self._html = html
+        members = self.parse(html)
+
+        supp_url = self.config.get("councilMembersUrl")
+        if supp_url:
+            try:
+                resp = requests.get(supp_url,
+                                    headers={"User-Agent": USER_AGENT},
+                                    timeout=30, allow_redirects=True)
+                resp.raise_for_status()
+                mapping = self._extract_district_map_from_council_page(resp.text)
+                if mapping:
+                    self._apply_district_map(members, mapping)
+                else:
+                    self.warnings.append(
+                        f"councilMembersUrl returned empty district map for {self.id}")
+            except requests.RequestException as e:
+                self.warnings.append(
+                    f"councilMembersUrl fetch failed for {self.id}: {e}")
+
+        normalized = self.normalize(members)
+        return self.validate(normalized)
