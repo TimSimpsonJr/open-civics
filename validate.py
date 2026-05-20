@@ -267,7 +267,7 @@ def validate_federal_json(data, state_code, filepath):
                 warn(label, f"{prefix}: unexpected party '{party}'")
 
 
-def validate_local_file(data, filepath):
+def validate_local_file(data, filepath, jurisdiction_entry=None):
     """Validate a single local council JSON file with meta + members."""
     label = filepath
 
@@ -336,6 +336,32 @@ def validate_local_file(data, filepath):
             warn(label, f"{prefix}: unexpected phone format '{phone}'")
 
         _validate_normalized_fields(label, prefix, member)
+
+    _check_districted_seat_coverage(label, members, jurisdiction_entry)
+
+
+def _check_districted_seat_coverage(label, members, jurisdiction_entry):
+    """Warn when a registry-districted jurisdiction has all-unknown member seats.
+
+    A jurisdiction is "districted" when registry has atLarge: false AND
+    councilDefaults does not pin seatClass to at-large. If every member's
+    seatClass is "unknown" in that case, the source publishes no district info
+    OR the adapter is missing it — either way, a regression worth flagging.
+    """
+    if not jurisdiction_entry or not isinstance(members, list):
+        return
+    if jurisdiction_entry.get("atLarge", False):
+        return
+    council_defaults = jurisdiction_entry.get("councilDefaults") or {}
+    if council_defaults.get("seatClass") == "at-large":
+        return
+    council_members = [m for m in members
+                       if m.get("office") == "council-member"
+                       and m.get("leadership") not in ("chair", "vice-chair")]
+    if not council_members:
+        return
+    if all(m.get("seatClass") == "unknown" for m in council_members):
+        warn(label, "jurisdiction is districted but all members have seatClass: unknown")
 
 
 def validate_registry(data):
@@ -507,6 +533,14 @@ def main():
                     validate_federal_json(federal_data, state_upper, federal_label)
                     print(f"  Checked {federal_label}")
 
+            # Build a quick lookup of jurisdictions from the registry
+            jurisdictions_by_id = {}
+            if registry is not None:
+                state_block = registry.get("states", {}).get(state_upper, {})
+                for j in state_block.get("jurisdictions", []):
+                    if j.get("id"):
+                        jurisdictions_by_id[j["id"]] = j
+
             # Validate local council files
             local_dir = os.path.join(state_dir, "local")
             if os.path.isdir(local_dir):
@@ -517,7 +551,10 @@ def main():
                     local_label = f"data/{state_code}/local/{local_file}"
                     local_data = load_json(local_path, local_label)
                     if local_data is not None:
-                        validate_local_file(local_data, local_label)
+                        jid = (local_data.get("meta") or {}).get("jurisdiction", "")
+                        entry = jurisdictions_by_id.get(jid)
+                        validate_local_file(local_data, local_label,
+                                            jurisdiction_entry=entry)
                 print(f"  Checked data/{state_code}/local/ ({len(os.listdir(local_dir))} files)")
 
             # Validate boundary files
