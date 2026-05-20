@@ -55,6 +55,15 @@
         "adapterConfig": {"mayorUrl": "https://www.northcharleston.org/government/office_of_the_mayor/index.php"}
       },
       "min_members": 10
+    },
+    {
+      "file": "aiken_city.html",
+      "url": "https://www.cityofaikensc.gov/government/city-council/",
+      "adapter": "aiken_city",
+      "adapter_module": "scrapers.adapters.aiken_city",
+      "adapter_class": "AikenCityAdapter",
+      "entry": {"id": "place:aiken", "url": "https://www.cityofaikensc.gov/government/city-council/"},
+      "min_members": 7
     }
   ]
 }
