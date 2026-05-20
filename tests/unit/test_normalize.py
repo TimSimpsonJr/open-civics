@@ -240,3 +240,36 @@ def test_leadership_defaults_to_null():
                                jurisdiction_id="place:test")
     out = normalize_member(record, ctx)
     assert out["leadership"] is None
+
+
+def test_township_seat_label_is_valid():
+    """Township is a valid seatLabel after schema extension."""
+    ctx = NormalizationContext(level="local", jurisdiction_type="county",
+                               jurisdiction_id="county:test")
+    record = {"name": "Test", "title": "Council Member",
+              "office": "council-member", "leadership": None,
+              "seatClass": "numbered", "seatLabel": "township",
+              "seatId": "Hardeeville", "seatSource": "manual",
+              "vacant": False, "partisan": False}
+    result = normalize_member(record, ctx)
+    # Override stage fields shouldn't be overwritten when already set
+    assert result["seatLabel"] == "township"
+    assert result["seatId"] == "Hardeeville"
+
+
+def test_township_in_title_parses_to_township_seat():
+    """The title-parse regex recognizes 'Township N' alongside District/Ward/Seat."""
+    from scrapers.normalize import _parse_title
+    out = _parse_title("Council Member, Township 3")
+    assert out.get("seatClass") == "numbered"
+    assert out.get("seatLabel") == "township"
+    assert out.get("seatId") == "3"
+
+
+def test_township_word_form_in_title_parses():
+    """The word-form regex recognizes 'Township Two' alongside District/Ward/Seat."""
+    from scrapers.normalize import _parse_title
+    out = _parse_title("Council Member, Township Two")
+    assert out.get("seatClass") == "numbered"
+    assert out.get("seatLabel") == "township"
+    assert out.get("seatId") == "2"

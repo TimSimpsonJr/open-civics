@@ -170,7 +170,8 @@ The contradiction between "fill gaps only" and "manual is last": stages 1–3 ar
 
 The base title parser handles:
 
-- `"District N"` / `"Ward N"` / `"Seat N"` — `seatClass: numbered`, `seatLabel` set, `seatId: "N"`
+- `"District N"` / `"Ward N"` / `"Seat N"` / `"Township N"` — `seatClass: numbered`, `seatLabel` set, `seatId: "N"`
+  - `township` was added in [`2026-05-16-followup-districted-scraper-bugs-plan.md`](2026-05-16-followup-districted-scraper-bugs-plan.md) Task 7 for SC counties (e.g., Jasper) that subdivide by named townships rather than numbered districts. `seatId` carries the township name (`"Hardeeville"`, `"Pocotaligo"`) when the source uses names.
 - `"District One"` etc. (word-form numbers, one through twenty) — same as above
 - `"District Number N - X"` (Berkeley-style prefix) — same as above
 - `"At Large"` / `"At-Large"` — `seatClass: at-large`, `seatLabel: null`, `seatId: null`

@@ -6,8 +6,8 @@
     "label": "Jasper County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "table",
-    "dataHash": "3a53bd53180f063f",
-    "dataLastChanged": "2026-05-17"
+    "dataHash": "fcd599d503d7c93c",
+    "dataLastChanged": "2026-05-20"
   },
   "members": [
     {
@@ -20,10 +20,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "vice-chair",
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "township",
+      "seatId": "Hardeeville",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -36,10 +36,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "township",
+      "seatId": "Robertville",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -52,10 +52,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
+      "seatClass": "at-large",
       "seatLabel": null,
       "seatId": null,
-      "seatSource": "parsed-title",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -68,10 +68,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "chair",
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "township",
+      "seatId": "Pocotaligo",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -84,10 +84,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "township",
+      "seatId": "Coosawhatchie",
+      "seatSource": "manual",
       "partisan": false
     }
   ]

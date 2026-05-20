@@ -1598,7 +1598,7 @@ VALID_OFFICES = {"state-senator", "state-representative", "governor",
                  "lt-governor", "mayor", "council-member"}
 VALID_LEADERSHIP = {"chair", "vice-chair", "mayor-pro-tem", None}
 VALID_SEAT_CLASS = {"numbered", "at-large", "unknown"}
-VALID_SEAT_LABEL = {"district", "ward", "seat", None}
+VALID_SEAT_LABEL = {"district", "ward", "seat", "township", None}  # "township" added in followup plan, Task 7
 VALID_SEAT_SOURCE = {"source", "parsed-title", "inferred-registry", "manual"}
 
 
@@ -1716,7 +1716,7 @@ All member records â€” state legislators, executive, and local council members â
 - `office`: enum of `state-senator | state-representative | governor | lt-governor | mayor | council-member`
 - `leadership`: `chair | vice-chair | mayor-pro-tem | null`
 - `seatClass`: `numbered | at-large | unknown`
-- `seatLabel`: `district | ward | seat | null`
+- `seatLabel`: `district | ward | seat | township | null` (`township` added in [`2026-05-16-followup-districted-scraper-bugs-plan.md`](2026-05-16-followup-districted-scraper-bugs-plan.md) Task 7)
 - `seatId`: string or null
 - `vacant`: boolean
 - `seatSource`: `source | parsed-title | inferred-registry | manual`
@@ -1891,7 +1891,7 @@ interface LocalCouncilMember {
   office?: 'council-member' | 'mayor';
   leadership?: 'chair' | 'vice-chair' | 'mayor-pro-tem' | null;
   seatClass?: 'numbered' | 'at-large' | 'unknown';
-  seatLabel?: 'district' | 'ward' | 'seat' | null;
+  seatLabel?: 'district' | 'ward' | 'seat' | 'township' | null;
   seatId?: string | null;
   vacant?: boolean;
   seatSource?: 'source' | 'parsed-title' | 'inferred-registry' | 'manual';
