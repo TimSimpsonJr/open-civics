@@ -67,3 +67,35 @@ class TestBerkeleyCountyParse:
         for m in district_members:
             assert m["seatClass"] == "numbered"
             assert m["seatLabel"] == "district"
+
+    def test_drift_warning_when_registry_disagrees(self, html):
+        # Simulate the case where registry hasn't caught up to a redistricting:
+        # registry says 7 districts but the snapshot/parser sees 8.
+        from scrapers.adapters.berkeley_county import BerkeleyCountyAdapter
+        adapter = BerkeleyCountyAdapter({
+            "id": "county:berkeley",
+            "url": "https://berkeleycountysc.gov/dept/council/elected-officials/",
+            "districts": 7,  # intentionally wrong
+            "adapterConfig": {},
+        })
+        adapter.parse(html)
+        assert any("parsed 8 districts but registry expects 7" in w
+                   for w in adapter.warnings)
+
+    def test_no_drift_warning_when_districts_omitted(self, adapter, html):
+        # When the entry omits `districts`, the drift check short-circuits.
+        adapter.parse(html)
+        assert not any("districts but registry expects" in w
+                       for w in adapter.warnings)
+
+    def test_no_drift_warning_when_registry_agrees(self, html):
+        from scrapers.adapters.berkeley_county import BerkeleyCountyAdapter
+        adapter = BerkeleyCountyAdapter({
+            "id": "county:berkeley",
+            "url": "https://berkeleycountysc.gov/dept/council/elected-officials/",
+            "districts": 8,  # matches snapshot
+            "adapterConfig": {},
+        })
+        adapter.parse(html)
+        assert not any("districts but registry expects" in w
+                       for w in adapter.warnings)

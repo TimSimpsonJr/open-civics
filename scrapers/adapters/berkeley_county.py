@@ -9,9 +9,14 @@ separate from district seats.
 
 Phone and email live on per-member detail pages linked by figcaption hrefs.
 v1 of this adapter does NOT visit those pages - name + district is the
-priority (it's what closes the validator warning). A future enhancement
-can add detail-page enrichment via a separate `scrape()` override that
-runs after parse() returns the index members.
+priority (it's what closes the validator's districted-but-all-unknown
+warning). As a known consequence, every scraped member triggers a
+`no email or phone` warning from BaseAdapter.validate(); the per-jurisdiction
+run report will be `warned` rather than `ok` until detail-page enrichment
+is added.
+
+A future enhancement can add that enrichment via a separate `scrape()`
+override that runs after parse() returns the index members.
 """
 
 import re
@@ -83,7 +88,9 @@ class BerkeleyCountyAdapter(BaseAdapter):
             elif is_supervisor:
                 title = "Chairman"  # Supervisor-Council form: supervisor IS the chair-equivalent
             else:
-                # Non-district, non-supervisor figure - likely a banner image.
+                # Non-district, non-supervisor figure - other constitutional officers
+                # (Auditor, Sheriff, Treasurer, etc.) which are out of scope for the
+                # council adapter, or unrelated page imagery.
                 continue
 
             members.append({
@@ -92,6 +99,17 @@ class BerkeleyCountyAdapter(BaseAdapter):
                 "email": "",
                 "phone": "",
             })
+
+        # Surface drift between parsed districts and registry.districts so a
+        # future redistricting silently growing the council doesn't slip past CI.
+        expected = self.entry.get("districts")
+        if expected is not None:
+            actual = sum(1 for m in members
+                         if _DISTRICT_RE.search(m["title"]))
+            if actual != expected:
+                self.warnings.append(
+                    f"parsed {actual} districts but registry expects {expected}"
+                )
 
         members.sort(key=self._sort_key)
         return members
