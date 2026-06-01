@@ -481,7 +481,8 @@
           "adapterConfig": {
             "baseUrl": "https://www.aikencountysc.gov",
             "councilPageId": "528",
-            "directoryDeptId": "117"
+            "directoryDeptId": "117",
+            "councilMembersUrl": "https://sc-aikencounty.civicplus.com/529/Council-Members"
           },
           "boundary": {
             "source": "scrfa",
@@ -608,9 +609,9 @@
           "name": "Berkeley County Council",
           "type": "county",
           "county": "Berkeley",
-          "adapter": "scac",
-          "url": "https://berkeleycountysc.gov/dept/council/",
-          "districts": 7,
+          "adapter": "berkeley_county",
+          "url": "https://berkeleycountysc.gov/dept/council/elected-officials/",
+          "districts": 8,
           "atLarge": false,
           "boundary": {
             "source": "scrfa",
@@ -621,7 +622,7 @@
               "countyName": "Berkeley"
             }
           },
-          "notes": "7 single-member districts + county supervisor. Supervisor-Council form of government. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile."
+          "notes": "8 single-member districts + county supervisor (post-redistricting). Supervisor-Council form of government. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile."
         },
         {
           "id": "place:moncks-corner",
@@ -1162,7 +1163,7 @@
               "countyName": "Jasper"
             }
           },
-          "notes": "5 council members elected by township districts. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile.",
+          "notes": "4 township districts + 1 at-large councilwide seat. Townships: Hardeeville, Pocotaligo, Robertville, Coosawhatchie. Boundary from SC Revenue & Fiscal Affairs statewide county council districts shapefile.",
           "adapterConfig": {
             "departmentFilter": "County Council"
           }

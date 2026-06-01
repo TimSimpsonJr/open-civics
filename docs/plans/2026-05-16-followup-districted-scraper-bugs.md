@@ -33,3 +33,22 @@ The audit also surfaced 14 jurisdictions whose registry notes only say "District
 - place:allendale, place:bishopville, place:camden, place:edgefield, place:georgetown, place:hampton, place:manning, place:moncks-corner, place:ridgeland, place:saluda, place:st-matthews, place:union, place:walhalla, place:walterboro
 
 Suggested label: `autonomous-safe`
+
+## Resolution
+
+All 7 jurisdictions addressed in PR #35 (implementation plan: [`2026-05-16-followup-districted-scraper-bugs-plan.md`](2026-05-16-followup-districted-scraper-bugs-plan.md), Codex-approved over 5 review rounds):
+
+**Scraper-side fixes (Tasks 1–4):**
+- `place:north-charleston` — extended `generic_mailto` adapter to attach `<li>District N</li>` headings to `<h2>` member names
+- `place:aiken` — pinned the existing `aiken_city` adapter's district parsing with a snapshot test; refreshed the stale data file
+- `county:berkeley` — wrote bespoke `berkeley_county` adapter that parses the WordPress `<figcaption>` per-district structure (snapshot harvested via Wayback Machine since the live site is now Cloudflare-walled; bypass tooling tracked in [#36](https://github.com/TimSimpsonJr/open-civics/issues/36))
+- `county:aiken` — extended `CivicPlusAdapter` with an opt-in supplementary council-members fetch driven by `adapterConfig.councilMembersUrl`
+
+**Manual `seat_overrides.py` entries (Tasks 5–7):**
+- `county:dorchester` — 6 entries verified against Wayback Feb 2026 capture (district 6 currently vacant)
+- `county:kershaw` — 7 entries verified against Wayback Nov 2025 capture
+- `county:jasper` — 5 entries verified against 2024 election coverage; revealed the hybrid 4-township + 1-at-large composition. Required adding `"township"` to `VALID_SEAT_LABEL` since Jasper uses named townships (Hardeeville, Pocotaligo, Robertville, Coosawhatchie) rather than numbered districts. Boundary file reconciliation tracked in [#37](https://github.com/TimSimpsonJr/open-civics/issues/37).
+
+**Validator gate (Task 0):** `validate.py` now emits `"jurisdiction is districted but all members have seatClass: unknown"` whenever a registry-districted jurisdiction has all-unknown member seats — the regression alarm for future scraper drift.
+
+The 14 "District count unverified" jurisdictions remain as a separate triage item.

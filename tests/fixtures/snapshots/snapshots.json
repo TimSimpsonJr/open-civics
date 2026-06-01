@@ -42,6 +42,54 @@
         }
       },
       "min_members": 3
+    },
+    {
+      "file": "generic_mailto_north_charleston.html",
+      "url": "https://www.northcharleston.org/government/city_council/city_council_members_and_districts.php",
+      "adapter": "generic_mailto",
+      "adapter_module": "scrapers.adapters.generic_mailto",
+      "adapter_class": "GenericMailtoAdapter",
+      "entry": {
+        "id": "place:north-charleston",
+        "url": "https://www.northcharleston.org/government/city_council/city_council_members_and_districts.php",
+        "adapterConfig": {"mayorUrl": "https://www.northcharleston.org/government/office_of_the_mayor/index.php"}
+      },
+      "min_members": 10
+    },
+    {
+      "file": "aiken_city.html",
+      "url": "https://www.cityofaikensc.gov/government/city-council/",
+      "adapter": "aiken_city",
+      "adapter_module": "scrapers.adapters.aiken_city",
+      "adapter_class": "AikenCityAdapter",
+      "entry": {"id": "place:aiken", "url": "https://www.cityofaikensc.gov/government/city-council/"},
+      "min_members": 7
+    },
+    {
+      "file": "berkeley_county.html",
+      "url": "https://berkeleycountysc.gov/dept/council/elected-officials/",
+      "adapter": "berkeley_county",
+      "adapter_module": "scrapers.adapters.berkeley_county",
+      "adapter_class": "BerkeleyCountyAdapter",
+      "entry": {"id": "county:berkeley", "url": "https://berkeleycountysc.gov/dept/council/elected-officials/"},
+      "min_members": 7
+    },
+    {
+      "file": "civicplus_aiken_directory.html",
+      "url": "https://www.aikencountysc.gov/directory.aspx?did=117",
+      "adapter": "civicplus",
+      "adapter_module": "scrapers.adapters.civicplus",
+      "adapter_class": "CivicPlusAdapter",
+      "entry": {
+        "id": "county:aiken",
+        "url": "https://www.aikencountysc.gov/528/County-Council",
+        "adapterConfig": {
+          "baseUrl": "https://www.aikencountysc.gov",
+          "councilPageId": "528",
+          "directoryDeptId": "117"
+        }
+      },
+      "min_members": 8
     }
   ]
 }

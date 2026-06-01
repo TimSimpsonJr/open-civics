@@ -35,12 +35,12 @@ _WORD_NUMS = {
 }
 
 _WORD_SEAT_RE = re.compile(
-    r"\b(District|Ward|Seat)\s+(" + "|".join(_WORD_NUMS.keys()) + r")\b",
+    r"\b(District|Ward|Seat|Township)\s+(" + "|".join(_WORD_NUMS.keys()) + r")\b",
     re.IGNORECASE,
 )
 
 _NUMERIC_SEAT_RE = re.compile(
-    r"\b(District|Ward|Seat)\s+(?:Number\s+)?(\d+)\b",
+    r"\b(District|Ward|Seat|Township)\s+(?:Number\s+)?(\d+)\b",
     re.IGNORECASE,
 )
 _PREFIX_DISTRICT_RE = re.compile(

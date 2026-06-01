@@ -6,8 +6,8 @@
     "label": "Kershaw County Council",
     "lastUpdated": "2026-03-14",
     "adapter": "scac",
-    "dataHash": "3665634b03964cd2",
-    "dataLastChanged": "2026-05-17"
+    "dataHash": "09acc58c79d43585",
+    "dataLastChanged": "2026-05-20"
   },
   "members": [
     {
@@ -20,10 +20,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "chair",
-      "seatClass": "unknown",
+      "seatClass": "at-large",
       "seatLabel": null,
       "seatId": null,
-      "seatSource": "parsed-title",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -36,10 +36,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": "vice-chair",
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "1",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -52,10 +52,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "5",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -68,10 +68,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "6",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -84,10 +84,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "3",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -100,10 +100,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "4",
+      "seatSource": "manual",
       "partisan": false
     },
     {
@@ -116,10 +116,10 @@
       "vacant": false,
       "office": "council-member",
       "leadership": null,
-      "seatClass": "unknown",
-      "seatLabel": null,
-      "seatId": null,
-      "seatSource": "parsed-title",
+      "seatClass": "numbered",
+      "seatLabel": "district",
+      "seatId": "2",
+      "seatSource": "manual",
       "partisan": false
     }
   ]
