@@ -1,10 +1,11 @@
 name: Validate Data
 
 on:
+  # No paths filter: validation must run on every PR so that (a) branch
+  # protection's required "validate" check is always reported, and (b) a PR
+  # whose latest commit is docs-only can't skip the gate. pytest + validate.py
+  # are fast, so running them on all PRs is cheap.
   pull_request:
-    paths:
-      - 'data/**'
-      - 'registry.json'
 
 jobs:
   validate:
