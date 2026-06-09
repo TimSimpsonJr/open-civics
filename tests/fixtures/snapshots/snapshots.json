@@ -90,6 +90,15 @@
         }
       },
       "min_members": 8
+    },
+    {
+      "file": "scac_dorchester.html",
+      "url": "https://www.sccounties.org/county/dorchester-county/directory",
+      "adapter": "scac",
+      "adapter_module": "scrapers.adapters.scac",
+      "adapter_class": "ScacAdapter",
+      "entry": {"id": "county:dorchester", "url": "https://www.dorchestercountysc.gov/government/county-council/council-members"},
+      "min_members": 7
     }
   ]
 }
