@@ -35,6 +35,13 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v5
+        with:
+          # PAT (or GitHub App token) so the data-update PR is opened by a
+          # non-GITHUB_TOKEN identity. PRs opened with the default GITHUB_TOKEN
+          # do NOT trigger other workflows (validate.yml), so auto-merge never
+          # fires. Falls back to GITHUB_TOKEN if SCRAPER_PAT is unset — the PR is
+          # still created, but won't validate/auto-merge until the secret exists.
+          token: ${{ secrets.SCRAPER_PAT || secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -112,7 +119,8 @@ jobs:
 
       - name: Create PR if data changed
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Must match the checkout token above so the PR triggers validate.yml.
+          GH_TOKEN: ${{ secrets.SCRAPER_PAT || secrets.GITHUB_TOKEN }}
         run: |
           set -e
 

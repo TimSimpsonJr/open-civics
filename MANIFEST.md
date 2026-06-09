@@ -73,8 +73,8 @@ open-civics/
 ├── pytest.ini                     # Pytest configuration
 │
 ├── .github/workflows/
-│   ├── scrape.yml                 # Weekly/monthly scraper run → data-update/* PR + reporting
-│   ├── validate.yml               # PR check on data/** changes + auto-merge for data-update/* PRs
+│   ├── scrape.yml                 # Weekly/monthly scraper run → data-update/* PR (opened via SCRAPER_PAT) + reporting
+│   ├── validate.yml               # PR check (pytest + validate.py) on every PR + auto-merge for data-update/* PRs
 │   └── publish.yml                # Weekly npm publish (both packages) if data changed since last tag
 │
 └── docs/                          # Documentation, audits, and plans
@@ -89,6 +89,7 @@ open-civics/
 - `TableAdapter` auto-detects column roles from header text (name, title, email, phone, district, department)
 - `scrape.yml` runs scrapers with `--report`, then `diff_summary.py`, `stale_check.py`, and `quality_report.py` enrich the PR body
 - `validate.yml` auto-merges `data-update/*` PRs after validation passes
+- Auto-merge chain: `scrape.yml` opens the PR via `secrets.SCRAPER_PAT` (the default GITHUB_TOKEN can't trigger workflows) → `validate.yml` runs → master branch protection's required `validate` check + repo `allow_auto_merge` let a green check merge it
 - `publish.yml` publishes both npm packages from the same repo using `package.json` and `boundaries-package.json`
 - `dataHash` and `dataLastChanged` in local JSON meta blocks track actual data changes vs re-scrapes
 - All three workflows create GitHub Issues on failure (label: `ci-failure`)
