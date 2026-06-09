@@ -81,6 +81,11 @@ class ScacAdapter(BaseAdapter):
             if not name or not position:
                 continue
 
+            # Skip vacant-seat placeholder rows: SCAC lists an unfilled seat as
+            # a "<County>Council Vacant" name with no real person behind it.
+            if "vacant" in name.lower():
+                continue
+
             pos_lower = position.lower()
 
             # Must match a council position

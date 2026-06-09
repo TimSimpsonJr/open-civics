@@ -46,10 +46,14 @@ SEAT_OVERRIDES: dict[tuple[str, str], dict] = {
     ("county:kershaw", "Danny Catoe"): {
         "seatClass": "numbered", "seatLabel": "district", "seatId": "6",
     },
-    # Dorchester County — 7 single-member districts (District 6 currently vacant).
-    # Primary site Akamai-blocked. Verified against Wayback Machine capture of
-    # https://www.dorchestercountysc.gov/government/county-council/council-members
+    # Dorchester County — 7 single-member districts, all currently filled.
+    # Primary site Akamai-blocked. Seats 1-5,7 verified against Wayback Machine
+    # capture of https://www.dorchestercountysc.gov/government/county-council/council-members
     # (web.archive.org/web/20260228181654) on 2026-05-20.
+    # District 6: Frankie Staropoli — won the 2026 special election to replace
+    # Bill Hearn, who left D6 to become county attorney (corroborated by the SCAC
+    # directory now listing "William Hearn, Attorney"). Verified 2026-06-09 via
+    # Post & Courier / Live 5 / Ballotpedia coverage of the D6 special election.
     # Name variations: source page uses "Peter Smith Jr." / "Eddie" / "Jay" / "Todd",
     # our SCAC scrape produced "Peter Smith" / "Edward" / "James" / "S. Todd Friddle".
     # Override keys match the scraped names.
@@ -67,6 +71,9 @@ SEAT_OVERRIDES: dict[tuple[str, str], dict] = {
     },
     ("county:dorchester", "Edward Crosby"): {
         "seatClass": "numbered", "seatLabel": "district", "seatId": "5",
+    },
+    ("county:dorchester", "Frankie Staropoli"): {
+        "seatClass": "numbered", "seatLabel": "district", "seatId": "6",
     },
     ("county:dorchester", "James Byars"): {
         "seatClass": "numbered", "seatLabel": "district", "seatId": "7",

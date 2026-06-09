@@ -36,6 +36,7 @@ EXPECTED: dict[str, dict[str, tuple]] = {
         "Rita May Ranck":   ("numbered", "district", "3"),
         "S. Todd Friddle":  ("numbered", "district", "4"),
         "Edward Crosby":    ("numbered", "district", "5"),
+        "Frankie Staropoli": ("numbered", "district", "6"),
         "James Byars":      ("numbered", "district", "7"),
     },
     "county:jasper": {
