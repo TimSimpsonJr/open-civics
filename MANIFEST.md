@@ -22,18 +22,19 @@ open-civics/
 │   ├── state.py                   # OpenStates CSV download + phone backfill + executive scraping
 │   ├── boundaries.py              # Census TIGER/Line + ArcGIS boundary downloader/simplifier
 │   ├── state_email_rules.py       # Per-state email format conventions for backfill
-│   ├── normalize.py               # Seat-field normalization: office/leadership/seatClass/seatLabel/seatId/vacant/seatSource/partisan (v0.2+)
-│   ├── seat_overrides.py          # Per-record manual seat-field overrides keyed by (jurisdiction, name) (v0.2+)
-│   └── adapters/                  # Per-site scraper adapters (~68 files)
+│   ├── normalize.py               # Seat-field normalization: office/leadership/seatClass/seatLabel(district|ward|seat|township)/seatId/vacant/seatSource/partisan (v0.2+)
+│   ├── seat_overrides.py          # Per-record manual seat-field overrides keyed by (jurisdiction, name); covers districted hybrids (dorchester/jasper/kershaw) where the primary source is blocked (v0.2+)
+│   └── adapters/                  # Per-site scraper adapters (~74 files)
 │       ├── base.py                # Abstract base: fetch → parse → normalize → validate + get_contact()
-│       ├── civicplus.py           # Config-driven CivicPlus staff directory scraper (14 jurisdictions)
+│       ├── civicplus.py           # Config-driven CivicPlus staff directory scraper (14 jurisdictions; supplements district info from council-members page)
 │       ├── revize.py              # Marker-based parser for Revize CMS freeform pages (3 jurisdictions)
-│       ├── generic_mailto.py      # Extends RevizeAdapter for any mailto-heavy page (6 jurisdictions)
+│       ├── generic_mailto.py      # Extends RevizeAdapter for any mailto-heavy page (6 jurisdictions; attaches district headings, e.g. North Charleston)
 │       ├── table_adapter.py       # Auto-detects table columns by header text (4 jurisdictions)
 │       ├── drupal_views.py        # Shared adapter for Drupal Views module sites (3 jurisdictions)
 │       ├── rock_hill.py            # CivicPlus profile-page scraper with urllib (WAF bypass)
 │       ├── aiken_city.py          # Divi theme member cards with tel: links
 │       ├── kershaw_county.py      # Staff directory table with Name/Title/Phone/Email columns
+│       ├── berkeley_county.py      # Bespoke Berkeley County elected-officials parser (v1; detail pages behind Cloudflare — issue #36)
 │       ├── masc.py                # Municipal Association of SC directory fallback (3 cities)
 │       ├── scac.py                # SC Association of Counties directory fallback (2 counties)
 │       ├── greenville_county.py   # Custom two-page scraper with JS email deobfuscation
@@ -57,7 +58,8 @@ open-civics/
 │   ├── diff_summary.py            # Git diff → human-readable PR body summary
 │   ├── stale_check.py             # Detect jurisdictions with unchanged data >90 days
 │   ├── quality_report.py          # Data coverage dashboard: email/phone/executive/contact per jurisdiction
-│   └── refresh_snapshots.py       # Re-download real site HTML for integration test snapshots
+│   ├── refresh_snapshots.py       # Re-download real site HTML for integration test snapshots
+│   └── refresh_from_snapshot.py   # Rebuild a jurisdiction's data offline from a saved snapshot (pins adapter behavior)
 │
 ├── tests/                         # Test suite (pytest)
 │   ├── conftest.py                # Shared helpers: load_fixture, make_adapter
@@ -101,4 +103,5 @@ open-civics/
 - `normalize.py` is called from both `adapters/base.py` `BaseAdapter.normalize()` (local council members) and `scrapers/state.py` (state legislators + executive), producing the same structured seat-field shape across all record types
 - `normalize.py` consults `seat_overrides.py` for per-record patches and reads `councilDefaults` blocks from `registry.json` for jurisdiction-wide hints (e.g., all-at-large councils)
 - `validate.py` enforces the v0.2 schema: required seat fields, enum values, and cross-field invariants (e.g., `seatClass=at-large` ⇒ `seatId=null`)
-- Coverage: 96/96 SC jurisdictions automated (100%), 88/96 with executive (91%), 70 email / 71 phone
+- Coverage: 96/96 SC jurisdictions automated (100%), 88/96 with executive (91%), 70 email (72%) / 71 phone (73%), 9 with contact-info fallback; SC state: 170 legislators
+- `scripts/refresh_from_snapshot.py` rebuilds a jurisdiction's data from `tests/fixtures/snapshots/` (mapped in `snapshots.json`) without hitting the live site — used to pin adapter behavior and refresh WAF-blocked sources
