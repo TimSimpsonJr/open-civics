@@ -57,6 +57,16 @@ Two secrets must be configured in GitHub repo settings:
 
 The `GITHUB_TOKEN` is auto-provided by GitHub Actions (no setup needed).
 
+## Pulling a fresh release for testing
+
+A machine-wide 30-day package-install cooldown (see global CLAUDE.md and the `package-age-gate.py` PreToolUse hook) blocks installing any package version published < 30 days ago. `open-civics` is exempt **only when it is the sole explicit install target and pinned to an exact version**:
+
+```
+npm i --min-release-age 0 open-civics@<exact-version>
+```
+
+Always pin an exact version — the `--min-release-age 0` flag is command-wide, so a bare name or a range (`^`/`~`/`@latest`) would also admit fresh transitive deps. The gate hook enforces this and blocks the unpinned form (its error message repeats this recipe).
+
 ## Adding a New State
 
 1. Add state block to `registry.json` under `states.XX`
