@@ -2,7 +2,7 @@
   "meta": {
     "state": "SC",
     "level": "federal",
-    "lastUpdated": "2026-07-13",
+    "lastUpdated": "2026-07-20",
     "source": "unitedstates/congress-legislators"
   },
   "senate": {
@@ -14,10 +14,23 @@
       "contactForm": "https://www.scott.senate.gov/contact/email-me",
       "office": "104 Hart Senate Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "seatClass": "3",
-      "stateRank": "junior",
+      "stateRank": "senior",
       "bioguideId": "S001184"
+    },
+    "2": {
+      "name": "Darline Graham",
+      "party": "R",
+      "phone": "(202) 224-5972",
+      "website": "https://www.dgraham.senate.gov",
+      "contactForm": "",
+      "office": "B33 Russell Senate Office Building",
+      "source": "unitedstates/congress-legislators",
+      "lastUpdated": "2026-07-20",
+      "seatClass": "2",
+      "stateRank": "junior",
+      "bioguideId": "G000608"
     }
   },
   "house": {
@@ -29,7 +42,7 @@
       "contactForm": "",
       "office": "274 Cannon House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "6",
       "bioguideId": "C000537"
     },
@@ -41,7 +54,7 @@
       "contactForm": "",
       "office": "1436 Longworth House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "2",
       "bioguideId": "W000795"
     },
@@ -53,7 +66,7 @@
       "contactForm": "",
       "office": "569 Cannon House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "5",
       "bioguideId": "N000190"
     },
@@ -65,7 +78,7 @@
       "contactForm": "",
       "office": "267 Cannon House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "4",
       "bioguideId": "T000480"
     },
@@ -77,7 +90,7 @@
       "contactForm": "",
       "office": "1728 Longworth House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "1",
       "bioguideId": "M000194"
     },
@@ -89,7 +102,7 @@
       "contactForm": "",
       "office": "345 Cannon House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "7",
       "bioguideId": "F000478"
     },
@@ -101,7 +114,7 @@
       "contactForm": "",
       "office": "1530 Longworth House Office Building",
       "source": "unitedstates/congress-legislators",
-      "lastUpdated": "2026-07-13",
+      "lastUpdated": "2026-07-20",
       "district": "3",
       "bioguideId": "B001325"
     }
